@@ -162,6 +162,7 @@ CREATE TABLE review (
     comment         TEXT            DEFAULT NULL             COMMENT '评价内容',
     type            VARCHAR(20)     DEFAULT NULL             COMMENT '评价类型',
     create_time     DATETIME        DEFAULT NULL             COMMENT '创建时间',
+    update_time     DATETIME        DEFAULT NULL             COMMENT '更新时间',
     PRIMARY KEY (id),
     KEY idx_order_id (order_id),
     KEY idx_reviewer_id (reviewer_id),

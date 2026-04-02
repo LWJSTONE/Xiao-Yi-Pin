@@ -33,6 +33,9 @@ import DictManage from '@/views/admin/DictManage.vue'
 import Login from '@/views/Login.vue'
 import Register from '@/views/Register.vue'
 
+// 个人资料
+import Profile from '@/views/Profile.vue'
+
 const routes = [
   {
     path: '/login',
@@ -86,6 +89,12 @@ const routes = [
         name: 'MyReviews',
         component: MyReviews,
         meta: { title: '我的评价', icon: 'Star' }
+      },
+      {
+        path: 'profile',
+        name: 'StudentProfile',
+        component: Profile,
+        meta: { title: '个人资料', icon: 'User' }
       }
     ]
   },
@@ -125,6 +134,12 @@ const routes = [
         name: 'EmployerOrders',
         component: MyOrders,
         meta: { title: '我的订单', icon: 'Tickets' }
+      },
+      {
+        path: 'profile',
+        name: 'EmployerProfile',
+        component: Profile,
+        meta: { title: '个人资料', icon: 'User' }
       }
     ]
   },

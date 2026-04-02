@@ -161,4 +161,32 @@ public class OrderController {
     public R<List<ReviewVO>> getOrderReviews(@PathVariable Long orderId) {
         return R.ok(reviewService.getOrderReviews(orderId));
     }
+
+    /**
+     * 查询所有申请列表（管理员）
+     */
+    @GetMapping("/admin/applications")
+    public R<PageResult<ApplicationVO>> allApplications(
+            @RequestHeader("X-Role-Type") String roleType,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "10") int size) {
+        if (!"ADMIN".equals(roleType)) {
+            throw new BusinessException(403, "无权限访问");
+        }
+        return R.ok(applicationService.allApplications(page, size));
+    }
+
+    /**
+     * 查询所有订单列表（管理员）
+     */
+    @GetMapping("/admin/orders")
+    public R<PageResult<OrderRecordVO>> allOrders(
+            @RequestHeader("X-Role-Type") String roleType,
+            @RequestParam(defaultValue = "1") int page,
+            @RequestParam(defaultValue = "10") int size) {
+        if (!"ADMIN".equals(roleType)) {
+            throw new BusinessException(403, "无权限访问");
+        }
+        return R.ok(orderService.allOrders(page, size));
+    }
 }

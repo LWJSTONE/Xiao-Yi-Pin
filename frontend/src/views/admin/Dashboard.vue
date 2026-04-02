@@ -97,7 +97,7 @@
 import { ref, reactive, onMounted } from 'vue'
 import { listUsers } from '@/api/user'
 import { getJobList } from '@/api/job'
-import { getMyApplications, getMyOrders } from '@/api/order'
+import { getAllApplications, getAllOrders } from '@/api/order'
 
 const stats = reactive({
   totalUsers: 0,
@@ -140,7 +140,7 @@ const loadStats = async () => {
 
     // 加载报名总数统计
     try {
-      const appRes = await getMyApplications({ page: 1, size: 1 })
+      const appRes = await getAllApplications({ page: 1, size: 1 })
       if (appRes.data) {
         stats.totalApplications = appRes.data.total || 0
       }
@@ -150,7 +150,7 @@ const loadStats = async () => {
 
     // 加载订单总数统计
     try {
-      const orderRes = await getMyOrders({ page: 1, size: 1 })
+      const orderRes = await getAllOrders({ page: 1, size: 1 })
       if (orderRes.data) {
         stats.totalOrders = orderRes.data.total || 0
       }

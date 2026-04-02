@@ -82,3 +82,19 @@ export function cancelApplication(appId) {
 export function getOrderReviews(orderId) {
   return request.get(`/v1/order/${orderId}/reviews`)
 }
+
+/**
+ * 获取所有申请列表（管理员）
+ * @param {Object} params - { page, size }
+ */
+export function getAllApplications(params) {
+  return request.get('/v1/order/admin/applications', { params })
+}
+
+/**
+ * 获取所有订单列表（管理员）
+ * @param {Object} params - { page, size }
+ */
+export function getAllOrders(params) {
+  return request.get('/v1/order/admin/orders', { params })
+}

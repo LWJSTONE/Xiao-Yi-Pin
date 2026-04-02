@@ -36,6 +36,10 @@
             <el-icon><Tickets /></el-icon>
             <span>我的订单</span>
           </el-menu-item>
+          <el-menu-item index="/employer/profile">
+            <el-icon><User /></el-icon>
+            <span>个人资料</span>
+          </el-menu-item>
         </el-menu>
       </div>
       <div class="header-right">

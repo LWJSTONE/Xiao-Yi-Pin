@@ -32,6 +32,10 @@
             <el-icon><Star /></el-icon>
             <span>我的评价</span>
           </el-menu-item>
+          <el-menu-item index="/student/profile">
+            <el-icon><User /></el-icon>
+            <span>个人资料</span>
+          </el-menu-item>
         </el-menu>
       </div>
       <div class="header-right">

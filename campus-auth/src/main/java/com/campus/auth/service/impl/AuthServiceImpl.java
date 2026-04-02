@@ -139,6 +139,7 @@ public class AuthServiceImpl implements AuthService {
         loginVO.setExpiresIn(accessTokenExpire / 1000);
         loginVO.setRoleType(sysUser.getRoleType());
         loginVO.setUserId(sysUser.getId());
+        loginVO.setUsername(sysUser.getUsername());
 
         log.info("用户登录成功, userId={}, username={}", sysUser.getId(), sysUser.getUsername());
         return loginVO;
@@ -207,6 +208,7 @@ public class AuthServiceImpl implements AuthService {
         loginVO.setExpiresIn(accessTokenExpire / 1000);
         loginVO.setRoleType(roleType);
         loginVO.setUserId(userId);
+        loginVO.setUsername(username);
 
         log.info("Token刷新成功, userId={}", userId);
         return loginVO;

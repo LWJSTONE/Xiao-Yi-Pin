@@ -89,12 +89,24 @@
         v-model:page="page"
         v-model:size="size"
       />
+    <!-- 拒绝对话框 -->
+    <el-dialog v-model="rejectDialogVisible" title="拒绝原因" width="480px">
+      <el-form :model="rejectForm" label-width="80px">
+        <el-form-item label="拒绝原因">
+          <el-input v-model="rejectForm.rejectReason" type="textarea" :rows="4" placeholder="请输入拒绝原因" maxlength="200" show-word-limit />
+        </el-form-item>
+      </el-form>
+      <template #footer>
+        <el-button @click="rejectDialogVisible = false">取消</el-button>
+        <el-button type="danger" @click="confirmReject">确认拒绝</el-button>
+      </template>
+    </el-dialog>
     </el-card>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue'
+import { ref, reactive, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { getMyJobs } from '@/api/job'
 import { getJobApplications, reviewApplication } from '@/api/order'
@@ -158,8 +170,19 @@ const handleFilter = () => {
   loadApplications()
 }
 
+const rejectDialogVisible = ref(false)
+const currentRejectAppId = ref('')
+const rejectForm = reactive({ rejectReason: '' })
+
 const handleReview = async (row, status) => {
-  const statusText = status === 1 ? '通过' : status === 2 ? '拒绝' : '录用'
+  if (status === 2) {
+    // 拒绝需要填写原因
+    currentRejectAppId.value = row.id
+    rejectForm.rejectReason = ''
+    rejectDialogVisible.value = true
+    return
+  }
+  const statusText = status === 1 ? '通过' : '录用'
   try {
     await ElMessageBox.confirm(`确定要${statusText}该申请吗？`, '提示', {
       confirmButtonText: '确定',
@@ -171,6 +194,21 @@ const handleReview = async (row, status) => {
     loadApplications()
   } catch (e) {
     // 用户取消
+  }
+}
+
+const confirmReject = async () => {
+  if (!rejectForm.rejectReason) {
+    ElMessage.warning('请输入拒绝原因')
+    return
+  }
+  try {
+    await reviewApplication(currentRejectAppId.value, { status: 2, rejectReason: rejectForm.rejectReason })
+    ElMessage.success('已拒绝该申请')
+    rejectDialogVisible.value = false
+    loadApplications()
+  } catch (error) {
+    // 错误已处理
   }
 }
 
