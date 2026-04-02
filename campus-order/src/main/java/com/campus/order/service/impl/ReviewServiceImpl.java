@@ -100,43 +100,7 @@ public class ReviewServiceImpl implements ReviewService {
                         .eq(Review::getOrderId, orderId)
                         .orderByDesc(Review::getCreateTime)
         );
-
-        if (reviews.isEmpty()) {
-            return new ArrayList<>();
-        }
-
-        // 批量获取用户名
-        List<Long> userIds = new ArrayList<>();
-        for (Review review : reviews) {
-            userIds.add(review.getReviewerId());
-            userIds.add(review.getTargetId());
-        }
-        List<Long> uniqueUserIds = userIds.stream().distinct().collect(Collectors.toList());
-
-        Map<Long, UserProfile> profileMap = userProfileMapper.selectList(
-                new LambdaQueryWrapper<UserProfile>().in(UserProfile::getUserId, uniqueUserIds)
-        ).stream().collect(Collectors.toMap(UserProfile::getUserId, p -> p));
-
-        List<ReviewVO> voList = new ArrayList<>();
-        for (Review review : reviews) {
-            ReviewVO vo = new ReviewVO();
-            vo.setId(review.getId());
-            vo.setOrderId(review.getOrderId());
-            vo.setRating(review.getRating());
-            vo.setComment(review.getComment());
-            vo.setType(review.getType());
-            vo.setCreateTime(review.getCreateTime());
-
-            UserProfile reviewerProfile = profileMap.get(review.getReviewerId());
-            vo.setReviewerName(reviewerProfile != null ? reviewerProfile.getRealName() : "未知用户");
-
-            UserProfile targetProfile = profileMap.get(review.getTargetId());
-            vo.setTargetName(targetProfile != null ? targetProfile.getRealName() : "未知用户");
-
-            voList.add(vo);
-        }
-
-        return voList;
+        return buildReviewVOList(reviews, true);
     }
 
     @Override
@@ -146,7 +110,17 @@ public class ReviewServiceImpl implements ReviewService {
                         .eq(Review::getReviewerId, userId)
                         .orderByDesc(Review::getCreateTime)
         );
+        return buildReviewVOList(reviews, false);
+    }
 
+    /**
+     * 将Review实体列表转换为ReviewVO列表
+     *
+     * @param reviews          Review实体列表
+     * @param includeReviewerName 是否包含评价人姓名（true=订单评价列表需要，false=我的评价列表不需要）
+     * @return ReviewVO列表
+     */
+    private List<ReviewVO> buildReviewVOList(List<Review> reviews, boolean includeReviewerName) {
         if (reviews.isEmpty()) {
             return new ArrayList<>();
         }
@@ -172,6 +146,11 @@ public class ReviewServiceImpl implements ReviewService {
             vo.setComment(review.getComment());
             vo.setType(review.getType());
             vo.setCreateTime(review.getCreateTime());
+
+            if (includeReviewerName) {
+                UserProfile reviewerProfile = profileMap.get(review.getReviewerId());
+                vo.setReviewerName(reviewerProfile != null ? reviewerProfile.getRealName() : "未知用户");
+            }
 
             UserProfile targetProfile = profileMap.get(review.getTargetId());
             vo.setTargetName(targetProfile != null ? targetProfile.getRealName() : "未知用户");

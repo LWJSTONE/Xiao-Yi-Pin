@@ -88,6 +88,7 @@
 <script setup>
 import { ref, reactive, onMounted } from 'vue'
 import { useAuthStore } from '@/store/auth'
+import { ElMessage } from 'element-plus'
 import { getJobList } from '@/api/job'
 import { getMyApplications } from '@/api/order'
 import { formatSalary } from '@/utils/format'
@@ -121,7 +122,7 @@ const loadData = async () => {
         stats.applications = appRes.data.total || 0
       }
     } catch (e) {
-      // 忽略
+      ElMessage.warning('加载报名统计失败')
     }
   } catch (error) {
     console.error('加载数据失败：', error)

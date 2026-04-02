@@ -35,7 +35,7 @@ public class SysDictController {
         if (dictType != null && !dictType.isEmpty()) {
             wrapper.eq(SysDict::getDictType, dictType);
         }
-        wrapper.orderByAsc(SysDict::getSort);
+        wrapper.orderByAsc(SysDict::getSortOrder);
         List<SysDict> list = sysDictMapper.selectList(wrapper);
         return R.ok(list);
     }

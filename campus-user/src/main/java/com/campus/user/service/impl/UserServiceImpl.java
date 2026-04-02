@@ -51,6 +51,7 @@ public class UserServiceImpl implements UserService {
         vo.setUsername(sysUser.getUsername());
         vo.setRoleType(sysUser.getRoleType());
         vo.setStatus(sysUser.getStatus());
+        vo.setCreateTime(sysUser.getCreateTime());
         // 手机号脱敏
         vo.setPhone(maskPhone(sysUser.getPhone()));
         // 邮箱脱敏
@@ -177,6 +178,7 @@ public class UserServiceImpl implements UserService {
             vo.setUsername(user.getUsername());
             vo.setRoleType(user.getRoleType());
             vo.setStatus(user.getStatus());
+            vo.setCreateTime(user.getCreateTime());
             vo.setPhone(maskPhone(user.getPhone()));
             vo.setEmail(maskEmail(user.getEmail()));
 

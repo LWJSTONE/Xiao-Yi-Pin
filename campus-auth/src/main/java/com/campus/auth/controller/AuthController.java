@@ -11,6 +11,9 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 
 /**
  * 认证控制器
@@ -21,6 +24,15 @@ public class AuthController {
 
     @Resource
     private AuthService authService;
+
+    /**
+     * 获取验证码
+     */
+    @GetMapping("/captcha")
+    public R<Map<String, String>> getCaptcha() {
+        Map<String, String> captcha = authService.generateCaptcha();
+        return R.ok(captcha);
+    }
 
     /**
      * 用户登录

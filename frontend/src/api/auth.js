@@ -1,6 +1,14 @@
 import request from './request'
 
 /**
+ * 获取验证码
+ * @returns {Promise} { captchaKey, captchaCode }
+ */
+export function getCaptcha() {
+  return request.get('/v1/auth/captcha')
+}
+
+/**
  * 用户登录
  * @param {Object} data - { username, password, captchaCode, captchaKey }
  */

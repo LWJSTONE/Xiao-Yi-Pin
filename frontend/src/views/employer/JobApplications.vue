@@ -35,7 +35,7 @@
         </el-table-column>
         <el-table-column label="申请时间" width="170" align="center">
           <template #default="{ row }">
-            {{ formatDate(row.createTime) }}
+            {{ formatDate(row.applyTime) }}
           </template>
         </el-table-column>
         <el-table-column label="操作" width="180" align="center" fixed="right">
@@ -130,7 +130,7 @@ const loadJobOptions = async () => {
       jobOptions.value = res.data.records || []
     }
   } catch (e) {
-    // 忽略
+    ElMessage.error('加载职位列表失败')
   }
 }
 

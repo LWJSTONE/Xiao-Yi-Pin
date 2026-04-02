@@ -135,7 +135,7 @@ const loadData = async () => {
         stats.pendingReviews = (appRes.data.records || []).filter(a => a.status === 0).length
       }
     } catch (e) {
-      // 忽略
+      ElMessage.warning('加载报名数据失败')
     }
   } catch (error) {
     console.error('加载数据失败：', error)

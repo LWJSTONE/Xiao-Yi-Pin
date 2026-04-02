@@ -6,10 +6,19 @@ import com.campus.common.dto.RegisterDTO;
 import com.campus.common.entity.SysUser;
 import com.campus.common.vo.LoginVO;
 
+import java.util.Map;
+
 /**
  * 认证服务接口
  */
 public interface AuthService {
+
+    /**
+     * 生成验证码
+     *
+     * @return 包含captchaKey和captchaCode的Map
+     */
+    Map<String, String> generateCaptcha();
 
     /**
      * 用户登录

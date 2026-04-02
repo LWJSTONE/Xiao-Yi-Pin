@@ -1,9 +1,11 @@
 package com.campus.common.vo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * 用户资料VO
@@ -57,4 +59,8 @@ public class UserProfileVO implements Serializable {
 
     /** 邮箱 */
     private String email;
+
+    /** 创建时间 */
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    private Date createTime;
 }

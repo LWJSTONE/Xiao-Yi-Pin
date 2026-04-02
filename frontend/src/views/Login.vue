@@ -42,8 +42,9 @@
                 :prefix-icon="Key"
                 class="captcha-input"
               />
-              <div class="captcha-img" @click="refreshCaptcha">
-                <span>{{ captchaText }}</span>
+              <div class="captcha-img" @click="refreshCaptcha" v-loading="captchaLoading">
+                <span v-if="captchaText">{{ captchaText }}</span>
+                <span v-else style="font-size: 12px; color: #909399;">加载中...</span>
               </div>
             </div>
           </el-form-item>
@@ -69,9 +70,10 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useAuthStore } from '@/store/auth'
+import { getCaptcha } from '@/api/auth'
 import { User, Lock, Key } from '@element-plus/icons-vue'
 import { ElMessage } from 'element-plus'
 
@@ -80,13 +82,14 @@ const route = useRoute()
 const authStore = useAuthStore()
 const loginFormRef = ref(null)
 const loading = ref(false)
-const captchaText = ref('ABCD')
+const captchaText = ref('')
+const captchaLoading = ref(false)
 
 const loginForm = reactive({
   username: '',
   password: '',
   captchaCode: '',
-  captchaKey: 'web-captcha-key'
+  captchaKey: ''
 })
 
 const loginRules = {
@@ -104,29 +107,34 @@ const loginRules = {
   ]
 }
 
-// 刷新验证码
-const refreshCaptcha = () => {
-  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
-  let code = ''
-  for (let i = 0; i < 4; i++) {
-    code += chars.charAt(Math.floor(Math.random() * chars.length))
+// 从服务端获取验证码
+const refreshCaptcha = async () => {
+  captchaLoading.value = true
+  try {
+    const res = await getCaptcha()
+    if (res.data) {
+      captchaText.value = res.data.captchaCode || ''
+      loginForm.captchaKey = res.data.captchaKey || ''
+      loginForm.captchaCode = ''
+    }
+  } catch (e) {
+    console.error('获取验证码失败：', e)
+    ElMessage.error('获取验证码失败，请刷新重试')
+  } finally {
+    captchaLoading.value = false
   }
-  captchaText.value = code
-  loginForm.captchaKey = 'captcha-' + Date.now()
 }
+
+// 页面加载时获取验证码
+onMounted(() => {
+  refreshCaptcha()
+})
 
 // 登录
 const handleLogin = async () => {
   if (!loginFormRef.value) return
   await loginFormRef.value.validate(async (valid) => {
     if (!valid) return
-
-    // 简单验证码校验
-    if (loginForm.captchaCode.toUpperCase() !== captchaText.value) {
-      ElMessage.error('验证码错误')
-      refreshCaptcha()
-      return
-    }
 
     loading.value = true
     try {
