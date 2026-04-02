@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.campus.job.mapper.JobPostMapper">
+
+    <resultMap id="jobPostVOResultMap" type="com.campus.common.vo.JobPostVO">
+        <id column="id" property="id"/>
+        <result column="publisher_id" property="publisherId"/>
+        <result column="publisher_name" property="publisherName"/>
+        <result column="category_id" property="categoryId"/>
+        <result column="category_name" property="categoryName"/>
+        <result column="title" property="title"/>
+        <result column="description" property="description"/>
+        <result column="location" property="location"/>
+        <result column="salary_type" property="salaryType"/>
+        <result column="salary_amount" property="salaryAmount"/>
+        <result column="start_time" property="startTime"/>
+        <result column="end_time" property="endTime"/>
+        <result column="recruit_num" property="recruitNum"/>
+        <result column="hired_num" property="hiredNum"/>
+        <result column="status" property="status"/>
+        <result column="audit_status" property="auditStatus"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+    <!-- 查询岗位详情 -->
+    <select id="selectJobDetail" resultMap="jobPostVOResultMap">
+        SELECT
+            jp.id, jp.publisher_id, su.username AS publisher_name,
+            jp.category_id, jc.name AS category_name,
+            jp.title, jp.description, jp.location,
+            jp.salary_type, jp.salary_amount,
+            jp.start_time, jp.end_time,
+            jp.recruit_num, jp.hired_num,
+            jp.status, jp.audit_status, jp.create_time
+        FROM job_post jp
+        LEFT JOIN sys_user su ON jp.publisher_id = su.id
+        LEFT JOIN job_category jc ON jp.category_id = jc.id
+        WHERE jp.id = #{jobId} AND jp.deleted = 0
+    </select>
+
+    <!-- 分页查询已发布岗位 -->
+    <select id="selectJobPage" resultMap="jobPostVOResultMap">
+        SELECT
+            jp.id, jp.publisher_id, su.username AS publisher_name,
+            jp.category_id, jc.name AS category_name,
+            jp.title, jp.description, jp.location,
+            jp.salary_type, jp.salary_amount,
+            jp.start_time, jp.end_time,
+            jp.recruit_num, jp.hired_num,
+            jp.status, jp.audit_status, jp.create_time
+        FROM job_post jp
+        LEFT JOIN sys_user su ON jp.publisher_id = su.id
+        LEFT JOIN job_category jc ON jp.category_id = jc.id
+        WHERE jp.status = 2 AND jp.deleted = 0
+        <if test="keyword != null and keyword != ''">
+            AND (jp.title LIKE CONCAT('%', #{keyword}, '%')
+                 OR jp.description LIKE CONCAT('%', #{keyword}, '%'))
+        </if>
+        <if test="categoryId != null">
+            AND jp.category_id = #{categoryId}
+        </if>
+        <if test="location != null and location != ''">
+            AND jp.location LIKE CONCAT('%', #{location}, '%')
+        </if>
+        <if test="salaryType != null and salaryType != ''">
+            AND jp.salary_type = #{salaryType}
+        </if>
+        ORDER BY jp.create_time DESC
+    </select>
+
+    <!-- 分页查询我的岗位 -->
+    <select id="selectMyJobPage" resultMap="jobPostVOResultMap">
+        SELECT
+            jp.id, jp.publisher_id, su.username AS publisher_name,
+            jp.category_id, jc.name AS category_name,
+            jp.title, jp.description, jp.location,
+            jp.salary_type, jp.salary_amount,
+            jp.start_time, jp.end_time,
+            jp.recruit_num, jp.hired_num,
+            jp.status, jp.audit_status, jp.create_time
+        FROM job_post jp
+        LEFT JOIN sys_user su ON jp.publisher_id = su.id
+        LEFT JOIN job_category jc ON jp.category_id = jc.id
+        WHERE jp.publisher_id = #{publisherId} AND jp.deleted = 0
+        ORDER BY jp.create_time DESC
+    </select>
+
+</mapper>

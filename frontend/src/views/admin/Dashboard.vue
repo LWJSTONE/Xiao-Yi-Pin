@@ -1,0 +1,239 @@
+<template>
+  <div class="admin-dashboard">
+    <!-- 统计卡片 -->
+    <el-row :gutter="20" class="stats-row">
+      <el-col :span="6">
+        <el-card class="stat-card" shadow="hover">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #409EFF, #79bbff);">
+            <el-icon :size="28"><UserFilled /></el-icon>
+          </div>
+          <div class="stat-info">
+            <div class="stat-value">{{ stats.totalUsers }}</div>
+            <div class="stat-label">总用户数</div>
+          </div>
+        </el-card>
+      </el-col>
+      <el-col :span="6">
+        <el-card class="stat-card" shadow="hover">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #67C23A, #95d475);">
+            <el-icon :size="28"><Briefcase /></el-icon>
+          </div>
+          <div class="stat-info">
+            <div class="stat-value">{{ stats.totalJobs }}</div>
+            <div class="stat-label">总职位数</div>
+          </div>
+        </el-card>
+      </el-col>
+      <el-col :span="6">
+        <el-card class="stat-card" shadow="hover">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #E6A23C, #eebe77);">
+            <el-icon :size="28"><Document /></el-icon>
+          </div>
+          <div class="stat-info">
+            <div class="stat-value">{{ stats.totalApplications }}</div>
+            <div class="stat-label">总报名数</div>
+          </div>
+        </el-card>
+      </el-col>
+      <el-col :span="6">
+        <el-card class="stat-card" shadow="hover">
+          <div class="stat-icon" style="background: linear-gradient(135deg, #F56C6C, #fab6b6);">
+            <el-icon :size="28"><Tickets /></el-icon>
+          </div>
+          <div class="stat-info">
+            <div class="stat-value">{{ stats.totalOrders }}</div>
+            <div class="stat-label">总订单数</div>
+          </div>
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <!-- 快捷操作 -->
+    <el-row :gutter="20" class="quick-row">
+      <el-col :span="12">
+        <el-card class="quick-card" shadow="hover" @click="$router.push('/admin/audit')">
+          <div class="quick-content">
+            <el-icon :size="40" color="#E6A23C"><CircleCheck /></el-icon>
+            <div class="quick-info">
+              <h3>职位审核</h3>
+              <p>{{ stats.pendingAudit }} 个职位待审核</p>
+            </div>
+          </div>
+        </el-card>
+      </el-col>
+      <el-col :span="12">
+        <el-card class="quick-card" shadow="hover" @click="$router.push('/admin/users')">
+          <div class="quick-content">
+            <el-icon :size="40" color="#409EFF"><UserFilled /></el-icon>
+            <div class="quick-info">
+              <h3>用户管理</h3>
+              <p>{{ stats.totalUsers }} 个注册用户</p>
+            </div>
+          </div>
+        </el-card>
+      </el-col>
+    </el-row>
+
+    <!-- 平台概览 -->
+    <el-card shadow="never" class="overview-card">
+      <template #header>
+        <div class="card-header">
+          <span class="card-title">📊 平台概览</span>
+        </div>
+      </template>
+      <el-descriptions :column="3" border>
+        <el-descriptions-item label="学生用户">{{ stats.studentCount }}</el-descriptions-item>
+        <el-descriptions-item label="雇主用户">{{ stats.employerCount }}</el-descriptions-item>
+        <el-descriptions-item label="管理员">{{ stats.adminCount }}</el-descriptions-item>
+        <el-descriptions-item label="招聘中职位">{{ stats.activeJobs }}</el-descriptions-item>
+        <el-descriptions-item label="草稿职位">{{ stats.draftJobs }}</el-descriptions-item>
+        <el-descriptions-item label="待审核职位">{{ stats.pendingAudit }}</el-descriptions-item>
+      </el-descriptions>
+    </el-card>
+  </div>
+</template>
+
+<script setup>
+import { ref, reactive, onMounted } from 'vue'
+import { listUsers } from '@/api/user'
+import { getJobList } from '@/api/job'
+
+const stats = reactive({
+  totalUsers: 0,
+  totalJobs: 0,
+  totalApplications: 0,
+  totalOrders: 0,
+  studentCount: 0,
+  employerCount: 0,
+  adminCount: 0,
+  activeJobs: 0,
+  draftJobs: 0,
+  pendingAudit: 0
+})
+
+onMounted(() => {
+  loadStats()
+})
+
+const loadStats = async () => {
+  try {
+    // 加载用户统计
+    const userRes = await listUsers({ page: 1, size: 1 })
+    if (userRes.data) {
+      stats.totalUsers = userRes.data.total || 0
+    }
+
+    // 加载职位统计
+    const jobRes = await getJobList({ page: 1, size: 100 })
+    if (jobRes.data) {
+      const jobs = jobRes.data.records || []
+      stats.totalJobs = jobRes.data.total || 0
+      stats.activeJobs = jobs.filter(j => j.status === '4').length
+      stats.draftJobs = jobs.filter(j => j.status === '0').length
+      stats.pendingAudit = jobs.filter(j => j.status === '1').length
+    }
+  } catch (error) {
+    console.error('加载统计数据失败：', error)
+  }
+}
+</script>
+
+<style scoped>
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stats-row {
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  border-radius: 12px;
+}
+
+.stat-card :deep(.el-card__body) {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+}
+
+.stat-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.stat-info {
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #303133;
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #909399;
+  margin-top: 4px;
+}
+
+.quick-row {
+  margin-bottom: 24px;
+}
+
+.quick-card {
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.quick-card:hover {
+  transform: translateY(-2px);
+}
+
+.quick-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 8px 0;
+}
+
+.quick-info h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303133;
+  margin: 0 0 6px;
+}
+
+.quick-info p {
+  font-size: 14px;
+  color: #909399;
+  margin: 0;
+}
+
+.overview-card {
+  border-radius: 12px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303133;
+}
+</style>

@@ -1,0 +1,51 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: campus-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: public
+    gateway:
+      routes:
+        - id: campus-auth
+          uri: lb://campus-auth
+          predicates:
+            - Path=/api/v1/auth/**
+          filters:
+            - StripPrefix=0
+        - id: campus-user
+          uri: lb://campus-auth
+          predicates:
+            - Path=/api/v1/user/**
+          filters:
+            - StripPrefix=0
+        - id: campus-job
+          uri: lb://campus-job
+          predicates:
+            - Path=/api/v1/job/**
+          filters:
+            - StripPrefix=0
+        - id: campus-order
+          uri: lb://campus-order
+          predicates:
+            - Path=/api/v1/order/**
+          filters:
+            - StripPrefix=0
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins: "*"
+            allowed-methods: "*"
+            allowed-headers: "*"
+            allow-credentials: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+
+jwt:
+  secret: campus-job-jwt-secret-key-2024-very-long-secret-key-for-hmac-sha256

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.campus.order.mapper.OrderRecordMapper">
+
+    <resultMap id="orderRecordVOResultMap" type="com.campus.common.vo.OrderRecordVO">
+        <id column="id" property="id"/>
+        <result column="application_id" property="applicationId"/>
+        <result column="job_title" property="jobTitle"/>
+        <result column="student_id" property="studentId"/>
+        <result column="student_name" property="studentName"/>
+        <result column="employer_id" property="employerId"/>
+        <result column="employer_name" property="employerName"/>
+        <result column="amount" property="amount"/>
+        <result column="pay_status" property="payStatus"/>
+        <result column="settlement_status" property="settlementStatus"/>
+        <result column="start_date" property="startDate"/>
+        <result column="end_date" property="endDate"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+    <!-- 分页查询我的订单 -->
+    <select id="selectMyOrderPage" resultMap="orderRecordVOResultMap">
+        SELECT
+            o.id, o.application_id, jp.title AS job_title,
+            o.student_id, sp.real_name AS student_name,
+            o.employer_id, ep.real_name AS employer_name,
+            o.amount, o.pay_status, o.settlement_status,
+            o.start_date, o.end_date, o.create_time
+        FROM order_record o
+        LEFT JOIN job_post jp ON o.job_id = jp.id
+        LEFT JOIN user_profile sp ON o.student_id = sp.user_id
+        LEFT JOIN user_profile ep ON o.employer_id = ep.user_id
+        WHERE o.student_id = #{userId} OR o.employer_id = #{userId}
+        ORDER BY o.create_time DESC
+    </select>
+
+    <!-- 分页查询所有订单 -->
+    <select id="selectAllOrderPage" resultMap="orderRecordVOResultMap">
+        SELECT
+            o.id, o.application_id, jp.title AS job_title,
+            o.student_id, sp.real_name AS student_name,
+            o.employer_id, ep.real_name AS employer_name,
+            o.amount, o.pay_status, o.settlement_status,
+            o.start_date, o.end_date, o.create_time
+        FROM order_record o
+        LEFT JOIN job_post jp ON o.job_id = jp.id
+        LEFT JOIN user_profile sp ON o.student_id = sp.user_id
+        LEFT JOIN user_profile ep ON o.employer_id = ep.user_id
+        ORDER BY o.create_time DESC
+    </select>
+
+</mapper>
