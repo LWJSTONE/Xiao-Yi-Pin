@@ -52,7 +52,16 @@
         FROM job_post jp
         LEFT JOIN sys_user su ON jp.publisher_id = su.id
         LEFT JOIN job_category jc ON jp.category_id = jc.id
-        WHERE jp.status = 2 AND jp.deleted = 0
+        WHERE jp.deleted = 0
+        <if test="auditStatus != null">
+            AND jp.audit_status = #{auditStatus}
+        <if test="auditStatus == 1">
+            AND jp.status = 1
+        </if>
+        </if>
+        <if test="auditStatus == null">
+            AND jp.status = 2
+        </if>
         <if test="keyword != null and keyword != ''">
             AND (jp.title LIKE CONCAT('%', #{keyword}, '%')
                  OR jp.description LIKE CONCAT('%', #{keyword}, '%'))

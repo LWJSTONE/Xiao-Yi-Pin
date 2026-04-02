@@ -20,7 +20,7 @@ spring:
         - id: campus-user
           uri: lb://campus-user
           predicates:
-            - Path=/api/v1/user/**
+            - Path=/api/v1/user/**,/api/v1/dict/**
           filters:
             - StripPrefix=0
         - id: campus-job

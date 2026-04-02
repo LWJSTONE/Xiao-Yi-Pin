@@ -71,6 +71,7 @@ export const jobStatusMap = {
   0: '草稿',
   1: '待审核',
   2: '已发布',
+  3: '已拒绝',
   4: '已下架'
 }
 
@@ -81,6 +82,7 @@ export const jobStatusColorMap = {
   0: 'info',
   1: 'warning',
   2: 'success',
+  3: 'danger',
   4: 'info'
 }
 

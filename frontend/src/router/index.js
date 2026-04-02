@@ -55,7 +55,7 @@ const routes = [
     path: '/student',
     component: StudentLayout,
     redirect: '/student/dashboard',
-    meta: { requiresAuth: true, role: '1' },
+    meta: { requiresAuth: true, role: 'STUDENT' },
     children: [
       {
         path: 'dashboard',
@@ -94,7 +94,7 @@ const routes = [
     path: '/employer',
     component: EmployerLayout,
     redirect: '/employer/dashboard',
-    meta: { requiresAuth: true, role: '2' },
+    meta: { requiresAuth: true, role: 'EMPLOYER' },
     children: [
       {
         path: 'dashboard',
@@ -133,7 +133,7 @@ const routes = [
     path: '/admin',
     component: AdminLayout,
     redirect: '/admin/dashboard',
-    meta: { requiresAuth: true, role: '0' },
+    meta: { requiresAuth: true, role: 'ADMIN' },
     children: [
       {
         path: 'dashboard',
@@ -199,9 +199,9 @@ router.beforeEach(async (to, from, next) => {
           await authStore.loadUser()
         }
         const role = authStore.userInfo.roleType
-        if (role === '0') return next('/admin/dashboard')
-        if (role === '1') return next('/student/dashboard')
-        if (role === '2') return next('/employer/dashboard')
+        if (role === 'ADMIN') return next('/admin/dashboard')
+        if (role === 'STUDENT') return next('/student/dashboard')
+        if (role === 'EMPLOYER') return next('/employer/dashboard')
       } catch (e) {
         // token 无效，放行到登录页
       }
@@ -229,13 +229,13 @@ router.beforeEach(async (to, from, next) => {
     }
 
     // 根据角色检查路由访问权限
-    if (to.path.startsWith('/student') && role !== '1') {
+    if (to.path.startsWith('/student') && role !== 'STUDENT') {
       return next('/403')
     }
-    if (to.path.startsWith('/employer') && role !== '2') {
+    if (to.path.startsWith('/employer') && role !== 'EMPLOYER') {
       return next('/403')
     }
-    if (to.path.startsWith('/admin') && role !== '0') {
+    if (to.path.startsWith('/admin') && role !== 'ADMIN') {
       return next('/403')
     }
 

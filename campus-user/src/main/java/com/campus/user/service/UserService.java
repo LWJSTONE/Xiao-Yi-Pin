@@ -33,7 +33,7 @@ public interface UserService {
     /**
      * 分页查询用户列表（管理员）
      */
-    PageResult<UserProfileVO> listUsers(String keyword, Integer status, int page, int size);
+    PageResult<UserProfileVO> listUsers(String keyword, Integer status, String roleTypeFilter, int page, int size);
 
     /**
      * 更新用户状态（管理员）

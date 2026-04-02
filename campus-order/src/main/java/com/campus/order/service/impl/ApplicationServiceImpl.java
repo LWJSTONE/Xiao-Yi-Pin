@@ -165,6 +165,23 @@ public class ApplicationServiceImpl implements ApplicationService {
     }
 
     @Override
+    public void cancelApplication(Long studentId, Long applicationId) {
+        Application application = applicationMapper.selectById(applicationId);
+        if (application == null) {
+            throw new BusinessException("申请不存在");
+        }
+        if (!application.getApplicantId().equals(studentId)) {
+            throw new BusinessException("无权取消此申请");
+        }
+        if (application.getStatus() != 0) {
+            throw new BusinessException("只有待审核状态可以取消");
+        }
+        application.setStatus(4); // 已取消
+        application.setReviewTime(new Date());
+        applicationMapper.updateById(application);
+    }
+
+    @Override
     public PageResult<ApplicationVO> allApplications(int page, int size) {
         Page<ApplicationVO> pageParam = new Page<>(page, size);
         IPage<ApplicationVO> result = applicationMapper.selectAllApplicationPage(pageParam);

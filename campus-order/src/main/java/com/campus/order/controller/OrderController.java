@@ -132,6 +132,29 @@ public class OrderController {
     }
 
     /**
+     * 取消申请（学生）
+     */
+    @PutMapping("/apply/{appId}/cancel")
+    public R<Void> cancelApplication(
+            @RequestHeader("X-User-Id") Long userId,
+            @RequestHeader("X-Role-Type") String roleType,
+            @PathVariable Long appId) {
+        if (!"STUDENT".equals(roleType)) {
+            throw new BusinessException(403, "只有学生可以取消申请");
+        }
+        applicationService.cancelApplication(userId, appId);
+        return R.ok();
+    }
+
+    /**
+     * 查询我的评价列表
+     */
+    @GetMapping("/my/reviews")
+    public R<List<ReviewVO>> getMyReviews(@RequestHeader("X-User-Id") Long userId) {
+        return R.ok(reviewService.getMyReviews(userId));
+    }
+
+    /**
      * 查询订单的评价列表
      */
     @GetMapping("/{orderId}/reviews")

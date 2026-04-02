@@ -153,7 +153,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public PageResult<UserProfileVO> listUsers(String keyword, Integer status, int page, int size) {
+    public PageResult<UserProfileVO> listUsers(String keyword, Integer status, String roleTypeFilter, int page, int size) {
         // 先查询sys_user分页
         Page<SysUser> userPage = new Page<>(page, size);
         LambdaQueryWrapper<SysUser> userWrapper = new LambdaQueryWrapper<>();
@@ -163,6 +163,9 @@ public class UserServiceImpl implements UserService {
         }
         if (status != null) {
             userWrapper.eq(SysUser::getStatus, status);
+        }
+        if (StrUtil.isNotBlank(roleTypeFilter)) {
+            userWrapper.eq(SysUser::getRoleType, roleTypeFilter);
         }
         userWrapper.orderByDesc(SysUser::getCreateTime);
         Page<SysUser> result = sysUserMapper.selectPage(userPage, userWrapper);

@@ -68,12 +68,13 @@ public class UserProfileController {
             @RequestHeader("X-Role-Type") String roleType,
             @RequestParam(required = false) String keyword,
             @RequestParam(required = false) Integer status,
+            @RequestParam(required = false) String roleTypeFilter,
             @RequestParam(defaultValue = "1") int page,
             @RequestParam(defaultValue = "10") int size) {
         if (!"ADMIN".equals(roleType)) {
             throw new BusinessException(403, "无权限访问");
         }
-        return R.ok(userService.listUsers(keyword, status, page, size));
+        return R.ok(userService.listUsers(keyword, status, roleTypeFilter, page, size));
     }
 
     /**

@@ -138,4 +138,47 @@ public class ReviewServiceImpl implements ReviewService {
 
         return voList;
     }
+
+    @Override
+    public List<ReviewVO> getMyReviews(Long userId) {
+        List<Review> reviews = reviewMapper.selectList(
+                new LambdaQueryWrapper<Review>()
+                        .eq(Review::getReviewerId, userId)
+                        .orderByDesc(Review::getCreateTime)
+        );
+
+        if (reviews.isEmpty()) {
+            return new ArrayList<>();
+        }
+
+        // 批量获取用户名
+        List<Long> userIds = new ArrayList<>();
+        for (Review review : reviews) {
+            userIds.add(review.getReviewerId());
+            userIds.add(review.getTargetId());
+        }
+        List<Long> uniqueUserIds = userIds.stream().distinct().collect(Collectors.toList());
+
+        Map<Long, UserProfile> profileMap = userProfileMapper.selectList(
+                new LambdaQueryWrapper<UserProfile>().in(UserProfile::getUserId, uniqueUserIds)
+        ).stream().collect(Collectors.toMap(UserProfile::getUserId, p -> p));
+
+        List<ReviewVO> voList = new ArrayList<>();
+        for (Review review : reviews) {
+            ReviewVO vo = new ReviewVO();
+            vo.setId(review.getId());
+            vo.setOrderId(review.getOrderId());
+            vo.setRating(review.getRating());
+            vo.setComment(review.getComment());
+            vo.setType(review.getType());
+            vo.setCreateTime(review.getCreateTime());
+
+            UserProfile targetProfile = profileMap.get(review.getTargetId());
+            vo.setTargetName(targetProfile != null ? targetProfile.getRealName() : "未知用户");
+
+            voList.add(vo);
+        }
+
+        return voList;
+    }
 }

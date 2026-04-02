@@ -24,6 +24,9 @@ public class JobQueryDTO implements Serializable {
     /** 薪资类型 */
     private String salaryType;
 
+    /** 审核状态 */
+    private Integer auditStatus;
+
     /** 当前页码 */
     private Integer page = 1;
 

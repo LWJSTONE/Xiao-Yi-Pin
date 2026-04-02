@@ -143,7 +143,8 @@ public class JobPostServiceImpl implements JobPostService {
                 dto.getKeyword(),
                 dto.getCategoryId(),
                 dto.getLocation(),
-                dto.getSalaryType()
+                dto.getSalaryType(),
+                dto.getAuditStatus()
         );
         return PageResult.of(result);
     }

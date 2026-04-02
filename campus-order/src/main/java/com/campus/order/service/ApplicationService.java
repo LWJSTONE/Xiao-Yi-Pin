@@ -30,6 +30,11 @@ public interface ApplicationService {
     PageResult<ApplicationVO> jobApplications(Long employerId, Long jobId, int page, int size);
 
     /**
+     * 取消申请（学生）
+     */
+    void cancelApplication(Long studentId, Long applicationId);
+
+    /**
      * 查询所有申请（管理员）
      */
     PageResult<ApplicationVO> allApplications(int page, int size);

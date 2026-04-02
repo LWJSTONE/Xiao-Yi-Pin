@@ -27,7 +27,7 @@ public class SysDict implements Serializable {
     private String dictLabel;
 
     /** 排序号 */
-    private Integer sort;
+    private Integer sortOrder;
 
     /** 状态: 0-禁用, 1-启用 */
     private Integer status;

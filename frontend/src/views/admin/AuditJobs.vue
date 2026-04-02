@@ -5,9 +5,9 @@
         <div class="card-header">
           <span class="card-title">✅ 职位审核</span>
           <el-select v-model="statusFilter" placeholder="状态筛选" clearable style="width: 140px;" @change="handleSearch">
-            <el-option label="待审核" value="1" />
-            <el-option label="已通过" value="2" />
-            <el-option label="已拒绝" value="3" />
+            <el-option label="待审核" value="0" />
+            <el-option label="已通过" value="1" />
+            <el-option label="已拒绝" value="2" />
           </el-select>
         </div>
       </template>
@@ -44,8 +44,8 @@
         </el-table-column>
         <el-table-column label="操作" width="160" align="center" fixed="right">
           <template #default="{ row }">
-            <template v-if="row.status === 1">
-              <el-button type="success" link size="small" @click="handleAudit(row, 2)">通过</el-button>
+            <template v-if="row.auditStatus === 0">
+              <el-button type="success" link size="small" @click="handleAudit(row, 1)">通过</el-button>
               <el-button type="danger" link size="small" @click="handleReject(row)">拒绝</el-button>
             </template>
             <span v-else class="no-action">已处理</span>
@@ -90,7 +90,7 @@ const jobs = ref([])
 const total = ref(0)
 const page = ref(1)
 const size = ref(10)
-const statusFilter = ref('1')
+const statusFilter = ref('0')
 
 const rejectDialogVisible = ref(false)
 const auditLoading = ref(false)
@@ -159,7 +159,7 @@ const confirmReject = async () => {
   }
   auditLoading.value = true
   try {
-    await auditJob(currentJobId.value, { auditStatus: 3, auditRemark: rejectForm.auditRemark })
+    await auditJob(currentJobId.value, { auditStatus: 2, auditRemark: rejectForm.auditRemark })
     ElMessage.success('已拒绝该职位')
     rejectDialogVisible.value = false
     loadJobs()

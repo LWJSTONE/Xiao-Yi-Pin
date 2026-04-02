@@ -57,7 +57,7 @@
 
 <script setup>
 import { ref, onMounted, watch } from 'vue'
-import { getMyApplications, reviewApplication } from '@/api/order'
+import { getMyApplications, cancelApplication } from '@/api/order'
 import { formatDate, applyStatusMap, applyStatusColorMap } from '@/utils/format'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import Pagination from '@/components/Pagination.vue'
@@ -97,7 +97,7 @@ const handleCancel = async (row) => {
       cancelButtonText: '取消',
       type: 'warning'
     })
-    await reviewApplication(row.id, { status: 4 })
+    await cancelApplication(row.id)
     ElMessage.success('已取消申请')
     loadApplications()
   } catch (e) {

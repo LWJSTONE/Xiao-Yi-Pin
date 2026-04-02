@@ -26,7 +26,8 @@ public interface JobPostMapper extends BaseMapper<JobPost> {
                                     @Param("keyword") String keyword,
                                     @Param("categoryId") Long categoryId,
                                     @Param("location") String location,
-                                    @Param("salaryType") String salaryType);
+                                    @Param("salaryType") String salaryType,
+                                    @Param("auditStatus") Integer auditStatus);
 
     /**
      * 分页查询我的岗位

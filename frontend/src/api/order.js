@@ -61,6 +61,21 @@ export function submitReview(orderId, data) {
 }
 
 /**
+ * 获取我的评价列表
+ */
+export function getMyReviews() {
+  return request.get('/v1/order/my/reviews')
+}
+
+/**
+ * 取消申请（学生）
+ * @param {string} appId - 申请ID
+ */
+export function cancelApplication(appId) {
+  return request.put(`/v1/order/apply/${appId}/cancel`)
+}
+
+/**
  * 获取订单评价列表
  * @param {string} orderId - 订单ID
  */

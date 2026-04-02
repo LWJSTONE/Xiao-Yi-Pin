@@ -43,7 +43,8 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
     /** 白名单路径 */
     private static final List<String> WHITE_LIST = Arrays.asList(
             "/api/v1/auth/login",
-            "/api/v1/auth/refresh"
+            "/api/v1/auth/refresh",
+            "/api/v1/auth/register"
     );
 
     @Override

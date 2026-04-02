@@ -46,3 +46,11 @@ export function listUsers(params) {
 export function updateUserStatus(userId, status) {
   return request.put(`/v1/user/admin/users/${userId}/status`, null, { params: { status } })
 }
+
+/**
+ * 获取字典列表（管理员）
+ * @param {Object} params - { dictType }
+ */
+export function getDictList(params) {
+  return request.get('/v1/dict/list', { params })
+}

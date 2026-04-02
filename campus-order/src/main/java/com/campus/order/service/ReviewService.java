@@ -19,4 +19,9 @@ public interface ReviewService {
      * 查询订单的评价列表
      */
     List<ReviewVO> getOrderReviews(Long orderId);
+
+    /**
+     * 查询我的评价列表（作为评价人）
+     */
+    List<ReviewVO> getMyReviews(Long userId);
 }

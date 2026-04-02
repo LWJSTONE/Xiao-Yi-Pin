@@ -118,7 +118,7 @@ const loadUsers = async () => {
     const params = { page: page.value, size: size.value }
     if (keyword.value) params.keyword = keyword.value
     if (statusFilter.value !== '') params.status = statusFilter.value
-    if (roleFilter.value !== '') params.roleType = roleFilter.value
+    if (roleFilter.value !== '') params.roleTypeFilter = roleFilter.value
     const res = await listUsers(params)
     if (res.data) {
       users.value = res.data.records || []

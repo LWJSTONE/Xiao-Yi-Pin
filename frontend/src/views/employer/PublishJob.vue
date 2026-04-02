@@ -3,7 +3,7 @@
     <el-card shadow="never" class="form-card">
       <template #header>
         <div class="card-header">
-          <span class="card-title">📝 发布兼职</span>
+          <span class="card-title">{{ isEdit ? '✏️ 编辑兼职' : '📝 发布兼职' }}</span>
         </div>
       </template>
 
@@ -99,9 +99,9 @@
 
         <el-form-item>
           <el-button type="primary" size="large" :loading="submitLoading" @click="handleSubmit">
-            发布职位
+            {{ isEdit ? '保存修改' : '发布职位' }}
           </el-button>
-          <el-button size="large" @click="handleSaveDraft">保存草稿</el-button>
+          <el-button v-if="!isEdit" size="large" @click="handleSaveDraft">保存草稿</el-button>
         </el-form-item>
       </el-form>
     </el-card>
@@ -109,16 +109,19 @@
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from 'vue'
-import { useRouter } from 'vue-router'
-import { getCategories, publishJob } from '@/api/job'
+import { ref, reactive, onMounted, computed } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
+import { getCategories, publishJob, updateJob, getJobDetail } from '@/api/job'
 import { ElMessage } from 'element-plus'
 
 const router = useRouter()
+const route = useRoute()
 const formRef = ref(null)
 const loading = ref(false)
 const submitLoading = ref(false)
 const categoryTree = ref([])
+
+const isEdit = computed(() => !!route.query.editId)
 
 const form = reactive({
   title: '',
@@ -166,6 +169,9 @@ const rules = {
 
 onMounted(() => {
   loadCategories()
+  if (isEdit.value) {
+    loadJobDetail()
+  }
 })
 
 const loadCategories = async () => {
@@ -180,14 +186,43 @@ const loadCategories = async () => {
   }
 }
 
+const loadJobDetail = async () => {
+  loading.value = true
+  try {
+    const res = await getJobDetail(route.query.editId)
+    const job = res.data
+    if (job) {
+      form.title = job.title || ''
+      form.categoryId = job.categoryId || ''
+      form.salaryType = job.salaryType || '0'
+      form.salaryAmount = job.salaryAmount || 0
+      form.location = job.location || ''
+      form.startTime = job.startTime || ''
+      form.endTime = job.endTime || ''
+      form.recruitNum = job.recruitNum || 1
+      form.description = job.description || ''
+    }
+  } catch (error) {
+    console.error('加载职位详情失败：', error)
+    ElMessage.error('加载职位详情失败')
+  } finally {
+    loading.value = false
+  }
+}
+
 const handleSubmit = async () => {
   if (!formRef.value) return
   await formRef.value.validate(async (valid) => {
     if (!valid) return
     submitLoading.value = true
     try {
-      await publishJob({ ...form })
-      ElMessage.success('职位发布成功，等待审核')
+      if (isEdit.value) {
+        await updateJob(route.query.editId, { ...form })
+        ElMessage.success('职位修改成功')
+      } else {
+        await publishJob({ ...form })
+        ElMessage.success('职位发布成功，等待审核')
+      }
       router.push('/employer/jobs')
     } catch (error) {
       // 错误已在拦截器中处理

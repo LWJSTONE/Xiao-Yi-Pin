@@ -177,7 +177,7 @@ CREATE TABLE sys_dict (
     dict_type       VARCHAR(50)     NOT NULL                 COMMENT '字典类型（主键）',
     dict_code       VARCHAR(50)     NOT NULL                 COMMENT '字典编码（主键）',
     dict_label      VARCHAR(100)    DEFAULT NULL             COMMENT '字典标签',
-    sort            INT             DEFAULT 0                COMMENT '排序号',
+    sort_order      INT             DEFAULT 0                COMMENT '排序号',
     status          INT             DEFAULT 1                COMMENT '状态: 0-禁用, 1-启用',
     PRIMARY KEY (dict_type, dict_code),
     KEY idx_dict_type (dict_type)
@@ -212,20 +212,31 @@ INSERT INTO job_category (name, parent_id, sort_order, status) VALUES
 ('其他', 0, 9, 1);
 
 -- 薪资类型字典
-INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort, status) VALUES
-('salary_type', 'hourly', '时薪', 1, 1),
-('salary_type', 'daily', '日薪', 2, 1),
-('salary_type', 'monthly', '月薪', 3, 1),
-('salary_type', 'piece', '计件', 4, 1);
+INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort_order, status) VALUES
+('salary_type', '0', '时薪', 1, 1),
+('salary_type', '1', '日薪', 2, 1),
+('salary_type', '2', '周薪', 3, 1),
+('salary_type', '3', '月薪', 4, 1),
+('salary_type', '4', '次薪', 5, 1);
 
 -- 岗位状态字典
-INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort, status) VALUES
-('job_status', 'open', '招聘中', 1, 1),
-('job_status', 'closed', '已关闭', 2, 1),
-('job_status', 'expired', '已过期', 3, 1);
+INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort_order, status) VALUES
+('job_status', '0', '草稿', 1, 1),
+('job_status', '1', '待审核', 2, 1),
+('job_status', '2', '已发布', 3, 1),
+('job_status', '3', '已拒绝', 4, 1),
+('job_status', '4', '已下架', 5, 1);
 
 -- 审核状态字典
-INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort, status) VALUES
-('audit_status', 'pending', '待审核', 1, 1),
-('audit_status', 'approved', '已通过', 2, 1),
-('audit_status', 'rejected', '已拒绝', 3, 1);
+INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort_order, status) VALUES
+('audit_status', '0', '待审核', 1, 1),
+('audit_status', '1', '已通过', 2, 1),
+('audit_status', '2', '已拒绝', 3, 1);
+
+-- 申请状态字典
+INSERT INTO sys_dict (dict_type, dict_code, dict_label, sort_order, status) VALUES
+('apply_status', '0', '待审核', 1, 1),
+('apply_status', '1', '已通过', 2, 1),
+('apply_status', '2', '已拒绝', 3, 1),
+('apply_status', '3', '已录用', 4, 1),
+('apply_status', '4', '已取消', 5, 1);

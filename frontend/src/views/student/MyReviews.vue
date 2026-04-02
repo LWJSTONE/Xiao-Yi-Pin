@@ -14,7 +14,7 @@
         style="width: 100%"
         class="review-table"
       >
-        <el-table-column prop="targetName" label="职位/雇主" min-width="180" show-overflow-tooltip />
+        <el-table-column prop="targetName" label="被评价人" min-width="180" show-overflow-tooltip />
         <el-table-column label="评分" width="160" align="center">
           <template #default="{ row }">
             <el-rate
@@ -34,28 +34,17 @@
       </el-table>
 
       <el-empty v-if="!loading && reviews.length === 0" description="暂无评价记录" />
-
-      <Pagination
-        v-if="total > 0"
-        :total="total"
-        v-model:page="page"
-        v-model:size="size"
-      />
     </el-card>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, watch } from 'vue'
-import { getMyOrders } from '@/api/order'
+import { ref, onMounted } from 'vue'
+import { getMyReviews } from '@/api/order'
 import { formatDate } from '@/utils/format'
-import Pagination from '@/components/Pagination.vue'
 
 const loading = ref(false)
 const reviews = ref([])
-const total = ref(0)
-const page = ref(1)
-const size = ref(10)
 
 onMounted(() => {
   loadReviews()
@@ -64,11 +53,9 @@ onMounted(() => {
 const loadReviews = async () => {
   loading.value = true
   try {
-    const res = await getMyOrders({ page: page.value, size: size.value })
+    const res = await getMyReviews()
     if (res.data) {
-      // 从订单中提取评价信息
-      reviews.value = (res.data.records || []).filter(order => order.review)
-      total.value = res.data.total || 0
+      reviews.value = res.data || []
     }
   } catch (error) {
     console.error('加载评价列表失败：', error)
@@ -76,10 +63,6 @@ const loadReviews = async () => {
     loading.value = false
   }
 }
-
-watch([page, size], () => {
-  loadReviews()
-})
 </script>
 
 <style scoped>
