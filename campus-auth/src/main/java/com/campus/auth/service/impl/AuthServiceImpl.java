@@ -6,6 +6,7 @@ import com.campus.auth.service.AuthService;
 import com.campus.common.constant.RedisConstant;
 import com.campus.common.dto.LoginDTO;
 import com.campus.common.dto.RefreshTokenDTO;
+import com.campus.common.dto.RegisterDTO;
 import com.campus.common.entity.SysUser;
 import com.campus.common.exception.BusinessException;
 import com.campus.common.utils.JwtUtils;
@@ -87,6 +88,29 @@ public class AuthServiceImpl implements AuthService {
 
         log.info("用户登录成功, userId={}, username={}", sysUser.getId(), sysUser.getUsername());
         return loginVO;
+    }
+
+    @Override
+    public void register(RegisterDTO dto) {
+        // 1. 检查用户名是否已存在
+        LambdaQueryWrapper<SysUser> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(SysUser::getUsername, dto.getUsername());
+        SysUser existUser = sysUserMapper.selectOne(queryWrapper);
+        if (existUser != null) {
+            throw new BusinessException(1005, "用户名已存在");
+        }
+
+        // 2. 创建用户
+        SysUser sysUser = new SysUser();
+        sysUser.setUsername(dto.getUsername());
+        sysUser.setPasswordHash(passwordEncoder.encode(dto.getPassword()));
+        sysUser.setPhone(dto.getPhone());
+        sysUser.setRoleType(dto.getRoleType());
+        sysUser.setStatus(1);
+        sysUser.setDeleted(0);
+        sysUserMapper.insert(sysUser);
+
+        log.info("用户注册成功, username={}, roleType={}", dto.getUsername(), dto.getRoleType());
     }
 
     @Override

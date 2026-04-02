@@ -53,11 +53,11 @@
           </el-form-item>
           <el-form-item prop="roleType">
             <el-radio-group v-model="registerForm.roleType" class="role-radio">
-              <el-radio-button label="1">
+              <el-radio-button label="STUDENT">
                 <el-icon><User /></el-icon>
                 学生
               </el-radio-button>
-              <el-radio-button label="2">
+              <el-radio-button label="EMPLOYER">
                 <el-icon><OfficeBuilding /></el-icon>
                 雇主
               </el-radio-button>
@@ -88,6 +88,7 @@
 import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { User, Lock, Phone } from '@element-plus/icons-vue'
+import { register } from '@/api/auth'
 import { ElMessage } from 'element-plus'
 
 const router = useRouter()
@@ -99,7 +100,7 @@ const registerForm = reactive({
   password: '',
   confirmPassword: '',
   phone: '',
-  roleType: '1'
+  roleType: 'STUDENT'
 })
 
 const validateConfirmPassword = (rule, value, callback) => {
@@ -147,7 +148,12 @@ const handleRegister = async () => {
 
     loading.value = true
     try {
-      // 注册后自动跳转登录
+      await register({
+        username: registerForm.username,
+        password: registerForm.password,
+        phone: registerForm.phone,
+        roleType: registerForm.roleType
+      })
       ElMessage.success('注册成功，请登录')
       router.push({
         path: '/login',

@@ -2,6 +2,7 @@ package com.campus.auth.service;
 
 import com.campus.common.dto.LoginDTO;
 import com.campus.common.dto.RefreshTokenDTO;
+import com.campus.common.dto.RegisterDTO;
 import com.campus.common.entity.SysUser;
 import com.campus.common.vo.LoginVO;
 
@@ -17,6 +18,11 @@ public interface AuthService {
      * @return 登录响应
      */
     LoginVO login(LoginDTO dto);
+
+    /**
+     * 用户注册
+     */
+    void register(RegisterDTO dto);
 
     /**
      * 刷新Token

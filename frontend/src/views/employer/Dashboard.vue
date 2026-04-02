@@ -123,7 +123,7 @@ const loadData = async () => {
     if (jobRes.data) {
       const jobs = jobRes.data.records || []
       stats.totalJobs = jobRes.data.total || 0
-      stats.activeJobs = jobs.filter(j => j.status === '2' || j.status === '4').length
+      stats.activeJobs = jobs.filter(j => j.status === 2).length
     }
 
     // 加载最近报名

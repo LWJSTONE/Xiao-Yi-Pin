@@ -86,7 +86,7 @@ public class OrderController {
     @GetMapping("/my/jobs/applications")
     public R<PageResult<ApplicationVO>> jobApplications(
             @RequestHeader("X-User-Id") Long userId,
-            @RequestParam Long jobId,
+            @RequestParam(required = false) Long jobId,
             @RequestParam(defaultValue = "1") int page,
             @RequestParam(defaultValue = "10") int size) {
         return R.ok(applicationService.jobApplications(userId, jobId, page, size));

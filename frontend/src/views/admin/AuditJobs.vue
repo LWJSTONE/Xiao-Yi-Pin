@@ -44,7 +44,7 @@
         </el-table-column>
         <el-table-column label="操作" width="160" align="center" fixed="right">
           <template #default="{ row }">
-            <template v-if="row.status === '1'">
+            <template v-if="row.status === 1">
               <el-button type="success" link size="small" @click="handleAudit(row, 2)">通过</el-button>
               <el-button type="danger" link size="small" @click="handleReject(row)">拒绝</el-button>
             </template>
@@ -67,7 +67,7 @@
     <el-dialog v-model="rejectDialogVisible" title="拒绝原因" width="480px">
       <el-form :model="rejectForm" label-width="80px">
         <el-form-item label="拒绝原因">
-          <el-input v-model="rejectForm.auditReason" type="textarea" :rows="4" placeholder="请输入拒绝原因" maxlength="200" show-word-limit />
+          <el-input v-model="rejectForm.auditRemark" type="textarea" :rows="4" placeholder="请输入拒绝原因" maxlength="200" show-word-limit />
         </el-form-item>
       </el-form>
       <template #footer>
@@ -95,7 +95,7 @@ const statusFilter = ref('1')
 const rejectDialogVisible = ref(false)
 const auditLoading = ref(false)
 const currentJobId = ref('')
-const rejectForm = reactive({ auditReason: '' })
+const rejectForm = reactive({ auditRemark: '' })
 
 const statusMap = jobStatusMap
 const statusColorMap = jobStatusColorMap
@@ -136,7 +136,7 @@ const handleAudit = async (row, status) => {
       type: 'info'
     })
     auditLoading.value = true
-    await auditJob(row.id, { auditStatus: status, auditReason: '' })
+    await auditJob(row.id, { auditStatus: status, auditRemark: '' })
     ElMessage.success('审核通过')
     loadJobs()
   } catch (e) {
@@ -148,18 +148,18 @@ const handleAudit = async (row, status) => {
 
 const handleReject = (row) => {
   currentJobId.value = row.id
-  rejectForm.auditReason = ''
+  rejectForm.auditRemark = ''
   rejectDialogVisible.value = true
 }
 
 const confirmReject = async () => {
-  if (!rejectForm.auditReason) {
+  if (!rejectForm.auditRemark) {
     ElMessage.warning('请输入拒绝原因')
     return
   }
   auditLoading.value = true
   try {
-    await auditJob(currentJobId.value, { auditStatus: 3, auditReason: rejectForm.auditReason })
+    await auditJob(currentJobId.value, { auditStatus: 3, auditRemark: rejectForm.auditRemark })
     ElMessage.success('已拒绝该职位')
     rejectDialogVisible.value = false
     loadJobs()

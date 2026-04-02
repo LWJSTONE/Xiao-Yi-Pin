@@ -3,6 +3,7 @@ package com.campus.auth.controller;
 import com.campus.auth.service.AuthService;
 import com.campus.common.dto.LoginDTO;
 import com.campus.common.dto.RefreshTokenDTO;
+import com.campus.common.dto.RegisterDTO;
 import com.campus.common.entity.SysUser;
 import com.campus.common.result.R;
 import com.campus.common.vo.LoginVO;
@@ -28,6 +29,15 @@ public class AuthController {
     public R<LoginVO> login(@Validated @RequestBody LoginDTO dto) {
         LoginVO loginVO = authService.login(dto);
         return R.ok(loginVO);
+    }
+
+    /**
+     * 用户注册
+     */
+    @PostMapping("/register")
+    public R<Void> register(@Validated @RequestBody RegisterDTO dto) {
+        authService.register(dto);
+        return R.ok();
     }
 
     /**

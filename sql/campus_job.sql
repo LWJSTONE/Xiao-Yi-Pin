@@ -2,6 +2,8 @@
 -- 校园兼职网站 - 数据库初始化脚本
 -- ============================================================
 
+DROP DATABASE IF EXISTS campus_job;
+
 CREATE DATABASE IF NOT EXISTS campus_job CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 USE campus_job;

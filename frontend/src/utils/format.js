@@ -68,24 +68,20 @@ export const salaryTypeMap = {
  * 职位状态映射
  */
 export const jobStatusMap = {
-  '0': '草稿',
-  '1': '待审核',
-  '2': '已通过',
-  '3': '已拒绝',
-  '4': '招聘中',
-  '5': '已下架'
+  0: '草稿',
+  1: '待审核',
+  2: '已发布',
+  4: '已下架'
 }
 
 /**
  * 职位状态颜色映射
  */
 export const jobStatusColorMap = {
-  '0': 'info',
-  '1': 'warning',
-  '2': 'success',
-  '3': 'danger',
-  '4': 'primary',
-  '5': 'info'
+  0: 'info',
+  1: 'warning',
+  2: 'success',
+  4: 'info'
 }
 
 /**
@@ -114,16 +110,16 @@ export const applyStatusColorMap = {
  * 角色类型映射
  */
 export const roleTypeMap = {
-  '0': '管理员',
-  '1': '学生',
-  '2': '雇主'
+  'ADMIN': '管理员',
+  'STUDENT': '学生',
+  'EMPLOYER': '雇主'
 }
 
 /**
  * 角色标签颜色映射
  */
 export const roleColorMap = {
-  '0': 'danger',
-  '1': 'primary',
-  '2': 'success'
+  'ADMIN': 'danger',
+  'STUDENT': 'primary',
+  'EMPLOYER': 'success'
 }

@@ -128,9 +128,9 @@ const loadStats = async () => {
     if (jobRes.data) {
       const jobs = jobRes.data.records || []
       stats.totalJobs = jobRes.data.total || 0
-      stats.activeJobs = jobs.filter(j => j.status === '4').length
-      stats.draftJobs = jobs.filter(j => j.status === '0').length
-      stats.pendingAudit = jobs.filter(j => j.status === '1').length
+      stats.activeJobs = jobs.filter(j => j.status === 2).length
+      stats.draftJobs = jobs.filter(j => j.status === 0).length
+      stats.pendingAudit = jobs.filter(j => j.status === 1).length
     }
   } catch (error) {
     console.error('加载统计数据失败：', error)

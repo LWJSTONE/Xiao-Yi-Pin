@@ -24,7 +24,7 @@
         </el-table-column>
         <el-table-column label="申请时间" width="180" align="center">
           <template #default="{ row }">
-            {{ formatDate(row.createTime) }}
+            {{ formatDate(row.applyTime) }}
           </template>
         </el-table-column>
         <el-table-column label="操作" width="120" align="center">

@@ -199,11 +199,11 @@ class ApplicationServiceImplTest {
         when(applicationMapper.updateById(any(Application.class))).thenReturn(1);
 
         // when
-        applicationService.reviewApplication(200L, 1L, 2, null);
+        applicationService.reviewApplication(200L, 1L, 3, null);
 
         // then
         verify(applicationMapper).updateById(argThat(app -> {
-            assertEquals(2, app.getStatus()); // 已录用
+            assertEquals(3, app.getStatus()); // 已录用
             assertNotNull(app.getReviewTime());
             return true;
         }));
@@ -226,11 +226,11 @@ class ApplicationServiceImplTest {
         when(applicationMapper.updateById(any(Application.class))).thenReturn(1);
 
         // when
-        applicationService.reviewApplication(200L, 1L, 3, "经验不足");
+        applicationService.reviewApplication(200L, 1L, 2, "经验不足");
 
         // then
         verify(applicationMapper).updateById(argThat(app -> {
-            assertEquals(3, app.getStatus()); // 已拒绝
+            assertEquals(2, app.getStatus()); // 已拒绝
             assertEquals("经验不足", app.getRejectReason());
             assertNotNull(app.getReviewTime());
             return true;

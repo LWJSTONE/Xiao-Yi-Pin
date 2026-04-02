@@ -37,7 +37,7 @@
         <el-table-column label="操作" width="260" align="center" fixed="right">
           <template #default="{ row }">
             <el-button
-              v-if="row.status === '0'"
+              v-if="row.status === 0"
               type="primary"
               link
               size="small"
@@ -54,7 +54,7 @@
               查看报名
             </el-button>
             <el-button
-              v-if="row.status === '4'"
+              v-if="row.status === 2"
               type="warning"
               link
               size="small"
@@ -63,7 +63,7 @@
               下架
             </el-button>
             <el-button
-              v-if="row.status === '0' || row.status === '3'"
+              v-if="row.status === 0"
               type="info"
               link
               size="small"

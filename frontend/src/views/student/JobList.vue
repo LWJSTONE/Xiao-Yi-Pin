@@ -22,7 +22,7 @@
             <el-option
               v-for="cat in categoryOptions"
               :key="cat.id"
-              :label="cat.categoryName"
+              :label="cat.name"
               :value="cat.id"
             />
           </el-select>

@@ -23,7 +23,7 @@
           <el-cascader
             v-model="form.categoryId"
             :options="categoryTree"
-            :props="{ value: 'id', label: 'categoryName', children: 'children', emitPath: false }"
+            :props="{ value: 'id', label: 'name', children: 'children', emitPath: false }"
             placeholder="请选择分类"
             clearable
             style="width: 100%;"
@@ -58,23 +58,23 @@
 
         <el-row :gutter="20">
           <el-col :span="12">
-            <el-form-item label="开始日期" prop="startDate">
+            <el-form-item label="开始日期" prop="startTime">
               <el-date-picker
-                v-model="form.startDate"
-                type="date"
+                v-model="form.startTime"
+                type="datetime"
                 placeholder="请选择开始日期"
-                value-format="YYYY-MM-DD"
+                value-format="YYYY-MM-DD HH:mm:ss"
                 style="width: 100%;"
               />
             </el-form-item>
           </el-col>
           <el-col :span="12">
-            <el-form-item label="结束日期" prop="endDate">
+            <el-form-item label="结束日期" prop="endTime">
               <el-date-picker
-                v-model="form.endDate"
-                type="date"
+                v-model="form.endTime"
+                type="datetime"
                 placeholder="请选择结束日期"
-                value-format="YYYY-MM-DD"
+                value-format="YYYY-MM-DD HH:mm:ss"
                 style="width: 100%;"
               />
             </el-form-item>
@@ -126,8 +126,8 @@ const form = reactive({
   salaryType: '0',
   salaryAmount: 0,
   location: '',
-  startDate: '',
-  endDate: '',
+  startTime: '',
+  endTime: '',
   recruitNum: 1,
   description: ''
 })
@@ -149,10 +149,10 @@ const rules = {
   location: [
     { required: true, message: '请输入工作地点', trigger: 'blur' }
   ],
-  startDate: [
+  startTime: [
     { required: true, message: '请选择开始日期', trigger: 'change' }
   ],
-  endDate: [
+  endTime: [
     { required: true, message: '请选择结束日期', trigger: 'change' }
   ],
   recruitNum: [

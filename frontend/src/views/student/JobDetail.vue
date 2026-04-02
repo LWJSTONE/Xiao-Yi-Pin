@@ -37,13 +37,13 @@
               <div class="info-label">
                 <el-icon><Calendar /></el-icon> 开始时间
               </div>
-              <div class="info-value">{{ formatDateOnly(job.startDate) }}</div>
+              <div class="info-value">{{ formatDateOnly(job.startTime) }}</div>
             </div>
             <div class="info-block">
               <div class="info-label">
                 <el-icon><Clock /></el-icon> 结束时间
               </div>
-              <div class="info-value">{{ formatDateOnly(job.endDate) }}</div>
+              <div class="info-value">{{ formatDateOnly(job.endTime) }}</div>
             </div>
           </div>
 

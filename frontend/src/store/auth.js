@@ -14,9 +14,9 @@ export const useAuthStore = defineStore('auth', () => {
 
   // 计算属性
   const isLoggedIn = computed(() => !!token.value)
-  const isStudent = computed(() => userInfo.value.roleType === '1')
-  const isEmployer = computed(() => userInfo.value.roleType === '2')
-  const isAdmin = computed(() => userInfo.value.roleType === '0')
+  const isStudent = computed(() => userInfo.value.roleType === 'STUDENT')
+  const isEmployer = computed(() => userInfo.value.roleType === 'EMPLOYER')
+  const isAdmin = computed(() => userInfo.value.roleType === 'ADMIN')
 
   /**
    * 登录
@@ -29,7 +29,7 @@ export const useAuthStore = defineStore('auth', () => {
       setToken(data.accessToken)
       userInfo.value = {
         username: data.username || loginForm.username,
-        roleType: String(data.roleType),
+        roleType: data.roleType,
         userId: data.userId
       }
       return data
@@ -47,7 +47,7 @@ export const useAuthStore = defineStore('auth', () => {
       const data = res.data
       userInfo.value = {
         username: data.username,
-        roleType: String(data.roleType),
+        roleType: data.roleType,
         userId: data.id
       }
       return data

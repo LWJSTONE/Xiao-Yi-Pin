@@ -19,9 +19,9 @@
               <el-option label="禁用" value="0" />
             </el-select>
             <el-select v-model="roleFilter" placeholder="角色" clearable style="width: 120px;" @change="handleSearch">
-              <el-option label="学生" value="1" />
-              <el-option label="雇主" value="2" />
-              <el-option label="管理员" value="0" />
+              <el-option label="学生" value="STUDENT" />
+              <el-option label="雇主" value="EMPLOYER" />
+              <el-option label="管理员" value="ADMIN" />
             </el-select>
             <el-button type="primary" :icon="Search" @click="handleSearch">搜索</el-button>
           </div>

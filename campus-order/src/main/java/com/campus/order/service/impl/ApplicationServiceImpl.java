@@ -109,11 +109,12 @@ public class ApplicationServiceImpl implements ApplicationService {
 
         application.setStatus(status);
         application.setReviewTime(new Date());
-        if (status == 3) {
+        if (status == 2) {
+            // 拒绝 - 设置拒绝原因
             application.setRejectReason(rejectReason);
         }
 
-        if (status == 2) {
+        if (status == 3) {
             // 录用 - 自动创建订单，同时使用乐观锁更新岗位已招人数
             JobPost jobPost = jobPostMapper.selectById(application.getJobId());
             if (jobPost != null) {
@@ -154,7 +155,12 @@ public class ApplicationServiceImpl implements ApplicationService {
     @Override
     public PageResult<ApplicationVO> jobApplications(Long employerId, Long jobId, int page, int size) {
         Page<ApplicationVO> pageParam = new Page<>(page, size);
-        IPage<ApplicationVO> result = applicationMapper.selectJobApplicationPage(pageParam, jobId);
+        IPage<ApplicationVO> result;
+        if (jobId != null) {
+            result = applicationMapper.selectJobApplicationPage(pageParam, jobId);
+        } else {
+            result = applicationMapper.selectAllApplicationPage(pageParam);
+        }
         return PageResult.of(result);
     }
 

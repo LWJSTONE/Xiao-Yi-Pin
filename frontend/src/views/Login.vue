@@ -138,11 +138,11 @@ const handleLogin = async () => {
       const redirect = route.query.redirect
       if (redirect) {
         router.push(redirect)
-      } else if (role === '0') {
+      } else if (role === 'ADMIN') {
         router.push('/admin/dashboard')
-      } else if (role === '1') {
+      } else if (role === 'STUDENT') {
         router.push('/student/dashboard')
-      } else if (role === '2') {
+      } else if (role === 'EMPLOYER') {
         router.push('/employer/dashboard')
       } else {
         router.push('/login')

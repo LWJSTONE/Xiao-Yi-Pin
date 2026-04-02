@@ -123,7 +123,7 @@ const settleForm = reactive({ amount: 0 })
 
 const reviewDialogVisible = ref(false)
 const reviewLoading = ref(false)
-const reviewForm = reactive({ rating: 5, comment: '' })
+const reviewForm = reactive({ targetId: null, rating: 5, comment: '', type: '' })
 
 const settleMap = { '0': '未结算', '1': '已结算', '2': '已评价' }
 const settleColorMap = { '0': 'warning', '1': 'success', '2': 'primary' }
@@ -169,6 +169,8 @@ const confirmSettle = async () => {
 
 const handleReview = (row) => {
   currentOrderId.value = row.id
+  reviewForm.targetId = row.studentId
+  reviewForm.type = 'EMPLOYER'
   reviewForm.rating = 5
   reviewForm.comment = ''
   reviewDialogVisible.value = true
@@ -181,7 +183,12 @@ const confirmReview = async () => {
   }
   reviewLoading.value = true
   try {
-    await submitReview(currentOrderId.value, reviewForm)
+    await submitReview(currentOrderId.value, {
+      targetId: reviewForm.targetId,
+      rating: reviewForm.rating,
+      comment: reviewForm.comment,
+      type: reviewForm.type
+    })
     ElMessage.success('评价成功')
     reviewDialogVisible.value = false
     loadOrders()
