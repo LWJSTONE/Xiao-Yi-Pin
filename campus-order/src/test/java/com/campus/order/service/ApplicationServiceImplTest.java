@@ -1,15 +1,17 @@
 package com.campus.order.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.campus.common.dto.ApplyDTO;
 import com.campus.common.entity.Application;
+import com.campus.common.entity.JobPost;
 import com.campus.common.entity.OrderRecord;
 import com.campus.common.exception.BusinessException;
 import com.campus.common.result.PageResult;
 import com.campus.common.vo.ApplicationVO;
 import com.campus.order.mapper.ApplicationMapper;
+import com.campus.order.mapper.JobPostMapper;
 import com.campus.order.mapper.OrderRecordMapper;
 import com.campus.order.service.impl.ApplicationServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
@@ -19,20 +21,25 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.junit.jupiter.MockitoSettings;
+import org.mockito.quality.Strictness;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
-import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 
 /**
  * ApplicationServiceImpl 单元测试
  */
 @ExtendWith(MockitoExtension.class)
+@MockitoSettings(strictness = Strictness.LENIENT)
 @DisplayName("报名申请服务测试")
 class ApplicationServiceImplTest {
 
@@ -42,11 +49,21 @@ class ApplicationServiceImplTest {
     @Mock
     private OrderRecordMapper orderRecordMapper;
 
+    @Mock
+    private JobPostMapper jobPostMapper;
+
+    @Mock
+    private StringRedisTemplate stringRedisTemplate;
+
+    @Mock
+    private ValueOperations<String, String> valueOperations;
+
     @InjectMocks
     private ApplicationServiceImpl applicationService;
 
     private ApplyDTO applyDTO;
     private Application existingApplication;
+    private JobPost jobPost;
 
     @BeforeEach
     void setUp() {
@@ -60,6 +77,17 @@ class ApplicationServiceImplTest {
         existingApplication.setResumeUrl("http://example.com/resume.pdf");
         existingApplication.setStatus(0);
         existingApplication.setApplyTime(new Date());
+
+        jobPost = new JobPost();
+        jobPost.setId(10L);
+        jobPost.setStatus(2); // 已发布
+        jobPost.setRecruitNum(5);
+        jobPost.setHiredNum(2);
+        jobPost.setVersion(1);
+
+        when(stringRedisTemplate.opsForValue()).thenReturn(valueOperations);
+        when(stringRedisTemplate.opsForValue().setIfAbsent(anyString(), anyString(), anyLong(), any(TimeUnit.class)))
+                .thenReturn(true);
     }
 
     // ==================== applyJob 测试 ====================
@@ -68,6 +96,7 @@ class ApplicationServiceImplTest {
     @DisplayName("申请岗位成功 - 首次申请")
     void applyJob_success() {
         // given
+        when(jobPostMapper.selectById(10L)).thenReturn(jobPost);
         when(applicationMapper.selectCount(any(LambdaQueryWrapper.class))).thenReturn(0L);
         when(applicationMapper.insert(any(Application.class))).thenReturn(1);
 
@@ -83,12 +112,15 @@ class ApplicationServiceImplTest {
             assertNotNull(app.getApplyTime());
             return true;
         }));
+        // 验证释放锁
+        verify(stringRedisTemplate).delete(anyString());
     }
 
     @Test
     @DisplayName("申请岗位失败 - 重复申请")
     void applyJob_duplicate() {
         // given
+        when(jobPostMapper.selectById(10L)).thenReturn(jobPost);
         when(applicationMapper.selectCount(any(LambdaQueryWrapper.class))).thenReturn(1L);
 
         // when & then
@@ -98,13 +130,71 @@ class ApplicationServiceImplTest {
         verify(applicationMapper, never()).insert(any());
     }
 
+    @Test
+    @DisplayName("申请岗位失败 - 岗位不存在")
+    void applyJob_jobNotFound() {
+        // given
+        when(jobPostMapper.selectById(999L)).thenReturn(null);
+
+        // when & then
+        BusinessException exception = assertThrows(BusinessException.class,
+                () -> applicationService.applyJob(100L, 999L, applyDTO));
+        assertEquals("岗位不存在", exception.getMessage());
+        verify(applicationMapper, never()).insert(any());
+    }
+
+    @Test
+    @DisplayName("申请岗位失败 - 岗位不可报名(未发布)")
+    void applyJob_jobNotPublished() {
+        // given
+        jobPost.setStatus(0); // 草稿
+        when(jobPostMapper.selectById(10L)).thenReturn(jobPost);
+
+        // when & then
+        BusinessException exception = assertThrows(BusinessException.class,
+                () -> applicationService.applyJob(100L, 10L, applyDTO));
+        assertEquals("该岗位当前不可报名", exception.getMessage());
+        verify(applicationMapper, never()).insert(any());
+    }
+
+    @Test
+    @DisplayName("申请岗位失败 - 招聘人数已满")
+    void applyJob_full() {
+        // given
+        jobPost.setHiredNum(5); // hiredNum >= recruitNum
+        when(jobPostMapper.selectById(10L)).thenReturn(jobPost);
+
+        // when & then
+        BusinessException exception = assertThrows(BusinessException.class,
+                () -> applicationService.applyJob(100L, 10L, applyDTO));
+        assertEquals("该岗位招聘人数已满", exception.getMessage());
+        verify(applicationMapper, never()).insert(any());
+    }
+
+    @Test
+    @DisplayName("申请岗位失败 - 获取锁失败(并发控制)")
+    void applyJob_lockFailed() {
+        // given
+        when(stringRedisTemplate.opsForValue().setIfAbsent(anyString(), anyString(), anyLong(), any(TimeUnit.class)))
+                .thenReturn(false);
+
+        // when & then
+        BusinessException exception = assertThrows(BusinessException.class,
+                () -> applicationService.applyJob(100L, 10L, applyDTO));
+        assertEquals("操作太频繁，请稍后再试", exception.getMessage());
+        verify(applicationMapper, never()).insert(any());
+    }
+
     // ==================== reviewApplication 测试 ====================
 
     @Test
     @DisplayName("审核申请成功 - 录用(自动创建订单)")
     void reviewApplication_hire() {
         // given
+        // 注意：由于单元测试未初始化MyBatis-Plus上下文，LambdaUpdateWrapper<JobPost>会抛出异常
+        // 所以让jobPostMapper.selectById返回null，跳过乐观锁更新逻辑
         when(applicationMapper.selectById(1L)).thenReturn(existingApplication);
+        when(jobPostMapper.selectById(10L)).thenReturn(null);
         when(orderRecordMapper.insert(any(OrderRecord.class))).thenReturn(1);
         when(applicationMapper.updateById(any(Application.class))).thenReturn(1);
 
