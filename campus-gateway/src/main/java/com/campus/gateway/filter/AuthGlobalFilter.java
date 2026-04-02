@@ -37,7 +37,7 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
     @Resource
     private StringRedisTemplate stringRedisTemplate;
 
-    @Value("${jwt.secret:campus-job-jwt-secret-key-2024-very-long-secret-key-for-hmac-sha256}")
+    @Value("${jwt.secret}")
     private String jwtSecret;
 
     /** 白名单路径 */

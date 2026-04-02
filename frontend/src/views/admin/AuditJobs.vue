@@ -30,10 +30,10 @@
             {{ row.location || '-' }}
           </template>
         </el-table-column>
-        <el-table-column label="状态" width="100" align="center">
+        <el-table-column label="审核状态" width="100" align="center">
           <template #default="{ row }">
-            <el-tag :type="statusColorMap[row.status] || 'info'" size="small">
-              {{ statusMap[row.status] || '未知' }}
+            <el-tag :type="auditStatusColorMap[row.auditStatus] || 'info'" size="small">
+              {{ auditStatusMap[row.auditStatus] || '未知' }}
             </el-tag>
           </template>
         </el-table-column>
@@ -81,7 +81,7 @@
 <script setup>
 import { ref, reactive, onMounted, watch } from 'vue'
 import { getJobList, auditJob } from '@/api/job'
-import { formatSalary, formatDate, jobStatusMap, jobStatusColorMap } from '@/utils/format'
+import { formatSalary, formatDate, auditStatusMap, auditStatusColorMap } from '@/utils/format'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import Pagination from '@/components/Pagination.vue'
 
@@ -97,8 +97,8 @@ const auditLoading = ref(false)
 const currentJobId = ref('')
 const rejectForm = reactive({ auditRemark: '' })
 
-const statusMap = jobStatusMap
-const statusColorMap = jobStatusColorMap
+const statusMap = auditStatusMap
+const statusColorMap = auditStatusColorMap
 
 onMounted(() => {
   loadJobs()

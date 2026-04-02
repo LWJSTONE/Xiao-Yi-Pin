@@ -12,12 +12,10 @@ import com.campus.order.mapper.OrderRecordMapper;
 import com.campus.order.mapper.ReviewMapper;
 import com.campus.order.mapper.UserProfileMapper;
 import com.campus.order.service.ReviewService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -32,7 +30,6 @@ public class ReviewServiceImpl implements ReviewService {
     private final OrderRecordMapper orderRecordMapper;
     private final UserProfileMapper userProfileMapper;
 
-    @Autowired
     public ReviewServiceImpl(ReviewMapper reviewMapper,
                              OrderRecordMapper orderRecordMapper,
                              UserProfileMapper userProfileMapper) {
@@ -75,21 +72,23 @@ public class ReviewServiceImpl implements ReviewService {
         review.setRating(dto.getRating());
         review.setComment(dto.getComment());
         review.setType(dto.getType());
-        review.setCreateTime(new Date());
         reviewMapper.insert(review);
 
-        // 更新订单结算状态为已评价
-        order.setSettlementStatus(2);
-        orderRecordMapper.updateById(order);
-
-        // 更新被评价人的信用分
-        UserProfile targetProfile = userProfileMapper.selectOne(
-                new LambdaQueryWrapper<UserProfile>().eq(UserProfile::getUserId, dto.getTargetId())
+        // 使用原子操作更新信用分，防止并发竞态条件
+        int scoreChange = dto.getRating() >= 4 ? 2 : (dto.getRating() >= 2 ? 0 : -1);
+        userProfileMapper.update(null,
+                new LambdaUpdateWrapper<UserProfile>()
+                        .eq(UserProfile::getUserId, dto.getTargetId())
+                        .setSql("credit_score = GREATEST(0, credit_score + " + scoreChange + ")")
         );
-        if (targetProfile != null) {
-            int scoreChange = dto.getRating() >= 4 ? 2 : (dto.getRating() >= 2 ? 0 : -1);
-            targetProfile.setCreditScore(Math.max(0, targetProfile.getCreditScore() + scoreChange));
-            userProfileMapper.updateById(targetProfile);
+
+        // 检查是否双方都已评价，双方都评价后才标记为已评价
+        Long reviewCount = reviewMapper.selectCount(
+                new LambdaQueryWrapper<Review>().eq(Review::getOrderId, orderId)
+        );
+        if (reviewCount >= 2) {
+            order.setSettlementStatus(2); // 双方评价完毕，标记为已评价
+            orderRecordMapper.updateById(order);
         }
     }
 

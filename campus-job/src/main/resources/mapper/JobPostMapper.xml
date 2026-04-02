@@ -20,6 +20,7 @@
         <result column="hired_num" property="hiredNum"/>
         <result column="status" property="status"/>
         <result column="audit_status" property="auditStatus"/>
+        <result column="audit_remark" property="auditRemark"/>
         <result column="create_time" property="createTime"/>
     </resultMap>
 
@@ -32,7 +33,7 @@
             jp.salary_type, jp.salary_amount,
             jp.start_time, jp.end_time,
             jp.recruit_num, jp.hired_num,
-            jp.status, jp.audit_status, jp.create_time
+            jp.status, jp.audit_status, jp.audit_remark, jp.create_time
         FROM job_post jp
         LEFT JOIN sys_user su ON jp.publisher_id = su.id
         LEFT JOIN job_category jc ON jp.category_id = jc.id
@@ -48,7 +49,7 @@
             jp.salary_type, jp.salary_amount,
             jp.start_time, jp.end_time,
             jp.recruit_num, jp.hired_num,
-            jp.status, jp.audit_status, jp.create_time
+            jp.status, jp.audit_status, jp.audit_remark, jp.create_time
         FROM job_post jp
         LEFT JOIN sys_user su ON jp.publisher_id = su.id
         LEFT JOIN job_category jc ON jp.category_id = jc.id
@@ -87,7 +88,7 @@
             jp.salary_type, jp.salary_amount,
             jp.start_time, jp.end_time,
             jp.recruit_num, jp.hired_num,
-            jp.status, jp.audit_status, jp.create_time
+            jp.status, jp.audit_status, jp.audit_remark, jp.create_time
         FROM job_post jp
         LEFT JOIN sys_user su ON jp.publisher_id = su.id
         LEFT JOIN job_category jc ON jp.category_id = jc.id

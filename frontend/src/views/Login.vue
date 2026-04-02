@@ -113,7 +113,7 @@ const refreshCaptcha = async () => {
   try {
     const res = await getCaptcha()
     if (res.data) {
-      captchaText.value = res.data.captchaCode || ''
+      captchaText.value = res.data.captchaImg || ''
       loginForm.captchaKey = res.data.captchaKey || ''
       loginForm.captchaCode = ''
     }
@@ -144,7 +144,7 @@ const handleLogin = async () => {
       // 根据角色跳转
       const role = authStore.userInfo.roleType
       const redirect = route.query.redirect
-      if (redirect) {
+      if (redirect && redirect.startsWith('/') && !redirect.startsWith('//')) {
         router.push(redirect)
       } else if (role === 'ADMIN') {
         router.push('/admin/dashboard')

@@ -97,6 +97,7 @@
 import { ref, reactive, onMounted } from 'vue'
 import { listUsers } from '@/api/user'
 import { getJobList } from '@/api/job'
+import { getMyApplications, getMyOrders } from '@/api/order'
 
 const stats = reactive({
   totalUsers: 0,
@@ -117,10 +118,14 @@ onMounted(() => {
 
 const loadStats = async () => {
   try {
-    // 加载用户统计
-    const userRes = await listUsers({ page: 1, size: 1 })
+    // 加载用户统计 - 获取所有用户以统计角色分布
+    const userRes = await listUsers({ page: 1, size: 1000 })
     if (userRes.data) {
+      const users = userRes.data.records || []
       stats.totalUsers = userRes.data.total || 0
+      stats.studentCount = users.filter(u => u.roleType === 'STUDENT').length
+      stats.employerCount = users.filter(u => u.roleType === 'EMPLOYER').length
+      stats.adminCount = users.filter(u => u.roleType === 'ADMIN').length
     }
 
     // 加载职位统计
@@ -131,6 +136,26 @@ const loadStats = async () => {
       stats.activeJobs = jobs.filter(j => j.status === 2).length
       stats.draftJobs = jobs.filter(j => j.status === 0).length
       stats.pendingAudit = jobs.filter(j => j.status === 1).length
+    }
+
+    // 加载报名总数统计
+    try {
+      const appRes = await getMyApplications({ page: 1, size: 1 })
+      if (appRes.data) {
+        stats.totalApplications = appRes.data.total || 0
+      }
+    } catch (e) {
+      // 接口可能因权限限制而失败，使用0作为默认值
+    }
+
+    // 加载订单总数统计
+    try {
+      const orderRes = await getMyOrders({ page: 1, size: 1 })
+      if (orderRes.data) {
+        stats.totalOrders = orderRes.data.total || 0
+      }
+    } catch (e) {
+      // 接口可能因权限限制而失败，使用0作为默认值
     }
   } catch (error) {
     console.error('加载统计数据失败：', error)

@@ -107,6 +107,15 @@ public class ApplicationServiceImpl implements ApplicationService {
             throw new BusinessException("申请不存在");
         }
 
+        // 校验雇主是否拥有该岗位
+        JobPost jobPost = jobPostMapper.selectById(application.getJobId());
+        if (jobPost == null) {
+            throw new BusinessException("岗位不存在");
+        }
+        if (!jobPost.getPublisherId().equals(employerId)) {
+            throw new BusinessException("无权审核此申请");
+        }
+
         application.setStatus(status);
         application.setReviewTime(new Date());
         if (status == 2) {
@@ -116,19 +125,16 @@ public class ApplicationServiceImpl implements ApplicationService {
 
         if (status == 3) {
             // 录用 - 自动创建订单，同时使用乐观锁更新岗位已招人数
-            JobPost jobPost = jobPostMapper.selectById(application.getJobId());
-            if (jobPost != null) {
-                // 使用乐观锁更新hired_num，防止并发超卖
-                int rows = jobPostMapper.update(null,
-                        new LambdaUpdateWrapper<JobPost>()
-                                .eq(JobPost::getId, application.getJobId())
-                                .eq(JobPost::getVersion, jobPost.getVersion())
-                                .setSql("hired_num = hired_num + 1")
-                                .set(JobPost::getUpdateTime, application.getReviewTime())
-                );
-                if (rows == 0) {
-                    throw new BusinessException("岗位已招满，请刷新后重试");
-                }
+            // 使用乐观锁更新hired_num，防止并发超卖
+            int rows = jobPostMapper.update(null,
+                    new LambdaUpdateWrapper<JobPost>()
+                            .eq(JobPost::getId, application.getJobId())
+                            .eq(JobPost::getVersion, jobPost.getVersion())
+                            .setSql("hired_num = hired_num + 1")
+                            .set(JobPost::getUpdateTime, application.getReviewTime())
+            );
+            if (rows == 0) {
+                throw new BusinessException("岗位已招满，请刷新后重试");
             }
 
             OrderRecord orderRecord = new OrderRecord();
@@ -157,6 +163,14 @@ public class ApplicationServiceImpl implements ApplicationService {
         Page<ApplicationVO> pageParam = new Page<>(page, size);
         IPage<ApplicationVO> result;
         if (jobId != null) {
+            // 校验雇主是否拥有该岗位
+            JobPost jobPost = jobPostMapper.selectById(jobId);
+            if (jobPost == null) {
+                throw new BusinessException("岗位不存在");
+            }
+            if (!jobPost.getPublisherId().equals(employerId)) {
+                throw new BusinessException("无权查看此岗位的申请");
+            }
             result = applicationMapper.selectJobApplicationPage(pageParam, jobId);
         } else {
             result = applicationMapper.selectAllApplicationPage(pageParam);

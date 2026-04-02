@@ -65,6 +65,9 @@ public class JobPostVO implements Serializable {
     /** 审核状态 */
     private Integer auditStatus;
 
+    /** 审核备注 */
+    private String auditRemark;
+
     /** 创建时间 */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;

@@ -2,6 +2,7 @@ package com.campus.common.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.campus.common.base.BaseEntity;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -23,6 +24,7 @@ public class SysUser extends BaseEntity {
     private String username;
 
     /** 密码哈希 */
+    @JsonIgnore
     private String passwordHash;
 
     /** 手机号 */

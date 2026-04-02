@@ -82,6 +82,7 @@ import { ref, reactive, onMounted, watch } from 'vue'
 import { useJobStore } from '@/store/job'
 import { getCategories } from '@/api/job'
 import { Search, Location, Refresh } from '@element-plus/icons-vue'
+import { ElMessage } from 'element-plus'
 import JobCard from '@/components/JobCard.vue'
 import Pagination from '@/components/Pagination.vue'
 

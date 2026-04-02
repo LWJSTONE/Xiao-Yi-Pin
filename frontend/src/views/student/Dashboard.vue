@@ -90,7 +90,7 @@ import { ref, reactive, onMounted } from 'vue'
 import { useAuthStore } from '@/store/auth'
 import { ElMessage } from 'element-plus'
 import { getJobList } from '@/api/job'
-import { getMyApplications } from '@/api/order'
+import { getMyApplications, getMyOrders } from '@/api/order'
 import { formatSalary } from '@/utils/format'
 
 const authStore = useAuthStore()
@@ -117,12 +117,24 @@ const loadData = async () => {
 
     // 加载我的报名统计
     try {
-      const appRes = await getMyApplications({ page: 1, size: 1 })
+      const appRes = await getMyApplications({ page: 1, size: 100 })
       if (appRes.data) {
+        const applications = appRes.data.records || []
         stats.applications = appRes.data.total || 0
+        stats.hired = applications.filter(a => a.status === 3).length
       }
     } catch (e) {
       ElMessage.warning('加载报名统计失败')
+    }
+
+    // 加载我的订单统计
+    try {
+      const orderRes = await getMyOrders({ page: 1, size: 100 })
+      if (orderRes.data) {
+        stats.orders = orderRes.data.total || 0
+      }
+    } catch (e) {
+      // 订单接口可能因权限限制而失败
     }
   } catch (error) {
     console.error('加载数据失败：', error)

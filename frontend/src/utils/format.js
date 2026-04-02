@@ -87,6 +87,24 @@ export const jobStatusColorMap = {
 }
 
 /**
+ * 审核状态映射
+ */
+export const auditStatusMap = {
+  0: '待审核',
+  1: '已通过',
+  2: '已拒绝'
+}
+
+/**
+ * 审核状态颜色映射
+ */
+export const auditStatusColorMap = {
+  0: 'warning',
+  1: 'success',
+  2: 'danger'
+}
+
+/**
  * 申请状态映射
  */
 export const applyStatusMap = {

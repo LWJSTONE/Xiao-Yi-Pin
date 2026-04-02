@@ -99,6 +99,7 @@ import { useAuthStore } from '@/store/auth'
 import { getMyJobs } from '@/api/job'
 import { getJobApplications } from '@/api/order'
 import { formatDate, applyStatusMap, applyStatusColorMap } from '@/utils/format'
+import { ElMessage } from 'element-plus'
 
 const authStore = useAuthStore()
 const recentApplications = ref([])

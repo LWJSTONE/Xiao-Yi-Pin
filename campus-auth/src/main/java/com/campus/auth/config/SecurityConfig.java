@@ -34,8 +34,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 // 授权配置
                 .authorizeRequests()
-                // 登录和刷新Token接口放行
-                .antMatchers("/api/v1/auth/login", "/api/v1/auth/refresh").permitAll()
+                // 登录、刷新Token、注册、验证码接口放行
+                .antMatchers("/api/v1/auth/login", "/api/v1/auth/refresh",
+                        "/api/v1/auth/register", "/api/v1/auth/captcha").permitAll()
                 // 其他请求需要认证
                 .anyRequest().authenticated()
                 .and()

@@ -2,6 +2,7 @@ package com.campus.common.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.campus.common.base.BaseEntity;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -28,6 +29,7 @@ public class UserProfile extends BaseEntity {
     private String realName;
 
     /** 身份证哈希 */
+    @JsonIgnore
     private String idCardHash;
 
     /** 性别: 0-未知, 1-男, 2-女 */

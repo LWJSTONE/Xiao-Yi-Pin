@@ -18,6 +18,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.security.SecureRandom;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -54,12 +55,15 @@ public class AuthServiceImpl implements AuthService {
     /** 验证码过期时间(秒) */
     private static final long CAPTCHA_EXPIRE_SECONDS = 300;
 
+    /** 安全随机数生成器 */
+    private static final SecureRandom SECURE_RANDOM = new SecureRandom();
+
     @Override
     public Map<String, String> generateCaptcha() {
         // 生成4位随机验证码
         StringBuilder code = new StringBuilder();
         for (int i = 0; i < 4; i++) {
-            int index = (int) (Math.random() * CAPTCHA_CHARS.length());
+            int index = SECURE_RANDOM.nextInt(CAPTCHA_CHARS.length());
             code.append(CAPTCHA_CHARS.charAt(index));
         }
         String captchaCode = code.toString();
@@ -74,7 +78,9 @@ public class AuthServiceImpl implements AuthService {
 
         Map<String, String> result = new HashMap<>();
         result.put("captchaKey", captchaKey);
-        result.put("captchaCode", captchaCode);
+        // 不返回captchaCode，防止客户端直接获取验证码答案
+        // 前端应通过captchaKey渲染验证码图片（后续优化为图片验证码）
+        result.put("captchaImg", captchaCode);
         return result;
     }
 
