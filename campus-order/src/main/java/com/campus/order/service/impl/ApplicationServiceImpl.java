@@ -1,8 +1,10 @@
 package com.campus.order.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.campus.common.constant.RedisConstant;
 import com.campus.common.dto.ApplyDTO;
 import com.campus.common.entity.Application;
 import com.campus.common.entity.JobPost;
@@ -11,12 +13,17 @@ import com.campus.common.exception.BusinessException;
 import com.campus.common.result.PageResult;
 import com.campus.common.vo.ApplicationVO;
 import com.campus.order.mapper.ApplicationMapper;
+import com.campus.order.mapper.JobPostMapper;
 import com.campus.order.mapper.OrderRecordMapper;
 import com.campus.order.service.ApplicationService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 报名申请服务实现
@@ -24,33 +31,72 @@ import java.util.Date;
 @Service
 public class ApplicationServiceImpl implements ApplicationService {
 
+    private static final Logger log = LoggerFactory.getLogger(ApplicationServiceImpl.class);
+
+    /** 分布式锁过期时间(秒) */
+    private static final long LOCK_EXPIRE_SECONDS = 10;
+
     private final ApplicationMapper applicationMapper;
     private final OrderRecordMapper orderRecordMapper;
+    private final JobPostMapper jobPostMapper;
+    private final StringRedisTemplate stringRedisTemplate;
 
-    public ApplicationServiceImpl(ApplicationMapper applicationMapper, OrderRecordMapper orderRecordMapper) {
+    public ApplicationServiceImpl(ApplicationMapper applicationMapper,
+                                   OrderRecordMapper orderRecordMapper,
+                                   JobPostMapper jobPostMapper,
+                                   StringRedisTemplate stringRedisTemplate) {
         this.applicationMapper = applicationMapper;
         this.orderRecordMapper = orderRecordMapper;
+        this.jobPostMapper = jobPostMapper;
+        this.stringRedisTemplate = stringRedisTemplate;
     }
 
     @Override
     public void applyJob(Long studentId, Long jobId, ApplyDTO dto) {
-        // 检查是否重复申请
-        Long count = applicationMapper.selectCount(
-                new LambdaQueryWrapper<Application>()
-                        .eq(Application::getJobId, jobId)
-                        .eq(Application::getApplicantId, studentId)
-        );
-        if (count > 0) {
-            throw new BusinessException("您已申请过该岗位，请勿重复申请");
+        // 获取分布式锁，防止同一岗位并发超卖
+        String lockKey = RedisConstant.JOB_LOCK + jobId;
+        Boolean locked = stringRedisTemplate.opsForValue()
+                .setIfAbsent(lockKey, "1", LOCK_EXPIRE_SECONDS, TimeUnit.SECONDS);
+        if (Boolean.FALSE.equals(locked)) {
+            throw new BusinessException("操作太频繁，请稍后再试");
         }
 
-        Application application = new Application();
-        application.setJobId(jobId);
-        application.setApplicantId(studentId);
-        application.setResumeUrl(dto.getResumeUrl());
-        application.setStatus(0); // 待审核
-        application.setApplyTime(new Date());
-        applicationMapper.insert(application);
+        try {
+            // 查询岗位信息，校验岗位状态和招聘人数
+            JobPost jobPost = jobPostMapper.selectById(jobId);
+            if (jobPost == null) {
+                throw new BusinessException("岗位不存在");
+            }
+            if (jobPost.getStatus() != 2) {
+                throw new BusinessException("该岗位当前不可报名");
+            }
+            if (jobPost.getHiredNum() >= jobPost.getRecruitNum()) {
+                throw new BusinessException("该岗位招聘人数已满");
+            }
+
+            // 检查是否重复申请
+            Long count = applicationMapper.selectCount(
+                    new LambdaQueryWrapper<Application>()
+                            .eq(Application::getJobId, jobId)
+                            .eq(Application::getApplicantId, studentId)
+            );
+            if (count > 0) {
+                throw new BusinessException("您已申请过该岗位，请勿重复申请");
+            }
+
+            Application application = new Application();
+            application.setJobId(jobId);
+            application.setApplicantId(studentId);
+            application.setResumeUrl(dto.getResumeUrl());
+            application.setStatus(0); // 待审核
+            application.setApplyTime(new Date());
+            applicationMapper.insert(application);
+
+            log.info("学生{}成功报名岗位{}", studentId, jobId);
+        } finally {
+            // 释放分布式锁
+            stringRedisTemplate.delete(lockKey);
+        }
     }
 
     @Override
@@ -61,8 +107,6 @@ public class ApplicationServiceImpl implements ApplicationService {
             throw new BusinessException("申请不存在");
         }
 
-        // 检查该申请对应的岗位是否属于该雇主
-        // 通过订单模块的数据库访问验证
         application.setStatus(status);
         application.setReviewTime(new Date());
         if (status == 3) {
@@ -70,7 +114,22 @@ public class ApplicationServiceImpl implements ApplicationService {
         }
 
         if (status == 2) {
-            // 录用 - 自动创建订单
+            // 录用 - 自动创建订单，同时使用乐观锁更新岗位已招人数
+            JobPost jobPost = jobPostMapper.selectById(application.getJobId());
+            if (jobPost != null) {
+                // 使用乐观锁更新hired_num，防止并发超卖
+                int rows = jobPostMapper.update(null,
+                        new LambdaUpdateWrapper<JobPost>()
+                                .eq(JobPost::getId, application.getJobId())
+                                .eq(JobPost::getVersion, jobPost.getVersion())
+                                .setSql("hired_num = hired_num + 1")
+                                .set(JobPost::getUpdateTime, application.getReviewTime())
+                );
+                if (rows == 0) {
+                    throw new BusinessException("岗位已招满，请刷新后重试");
+                }
+            }
+
             OrderRecord orderRecord = new OrderRecord();
             orderRecord.setApplicationId(application.getId());
             orderRecord.setStudentId(application.getApplicantId());

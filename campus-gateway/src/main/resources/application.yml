@@ -18,7 +18,7 @@ spring:
           filters:
             - StripPrefix=0
         - id: campus-user
-          uri: lb://campus-auth
+          uri: lb://campus-user
           predicates:
             - Path=/api/v1/user/**
           filters:
