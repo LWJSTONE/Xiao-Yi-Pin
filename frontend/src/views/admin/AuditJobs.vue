@@ -90,7 +90,7 @@ const jobs = ref([])
 const total = ref(0)
 const page = ref(1)
 const size = ref(10)
-const statusFilter = ref(0)
+const statusFilter = ref('0')
 
 const rejectDialogVisible = ref(false)
 const auditLoading = ref(false)
@@ -107,8 +107,8 @@ const loadJobs = async () => {
   loading.value = true
   try {
     const params = { page: page.value, size: size.value }
-    if (statusFilter.value) {
-      params.auditStatus = statusFilter.value
+    if (statusFilter.value !== '' && statusFilter.value !== null) {
+      params.auditStatus = Number(statusFilter.value)
     }
     const res = await getJobList(params)
     if (res.data) {

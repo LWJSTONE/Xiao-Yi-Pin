@@ -74,8 +74,8 @@ public class AuthServiceImpl implements AuthService {
 
         Map<String, String> result = new HashMap<>();
         result.put("captchaKey", captchaKey);
-        // 返回Base64编码的验证码图片
-        result.put("captchaImg", cn.hutool.captcha.CaptchaUtil.toBase64(captcha));
+        // 返回Base64编码的验证码图片（包含data:image前缀）
+        result.put("captchaImg", captcha.getImageBase64Data());
         return result;
     }
 

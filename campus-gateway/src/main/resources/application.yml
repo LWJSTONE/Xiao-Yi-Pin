@@ -38,10 +38,11 @@ spring:
       globalcors:
         cors-configurations:
           '[/**]':
-            allowed-origins: "*"
+            allowed-origin-patterns: "*"
             allowed-methods: "*"
             allowed-headers: "*"
             allow-credentials: true
+            max-age: 3600
   redis:
     host: 127.0.0.1
     port: 6379

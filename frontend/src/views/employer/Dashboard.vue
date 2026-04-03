@@ -129,10 +129,19 @@ const loadData = async () => {
 
     // 加载最近报名
     try {
+      // 先获取最近5条报名用于展示
       const appRes = await getJobApplications({ page: 1, size: 5 })
       if (appRes.data) {
         recentApplications.value = appRes.data.records || []
         stats.totalApplications = appRes.data.total || 0
+      }
+      // 单独获取大量数据以准确统计待审核数量
+      try {
+        const allAppRes = await getJobApplications({ page: 1, size: 1000 })
+        if (allAppRes.data) {
+          stats.pendingReviews = (allAppRes.data.records || []).filter(a => a.status === 0).length
+        }
+      } catch (e2) {
         stats.pendingReviews = (appRes.data.records || []).filter(a => a.status === 0).length
       }
     } catch (e) {

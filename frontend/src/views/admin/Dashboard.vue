@@ -128,14 +128,33 @@ const loadStats = async () => {
       stats.adminCount = users.filter(u => u.roleType === 'ADMIN').length
     }
 
-    // 加载职位统计
-    const jobRes = await getJobList({ page: 1, size: 100 })
-    if (jobRes.data) {
-      const jobs = jobRes.data.records || []
-      stats.totalJobs = jobRes.data.total || 0
-      stats.activeJobs = jobs.filter(j => j.status === 2).length
-      stats.draftJobs = jobs.filter(j => j.status === 0).length
-      stats.pendingAudit = jobs.filter(j => j.status === 1).length
+    // 加载职位统计 - 分别查询不同状态的职位
+    // 已发布职位（auditStatus=null时返回status=2的已发布职位）
+    try {
+      const publishedRes = await getJobList({ page: 1, size: 1 })
+      if (publishedRes.data) {
+        stats.activeJobs = publishedRes.data.total || 0
+      }
+    } catch (e) {
+      // 忽略
+    }
+    // 待审核职位（auditStatus=0返回audit_status=0且status=1的职位）
+    try {
+      const pendingRes = await getJobList({ page: 1, size: 1, auditStatus: 0 })
+      if (pendingRes.data) {
+        stats.pendingAudit = pendingRes.data.total || 0
+      }
+    } catch (e) {
+      // 忽略
+    }
+    // 已通过审核的职位（auditStatus=1）
+    try {
+      const approvedRes = await getJobList({ page: 1, size: 1, auditStatus: 1 })
+      if (approvedRes.data) {
+        stats.totalJobs = stats.activeJobs + stats.pendingAudit + (approvedRes.data.total || 0)
+      }
+    } catch (e) {
+      // 忽略
     }
 
     // 加载报名总数统计

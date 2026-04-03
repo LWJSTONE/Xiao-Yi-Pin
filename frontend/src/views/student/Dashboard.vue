@@ -120,7 +120,15 @@ const loadData = async () => {
       const appRes = await getMyApplications({ page: 1, size: 10 })
       if (appRes.data) {
         stats.applications = appRes.data.total || 0
-        stats.hired = (appRes.data.records || []).filter(a => a.status === 3).length
+        // 获取更多数据以准确统计已录用数量
+        try {
+          const allAppRes = await getMyApplications({ page: 1, size: 1000 })
+          if (allAppRes.data) {
+            stats.hired = (allAppRes.data.records || []).filter(a => a.status === 3).length
+          }
+        } catch (e2) {
+          stats.hired = (appRes.data.records || []).filter(a => a.status === 3).length
+        }
       }
     } catch (e) {
       ElMessage.warning('加载报名统计失败')
