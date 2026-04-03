@@ -56,7 +56,7 @@
         WHERE jp.deleted = 0
         <if test="auditStatus != null">
             AND jp.audit_status = #{auditStatus}
-        <if test="auditStatus == 1">
+        <if test="auditStatus == 0 || auditStatus == 1">
             AND jp.status = 1
         </if>
         </if>

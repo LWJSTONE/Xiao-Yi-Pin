@@ -15,6 +15,7 @@ import JobList from '@/views/student/JobList.vue'
 import JobDetail from '@/views/student/JobDetail.vue'
 import MyApplications from '@/views/student/MyApplications.vue'
 import MyReviews from '@/views/student/MyReviews.vue'
+import StudentOrders from '@/views/student/MyOrders.vue'
 
 // 雇主页面
 import EmployerDashboard from '@/views/employer/Dashboard.vue'
@@ -89,6 +90,12 @@ const routes = [
         name: 'MyReviews',
         component: MyReviews,
         meta: { title: '我的评价', icon: 'Star' }
+      },
+      {
+        path: 'orders',
+        name: 'StudentOrders',
+        component: StudentOrders,
+        meta: { title: '我的订单', icon: 'Tickets' }
       },
       {
         path: 'profile',

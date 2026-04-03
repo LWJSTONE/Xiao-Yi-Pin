@@ -42,6 +42,7 @@
 import { ref, onMounted } from 'vue'
 import { getMyReviews } from '@/api/order'
 import { formatDate } from '@/utils/format'
+import { ElMessage } from 'element-plus'
 
 const loading = ref(false)
 const reviews = ref([])
@@ -59,6 +60,7 @@ const loadReviews = async () => {
     }
   } catch (error) {
     console.error('加载评价列表失败：', error)
+    ElMessage.error('加载评价列表失败')
   } finally {
     loading.value = false
   }

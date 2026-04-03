@@ -3,7 +3,6 @@ package com.campus.common.utils;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 
 import javax.crypto.SecretKey;
@@ -33,7 +32,7 @@ public class JwtUtils {
                 .claim("roleType", roleType)
                 .setIssuedAt(now)
                 .setExpiration(expireDate)
-                .signWith(key, SignatureAlgorithm.HS256)
+                .signWith(key)
                 .compact();
     }
 

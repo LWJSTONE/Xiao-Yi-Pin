@@ -140,6 +140,7 @@ const loadData = async () => {
     }
   } catch (error) {
     console.error('加载数据失败：', error)
+    ElMessage.error('加载数据失败')
   }
 }
 </script>

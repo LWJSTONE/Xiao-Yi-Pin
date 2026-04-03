@@ -52,6 +52,9 @@
               <el-tag :type="verifyStatusColorMap[profile.verifiedStatus] || 'info'">
                 {{ verifyStatusMap[profile.verifiedStatus] || '未认证' }}
               </el-tag>
+              <el-button v-if="canApplyVerify" type="primary" link size="small" style="margin-left: 12px;" @click="verifyDialogVisible = true">
+                申请认证
+              </el-button>
             </el-descriptions-item>
             <el-descriptions-item label="信用分">{{ profile.creditScore || 0 }}</el-descriptions-item>
             <el-descriptions-item label="余额">¥ {{ profile.balance || '0.00' }}</el-descriptions-item>
@@ -60,12 +63,36 @@
         </div>
       </div>
     </el-card>
+
+    <!-- 实名认证对话框 -->
+    <el-dialog v-model="verifyDialogVisible" title="申请实名认证" width="500px">
+      <el-form :model="verifyForm" label-width="100px">
+        <el-form-item label="真实姓名" required>
+          <el-input v-model="verifyForm.realName" placeholder="请输入真实姓名" maxlength="50" />
+        </el-form-item>
+        <el-form-item label="身份证号" required>
+          <el-input v-model="verifyForm.idCard" placeholder="请输入18位身份证号" maxlength="18" />
+        </el-form-item>
+        <el-form-item label="身份证图片" required>
+          <el-input v-model="verifyForm.idCardImage" placeholder="请输入身份证图片URL" />
+        </el-form-item>
+        <el-form-item label="认证类型" required>
+          <el-select v-model="verifyForm.verifyType" style="width: 100%;">
+            <el-option label="身份证认证" value="IDENTITY" />
+          </el-select>
+        </el-form-item>
+      </el-form>
+      <template #footer>
+        <el-button @click="verifyDialogVisible = false">取消</el-button>
+        <el-button type="primary" :loading="verifyLoading" @click="handleApplyVerify">提交认证</el-button>
+      </template>
+    </el-dialog>
   </div>
 </template>
 
 <script setup>
-import { ref, reactive, onMounted } from 'vue'
-import { getMyProfile, updateMyProfile } from '@/api/user'
+import { ref, reactive, computed, onMounted } from 'vue'
+import { getMyProfile, updateMyProfile, applyVerify, getVerifyStatus } from '@/api/user'
 import { formatDate, roleTypeMap, roleColorMap } from '@/utils/format'
 import { ElMessage } from 'element-plus'
 
@@ -96,6 +123,20 @@ const rules = {}
 const verifyStatusMap = { 0: '未认证', 1: '审核中', 2: '已认证', 3: '认证失败' }
 const verifyStatusColorMap = { 0: 'info', 1: 'warning', 2: 'success', 3: 'danger' }
 
+const verifyDialogVisible = ref(false)
+const verifyLoading = ref(false)
+const verifyForm = reactive({
+  realName: '',
+  idCard: '',
+  idCardImage: '',
+  verifyType: 'IDENTITY'
+})
+
+const canApplyVerify = computed(() => {
+  const status = profile.value.verifiedStatus
+  return status === 0 || status === 3
+})
+
 onMounted(() => {
   loadProfile()
 })
@@ -115,8 +156,27 @@ const loadProfile = async () => {
     }
   } catch (error) {
     console.error('加载个人资料失败：', error)
+    ElMessage.error('加载个人资料失败')
   } finally {
     loading.value = false
+  }
+}
+
+const handleApplyVerify = async () => {
+  if (!verifyForm.realName || !verifyForm.idCard || !verifyForm.idCardImage) {
+    ElMessage.warning('请填写完整的认证信息')
+    return
+  }
+  verifyLoading.value = true
+  try {
+    await applyVerify({ ...verifyForm })
+    ElMessage.success('认证申请已提交，请等待审核')
+    verifyDialogVisible.value = false
+    loadProfile()
+  } catch (error) {
+    // 错误已在拦截器中处理
+  } finally {
+    verifyLoading.value = false
   }
 }
 

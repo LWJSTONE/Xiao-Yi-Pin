@@ -181,6 +181,7 @@ const loadCategories = async () => {
     categoryTree.value = res.data || []
   } catch (e) {
     console.error('加载分类失败：', e)
+    ElMessage.error('加载分类失败')
   } finally {
     loading.value = false
   }

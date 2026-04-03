@@ -28,6 +28,10 @@
             <el-icon><Document /></el-icon>
             <span>我的报名</span>
           </el-menu-item>
+          <el-menu-item index="/student/orders">
+            <el-icon><Tickets /></el-icon>
+            <span>我的订单</span>
+          </el-menu-item>
           <el-menu-item index="/student/reviews">
             <el-icon><Star /></el-icon>
             <span>我的评价</span>
