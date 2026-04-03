@@ -43,7 +43,7 @@
                 class="captcha-input"
               />
               <div class="captcha-img" @click="refreshCaptcha" v-loading="captchaLoading">
-                <span v-if="captchaText">{{ captchaText }}</span>
+                <img v-if="captchaText" :src="captchaText" alt="验证码" style="height: 40px; width: 120px; object-fit: cover;" />
                 <span v-else style="font-size: 12px; color: #909399;">加载中...</span>
               </div>
             </div>

@@ -16,11 +16,14 @@ public class SysDict implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    /** 字典类型（主键） */
-    @TableId(type = IdType.INPUT)
+    /** 主键ID */
+    @TableId(type = IdType.AUTO)
+    private Long id;
+
+    /** 字典类型 */
     private String dictType;
 
-    /** 字典编码（主键） */
+    /** 字典编码 */
     private String dictCode;
 
     /** 字典标签 */

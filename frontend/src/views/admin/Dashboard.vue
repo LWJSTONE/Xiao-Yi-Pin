@@ -119,7 +119,7 @@ onMounted(() => {
 const loadStats = async () => {
   try {
     // 加载用户统计 - 获取所有用户以统计角色分布
-    const userRes = await listUsers({ page: 1, size: 10 })
+    const userRes = await listUsers({ page: 1, size: 1000 })
     if (userRes.data) {
       const users = userRes.data.records || []
       stats.totalUsers = userRes.data.total || 0

@@ -75,12 +75,15 @@ public class ReviewServiceImpl implements ReviewService {
         reviewMapper.insert(review);
 
         // 使用原子操作更新信用分，防止并发竞态条件
+        // 评分>=4: +2分, 评分2-3: 不变, 评分<2: -1分
         int scoreChange = dto.getRating() >= 4 ? 2 : (dto.getRating() >= 2 ? 0 : -1);
-        userProfileMapper.update(null,
-                new LambdaUpdateWrapper<UserProfile>()
-                        .eq(UserProfile::getUserId, dto.getTargetId())
-                        .setSql("credit_score = GREATEST(0, credit_score + " + Math.abs(scoreChange) + ")")
-        );
+        if (scoreChange != 0) {
+            userProfileMapper.update(null,
+                    new LambdaUpdateWrapper<UserProfile>()
+                            .eq(UserProfile::getUserId, dto.getTargetId())
+                            .setSql("credit_score = GREATEST(0, credit_score + " + scoreChange + ")")
+            );
+        }
 
         // 检查是否双方都已评价，双方都评价后才标记为已评价
         Long reviewCount = reviewMapper.selectCount(

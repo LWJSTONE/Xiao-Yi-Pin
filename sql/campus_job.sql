@@ -175,12 +175,14 @@ CREATE TABLE review (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS sys_dict;
 CREATE TABLE sys_dict (
-    dict_type       VARCHAR(50)     NOT NULL                 COMMENT '字典类型（主键）',
-    dict_code       VARCHAR(50)     NOT NULL                 COMMENT '字典编码（主键）',
+    id              BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '主键ID',
+    dict_type       VARCHAR(50)     NOT NULL                 COMMENT '字典类型',
+    dict_code       VARCHAR(50)     NOT NULL                 COMMENT '字典编码',
     dict_label      VARCHAR(100)    DEFAULT NULL             COMMENT '字典标签',
     sort_order      INT             DEFAULT 0                COMMENT '排序号',
     status          INT             DEFAULT 1                COMMENT '状态: 0-禁用, 1-启用',
-    PRIMARY KEY (dict_type, dict_code),
+    PRIMARY KEY (id),
+    UNIQUE KEY uk_dict_type_code (dict_type, dict_code),
     KEY idx_dict_type (dict_type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='系统字典表';
 
