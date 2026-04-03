@@ -10,7 +10,7 @@ set MAVEN_HOME=C:\Program Files\Apache\maven-3.8.8
 set PATH=%JAVA_HOME%\bin;%MAVEN_HOME%\bin;%PATH%
 
 :: 编译项目
-echo [1/6] 正在编译项目...
+echo [1/7] 正在编译项目...
 call mvn clean package -DskipTests -f %~dp0pom.xml
 if %errorlevel% neq 0 (
     echo 编译失败！请检查错误信息
@@ -19,27 +19,27 @@ if %errorlevel% neq 0 (
 )
 
 :: 启动Nacos（假设已安装在 C:\nacos）
-echo [2/6] 启动Nacos...
+echo [2/7] 启动Nacos...
 start "Nacos" cmd /c "C:\nacos\bin\startup.cmd -m standalone"
 timeout /t 15 /nobreak >nul
 
 :: 启动Gateway
-echo [3/6] 启动网关服务(8080)...
+echo [3/7] 启动网关服务(8080)...
 start "Gateway" cmd /c "java -jar %~dp0campus-gateway\target\campus-gateway-1.0.0.jar"
 timeout /t 10 /nobreak >nul
 
 :: 启动Auth
-echo [4/6] 启动认证服务(8081)...
+echo [4/7] 启动认证服务(8081)...
 start "Auth" cmd /c "java -jar %~dp0campus-auth\target\campus-auth-1.0.0.jar"
 timeout /t 10 /nobreak >nul
 
 :: 启动User
-echo [5/6] 启动用户服务(8082)...
+echo [5/7] 启动用户服务(8082)...
 start "User" cmd /c "java -jar %~dp0campus-user\target\campus-user-1.0.0.jar"
 timeout /t 10 /nobreak >nul
 
 :: 启动Job
-echo [6/6] 启动职位服务(8083)...
+echo [6/7] 启动职位服务(8083)...
 start "Job" cmd /c "java -jar %~dp0campus-job\target\campus-job-1.0.0.jar"
 timeout /t 5 /nobreak >nul
 

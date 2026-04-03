@@ -242,6 +242,7 @@ const handleCommand = async (command) => {
   height: calc(100vh - 60px - 60px);
   position: fixed;
   left: 0;
+  top: 60px;
   overflow-y: auto;
 }
 
