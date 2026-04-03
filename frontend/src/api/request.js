@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { ElMessage } from 'element-plus'
-import { getToken, removeToken } from '@/utils/token'
+import { getToken, setToken, removeToken, getRefreshToken, setRefreshToken } from '@/utils/token'
 import router from '@/router'
 
 // 创建 axios 实例
@@ -11,6 +11,26 @@ const service = axios.create({
     'Content-Type': 'application/json'
   }
 })
+
+// 是否正在刷新token
+let isRefreshing = false
+// 刷新token期间的请求队列
+let refreshSubscribers = []
+
+/**
+ * 将请求加入队列，等待token刷新后重试
+ */
+function subscribeTokenRefresh(cb) {
+  refreshSubscribers.push(cb)
+}
+
+/**
+ * token刷新成功后，重试队列中的所有请求
+ */
+function onTokenRefreshed(newToken) {
+  refreshSubscribers.forEach(cb => cb(newToken))
+  refreshSubscribers = []
+}
 
 // 请求拦截器
 service.interceptors.request.use(
@@ -37,9 +57,7 @@ service.interceptors.response.use(
     }
     // 401: Token 过期或未授权
     if (res.code === 401) {
-      removeToken()
-      ElMessage.error(res.message || '登录已过期，请重新登录')
-      router.push('/login')
+      handleUnauthorized()
       return Promise.reject(new Error(res.message || '未授权'))
     }
     // 其他错误
@@ -48,13 +66,50 @@ service.interceptors.response.use(
   },
   (error) => {
     console.error('响应错误：', error)
+    const originalRequest = error.config
     let message = '网络错误，请稍后重试'
     if (error.response) {
       switch (error.response.status) {
         case 401:
           message = '登录已过期，请重新登录'
-          removeToken()
-          router.push('/login')
+          // 尝试使用refreshToken刷新
+          const refreshTokenVal = getRefreshToken()
+          if (refreshTokenVal && !originalRequest._retry) {
+            if (isRefreshing) {
+              // 正在刷新token，将请求加入队列
+              return new Promise((resolve) => {
+                subscribeTokenRefresh((newToken) => {
+                  originalRequest.headers['Authorization'] = `Bearer ${newToken}`
+                  resolve(service(originalRequest))
+                })
+              })
+            }
+            originalRequest._retry = true
+            isRefreshing = true
+            return axios.post(`${import.meta.env.VITE_API_BASE_URL}/v1/auth/refresh`, {
+              refreshToken: refreshTokenVal
+            }).then((res) => {
+              const data = res.data
+              if (data.code === 200 && data.data) {
+                const newAccessToken = data.data.accessToken
+                const newRefreshTokenVal = data.data.refreshToken
+                setToken(newAccessToken)
+                setRefreshToken(newRefreshTokenVal)
+                originalRequest.headers['Authorization'] = `Bearer ${newAccessToken}`
+                onTokenRefreshed(newAccessToken)
+                return service(originalRequest)
+              } else {
+                handleUnauthorized()
+                return Promise.reject(error)
+              }
+            }).catch((refreshError) => {
+              handleUnauthorized()
+              return Promise.reject(refreshError)
+            }).finally(() => {
+              isRefreshing = false
+            })
+          }
+          handleUnauthorized()
           break
         case 403:
           message = '没有权限访问该资源'
@@ -71,9 +126,20 @@ service.interceptors.response.use(
     } else if (error.code === 'ECONNABORTED') {
       message = '请求超时，请稍后重试'
     }
-    ElMessage.error(message)
+    if (error.response?.status !== 401) {
+      ElMessage.error(message)
+    }
     return Promise.reject(error)
   }
 )
+
+/**
+ * 处理未授权：清除token并跳转登录页
+ */
+function handleUnauthorized() {
+  removeToken()
+  router.push('/login')
+  ElMessage.error('登录已过期，请重新登录')
+}
 
 export default service

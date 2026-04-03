@@ -142,16 +142,6 @@ const loadData = async () => {
         recentApplications.value = appRes.data.records || []
         stats.totalApplications = appRes.data.total || 0
       }
-      // 使用分页total统计待审核数量，避免拉取大量数据
-      try {
-        const pendingRes = await getJobApplications({ page: 1, size: 1 })
-        if (pendingRes.data) {
-          // totalApplications 即为该雇主所有申请总数
-          stats.totalApplications = pendingRes.data.total || stats.totalApplications
-        }
-      } catch (e2) {
-        // 使用已有数据
-      }
     } catch (e) {
       ElMessage.warning('加载报名数据失败')
     }

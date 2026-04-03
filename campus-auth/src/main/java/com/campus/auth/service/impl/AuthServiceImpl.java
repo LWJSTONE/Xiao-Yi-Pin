@@ -68,9 +68,14 @@ public class AuthServiceImpl implements AuthService {
         String captchaKey = UUID.randomUUID().toString().replace("-", "");
 
         // 存储到Redis，5分钟过期
-        String redisKey = RedisConstant.CAPTCHA_KEY + captchaKey;
-        stringRedisTemplate.opsForValue().set(redisKey, captchaCode,
-                CAPTCHA_EXPIRE_SECONDS, TimeUnit.SECONDS);
+        try {
+            String redisKey = RedisConstant.CAPTCHA_KEY + captchaKey;
+            stringRedisTemplate.opsForValue().set(redisKey, captchaCode,
+                    CAPTCHA_EXPIRE_SECONDS, TimeUnit.SECONDS);
+        } catch (Exception e) {
+            log.error("存储验证码到Redis失败", e);
+            throw new BusinessException("验证码服务暂时不可用，请稍后再试");
+        }
 
         Map<String, String> result = new HashMap<>();
         result.put("captchaKey", captchaKey);
@@ -86,9 +91,15 @@ public class AuthServiceImpl implements AuthService {
             throw new BusinessException(1006, "验证码不能为空");
         }
         String captchaRedisKey = RedisConstant.CAPTCHA_KEY + dto.getCaptchaKey();
-        String storedCaptcha = stringRedisTemplate.opsForValue().get(captchaRedisKey);
-        // 验证后立即删除，防止重复使用
-        stringRedisTemplate.delete(captchaRedisKey);
+        String storedCaptcha = null;
+        try {
+            storedCaptcha = stringRedisTemplate.opsForValue().get(captchaRedisKey);
+            // 验证后立即删除，防止重复使用
+            stringRedisTemplate.delete(captchaRedisKey);
+        } catch (Exception e) {
+            log.error("Redis操作失败", e);
+            throw new BusinessException("验证码服务异常，请稍后再试");
+        }
         if (storedCaptcha == null) {
             throw new BusinessException(1006, "验证码已过期，请刷新");
         }
@@ -123,9 +134,14 @@ public class AuthServiceImpl implements AuthService {
                 refreshTokenExpire, jwtSecret);
 
         // 6. 存储Token到Redis（以登录Token为Key，TTL为访问Token的过期时间）
-        String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + sysUser.getId();
-        stringRedisTemplate.opsForValue().set(tokenKey, accessToken,
-                accessTokenExpire, TimeUnit.MILLISECONDS);
+        try {
+            String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + sysUser.getId();
+            stringRedisTemplate.opsForValue().set(tokenKey, accessToken,
+                    accessTokenExpire, TimeUnit.MILLISECONDS);
+        } catch (Exception e) {
+            log.error("存储登录Token到Redis失败, userId={}", sysUser.getId(), e);
+            // Token存储失败不影响登录流程，仅记录日志
+        }
 
         // 7. 构建返回
         LoginVO loginVO = new LoginVO();
@@ -180,7 +196,13 @@ public class AuthServiceImpl implements AuthService {
 
         // 2. 检查黑名单
         String blacklistKey = RedisConstant.USER_BLACKLIST + userId;
-        Boolean isBlacklisted = stringRedisTemplate.hasKey(blacklistKey);
+        Boolean isBlacklisted = false;
+        try {
+            isBlacklisted = stringRedisTemplate.hasKey(blacklistKey);
+        } catch (Exception e) {
+            log.error("检查Redis黑名单失败, userId={}", userId, e);
+            throw new BusinessException("服务异常，请稍后再试");
+        }
         if (Boolean.TRUE.equals(isBlacklisted)) {
             throw new BusinessException(1004, "用户已登出，请重新登录");
         }
@@ -192,9 +214,13 @@ public class AuthServiceImpl implements AuthService {
                 refreshTokenExpire, jwtSecret);
 
         // 4. 更新Redis中的Token
-        String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + userId;
-        stringRedisTemplate.opsForValue().set(tokenKey, newAccessToken,
-                accessTokenExpire, TimeUnit.MILLISECONDS);
+        try {
+            String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + userId;
+            stringRedisTemplate.opsForValue().set(tokenKey, newAccessToken,
+                    accessTokenExpire, TimeUnit.MILLISECONDS);
+        } catch (Exception e) {
+            log.error("更新Redis Token失败, userId={}", userId, e);
+        }
 
         // 5. 构建返回
         LoginVO loginVO = new LoginVO();
@@ -212,13 +238,17 @@ public class AuthServiceImpl implements AuthService {
     @Override
     public void logout(Long userId) {
         // 1. 将用户ID加入黑名单（TTL与刷新Token过期时间一致）
-        String blacklistKey = RedisConstant.USER_BLACKLIST + userId;
-        stringRedisTemplate.opsForValue().set(blacklistKey, String.valueOf(System.currentTimeMillis()),
-                refreshTokenExpire, TimeUnit.MILLISECONDS);
+        try {
+            String blacklistKey = RedisConstant.USER_BLACKLIST + userId;
+            stringRedisTemplate.opsForValue().set(blacklistKey, String.valueOf(System.currentTimeMillis()),
+                    refreshTokenExpire, TimeUnit.MILLISECONDS);
 
-        // 2. 移除登录Token
-        String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + userId;
-        stringRedisTemplate.delete(tokenKey);
+            // 2. 移除登录Token
+            String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + userId;
+            stringRedisTemplate.delete(tokenKey);
+        } catch (Exception e) {
+            log.error("登出时Redis操作失败, userId={}", userId, e);
+        }
 
         log.info("用户登出成功, userId={}", userId);
     }

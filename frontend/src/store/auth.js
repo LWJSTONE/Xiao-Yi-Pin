@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import { login as loginApi, logout as logoutApi, getCurrentUser } from '@/api/auth'
-import { getToken, setToken, removeToken } from '@/utils/token'
+import { getToken, setToken, removeToken, setRefreshToken } from '@/utils/token'
 
 export const useAuthStore = defineStore('auth', () => {
   // 状态
@@ -27,6 +27,10 @@ export const useAuthStore = defineStore('auth', () => {
       const data = res.data
       token.value = data.accessToken
       setToken(data.accessToken)
+      // 存储refreshToken用于自动刷新
+      if (data.refreshToken) {
+        setRefreshToken(data.refreshToken)
+      }
       userInfo.value = {
         username: data.username || loginForm.username,
         roleType: data.roleType,

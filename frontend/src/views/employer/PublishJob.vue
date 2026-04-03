@@ -213,24 +213,27 @@ const loadJobDetail = async () => {
 
 const handleSubmit = async () => {
   if (!formRef.value) return
-  await formRef.value.validate(async (valid) => {
-    if (!valid) return
-    submitLoading.value = true
-    try {
-      if (isEdit.value) {
-        await updateJob(route.query.editId, { ...form })
-        ElMessage.success('职位修改成功')
-      } else {
-        await publishJob({ ...form })
-        ElMessage.success('职位发布成功，等待审核')
-      }
-      router.push('/employer/jobs')
-    } catch (error) {
-      // 错误已在拦截器中处理
-    } finally {
-      submitLoading.value = false
+  try {
+    await formRef.value.validate()
+  } catch (e) {
+    return
+  }
+
+  submitLoading.value = true
+  try {
+    if (isEdit.value) {
+      await updateJob(route.query.editId, { ...form })
+      ElMessage.success('职位修改成功')
+    } else {
+      await publishJob({ ...form })
+      ElMessage.success('职位发布成功，等待审核')
     }
-  })
+    router.push('/employer/jobs')
+  } catch (error) {
+    // 错误已在拦截器中处理
+  } finally {
+    submitLoading.value = false
+  }
 }
 
 const handleSaveDraft = async () => {

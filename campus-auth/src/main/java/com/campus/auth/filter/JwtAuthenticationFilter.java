@@ -59,11 +59,16 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
             // 检查Redis黑名单
             String blacklistKey = RedisConstant.USER_BLACKLIST + userId;
-            Boolean isBlacklisted = stringRedisTemplate.hasKey(blacklistKey);
-            if (Boolean.TRUE.equals(isBlacklisted)) {
-                log.warn("用户已登出，userId={}", userId);
-                filterChain.doFilter(request, response);
-                return;
+            try {
+                Boolean isBlacklisted = stringRedisTemplate.hasKey(blacklistKey);
+                if (Boolean.TRUE.equals(isBlacklisted)) {
+                    log.warn("用户已登出，userId={}", userId);
+                    filterChain.doFilter(request, response);
+                    return;
+                }
+            } catch (Exception e) {
+                log.error("检查Redis黑名单失败，放行请求", e);
+                // Redis不可用时放行请求，由下游服务自行处理
             }
 
             // 构建权限列表

@@ -34,10 +34,11 @@ CREATE TABLE sys_user (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS user_profile;
 CREATE TABLE user_profile (
-    id              BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '主键ID',
+    id              BIGINT          NOT NULL                 COMMENT '主键ID',
     user_id         BIGINT          NOT NULL                 COMMENT '用户ID',
     real_name       VARCHAR(50)     DEFAULT NULL             COMMENT '真实姓名',
     id_card_hash    VARCHAR(128)    DEFAULT NULL             COMMENT '身份证哈希',
+    id_card_image   VARCHAR(500)    DEFAULT NULL             COMMENT '身份证图片URL',
     gender          INT             DEFAULT 0                COMMENT '性别: 0-未知, 1-男, 2-女',
     university      VARCHAR(100)    DEFAULT NULL             COMMENT '学校',
     major           VARCHAR(100)    DEFAULT NULL             COMMENT '专业',
@@ -59,7 +60,7 @@ CREATE TABLE user_profile (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS job_category;
 CREATE TABLE job_category (
-    id              BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '分类ID',
+    id              BIGINT          NOT NULL                 COMMENT '分类ID',
     name            VARCHAR(50)     NOT NULL                 COMMENT '分类名称',
     parent_id       BIGINT          DEFAULT 0                COMMENT '父分类ID',
     sort_order      INT             DEFAULT 0                COMMENT '排序号',
@@ -74,7 +75,7 @@ CREATE TABLE job_category (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS job_post;
 CREATE TABLE job_post (
-    id              BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '岗位ID',
+    id              BIGINT          NOT NULL                 COMMENT '岗位ID',
     publisher_id    BIGINT          NOT NULL                 COMMENT '发布者ID',
     category_id     BIGINT          NOT NULL                 COMMENT '分类ID',
     title           VARCHAR(100)    NOT NULL                 COMMENT '岗位标题',
@@ -108,7 +109,7 @@ CREATE TABLE job_post (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS application;
 CREATE TABLE application (
-    id              BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '申请ID',
+    id              BIGINT          NOT NULL                 COMMENT '申请ID',
     job_id          BIGINT          NOT NULL                 COMMENT '岗位ID',
     applicant_id    BIGINT          NOT NULL                 COMMENT '申请人ID',
     resume_url      VARCHAR(500)    DEFAULT NULL             COMMENT '简历URL',
@@ -128,7 +129,7 @@ CREATE TABLE application (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS order_record;
 CREATE TABLE order_record (
-    id                  BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '订单ID',
+    id                  BIGINT          NOT NULL                 COMMENT '订单ID',
     application_id      BIGINT          NOT NULL                 COMMENT '申请ID',
     student_id          BIGINT          NOT NULL                 COMMENT '学生ID',
     employer_id         BIGINT          NOT NULL                 COMMENT '雇主ID',
@@ -154,7 +155,7 @@ CREATE TABLE order_record (
 -- ------------------------------------------------------------
 DROP TABLE IF EXISTS review;
 CREATE TABLE review (
-    id              BIGINT          NOT NULL AUTO_INCREMENT  COMMENT '评价ID',
+    id              BIGINT          NOT NULL                 COMMENT '评价ID',
     order_id        BIGINT          NOT NULL                 COMMENT '订单ID',
     reviewer_id     BIGINT          NOT NULL                 COMMENT '评价人ID',
     target_id       BIGINT          NOT NULL                 COMMENT '被评价人ID',

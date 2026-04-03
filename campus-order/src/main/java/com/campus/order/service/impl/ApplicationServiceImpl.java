@@ -55,8 +55,14 @@ public class ApplicationServiceImpl implements ApplicationService {
     public void applyJob(Long studentId, Long jobId, ApplyDTO dto) {
         // 获取分布式锁，防止同一岗位并发超卖
         String lockKey = RedisConstant.JOB_LOCK + jobId;
-        Boolean locked = stringRedisTemplate.opsForValue()
-                .setIfAbsent(lockKey, "1", LOCK_EXPIRE_SECONDS, TimeUnit.SECONDS);
+        Boolean locked = false;
+        try {
+            locked = stringRedisTemplate.opsForValue()
+                    .setIfAbsent(lockKey, "1", LOCK_EXPIRE_SECONDS, TimeUnit.SECONDS);
+        } catch (Exception e) {
+            log.error("获取分布式锁失败, jobId={}", jobId, e);
+            throw new BusinessException("服务繁忙，请稍后再试");
+        }
         if (Boolean.FALSE.equals(locked)) {
             throw new BusinessException("操作太频繁，请稍后再试");
         }
@@ -95,7 +101,11 @@ public class ApplicationServiceImpl implements ApplicationService {
             log.info("学生{}成功报名岗位{}", studentId, jobId);
         } finally {
             // 释放分布式锁
-            stringRedisTemplate.delete(lockKey);
+            try {
+                stringRedisTemplate.delete(lockKey);
+            } catch (Exception e) {
+                log.error("释放分布式锁失败, lockKey={}", lockKey, e);
+            }
         }
     }
 

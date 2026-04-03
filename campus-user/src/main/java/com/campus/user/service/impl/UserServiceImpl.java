@@ -135,6 +135,10 @@ public class UserServiceImpl implements UserService {
         String idCardHash = DigestUtil.sha256Hex(dto.getIdCard());
         profile.setIdCardHash(idCardHash);
         profile.setRealName(dto.getRealName());
+        // 存储身份证图片URL
+        if (dto.getIdCardImage() != null) {
+            profile.setIdCardImage(dto.getIdCardImage());
+        }
         // 设置认证状态为审核中
         profile.setVerifiedStatus(1);
 

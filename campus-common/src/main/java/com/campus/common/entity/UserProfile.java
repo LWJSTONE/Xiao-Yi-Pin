@@ -53,6 +53,9 @@ public class UserProfile extends BaseEntity {
     /** 头像URL */
     private String avatarUrl;
 
+    /** 身份证图片URL（用于实名认证审核） */
+    private String idCardImage;
+
     /** 实名认证状态: 0-未认证, 1-审核中, 2-已认证, 3-认证失败 */
     private Integer verifiedStatus;
 }

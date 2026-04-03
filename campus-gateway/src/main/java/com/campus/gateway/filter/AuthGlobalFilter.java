@@ -85,9 +85,14 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
 
         // 检查Redis黑名单
         String blacklistKey = RedisConstant.USER_BLACKLIST + userId;
-        Boolean isBlacklisted = stringRedisTemplate.hasKey(blacklistKey);
-        if (Boolean.TRUE.equals(isBlacklisted)) {
-            return unauthorizedResponse(response, "用户已登出，请重新登录");
+        try {
+            Boolean isBlacklisted = stringRedisTemplate.hasKey(blacklistKey);
+            if (Boolean.TRUE.equals(isBlacklisted)) {
+                return unauthorizedResponse(response, "用户已登出，请重新登录");
+            }
+        } catch (Exception e) {
+            log.error("检查Redis黑名单失败，放行请求", e);
+            // Redis不可用时放行请求，由下游服务自行处理
         }
 
         // 将用户信息添加到请求头，传递给下游服务

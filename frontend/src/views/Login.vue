@@ -133,34 +133,36 @@ onMounted(() => {
 // 登录
 const handleLogin = async () => {
   if (!loginFormRef.value) return
-  await loginFormRef.value.validate(async (valid) => {
-    if (!valid) return
+  try {
+    await loginFormRef.value.validate()
+  } catch (e) {
+    return
+  }
 
-    loading.value = true
-    try {
-      await authStore.login(loginForm)
-      ElMessage.success('登录成功')
+  loading.value = true
+  try {
+    await authStore.login(loginForm)
+    ElMessage.success('登录成功')
 
-      // 根据角色跳转
-      const role = authStore.userInfo.roleType
-      const redirect = route.query.redirect
-      if (redirect && redirect.startsWith('/') && !redirect.startsWith('//')) {
-        router.push(redirect)
-      } else if (role === 'ADMIN') {
-        router.push('/admin/dashboard')
-      } else if (role === 'STUDENT') {
-        router.push('/student/dashboard')
-      } else if (role === 'EMPLOYER') {
-        router.push('/employer/dashboard')
-      } else {
-        router.push('/login')
-      }
-    } catch (error) {
-      refreshCaptcha()
-    } finally {
-      loading.value = false
+    // 根据角色跳转
+    const role = authStore.userInfo.roleType
+    const redirect = route.query.redirect
+    if (redirect && redirect.startsWith('/') && !redirect.startsWith('//')) {
+      router.push(redirect)
+    } else if (role === 'ADMIN') {
+      router.push('/admin/dashboard')
+    } else if (role === 'STUDENT') {
+      router.push('/student/dashboard')
+    } else if (role === 'EMPLOYER') {
+      router.push('/employer/dashboard')
+    } else {
+      router.push('/login')
     }
-  })
+  } catch (error) {
+    refreshCaptcha()
+  } finally {
+    loading.value = false
+  }
 }
 </script>
 
