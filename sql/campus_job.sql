@@ -112,7 +112,7 @@ CREATE TABLE application (
     job_id          BIGINT          NOT NULL                 COMMENT '岗位ID',
     applicant_id    BIGINT          NOT NULL                 COMMENT '申请人ID',
     resume_url      VARCHAR(500)    DEFAULT NULL             COMMENT '简历URL',
-    status          INT             DEFAULT 0                COMMENT '状态: 0-待审核, 1-已通过, 2-已拒绝, 3-已入职, 4-已退出',
+    status          INT             DEFAULT 0                COMMENT '状态: 0-待审核, 1-已通过, 2-已拒绝, 3-已入职, 4-已取消',
     apply_time      DATETIME        DEFAULT NULL             COMMENT '申请时间',
     review_time     DATETIME        DEFAULT NULL             COMMENT '审核时间',
     reject_reason   VARCHAR(500)    DEFAULT NULL             COMMENT '拒绝原因',

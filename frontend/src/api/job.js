@@ -43,7 +43,7 @@ export function getJobDetail(id) {
 /**
  * 审核职位（管理员）
  * @param {string} id - 职位ID
- * @param {Object} data - { auditStatus, auditReason }
+ * @param {Object} data - { auditStatus, auditRemark }
  */
 export function auditJob(id, data) {
   return request.put(`/v1/job/posts/${id}/audit`, data)
