@@ -120,7 +120,7 @@ onMounted(() => {
 const loadData = async () => {
   try {
     // 加载职位统计
-    const jobRes = await getMyJobs({ page: 1, size: 100 })
+    const jobRes = await getMyJobs({ page: 1, size: 10 })
     if (jobRes.data) {
       const jobs = jobRes.data.records || []
       stats.totalJobs = jobRes.data.total || 0

@@ -143,3 +143,41 @@ export const roleColorMap = {
   'STUDENT': 'primary',
   'EMPLOYER': 'success'
 }
+
+/**
+ * 结算状态映射
+ */
+export const settleStatusMap = {
+  0: '未结算',
+  1: '已结算',
+  2: '已评价'
+}
+
+/**
+ * 结算状态颜色映射
+ */
+export const settleStatusColorMap = {
+  0: 'warning',
+  1: 'success',
+  2: 'primary'
+}
+
+/**
+ * 认证状态映射
+ */
+export const verifyStatusMap = {
+  0: '未认证',
+  1: '审核中',
+  2: '已认证',
+  3: '认证失败'
+}
+
+/**
+ * 认证状态颜色映射
+ */
+export const verifyStatusColorMap = {
+  0: 'info',
+  1: 'warning',
+  2: 'success',
+  3: 'danger'
+}

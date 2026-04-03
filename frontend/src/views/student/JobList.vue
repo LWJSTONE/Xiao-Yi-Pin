@@ -120,7 +120,7 @@ const loadCategories = async () => {
         }
       })
     }
-    flatten(res.data)
+    if (res.data) flatten(res.data)
     categoryOptions.value = flatList
   } catch (e) {
     ElMessage.error('加载分类数据失败')

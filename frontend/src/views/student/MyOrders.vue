@@ -17,8 +17,8 @@
         </el-table-column>
         <el-table-column label="结算状态" width="100" align="center">
           <template #default="{ row }">
-            <el-tag :type="settleColorMap[row.settlementStatus] || 'info'" size="small">
-              {{ settleMap[row.settlementStatus] || '未知' }}
+            <el-tag :type="settleStatusColorMap[row.settlementStatus] || 'info'" size="small">
+              {{ settleStatusMap[row.settlementStatus] || '未知' }}
             </el-tag>
           </template>
         </el-table-column>
@@ -74,7 +74,7 @@
 <script setup>
 import { ref, reactive, onMounted, watch } from 'vue'
 import { getMyOrders, submitReview } from '@/api/order'
-import { formatDate } from '@/utils/format'
+import { formatDate, settleStatusMap, settleStatusColorMap } from '@/utils/format'
 import { ElMessage } from 'element-plus'
 import Pagination from '@/components/Pagination.vue'
 
@@ -89,8 +89,7 @@ const reviewLoading = ref(false)
 const currentOrderId = ref('')
 const reviewForm = reactive({ targetId: null, rating: 5, comment: '', type: '' })
 
-const settleMap = { '0': '未结算', '1': '已结算', '2': '已评价' }
-const settleColorMap = { '0': 'warning', '1': 'success', '2': 'primary' }
+
 
 onMounted(() => {
   loadOrders()

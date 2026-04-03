@@ -89,6 +89,8 @@
         v-model:page="page"
         v-model:size="size"
       />
+    </el-card>
+
     <!-- 拒绝对话框 -->
     <el-dialog v-model="rejectDialogVisible" title="拒绝原因" width="480px">
       <el-form :model="rejectForm" label-width="80px">
@@ -101,7 +103,6 @@
         <el-button type="danger" @click="confirmReject">确认拒绝</el-button>
       </template>
     </el-dialog>
-    </el-card>
   </div>
 </template>
 

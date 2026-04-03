@@ -234,6 +234,10 @@ const handleSubmit = async () => {
 }
 
 const handleSaveDraft = async () => {
+  if (!form.title || form.title.trim().length < 2) {
+    ElMessage.warning('请至少输入职位标题')
+    return
+  }
   submitLoading.value = true
   try {
     await publishJob({ ...form })

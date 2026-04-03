@@ -92,8 +92,8 @@
 
 <script setup>
 import { ref, reactive, computed, onMounted } from 'vue'
-import { getMyProfile, updateMyProfile, applyVerify, getVerifyStatus } from '@/api/user'
-import { formatDate, roleTypeMap, roleColorMap } from '@/utils/format'
+import { getMyProfile, updateMyProfile, applyVerify } from '@/api/user'
+import { formatDate, roleTypeMap, roleColorMap, verifyStatusMap, verifyStatusColorMap } from '@/utils/format'
 import { ElMessage } from 'element-plus'
 
 const formRef = ref(null)
@@ -118,10 +118,25 @@ const form = reactive({
   avatarUrl: ''
 })
 
-const rules = {}
+const rules = {
+  realName: [
+    { max: 50, message: '姓名不能超过50个字符', trigger: 'blur' }
+  ],
+  university: [
+    { max: 100, message: '学校名称不能超过100个字符', trigger: 'blur' }
+  ],
+  major: [
+    { max: 100, message: '专业不能超过100个字符', trigger: 'blur' }
+  ],
+  grade: [
+    { max: 20, message: '年级不能超过20个字符', trigger: 'blur' }
+  ],
+  avatarUrl: [
+    { max: 500, message: '头像URL不能超过500个字符', trigger: 'blur' }
+  ]
+}
 
-const verifyStatusMap = { 0: '未认证', 1: '审核中', 2: '已认证', 3: '认证失败' }
-const verifyStatusColorMap = { 0: 'info', 1: 'warning', 2: 'success', 3: 'danger' }
+
 
 const verifyDialogVisible = ref(false)
 const verifyLoading = ref(false)
@@ -167,6 +182,10 @@ const handleApplyVerify = async () => {
     ElMessage.warning('请填写完整的认证信息')
     return
   }
+  if (!/^\d{17}[\dXx]$/.test(verifyForm.idCard)) {
+    ElMessage.warning('请输入正确的18位身份证号')
+    return
+  }
   verifyLoading.value = true
   try {
     await applyVerify({ ...verifyForm })
@@ -181,6 +200,12 @@ const handleApplyVerify = async () => {
 }
 
 const handleSave = async () => {
+  if (!formRef.value) return
+  try {
+    await formRef.value.validate()
+  } catch (e) {
+    return
+  }
   saveLoading.value = true
   try {
     const res = await updateMyProfile({ ...form })

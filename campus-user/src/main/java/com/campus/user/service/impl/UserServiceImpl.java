@@ -131,8 +131,8 @@ public class UserServiceImpl implements UserService {
             throw new BusinessException("已完成实名认证，无需重复申请");
         }
 
-        // MD5哈希身份证号
-        String idCardHash = DigestUtil.md5Hex(dto.getIdCard());
+        // SHA-256哈希身份证号
+        String idCardHash = DigestUtil.sha256Hex(dto.getIdCard());
         profile.setIdCardHash(idCardHash);
         profile.setRealName(dto.getRealName());
         // 设置认证状态为审核中

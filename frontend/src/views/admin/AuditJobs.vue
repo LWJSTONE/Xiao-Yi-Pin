@@ -90,15 +90,14 @@ const jobs = ref([])
 const total = ref(0)
 const page = ref(1)
 const size = ref(10)
-const statusFilter = ref('0')
+const statusFilter = ref(0)
 
 const rejectDialogVisible = ref(false)
 const auditLoading = ref(false)
 const currentJobId = ref('')
 const rejectForm = reactive({ auditRemark: '' })
 
-const statusMap = auditStatusMap
-const statusColorMap = auditStatusColorMap
+
 
 onMounted(() => {
   loadJobs()

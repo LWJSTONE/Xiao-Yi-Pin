@@ -60,13 +60,9 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public Map<String, String> generateCaptcha() {
-        // 生成4位随机验证码
-        StringBuilder code = new StringBuilder();
-        for (int i = 0; i < 4; i++) {
-            int index = SECURE_RANDOM.nextInt(CAPTCHA_CHARS.length());
-            code.append(CAPTCHA_CHARS.charAt(index));
-        }
-        String captchaCode = code.toString();
+        // 使用Hutool生成算术验证码
+        cn.hutool.captcha.Captcha captcha = cn.hutool.captcha.CaptchaUtil.createShearCaptcha(120, 40, 4, 2);
+        String captchaCode = captcha.getCode();
 
         // 生成唯一key
         String captchaKey = UUID.randomUUID().toString().replace("-", "");
@@ -78,9 +74,8 @@ public class AuthServiceImpl implements AuthService {
 
         Map<String, String> result = new HashMap<>();
         result.put("captchaKey", captchaKey);
-        // 不返回captchaCode，防止客户端直接获取验证码答案
-        // 前端应通过captchaKey渲染验证码图片（后续优化为图片验证码）
-        result.put("captchaImg", captchaCode);
+        // 返回Base64编码的验证码图片
+        result.put("captchaImg", cn.hutool.captcha.CaptchaUtil.toBase64(captcha));
         return result;
     }
 

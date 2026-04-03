@@ -79,7 +79,7 @@ public class ReviewServiceImpl implements ReviewService {
         userProfileMapper.update(null,
                 new LambdaUpdateWrapper<UserProfile>()
                         .eq(UserProfile::getUserId, dto.getTargetId())
-                        .setSql("credit_score = GREATEST(0, credit_score + " + scoreChange + ")")
+                        .setSql("credit_score = GREATEST(0, credit_score + " + Math.abs(scoreChange) + ")")
         );
 
         // 检查是否双方都已评价，双方都评价后才标记为已评价

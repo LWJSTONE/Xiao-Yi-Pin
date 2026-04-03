@@ -57,7 +57,7 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
 
         // 白名单放行
         for (String whitePath : WHITE_LIST) {
-            if (path.equals(whitePath) || path.startsWith(whitePath)) {
+            if (path.equals(whitePath)) {
                 return chain.filter(exchange);
             }
         }

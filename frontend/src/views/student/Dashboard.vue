@@ -117,11 +117,10 @@ const loadData = async () => {
 
     // 加载我的报名统计
     try {
-      const appRes = await getMyApplications({ page: 1, size: 100 })
+      const appRes = await getMyApplications({ page: 1, size: 10 })
       if (appRes.data) {
-        const applications = appRes.data.records || []
         stats.applications = appRes.data.total || 0
-        stats.hired = applications.filter(a => a.status === 3).length
+        stats.hired = (appRes.data.records || []).filter(a => a.status === 3).length
       }
     } catch (e) {
       ElMessage.warning('加载报名统计失败')
@@ -129,7 +128,7 @@ const loadData = async () => {
 
     // 加载我的订单统计
     try {
-      const orderRes = await getMyOrders({ page: 1, size: 100 })
+      const orderRes = await getMyOrders({ page: 1, size: 1 })
       if (orderRes.data) {
         stats.orders = orderRes.data.total || 0
       }

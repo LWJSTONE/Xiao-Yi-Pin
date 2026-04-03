@@ -17,8 +17,8 @@
         </el-table-column>
         <el-table-column label="结算状态" width="100" align="center">
           <template #default="{ row }">
-            <el-tag :type="settleColorMap[row.settlementStatus] || 'info'" size="small">
-              {{ settleMap[row.settlementStatus] || '未知' }}
+            <el-tag :type="settleStatusColorMap[row.settlementStatus] || 'info'" size="small">
+              {{ settleStatusMap[row.settlementStatus] || '未知' }}
             </el-tag>
           </template>
         </el-table-column>
@@ -100,13 +100,28 @@
         <el-button type="primary" :loading="reviewLoading" @click="confirmReview">提交评价</el-button>
       </template>
     </el-dialog>
+
+    <!-- 查看评价对话框 -->
+    <el-dialog v-model="reviewsDialogVisible" title="订单评价" width="560px">
+      <div v-loading="reviewsLoading">
+        <el-empty v-if="!reviewsLoading && reviewsList.length === 0" description="暂无评价" />
+        <div v-for="review in reviewsList" :key="review.id" class="review-item">
+          <div class="review-header">
+            <span class="reviewer-name">{{ review.reviewerName || '匿名用户' }}</span>
+            <el-rate :model-value="review.rating" disabled show-score score-template="{value}分" />
+          </div>
+          <div class="review-comment">{{ review.comment || '无评价内容' }}</div>
+          <div class="review-time">{{ formatDate(review.createTime) }}</div>
+        </div>
+      </div>
+    </el-dialog>
   </div>
 </template>
 
 <script setup>
 import { ref, reactive, onMounted, watch } from 'vue'
 import { getMyOrders, settleOrder, submitReview, getOrderReviews } from '@/api/order'
-import { formatDate } from '@/utils/format'
+import { formatDate, settleStatusMap, settleStatusColorMap } from '@/utils/format'
 import { ElMessage } from 'element-plus'
 import Pagination from '@/components/Pagination.vue'
 
@@ -125,8 +140,7 @@ const reviewDialogVisible = ref(false)
 const reviewLoading = ref(false)
 const reviewForm = reactive({ targetId: null, rating: 5, comment: '', type: '' })
 
-const settleMap = { '0': '未结算', '1': '已结算', '2': '已评价' }
-const settleColorMap = { '0': 'warning', '1': 'success', '2': 'primary' }
+
 
 onMounted(() => {
   loadOrders()
@@ -154,6 +168,10 @@ const handleSettle = (row) => {
 }
 
 const confirmSettle = async () => {
+  if (!settleForm.amount || settleForm.amount <= 0) {
+    ElMessage.warning('请输入有效的结算金额')
+    return
+  }
   settleLoading.value = true
   try {
     await settleOrder(currentOrderId.value, { amount: settleForm.amount })
@@ -199,18 +217,21 @@ const confirmReview = async () => {
   }
 }
 
+const reviewsDialogVisible = ref(false)
+const reviewsList = ref([])
+const reviewsLoading = ref(false)
+
 const handleViewReviews = async (row) => {
+  reviewsDialogVisible.value = true
+  reviewsLoading.value = true
   try {
     const res = await getOrderReviews(row.id)
-    const reviews = res.data || []
-    if (reviews.length > 0) {
-      const review = reviews[reviews.length - 1]
-      ElMessage.info(`最新评价：${review.comment || '无内容'}（${review.rating}分）`)
-    } else {
-      ElMessage.info('暂无评价')
-    }
+    reviewsList.value = res.data || []
   } catch (e) {
     console.error('获取评价失败：', e)
+    ElMessage.error('获取评价失败')
+  } finally {
+    reviewsLoading.value = false
   }
 }
 
@@ -254,5 +275,33 @@ watch([page, size], () => {
 .no-action {
   color: #c0c4cc;
   font-size: 13px;
+}
+
+.review-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.review-item:last-child {
+  border-bottom: none;
+}
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.reviewer-name {
+  font-weight: 500;
+  color: #303133;
+}
+.review-comment {
+  font-size: 14px;
+  color: #606266;
+  line-height: 1.6;
+}
+.review-time {
+  font-size: 12px;
+  color: #c0c4cc;
+  margin-top: 6px;
 }
 </style>
