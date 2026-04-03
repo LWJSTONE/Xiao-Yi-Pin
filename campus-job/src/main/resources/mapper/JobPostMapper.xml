@@ -54,15 +54,20 @@
         LEFT JOIN sys_user su ON jp.publisher_id = su.id
         LEFT JOIN job_category jc ON jp.category_id = jc.id
         WHERE jp.deleted = 0
-        <if test="auditStatus != null">
-            AND jp.audit_status = #{auditStatus}
-            <if test="auditStatus == 0">
-                AND jp.status = 1
-            </if>
-        </if>
-        <if test="auditStatus == null">
-            AND jp.status = 2
-        </if>
+        <choose>
+            <when test="auditStatus != null">
+                AND jp.audit_status = #{auditStatus}
+                <if test="auditStatus == 0">
+                    AND jp.status = 1
+                </if>
+            </when>
+            <when test="status != null">
+                AND jp.status = #{status}
+            </when>
+            <otherwise>
+                AND jp.status = 2
+            </otherwise>
+        </choose>
         <if test="keyword != null and keyword != ''">
             AND (jp.title LIKE CONCAT('%', #{keyword}, '%')
                  OR jp.description LIKE CONCAT('%', #{keyword}, '%'))
@@ -93,6 +98,9 @@
         LEFT JOIN sys_user su ON jp.publisher_id = su.id
         LEFT JOIN job_category jc ON jp.category_id = jc.id
         WHERE jp.publisher_id = #{publisherId} AND jp.deleted = 0
+        <if test="status != null">
+            AND jp.status = #{status}
+        </if>
         ORDER BY jp.create_time DESC
     </select>
 

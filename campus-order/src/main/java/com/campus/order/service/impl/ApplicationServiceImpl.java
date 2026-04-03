@@ -173,7 +173,8 @@ public class ApplicationServiceImpl implements ApplicationService {
             }
             result = applicationMapper.selectJobApplicationPage(pageParam, jobId);
         } else {
-            result = applicationMapper.selectAllApplicationPage(pageParam);
+            // 没有指定岗位时，查询该雇主所有岗位的申请（安全：只返回自己的）
+            result = applicationMapper.selectEmployerApplicationPage(pageParam, employerId);
         }
         return PageResult.of(result);
     }

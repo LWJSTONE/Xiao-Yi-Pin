@@ -54,4 +54,17 @@
         ORDER BY a.apply_time DESC
     </select>
 
+    <!-- 分页查询雇主的申请列表（按雇主拥有的岗位过滤） -->
+    <select id="selectEmployerApplicationPage" resultMap="applicationVOResultMap">
+        SELECT
+            a.id, a.job_id, jp.title AS job_title,
+            a.applicant_id, up.real_name AS applicant_name,
+            a.resume_url, a.status, a.apply_time, a.review_time, a.reject_reason
+        FROM application a
+        LEFT JOIN job_post jp ON a.job_id = jp.id
+        LEFT JOIN user_profile up ON a.applicant_id = up.user_id
+        WHERE jp.publisher_id = #{employerId}
+        ORDER BY a.apply_time DESC
+    </select>
+
 </mapper>

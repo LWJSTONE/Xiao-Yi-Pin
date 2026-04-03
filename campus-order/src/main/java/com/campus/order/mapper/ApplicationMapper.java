@@ -30,4 +30,10 @@ public interface ApplicationMapper extends BaseMapper<Application> {
      * 分页查询所有申请（管理员）
      */
     IPage<ApplicationVO> selectAllApplicationPage(Page<ApplicationVO> page);
+
+    /**
+     * 分页查询雇主的申请列表（按雇主拥有的岗位过滤）
+     */
+    IPage<ApplicationVO> selectEmployerApplicationPage(Page<ApplicationVO> page,
+                                                         @Param("employerId") Long employerId);
 }

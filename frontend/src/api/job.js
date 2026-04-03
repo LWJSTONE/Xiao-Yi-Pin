@@ -26,7 +26,7 @@ export function updateJob(id, data) {
 
 /**
  * 获取职位列表（分页搜索）
- * @param {Object} params - { keyword, categoryId, location, salaryType, page, size }
+ * @param {Object} params - { keyword, categoryId, location, salaryType, auditStatus, status, page, size }
  */
 export function getJobList(params) {
   return request.get('/v1/job/list', { params })
@@ -51,7 +51,7 @@ export function auditJob(id, data) {
 
 /**
  * 获取我发布的职位列表
- * @param {Object} params - { page, size }
+ * @param {Object} params - { page, size, status }
  */
 export function getMyJobs(params) {
   return request.get('/v1/job/my/jobs', { params })

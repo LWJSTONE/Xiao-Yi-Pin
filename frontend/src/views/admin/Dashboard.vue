@@ -129,7 +129,7 @@ const loadStats = async () => {
     }
 
     // 加载职位统计 - 分别查询不同状态的职位
-    // 已发布职位（auditStatus=null时返回status=2的已发布职位）
+    // 已发布职位（默认查询：status=2）
     try {
       const publishedRes = await getJobList({ page: 1, size: 1 })
       if (publishedRes.data) {
@@ -138,7 +138,7 @@ const loadStats = async () => {
     } catch (e) {
       // 忽略
     }
-    // 待审核职位（auditStatus=0返回audit_status=0且status=1的职位）
+    // 待审核职位（auditStatus=0 返回 audit_status=0 且 status=1 的职位）
     try {
       const pendingRes = await getJobList({ page: 1, size: 1, auditStatus: 0 })
       if (pendingRes.data) {
@@ -147,14 +147,24 @@ const loadStats = async () => {
     } catch (e) {
       // 忽略
     }
-    // 已通过审核的职位（auditStatus=1）
+    // 草稿职位（status=0）
     try {
-      const approvedRes = await getJobList({ page: 1, size: 1, auditStatus: 1 })
-      if (approvedRes.data) {
-        stats.totalJobs = stats.activeJobs + stats.pendingAudit + (approvedRes.data.total || 0)
+      const draftRes = await getJobList({ page: 1, size: 1, status: 0 })
+      if (draftRes.data) {
+        stats.draftJobs = draftRes.data.total || 0
       }
     } catch (e) {
       // 忽略
+    }
+    // 已下线职位（status=4）
+    try {
+      const offlineRes = await getJobList({ page: 1, size: 1, status: 4 })
+      if (offlineRes.data) {
+        stats.totalJobs = stats.activeJobs + stats.pendingAudit + stats.draftJobs + (offlineRes.data.total || 0)
+      }
+    } catch (e) {
+      // 忽略，使用已有数据估算
+      stats.totalJobs = stats.activeJobs + stats.pendingAudit + stats.draftJobs
     }
 
     // 加载报名总数统计

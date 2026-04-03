@@ -156,6 +156,7 @@ const loadOrders = async () => {
     }
   } catch (error) {
     console.error('加载订单列表失败：', error)
+    ElMessage.error('加载订单列表失败')
   } finally {
     loading.value = false
   }

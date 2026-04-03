@@ -144,15 +144,16 @@ public class JobPostServiceImpl implements JobPostService {
                 dto.getCategoryId(),
                 dto.getLocation(),
                 dto.getSalaryType(),
-                dto.getAuditStatus()
+                dto.getAuditStatus(),
+                dto.getStatus()
         );
         return PageResult.of(result);
     }
 
     @Override
-    public PageResult<JobPostVO> getMyJobs(Long publisherId, int page, int size) {
+    public PageResult<JobPostVO> getMyJobs(Long publisherId, Integer status, int page, int size) {
         Page<JobPostVO> pageParam = new Page<>(page, size);
-        IPage<JobPostVO> result = jobPostMapper.selectMyJobPage(pageParam, publisherId);
+        IPage<JobPostVO> result = jobPostMapper.selectMyJobPage(pageParam, publisherId, status);
         return PageResult.of(result);
     }
 }

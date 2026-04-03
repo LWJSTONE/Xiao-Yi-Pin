@@ -27,11 +27,13 @@ public interface JobPostMapper extends BaseMapper<JobPost> {
                                     @Param("categoryId") Long categoryId,
                                     @Param("location") String location,
                                     @Param("salaryType") String salaryType,
-                                    @Param("auditStatus") Integer auditStatus);
+                                    @Param("auditStatus") Integer auditStatus,
+                                    @Param("status") Integer status);
 
     /**
      * 分页查询我的岗位
      */
     IPage<JobPostVO> selectMyJobPage(Page<JobPostVO> page,
-                                      @Param("publisherId") Long publisherId);
+                                      @Param("publisherId") Long publisherId,
+                                      @Param("status") Integer status);
 }

@@ -49,5 +49,5 @@ public interface JobPostService {
     /**
      * 查询我发布的岗位
      */
-    PageResult<JobPostVO> getMyJobs(Long publisherId, int page, int size);
+    PageResult<JobPostVO> getMyJobs(Long publisherId, Integer status, int page, int size);
 }

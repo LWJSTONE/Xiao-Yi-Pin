@@ -27,6 +27,9 @@ public class JobQueryDTO implements Serializable {
     /** 审核状态 */
     private Integer auditStatus;
 
+    /** 岗位状态（0-草稿, 1-审核中, 2-已发布, 4-已下线） */
+    private Integer status;
+
     /** 当前页码 */
     private Integer page = 1;
 

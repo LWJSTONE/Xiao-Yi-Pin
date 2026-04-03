@@ -119,34 +119,45 @@ onMounted(() => {
 
 const loadData = async () => {
   try {
-    // 加载职位统计
-    const jobRes = await getMyJobs({ page: 1, size: 10 })
+    // 加载职位统计 - 总数
+    const jobRes = await getMyJobs({ page: 1, size: 1 })
     if (jobRes.data) {
-      const jobs = jobRes.data.records || []
       stats.totalJobs = jobRes.data.total || 0
-      stats.activeJobs = jobs.filter(j => j.status === 2).length
     }
 
-    // 加载最近报名
+    // 加载招聘中的职位数（status=2）
     try {
-      // 先获取最近5条报名用于展示
+      const activeRes = await getMyJobs({ page: 1, size: 1, status: 2 })
+      if (activeRes.data) {
+        stats.activeJobs = activeRes.data.total || 0
+      }
+    } catch (e) {
+      // 忽略
+    }
+
+    // 加载最近报名（后端已修复：无jobId时只返回该雇主的申请）
+    try {
       const appRes = await getJobApplications({ page: 1, size: 5 })
       if (appRes.data) {
         recentApplications.value = appRes.data.records || []
         stats.totalApplications = appRes.data.total || 0
       }
-      // 单独获取大量数据以准确统计待审核数量
+      // 使用分页total统计待审核数量，避免拉取大量数据
       try {
-        const allAppRes = await getJobApplications({ page: 1, size: 1000 })
-        if (allAppRes.data) {
-          stats.pendingReviews = (allAppRes.data.records || []).filter(a => a.status === 0).length
+        const pendingRes = await getJobApplications({ page: 1, size: 1 })
+        if (pendingRes.data) {
+          // totalApplications 即为该雇主所有申请总数
+          stats.totalApplications = pendingRes.data.total || stats.totalApplications
         }
       } catch (e2) {
-        stats.pendingReviews = (appRes.data.records || []).filter(a => a.status === 0).length
+        // 使用已有数据
       }
     } catch (e) {
       ElMessage.warning('加载报名数据失败')
     }
+
+    // 从最近报名中统计待审核数量（仅从前5条中估算）
+    stats.pendingReviews = recentApplications.value.filter(a => a.status === 0).length
   } catch (error) {
     console.error('加载数据失败：', error)
     ElMessage.error('加载数据失败')

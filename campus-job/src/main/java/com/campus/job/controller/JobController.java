@@ -106,9 +106,10 @@ public class JobController {
     @GetMapping("/my/jobs")
     public R<PageResult<JobPostVO>> getMyJobs(
             @RequestHeader("X-User-Id") Long userId,
+            @RequestParam(required = false) Integer status,
             @RequestParam(defaultValue = "1") int page,
             @RequestParam(defaultValue = "10") int size) {
-        return R.ok(jobPostService.getMyJobs(userId, page, size));
+        return R.ok(jobPostService.getMyJobs(userId, status, page, size));
     }
 
     /**
