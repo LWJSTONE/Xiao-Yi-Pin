@@ -52,6 +52,12 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
+        <!-- LoadBalancer (required for lb:// in Gateway routes) -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+        </dependency>
+
         <!-- Spring Boot Data Redis -->
         <dependency>
             <groupId>org.springframework.boot</groupId>

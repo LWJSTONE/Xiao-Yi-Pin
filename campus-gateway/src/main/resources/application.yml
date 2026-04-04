@@ -8,9 +8,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-        namespace: public
-    inetutils:
-      preferred-networks: 127.0.0.1
+        ip: 127.0.0.1
+        port: ${server.port}
     gateway:
       routes:
         - id: campus-auth
