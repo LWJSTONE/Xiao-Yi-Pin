@@ -193,15 +193,15 @@ CREATE TABLE sys_dict (
 
 -- 管理员用户（密码: 123456）
 INSERT INTO sys_user (username, password_hash, phone, email, role_type, status, deleted, create_time, update_time)
-VALUES ('admin', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '13700137000', 'admin@campus.com', 'ADMIN', 1, 0, NOW(), NOW());
+VALUES ('admin', '$2a$10$IN6uwNqmPIa.EUFrSnvoI.v/QJeZhXQfrTswcId01u7LVjGzWes4O', '13700137000', 'admin@campus.com', 'ADMIN', 1, 0, NOW(), NOW());
 
 -- 测试学生用户（密码: 123456）
 INSERT INTO sys_user (username, password_hash, phone, email, role_type, status, deleted, create_time, update_time)
-VALUES ('student', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '13800138001', 'student@campus.com', 'STUDENT', 1, 0, NOW(), NOW());
+VALUES ('student', '$2a$10$IN6uwNqmPIa.EUFrSnvoI.v/QJeZhXQfrTswcId01u7LVjGzWes4O', '13800138001', 'student@campus.com', 'STUDENT', 1, 0, NOW(), NOW());
 
 -- 测试雇主用户（密码: 123456）
 INSERT INTO sys_user (username, password_hash, phone, email, role_type, status, deleted, create_time, update_time)
-VALUES ('employer', '$2a$10$7JB720yubVSZvUI0rEqK/.VqGOZTH.ulu33dHOiBE8ByOhJIrdAu2', '13900139001', 'employer@campus.com', 'EMPLOYER', 1, 0, NOW(), NOW());
+VALUES ('employer', '$2a$10$IN6uwNqmPIa.EUFrSnvoI.v/QJeZhXQfrTswcId01u7LVjGzWes4O', '13900139001', 'employer@campus.com', 'EMPLOYER', 1, 0, NOW(), NOW());
 
 -- 默认岗位分类
 INSERT INTO job_category (name, parent_id, sort_order, status) VALUES
