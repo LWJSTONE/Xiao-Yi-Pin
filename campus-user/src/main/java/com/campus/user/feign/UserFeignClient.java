@@ -7,6 +7,11 @@ import org.springframework.web.bind.annotation.RequestHeader;
 
 /**
  * 用户Feign客户端
+ * <p>
+ * 预留接口，用于未来跨服务调用（如 order/gateway 模块需要获取用户信息时）。
+ * 当前 campus-user 模块内部不使用此客户端，调用自身服务请直接注入 Service 或 Mapper。
+ * 启用前需配合 fallbackFactory 实现熔断降级逻辑。
+ * </p>
  */
 @FeignClient(name = "campus-user", contextId = "userFeignClient")
 public interface UserFeignClient {

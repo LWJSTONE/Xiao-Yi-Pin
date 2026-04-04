@@ -1,6 +1,6 @@
 <template>
   <div class="app-footer">
-    <p>© 2024 校园兼职平台 - Campus Part-Time Job Platform</p>
+    <p>© {{ new Date().getFullYear() }} 校园兼职平台 - Campus Part-Time Job Platform</p>
   </div>
 </template>
 

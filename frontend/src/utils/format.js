@@ -57,11 +57,11 @@ export function formatSalary(amount, type) {
  * 薪资类型映射
  */
 export const salaryTypeMap = {
-  '0': '时薪',
-  '1': '日薪',
-  '2': '周薪',
-  '3': '月薪',
-  '4': '次薪'
+  0: '时薪',
+  1: '日薪',
+  2: '周薪',
+  3: '月薪',
+  4: '次薪'
 }
 
 /**
@@ -108,22 +108,22 @@ export const auditStatusColorMap = {
  * 申请状态映射
  */
 export const applyStatusMap = {
-  '0': '待审核',
-  '1': '已通过',
-  '2': '已拒绝',
-  '3': '已录用',
-  '4': '已取消'
+  0: '待审核',
+  1: '已通过',
+  2: '已拒绝',
+  3: '已录用',
+  4: '已取消'
 }
 
 /**
  * 申请状态颜色映射
  */
 export const applyStatusColorMap = {
-  '0': 'warning',
-  '1': 'success',
-  '2': 'danger',
-  '3': 'primary',
-  '4': 'info'
+  0: 'warning',
+  1: 'success',
+  2: 'danger',
+  3: 'primary',
+  4: 'info'
 }
 
 /**

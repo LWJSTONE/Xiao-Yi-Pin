@@ -20,27 +20,16 @@
     <el-row :gutter="20" class="stats-row">
       <el-col :span="8">
         <el-card class="stat-card" shadow="hover">
-          <div class="stat-icon" style="background: linear-gradient(135deg, #409EFF, #79bbff);">
-            <el-icon :size="28"><Document /></el-icon>
-          </div>
-          <div class="stat-info">
-            <div class="stat-value">{{ stats.applications }}</div>
-            <div class="stat-label">我的报名</div>
-          </div>
-        </el-card>
-      </el-col>
-      <el-col :span="8">
-        <el-card class="stat-card" shadow="hover">
           <div class="stat-icon" style="background: linear-gradient(135deg, #67C23A, #95d475);">
             <el-icon :size="28"><CircleCheck /></el-icon>
           </div>
           <div class="stat-info">
-            <div class="stat-value">{{ stats.hired }}</div>
-            <div class="stat-label">已录用</div>
+            <div class="stat-value">{{ stats.applications }}</div>
+            <div class="stat-label">总报名</div>
           </div>
         </el-card>
       </el-col>
-      <el-col :span="8">
+      <el-col :span="16">
         <el-card class="stat-card" shadow="hover">
           <div class="stat-icon" style="background: linear-gradient(135deg, #E6A23C, #eebe77);">
             <el-icon :size="28"><Tickets /></el-icon>
@@ -98,7 +87,6 @@ const loading = ref(false)
 const recentJobs = ref([])
 const stats = reactive({
   applications: 0,
-  hired: 0,
   orders: 0
 })
 
@@ -120,8 +108,6 @@ const loadData = async () => {
       const appRes = await getMyApplications({ page: 1, size: 10 })
       if (appRes.data) {
         stats.applications = appRes.data.total || 0
-        // 从返回的记录中统计已录用数量（使用分页数据估算）
-        stats.hired = (appRes.data.records || []).filter(a => a.status === 3).length
       }
     } catch (e) {
       ElMessage.warning('加载报名统计失败')

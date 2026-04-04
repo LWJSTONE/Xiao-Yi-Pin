@@ -118,14 +118,19 @@ onMounted(() => {
 
 const loadStats = async () => {
   try {
-    // 加载用户统计 - 获取所有用户以统计角色分布
-    const userRes = await listUsers({ page: 1, size: 1000 })
-    if (userRes.data) {
-      const users = userRes.data.records || []
-      stats.totalUsers = userRes.data.total || 0
-      stats.studentCount = users.filter(u => u.roleType === 'STUDENT').length
-      stats.employerCount = users.filter(u => u.roleType === 'EMPLOYER').length
-      stats.adminCount = users.filter(u => u.roleType === 'ADMIN').length
+    // 加载用户统计 - 分别按角色查询
+    try {
+      const [studentRes, employerRes, adminRes] = await Promise.all([
+        listUsers({ page: 1, size: 1, roleTypeFilter: 'STUDENT' }),
+        listUsers({ page: 1, size: 1, roleTypeFilter: 'EMPLOYER' }),
+        listUsers({ page: 1, size: 1, roleTypeFilter: 'ADMIN' })
+      ])
+      stats.studentCount = studentRes.data?.total || 0
+      stats.employerCount = employerRes.data?.total || 0
+      stats.adminCount = adminRes.data?.total || 0
+      stats.totalUsers = stats.studentCount + stats.employerCount + stats.adminCount
+    } catch (e) {
+      console.error('加载用户统计失败：', e)
     }
 
     // 加载职位统计 - 分别查询不同状态的职位

@@ -96,7 +96,11 @@ public class ApplicationServiceImpl implements ApplicationService {
             application.setResumeUrl(dto.getResumeUrl());
             application.setStatus(0); // 待审核
             application.setApplyTime(new Date());
-            applicationMapper.insert(application);
+            try {
+                applicationMapper.insert(application);
+            } catch (org.springframework.dao.DuplicateKeyException e) {
+                throw new BusinessException("您已申请过该岗位，请勿重复申请");
+            }
 
             log.info("学生{}成功报名岗位{}", studentId, jobId);
         } finally {
@@ -112,6 +116,10 @@ public class ApplicationServiceImpl implements ApplicationService {
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void reviewApplication(Long employerId, Long applicationId, Integer status, String rejectReason) {
+        if (status == null || (status != 1 && status != 2 && status != 3)) {
+            throw new BusinessException("审核状态值无效");
+        }
+
         Application application = applicationMapper.selectById(applicationId);
         if (application == null) {
             throw new BusinessException("申请不存在");

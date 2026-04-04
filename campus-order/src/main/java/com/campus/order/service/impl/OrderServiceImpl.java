@@ -38,6 +38,9 @@ public class OrderServiceImpl implements OrderService {
         if (order.getSettlementStatus() != 0) {
             throw new BusinessException("该订单已结算");
         }
+        if (dto.getAmount() == null || dto.getAmount().compareTo(java.math.BigDecimal.ZERO) < 0) {
+            throw new BusinessException("结算金额不能为负数");
+        }
 
         order.setAmount(dto.getAmount());
         order.setSettlementStatus(1); // 已结算

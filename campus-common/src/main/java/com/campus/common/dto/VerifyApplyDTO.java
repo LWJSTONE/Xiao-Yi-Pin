@@ -28,7 +28,6 @@ public class VerifyApplyDTO implements Serializable {
     @NotBlank(message = "身份证图片不能为空")
     private String idCardImage;
 
-    /** 认证类型 */
-    @NotBlank(message = "认证类型不能为空")
+    /** 认证类型（选填） */
     private String verifyType;
 }

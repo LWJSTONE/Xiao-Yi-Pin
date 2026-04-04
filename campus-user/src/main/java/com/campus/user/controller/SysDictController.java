@@ -12,6 +12,11 @@ import java.util.List;
 
 /**
  * 数据字典控制器
+ * <p>
+ * 注意：当前直接注入 Mapper 是有意为之的简化设计——字典表为只读配置数据，
+ * 无复杂业务逻辑，省去 Service 层不会带来可维护性风险。
+ * 若后续增加字典 CRUD 管理功能，应抽取 Service 层。
+ * </p>
  */
 @RestController
 @RequestMapping("/api/v1/dict")

@@ -47,6 +47,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { ElMessage } from 'element-plus'
 import { getDictList } from '@/api/user'
 
 const loading = ref(false)
@@ -70,6 +71,7 @@ const loadDictList = async () => {
     }
   } catch (error) {
     console.error('加载字典列表失败：', error)
+    ElMessage.error('加载字典列表失败')
   } finally {
     loading.value = false
   }

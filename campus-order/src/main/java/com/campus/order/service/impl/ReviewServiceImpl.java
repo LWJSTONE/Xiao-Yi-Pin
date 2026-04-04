@@ -54,6 +54,11 @@ public class ReviewServiceImpl implements ReviewService {
             throw new BusinessException("无权评价此订单");
         }
 
+        // 验证被评价人是订单中的另一方
+        if (!order.getStudentId().equals(dto.getTargetId()) && !order.getEmployerId().equals(dto.getTargetId())) {
+            throw new BusinessException("被评价人不是该订单的参与方");
+        }
+
         // 检查是否已评价
         Long existCount = reviewMapper.selectCount(
                 new LambdaQueryWrapper<Review>()

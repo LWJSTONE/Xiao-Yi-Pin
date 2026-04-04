@@ -56,7 +56,7 @@
           </div>
           <div class="stat-info">
             <div class="stat-value">{{ stats.pendingReviews }}</div>
-            <div class="stat-label">待审核</div>
+            <div class="stat-label">总报名</div>
           </div>
         </el-card>
       </el-col>
@@ -146,8 +146,8 @@ const loadData = async () => {
       ElMessage.warning('加载报名数据失败')
     }
 
-    // 从最近报名中统计待审核数量（仅从前5条中估算）
-    stats.pendingReviews = recentApplications.value.filter(a => a.status === 0).length
+    // 使用服务端总数
+    stats.pendingReviews = appRes.data.total || 0
   } catch (error) {
     console.error('加载数据失败：', error)
     ElMessage.error('加载数据失败')

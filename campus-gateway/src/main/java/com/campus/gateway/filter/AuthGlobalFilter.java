@@ -40,12 +40,19 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
     @Value("${jwt.secret}")
     private String jwtSecret;
 
-    /** 白名单路径 */
-    private static final List<String> WHITE_LIST = Arrays.asList(
+    /** 白名单路径 - 精确匹配 */
+    private static final List<String> WHITE_LIST_EXACT = Arrays.asList(
             "/api/v1/auth/login",
             "/api/v1/auth/refresh",
             "/api/v1/auth/register",
             "/api/v1/auth/captcha"
+    );
+
+    /** 白名单路径 - 前缀匹配（仅GET请求放行） */
+    private static final List<String> WHITE_LIST_PREFIX = Arrays.asList(
+            "/api/v1/job/list",
+            "/api/v1/job/posts/",
+            "/api/v1/job/categories"
     );
 
     @Override
@@ -55,10 +62,18 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
         String path = request.getURI().getPath();
         log.debug("Gateway request path: {}", path);
 
-        // 白名单放行
-        for (String whitePath : WHITE_LIST) {
+        // 精确匹配白名单放行
+        for (String whitePath : WHITE_LIST_EXACT) {
             if (path.equals(whitePath)) {
                 return chain.filter(exchange);
+            }
+        }
+        // 前缀匹配白名单放行（仅GET请求）
+        if ("GET".equalsIgnoreCase(request.getMethod().name())) {
+            for (String whitePrefix : WHITE_LIST_PREFIX) {
+                if (path.startsWith(whitePrefix)) {
+                    return chain.filter(exchange);
+                }
             }
         }
 

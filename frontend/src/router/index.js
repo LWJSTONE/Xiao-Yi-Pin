@@ -33,6 +33,7 @@ import DictManage from '@/views/admin/DictManage.vue'
 // 公共页面
 import Login from '@/views/Login.vue'
 import Register from '@/views/Register.vue'
+import NotFound from '@/views/NotFound.vue'
 
 // 个人资料
 import Profile from '@/views/Profile.vue'
@@ -193,7 +194,9 @@ const routes = [
   // 404 兜底
   {
     path: '/:pathMatch(.*)*',
-    redirect: '/403'
+    name: 'NotFound',
+    component: NotFound,
+    meta: { title: '页面不存在', public: true }
   }
 ]
 

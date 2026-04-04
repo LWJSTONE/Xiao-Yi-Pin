@@ -72,8 +72,8 @@
           </div>
         </el-card>
 
-        <!-- 申请区域 -->
-        <el-card class="apply-card" shadow="never">
+        <!-- 申请区域（仅已发布状态可申请） -->
+        <el-card v-if="job.status === 2" class="apply-card" shadow="never">
           <div class="apply-section">
             <div class="apply-info">
               <el-input

@@ -2,6 +2,7 @@ package com.campus.common.dto;
 
 import lombok.Data;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
@@ -24,5 +25,6 @@ public class RegisterDTO implements Serializable {
     private String phone;
 
     @NotBlank(message = "角色类型不能为空")
+    @Pattern(regexp = "STUDENT|EMPLOYER", message = "角色类型只能是STUDENT或EMPLOYER")
     private String roleType;
 }

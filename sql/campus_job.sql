@@ -87,7 +87,7 @@ CREATE TABLE job_post (
     end_time        DATETIME        DEFAULT NULL             COMMENT '结束时间',
     recruit_num     INT             DEFAULT 1                COMMENT '招聘人数',
     hired_num       INT             DEFAULT 0                COMMENT '已录用人数',
-    status          INT             DEFAULT 1                COMMENT '状态',
+    status          INT             DEFAULT 0                COMMENT '状态: 0-草稿, 1-待审核, 2-已发布, 3-已拒绝, 4-已下架',
     audit_status    INT             DEFAULT 0                COMMENT '审核状态: 0-待审核, 1-已通过, 2-已拒绝',
     audit_remark    VARCHAR(500)    DEFAULT NULL             COMMENT '审核备注',
     version         INT             NOT NULL DEFAULT 0       COMMENT '乐观锁版本号',

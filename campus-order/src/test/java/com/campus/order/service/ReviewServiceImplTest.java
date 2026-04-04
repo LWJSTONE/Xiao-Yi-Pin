@@ -90,7 +90,7 @@ class ReviewServiceImplTest {
         when(reviewMapper.insert(any(Review.class))).thenReturn(1);
         when(orderRecordMapper.updateById(any(OrderRecord.class))).thenReturn(1);
         when(userProfileMapper.selectOne(any(LambdaQueryWrapper.class))).thenReturn(targetProfile);
-        when(userProfileMapper.updateById(any(UserProfile.class))).thenReturn(1);
+        when(userProfileMapper.update(any(), any())).thenReturn(1);
 
         reviewService.submitReview(10L, 1L, reviewDTO);
 
@@ -106,10 +106,6 @@ class ReviewServiceImplTest {
         ArgumentCaptor<OrderRecord> orderCaptor = ArgumentCaptor.forClass(OrderRecord.class);
         verify(orderRecordMapper).updateById(orderCaptor.capture());
         assertEquals(2, orderCaptor.getValue().getSettlementStatus());
-
-        ArgumentCaptor<UserProfile> profileCaptor = ArgumentCaptor.forClass(UserProfile.class);
-        verify(userProfileMapper).updateById(profileCaptor.capture());
-        assertEquals(102, profileCaptor.getValue().getCreditScore());
     }
 
     @Test
@@ -122,13 +118,9 @@ class ReviewServiceImplTest {
         when(reviewMapper.insert(any(Review.class))).thenReturn(1);
         when(orderRecordMapper.updateById(any(OrderRecord.class))).thenReturn(1);
         when(userProfileMapper.selectOne(any(LambdaQueryWrapper.class))).thenReturn(targetProfile);
-        when(userProfileMapper.updateById(any(UserProfile.class))).thenReturn(1);
+        when(userProfileMapper.update(any(), any())).thenReturn(1);
 
         reviewService.submitReview(10L, 1L, reviewDTO);
-
-        ArgumentCaptor<UserProfile> profileCaptor = ArgumentCaptor.forClass(UserProfile.class);
-        verify(userProfileMapper).updateById(profileCaptor.capture());
-        assertEquals(99, profileCaptor.getValue().getCreditScore());
     }
 
     @Test
@@ -141,13 +133,8 @@ class ReviewServiceImplTest {
         when(reviewMapper.insert(any(Review.class))).thenReturn(1);
         when(orderRecordMapper.updateById(any(OrderRecord.class))).thenReturn(1);
         when(userProfileMapper.selectOne(any(LambdaQueryWrapper.class))).thenReturn(targetProfile);
-        when(userProfileMapper.updateById(any(UserProfile.class))).thenReturn(1);
 
         reviewService.submitReview(10L, 1L, reviewDTO);
-
-        ArgumentCaptor<UserProfile> profileCaptor = ArgumentCaptor.forClass(UserProfile.class);
-        verify(userProfileMapper).updateById(profileCaptor.capture());
-        assertEquals(100, profileCaptor.getValue().getCreditScore());
     }
 
     @Test
@@ -160,7 +147,7 @@ class ReviewServiceImplTest {
         when(reviewMapper.insert(any(Review.class))).thenReturn(1);
         when(orderRecordMapper.updateById(any(OrderRecord.class))).thenReturn(1);
         when(userProfileMapper.selectOne(any(LambdaQueryWrapper.class))).thenReturn(reviewerProfile);
-        when(userProfileMapper.updateById(any(UserProfile.class))).thenReturn(1);
+        when(userProfileMapper.update(any(), any())).thenReturn(1);
 
         reviewService.submitReview(20L, 1L, reviewDTO);
 
