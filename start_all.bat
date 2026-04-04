@@ -34,15 +34,7 @@ echo [Step 2/8] Checking frontend dependencies...
 if not exist "%~dp0frontend\node_modules" (
     echo Frontend node_modules not found, installing dependencies...
     cd /d "%~dp0frontend"
-    :: Try cnpm first (much faster in China), fallback to npm with Taobao mirror
-    where cnpm >nul 2>&1
-    if %errorlevel% equ 0 (
-        echo Using cnpm (Taobao mirror)...
-        call cnpm install
-    ) else (
-        echo Using npm with npmmirror (Taobao mirror)...
-        call npm install --registry https://registry.npmmirror.com
-    )
+    call npm install --registry https://registry.npmmirror.com
     if %errorlevel% neq 0 (
         echo [ERROR] npm install failed! Please check Node.js installation.
         pause
