@@ -53,10 +53,10 @@ echo.
 echo [Step 3/8] Starting Nacos (standalone mode)...
 start "Nacos" cmd /c "%~dp0env\nacos\bin\startup.cmd -m standalone & pause"
 
-:: Wait for Nacos to be ready (up to 60s)
-echo Waiting for Nacos to start (max 60s)...
+:: Wait for Nacos to be ready (up to 120s)
+echo Waiting for Nacos to start (max 120s)...
 set NACOS_READY=0
-for /l %%i in (1,1,60) do (
+for /l %%i in (1,1,120) do (
     if !NACOS_READY!==0 (
         <nul set /p "=."
         timeout /t 1 /nobreak >nul
@@ -70,7 +70,7 @@ echo.
 if !NACOS_READY!==0 (
     echo [Step 3/8] Nacos started successfully.
 ) else (
-    echo [WARNING] Nacos not ready after 60s. Services will retry connection.
+    echo [WARNING] Nacos not ready after 120s. Services will retry connection.
 )
 
 :: ============================================
