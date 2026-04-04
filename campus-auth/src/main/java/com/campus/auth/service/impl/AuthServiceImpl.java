@@ -61,7 +61,7 @@ public class AuthServiceImpl implements AuthService {
     @Override
     public Map<String, String> generateCaptcha() {
         // 使用Hutool生成算术验证码
-        cn.hutool.captcha.Captcha captcha = cn.hutool.captcha.CaptchaUtil.createShearCaptcha(120, 40, 4, 2);
+        cn.hutool.captcha.ShearCaptcha captcha = cn.hutool.captcha.CaptchaUtil.createShearCaptcha(120, 40, 4, 2);
         String captchaCode = captcha.getCode();
 
         // 生成唯一key
