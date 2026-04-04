@@ -9,7 +9,8 @@ spring:
       discovery:
         server-addr: 127.0.0.1:8848
         namespace: public
-        ip: 127.0.0.1
+    inetutils:
+      preferred-networks: 127.0.0.1
     gateway:
       routes:
         - id: campus-auth

@@ -51,6 +51,13 @@ if not exist "%~dp0frontend\node_modules" (
 :: ============================================
 echo.
 echo [Step 3/8] Starting Nacos (standalone mode)...
+
+:: Clear old Nacos data to avoid stale service registrations
+if exist "%~dp0env\nacos\data" (
+    echo Clearing old Nacos data...
+    rd /s /q "%~dp0env\nacos\data" 2>nul
+)
+
 start "Nacos" cmd /c "%~dp0env\nacos\bin\startup.cmd -m standalone & pause"
 
 :: Wait for Nacos to be ready (up to 120s)
