@@ -1,4 +1,5 @@
 @echo off
+setlocal enabledelayedexpansion
 chcp 65001 >nul
 echo ==========================================
 echo   Campus Part-time Job Website
@@ -52,19 +53,24 @@ echo.
 echo [Step 3/8] Starting Nacos (standalone mode)...
 start "Nacos" cmd /c "%~dp0env\nacos\bin\startup.cmd -m standalone & pause"
 
-:: Wait for Nacos to be ready
-echo Waiting for Nacos to start (20s)...
+:: Wait for Nacos to be ready (up to 30s)
+echo Waiting for Nacos to start...
 set NACOS_READY=0
-for /l %%i in (1,1,20) do (
+for /l %%i in (1,1,30) do (
     if !NACOS_READY!==0 (
+        <nul set /p "=."
         timeout /t 1 /nobreak >nul
-        curl -s -o nul -w "%%{http_code}" http://localhost:8848/nacos/ >nul 2>&1 && set NACOS_READY=1
+        curl -s -o nul -w "%%{http_code}" http://localhost:8848/nacos/ >nul 2>&1
+        if !errorlevel! equ 0 (
+            set NACOS_READY=1
+        )
     )
 )
-if %NACOS_READY%==0 (
-    echo [WARNING] Nacos may not be ready yet. Services will retry connection.
-) else (
+echo.
+if !NACOS_READY!==0 (
     echo [Step 3/8] Nacos started successfully.
+) else (
+    echo [WARNING] Nacos may not be ready yet. Services will retry connection.
 )
 
 :: ============================================
@@ -72,8 +78,8 @@ if %NACOS_READY%==0 (
 :: ============================================
 echo.
 echo [Step 4/8] Starting Gateway Service (port 8080)...
-start "Gateway-8080" cmd /c "java -jar %~dp0campus-gateway\target\campus-gateway-1.0.0.jar & echo. & echo [Gateway stopped] & pause"
-timeout /t 8 /nobreak >nul
+start "Gateway-8080" cmd /c "cd /d %~dp0 && java -jar campus-gateway\target\campus-gateway-1.0.0.jar & echo. & echo [Gateway stopped] & pause"
+timeout /t 10 /nobreak >nul
 echo [Step 4/8] Gateway service launched.
 
 :: ============================================
@@ -81,7 +87,7 @@ echo [Step 4/8] Gateway service launched.
 :: ============================================
 echo.
 echo [Step 5/8] Starting Auth Service (port 8081)...
-start "Auth-8081" cmd /c "java -jar %~dp0campus-auth\target\campus-auth-1.0.0.jar & echo. & echo [Auth stopped] & pause"
+start "Auth-8081" cmd /c "cd /d %~dp0 && java -jar campus-auth\target\campus-auth-1.0.0.jar & echo. & echo [Auth stopped] & pause"
 timeout /t 5 /nobreak >nul
 echo [Step 5/8] Auth service launched.
 
@@ -90,7 +96,7 @@ echo [Step 5/8] Auth service launched.
 :: ============================================
 echo.
 echo [Step 6/8] Starting User Service (port 8082)...
-start "User-8082" cmd /c "java -jar %~dp0campus-user\target\campus-user-1.0.0.jar & echo. & echo [User stopped] & pause"
+start "User-8082" cmd /c "cd /d %~dp0 && java -jar campus-user\target\campus-user-1.0.0.jar & echo. & echo [User stopped] & pause"
 timeout /t 5 /nobreak >nul
 echo [Step 6/8] User service launched.
 
@@ -99,8 +105,8 @@ echo [Step 6/8] User service launched.
 :: ============================================
 echo.
 echo [Step 7/8] Starting Job Service (port 8083)...
-start "Job-8083" cmd /c "java -jar %~dp0campus-job\target\campus-job-1.0.0.jar & echo. & echo [Job stopped] & pause"
-timeout /t 3 /nobreak >nul
+start "Job-8083" cmd /c "cd /d %~dp0 && java -jar campus-job\target\campus-job-1.0.0.jar & echo. & echo [Job stopped] & pause"
+timeout /t 5 /nobreak >nul
 echo [Step 7/8] Job service launched.
 
 :: ============================================
@@ -110,11 +116,10 @@ echo.
 echo [Step 8/8] Starting Order Service (port 8084) and Frontend (port 3000)...
 
 :: Start Order Service
-start "Order-8084" cmd /c "java -jar %~dp0campus-order\target\campus-order-1.0.0.jar & echo. & echo [Order stopped] & pause"
+start "Order-8084" cmd /c "cd /d %~dp0 && java -jar campus-order\target\campus-order-1.0.0.jar & echo. & echo [Order stopped] & pause"
 
 :: Start Frontend (Vite dev server)
-cd /d "%~dp0frontend"
-start "Frontend-3000" cmd /c "npm run dev & echo. & echo [Frontend stopped] & pause"
+start "Frontend-3000" cmd /c "cd /d %~dp0frontend && npm run dev & echo. & echo [Frontend stopped] & pause"
 
 :: ============================================
 :: Done
