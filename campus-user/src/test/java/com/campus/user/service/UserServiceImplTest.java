@@ -257,7 +257,7 @@ class UserServiceImplTest {
         when(userProfileMapper.selectOne(any(LambdaQueryWrapper.class))).thenReturn(userProfile);
 
         // when
-        PageResult<UserProfileVO> result = userService.listUsers("test", null, 1, 10);
+        PageResult<UserProfileVO> result = userService.listUsers("test", null, null, 1, 10);
 
         // then
         assertNotNull(result);
@@ -277,7 +277,7 @@ class UserServiceImplTest {
         when(sysUserMapper.selectPage(any(Page.class), any(LambdaQueryWrapper.class))).thenReturn(mockPage);
 
         // when
-        PageResult<UserProfileVO> result = userService.listUsers("nonexistent", null, 1, 10);
+        PageResult<UserProfileVO> result = userService.listUsers("nonexistent", null, null, 1, 10);
 
         // then
         assertNotNull(result);
