@@ -133,8 +133,13 @@ public class AuthServiceImpl implements AuthService {
                 sysUser.getId(), sysUser.getUsername(), sysUser.getRoleType(),
                 refreshTokenExpire, jwtSecret);
 
-        // 6. 存储Token到Redis（以登录Token为Key，TTL为访问Token的过期时间）
+        // 6. 清除黑名单 + 存储Token到Redis
         try {
+            // 登录时清除该用户的黑名单记录（处理用户之前登出后重新登录的场景）
+            String blacklistKey = RedisConstant.USER_BLACKLIST + sysUser.getId();
+            stringRedisTemplate.delete(blacklistKey);
+
+            // 存储Token到Redis（以登录Token为Key，TTL为访问Token的过期时间）
             String tokenKey = RedisConstant.LOGIN_TOKEN_KEY + sysUser.getId();
             stringRedisTemplate.opsForValue().set(tokenKey, accessToken,
                     accessTokenExpire, TimeUnit.MILLISECONDS);
