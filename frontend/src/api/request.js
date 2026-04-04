@@ -1,7 +1,12 @@
 import axios from 'axios'
+import JSONBig from 'json-bigint'
 import { ElMessage } from 'element-plus'
 import { getToken, setToken, removeToken, getRefreshToken, setRefreshToken } from '@/utils/token'
 import router from '@/router'
+
+// 使用 json-bigint 处理后端返回的大数字（如雪花ID）
+// 防止 JavaScript Number 精度丢失（MAX_SAFE_INTEGER = 9007199254740991）
+const jsonBig = JSONBig({ storeAsString: true })
 
 // 创建 axios 实例
 const service = axios.create({
@@ -9,7 +14,19 @@ const service = axios.create({
   timeout: 15000,
   headers: {
     'Content-Type': 'application/json'
-  }
+  },
+  // 自定义响应转换：用 json-bigint 解析 JSON，大数字自动转为字符串
+  transformResponse: [function (data) {
+    if (typeof data === 'string') {
+      try {
+        return jsonBig.parse(data)
+      } catch (e) {
+        // 解析失败时降级为普通 JSON
+        return JSON.parse(data)
+      }
+    }
+    return data
+  }]
 })
 
 // 是否正在刷新token

@@ -19,7 +19,7 @@ public class JobPost extends BaseEntity {
     private static final long serialVersionUID = 1L;
 
     /** 岗位ID */
-    @TableId(type = IdType.ASSIGN_ID)
+    @TableId(type = IdType.AUTO)
     private Long id;
 
     /** 发布者ID */

@@ -21,7 +21,7 @@ public class Review implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /** 评价ID */
-    @TableId(type = IdType.ASSIGN_ID)
+    @TableId(type = IdType.AUTO)
     private Long id;
 
     /** 订单ID */

@@ -21,7 +21,7 @@ public class Application implements Serializable {
     private static final long serialVersionUID = 1L;
 
     /** 申请ID */
-    @TableId(type = IdType.ASSIGN_ID)
+    @TableId(type = IdType.AUTO)
     private Long id;
 
     /** 岗位ID */
