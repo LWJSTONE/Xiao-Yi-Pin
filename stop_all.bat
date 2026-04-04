@@ -1,29 +1,39 @@
 @echo off
 chcp 65001 >nul
 echo ==========================================
-echo   校园兼职网站 - 停止所有服务
+echo   Campus Part-time Job Website - Stop All Services
 echo ==========================================
 
-:: 关闭Java进程
-echo 正在停止所有Java服务...
+:: Kill Java processes
+echo Stopping all Java services...
+
+:: Stop Gateway (8080)
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":8080" ^| findstr "LISTENING"') do (
     taskkill /f /pid %%a 2>nul
 )
+
+:: Stop Auth (8081)
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":8081" ^| findstr "LISTENING"') do (
     taskkill /f /pid %%a 2>nul
 )
+
+:: Stop User (8082)
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":8082" ^| findstr "LISTENING"') do (
     taskkill /f /pid %%a 2>nul
 )
+
+:: Stop Job (8083)
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":8083" ^| findstr "LISTENING"') do (
     taskkill /f /pid %%a 2>nul
 )
+
+:: Stop Order (8084)
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":8084" ^| findstr "LISTENING"') do (
     taskkill /f /pid %%a 2>nul
 )
 
-:: 关闭Nacos
+:: Stop Nacos (by window title)
 taskkill /f /im "java.exe" /fi "WINDOWTITLE eq Nacos*" 2>nul
 
-echo 所有服务已停止。
+echo All services have been stopped.
 pause
