@@ -1,0 +1,8786 @@
+{
+  "paragraphs": [
+    {
+      "idx": 1,
+      "style": "Normal",
+      "text": "安阳师范学院本科学生毕业论文",
+      "runs": [
+        {
+          "text": "安阳师范学院本科学生毕业论文",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "style": "Normal",
+      "text": "基于Vue的高校考试系统的",
+      "runs": [
+        {
+          "text": "基于",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "Vue",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "的高校考试系统的",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "style": "Normal",
+      "text": "设计与实现",
+      "runs": [
+        {
+          "text": "设计与实现",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "style": "Normal",
+      "text": "作　  者　　     \t\t 卢 智",
+      "runs": [
+        {
+          "text": "作　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "  ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "者",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "style": "Normal",
+      "text": "学    院　　    \t\t软件学院",
+      "runs": [
+        {
+          "text": "学",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "    ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "院",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "style": "Normal",
+      "text": "专　　业 软件工程（前端与移动开发方向）",
+      "runs": [
+        {
+          "text": "专　　业",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "软件工程（",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 17,
+      "style": "Normal",
+      "text": "年　　级　　      \t\t2021\t级",
+      "runs": [
+        {
+          "text": "年　　级",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "      ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 18,
+      "style": "Normal",
+      "text": "学　　号　　   \t\t 214804026",
+      "runs": [
+        {
+          "text": "学　　号",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "   ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 19,
+      "style": "Normal",
+      "text": "企业导师　　    \t\t XXX",
+      "runs": [
+        {
+          "text": "企业导",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "师",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 20,
+      "style": "Normal",
+      "text": "校内导师　　    \t\t YYY",
+      "runs": [
+        {
+          "text": "校内导",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "师",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 21,
+      "style": "Normal",
+      "text": "论文成绩",
+      "runs": [
+        {
+          "text": "论文成绩",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 22,
+      "style": "Normal",
+      "text": "日　　期　　   \t\t 2025年5月",
+      "runs": [
+        {
+          "text": "日　　期",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "   ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "style": "Normal",
+      "text": "学生诚信承诺书",
+      "runs": [
+        {
+          "text": "学生诚信承诺书",
+          "bold": true,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "style": "Normal",
+      "text": "郑重承诺：所呈交的论文是作者个人在导师指导下进行的研究工作及取得的研究成果。除了文中特别加以标注和致谢的地方外，论文中不包含其他人已经发表或撰写的研究成果，也不包含为获得安阳师范学院或其他教育机构的学位或证书所使用过的材料。与作者一同工作的同志对本研究所做的任何贡献均已在论文中作了明确的说明并表示了谢意。",
+      "runs": [
+        {
+          "text": "郑重承诺：所呈交的论文是作者个人在导师指导下进行的研究工作及取得的研究成果。除了文中特别加以标注和致谢的地方外，论文中不包含其他人已经发表或撰写的研究成果，也不",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 29,
+      "style": "Normal",
+      "text": "作 者  签 名：　         　                      日期：",
+      "runs": [
+        {
+          "text": "作",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "者",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 30,
+      "style": "Normal",
+      "text": "企业导师签名：　　　　　　  　　           \t\t日期：",
+      "runs": [
+        {
+          "text": "企业导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "  ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 31,
+      "style": "Normal",
+      "text": "校内导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "校内导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 32,
+      "style": "Normal",
+      "text": "院 长  签 名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "院",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "长",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 39,
+      "style": "Normal",
+      "text": "论文使用授权说明",
+      "runs": [
+        {
+          "text": "论文使用授权说明",
+          "bold": true,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 41,
+      "style": "Normal",
+      "text": "本人完全了解安阳师范学院有关保留、使用学位论文的规定，即：学校有权保留送交论文的复印件，允许论文被查阅和借阅；学校可以公布论文的全部或部分内容，可以采用影印、缩印或其他复制手段保存论文。保密论文在解密后遵守此规定。",
+      "runs": [
+        {
+          "text": "本人完全了解安阳师范学院有关保留、使用学位论文的规定，即：学校有权保留送交论文的复印件，允许论文被查阅和借阅；学校可以公布论文的全部或部分内容，可以采用影印、缩",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 44,
+      "style": "Normal",
+      "text": "作 者  签 名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "作",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "者",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 45,
+      "style": "Normal",
+      "text": "企业导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "企业导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 46,
+      "style": "Normal",
+      "text": "校内导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "校内导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 50,
+      "style": "Normal",
+      "text": "基于Vue的高校考试系统的设计与实现",
+      "runs": [
+        {
+          "text": "基",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "于",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Vue",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 51,
+      "style": "Normal",
+      "text": "卢智",
+      "runs": [
+        {
+          "text": "卢智",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 52,
+      "style": "Normal",
+      "text": "（安阳师范学院  软件学院，河南  安阳  455000）",
+      "runs": [
+        {
+          "text": "（安阳师范学院",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "  ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "软件学院，河南",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 54,
+      "style": "annotation text",
+      "text": "摘 要：为了满足高校对学生考试管理的信息化需求，本研究设计并实现了一款高校考试系统。该系统前端采用Vue框架，后端主要使用Go语言，数据库采用MySQL，该系统包括学生、教师、管理员三种角色，具有学生管理、教师管理、题库管理、自动阅卷等功能。",
+      "runs": [
+        {
+          "text": "摘 要",
+          "bold": null,
+          "size": "152400",
+          "font_name": "黑体",
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "为了满足高校对学生考试管理的信息化需求",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 56,
+      "style": "Normal",
+      "text": "关键词：高校考试系统；Go；Vue；MySQL",
+      "runs": [
+        {
+          "text": "关键词：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "高校考试系统",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "；",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 58,
+      "style": "Heading 1",
+      "text": "1 绪论",
+      "runs": [
+        {
+          "text": "1 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "绪论",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": false,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 59,
+      "style": "Heading 2",
+      "text": "1.1 研究背景",
+      "runs": [
+        {
+          "text": "1.1",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "研究背景",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 60,
+      "style": "Normal",
+      "text": "随着高校教育信息化的快速发展，传统的考试管理模式面临着诸多挑战。一方面，纸质试卷的制作、分发和批改过程繁琐，容易出现错误且效率低下；另一方面，线下考试难以满足大规模、多样化的考试需求，传统的考试系统大多基于集中式架构，难以应对高并发场景，且扩展性和灵活性不足，难以满足高校日益增长的考试管理需求。",
+      "runs": [
+        {
+          "text": "随着高校教育信息化的快速发展，传统的考试管理模式面临着诸多挑战。一方面，纸质试卷的制作、分发和批改过程繁琐，容易出现错误且效率低下；另一方面，线下考试难以满足大",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 61,
+      "style": "Heading 2",
+      "text": "1.2 系统开发的目的和意义",
+      "runs": [
+        {
+          "text": "1.2 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统开发的目的和意义",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 62,
+      "style": "Normal",
+      "text": "近年来，分布式架构和微服务技术在软件开发领域得到了广泛应用[1]，特别是在高并发、高可用性系统的设计中表现出色。Go语言以其高效的并发处理能力、简洁的语法和强大的标准库，成为构建高性能后端服务的理想选择。同时，Vue.js作为前端开发中的热门框架，能够快速构建交互式和响应式的用户界面，提升用户体验。结合这些技术优势，开发一套基于Vue的高校考试系统具有重要的现实意义。其现实意义主要有以下几点：",
+      "runs": [
+        {
+          "text": "近年来，分布式架构和微服务技术在软件开发领域得到了",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "广",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "泛应用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 63,
+      "style": "Normal",
+      "text": "（1）提升考试管理效率：通过在线考试系统，实现试卷的自动生成、在线考试、自动阅卷等功能，大大减少了人工操作，提高了考试管理的整体效率。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 64,
+      "style": "Normal",
+      "text": "（2）适应多样化考试需求：系统支持多种题型，能够满足不同课程和考试场景的需求，为学生提供更加灵活的考试方式。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 65,
+      "style": "Normal",
+      "text": "（3）提高系统性能和可扩展性：采用分布式架构和微服务设计理念，结合Go语言的高效并发特性，能够有效应对高并发场景，同时便于系统的扩展和维护。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 66,
+      "style": "Heading 1",
+      "text": "2 基本技术介绍",
+      "runs": [
+        {
+          "text": "2 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "基本技术介绍",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": false,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 67,
+      "style": "Heading 2",
+      "text": "2.1 开发技术简介",
+      "runs": [
+        {
+          "text": "2.1",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "开发技术简介",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 68,
+      "style": "Heading 3",
+      "text": "2.1.1 前端技术简介",
+      "runs": [
+        {
+          "text": "2.1.1",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "前端技术简介",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 69,
+      "style": "Normal",
+      "text": "系统前端开发基于 Vue框架。Vue是一种轻量级、渐进式的前端框架，以数据驱动和组件化为核心思想，采用自底向上的开发模式，能够高效构建交互性强、响应速度快的用户界面。它通过 MVVM 模式实现数据双向绑定，简化了数据处理的复杂性，同时其核心专注于视图层，具备易用性、灵活性和高性能等特点。对于具备HTML、CSS和JavaScript基础的开发人员来说，Vue简单易学，可快速上手。为了提升用户体验和",
+      "runs": [
+        {
+          "text": "系统前端开发基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Vue",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "框架。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 70,
+      "style": "Heading 3",
+      "text": "2.1.2 MySQL数据库",
+      "runs": [
+        {
+          "text": "2.1.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "MySQL",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 71,
+      "style": "论文正文",
+      "text": "系统采用MySQL作为数据存储工具。作为一种成熟且稳定的关系型数据库，MySQL具有成本低、安全性高、易于维护等优点，能够有效支撑系统的数据管理需求。关系型数据库是一种基于二维表的数据存储架构，它可以将不同类别的数据分开存储，并且可以根据表之间的关联性，将数据进行有效的分类，从而极大地提升了MySQL的读取效率和管理效率。无论是小型项目开发还是声名显赫的大型网站，MySQL都因其稳定、可靠、快速、",
+      "runs": [
+        {
+          "text": "系统采用",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "MySQL",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "作为数据存储工具。作为一种成熟且稳定的关系型数据库，",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 72,
+      "style": "Heading 3",
+      "text": "2.1.3 Go及其生态简介",
+      "runs": [
+        {
+          "text": "2.1.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Go",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 73,
+      "style": "Normal",
+      "text": "本系统使用的后端框架是Go语言的XORM框架，它提供了直观的接口和简单的语法。它支持多种数据库，并提供了丰富的功能，如自动映射、关联查询和事务支持。XORM还具有良好的性能，使用了缓存和连接池等优化策略。它旨在提供简洁、高效、可靠的软件开发解决方案。Go是一种静态强类型、编译型语言，Go具有很强的表达能力，得益于其并发机制，用它编写的程序能够非常有效地利用多核与联网的计算机，其新颖的类型系统则使程",
+      "runs": [
+        {
+          "text": "本系统使用的后端框架是",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Go",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "语言的",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 74,
+      "style": "Heading 3",
+      "text": "2.1.4 Dubbo简介",
+      "runs": [
+        {
+          "text": "2.1.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 75,
+      "style": "Normal",
+      "text": "Dubbo是一款高性能的远程过程调用框架，它主要用于构建分布式服务架构，能够让开发者像调用本地方法一样调用远程服务，极大地简化了分布式系统的开发复杂度。系统后端引入了Dubbo作为分布式服务框架，支持系统在多节点环境下的灵活扩展与高可用部署，保证高可用的远程调用[6]，进一步提升了系统的可扩展性与稳定性。",
+      "runs": [
+        {
+          "text": "Dubbo",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是一款高性能的远程过程调用框架，它主要用于构建分布式服务架构，能够让开发者像调用本地方法一样调用远程服务，极大地简化了分布式系统的开发复杂度。系统后端引入了",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Dubbo",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 76,
+      "style": "Heading 3",
+      "text": "2.1.5 Rust简介",
+      "runs": [
+        {
+          "text": "2.1.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 77,
+      "style": "Normal",
+      "text": "Rust是一种系统编程语言，由Mozilla开发并于2010年首次发布。它注重安全性、并发性和性能，旨在提供一种能够有效防止内存安全问题（如空指针解引用、数据竞争等）的编程方式，同时还能保持与C/C++相当的性能表现。为了解决Go语言在部分场景中因垃圾回收机制导致的内存占用过高和性能问题，我在部分模块中使用Rust进行替代开发。",
+      "runs": [
+        {
+          "text": "Rust",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是一种系统编程语言，由",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Mozilla",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 78,
+      "style": "Heading 2",
+      "text": "2.2 开发工具和运行环境",
+      "runs": [
+        {
+          "text": "2.2 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "开发工具和",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "运行环境",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 79,
+      "style": "Normal",
+      "text": "本系统采用前后端分离架构，前端专注于用户界面的交互设计与开发。后端则负责业务逻辑处理、数据存储与管理。通过明确的分工、灵活的技术选型以及规范的接口交互，显著提升了开发效率、系统可维护性及用户体验。",
+      "runs": [
+        {
+          "text": "本系统采用前后端分离架构，前端专注于用户界面的交互设计与开发。后端则负责业务逻辑处理、数据存储与管理。通过明确的分工、灵活的技术选型以及规范的接口交互，显著提升",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 80,
+      "style": "Normal",
+      "text": "开发工具：前后端都使用Visual Studio Code开发。",
+      "runs": [
+        {
+          "text": "开发工具：前后端都使用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Visual Studio Code",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "开发",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 81,
+      "style": "Normal",
+      "text": "客户端：Chrome浏览器、Firefox浏览器、Microsoft Edge浏览器等。",
+      "runs": [
+        {
+          "text": "客户端：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "Chrome",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "浏览器、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "idx": 82,
+      "style": "Normal",
+      "text": "数据库：MySQL关系型数据库。",
+      "runs": [
+        {
+          "text": "数据库：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "MySQL",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": "000000"
+        },
+        {
+          "text": "关系型数据库。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "idx": 83,
+      "style": "Heading 1",
+      "text": "3 系统需求分析",
+      "runs": [
+        {
+          "text": "3 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "系统",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "需求分析",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 84,
+      "style": "Heading 2",
+      "text": "3.1 可行性分析",
+      "runs": [
+        {
+          "text": "3.1 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "可行性分析",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 85,
+      "style": "Heading 3",
+      "text": "3.1.1 技术可行性",
+      "runs": [
+        {
+          "text": "3.1.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "技术可行性",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 86,
+      "style": "Normal",
+      "text": "本系统前端采用 Vue 框架，后端选用 Go 语言，搭配 MySQL 数据库进行数据存储，整体技术栈成熟稳定、生态完善，具备充分的技术实现基础。Vue 作为主流前端框架，组件化开发模式高效便捷，社区资源丰富，能够快速搭建界面友好、交互流畅的前端页面；Go 语言语法简洁、并发性能优异，适合开发高效稳定的后端服务，可满足考试系统高并发、高响应的业务需求；MySQL 关系型数据库成熟可靠，支持海量试题、",
+      "runs": [
+        {
+          "text": "本系统前端采用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Vue ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "框架，后端选用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 87,
+      "style": "Heading 3",
+      "text": "3.1.2 操作可行性",
+      "runs": [
+        {
+          "text": "3.1.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "操作可行性",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 88,
+      "style": "Normal",
+      "text": "系统面向学生、教师、管理员三类高校核心用户设计，功能模块贴合高校考试管理实际业务流程，操作逻辑简洁直观，符合日常使用习惯。学生端可便捷完成考试参与、成绩查询等操作；教师端支持题库维护、试卷发布、在线阅卷等工作；管理员端实现对师生信息、系统权限的统一管理，整体界面布局清晰，操作步骤简化，无需复杂专业培训即可快速上手。此外，系统依托校园网络环境运行，适配电脑端常规使用场景，契合高校信息化办公模式，师生",
+      "runs": [
+        {
+          "text": "系统面向学生、教师、管理员三类高校核心用户设计，功能模块贴合高校考试管理实际业务流程，操作逻辑简洁直观，符合日常使用习惯。学生端可便捷完成考试参与、成绩查询等操",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 89,
+      "style": "Heading 3",
+      "text": "3.1.3 经济可行性",
+      "runs": [
+        {
+          "text": "3.1.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "经济可行性",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 90,
+      "style": "Normal",
+      "text": "系统面向学生、教师、管理员三类高校核心用户设计，功能模块贴合高校考试管理实际业务流程，操作逻辑简洁直观，符合日常使用习惯。学生端可便捷完成考试参与、成绩查询等操作；教师端支持题库维护、试卷发布、在线阅卷等工作；管理员端实现对师生信息、系统权限的统一管理，整体界面布局清晰，操作步骤简化，无需复杂专业培训即可快速上手。此外，系统依托校园网络环境运行，适配电脑端常规使用场景，契合高校信息化办公模式，师生",
+      "runs": [
+        {
+          "text": "系统面向学生、教师、管理员三类高校核心用户设计，功能模块贴合高校考试管理实际业务流程，操作逻辑简洁直观，符合日常使用习惯。学生端可便捷完成考试参与、成绩查询等操",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 91,
+      "style": "Heading 2",
+      "text": "3.2 功能性需求分析",
+      "runs": [
+        {
+          "text": "3.2",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "功能性需求分析",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 92,
+      "style": "Normal",
+      "text": "本研究旨在设计一个专门用于应对高校考试同时大量并发请求需求的高校考试系统。该系统将通过一系列优化的架构设计，确保在高并发场景下能够稳定运行，高效处理海量请求，并充分利用现有的软硬件资源，以显著提升整体性能和用户体验。系统用户分为三类，分别是管理员、教师和学生。",
+      "runs": [
+        {
+          "text": "本研究旨在设计",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "一个专门用于应对高校考试同时大量并发请求需求的高校考试系统",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "。",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 93,
+      "style": "Normal",
+      "text": "（1）管理员用户需求",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "）管理员",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 94,
+      "style": "Normal",
+      "text": "教师管理：可以对所有教师信息进行管理。",
+      "runs": [
+        {
+          "text": "教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理：可以对所有",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 95,
+      "style": "Normal",
+      "text": "学生管理：可以对所有学生信息进行管理。",
+      "runs": [
+        {
+          "text": "学生管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：可以对所有",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 96,
+      "style": "Normal",
+      "text": "专业管理：可以对专业信息进行管理。",
+      "runs": [
+        {
+          "text": "专业管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：可以对",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "专业",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 97,
+      "style": "List Paragraph",
+      "text": "课程管理：可以对课程信息进行管理。",
+      "runs": [
+        {
+          "text": "课程管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "可以",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 98,
+      "style": "List Paragraph",
+      "text": "角色管理：可以新增角色并对其权限进行管理，方便系统以后进行扩展。",
+      "runs": [
+        {
+          "text": "角色管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "可以",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 99,
+      "style": "Normal",
+      "text": "（2）教师用户需求",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 100,
+      "style": "List Paragraph",
+      "text": "题库管理：可以新增和查看已发布编辑的题目。",
+      "runs": [
+        {
+          "text": "题库管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：可以",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "新增和",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 101,
+      "style": "List Paragraph",
+      "text": "试卷管理：通过填写必要信息，可以从题库中随机抽取试题，并生成试卷。",
+      "runs": [
+        {
+          "text": "试卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：通过填写必要信息，可以",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 102,
+      "style": "List Paragraph",
+      "text": "阅卷管理：可以浏览所有学生的答卷，并可以进行批改，支持部分题目自动阅卷，提高阅卷效率。",
+      "runs": [
+        {
+          "text": "阅卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理：可以浏览",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "所有学生的答卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 103,
+      "style": "List Paragraph",
+      "text": "成绩查询：可以查询参加考试的学生成绩列表。",
+      "runs": [
+        {
+          "text": "成绩查询",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：可以",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "查询",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 104,
+      "style": "List Paragraph",
+      "text": "课程管理：可以对课程信息进行管理。",
+      "runs": [
+        {
+          "text": "课程管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "可以对课程信息进行管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 105,
+      "style": "Normal",
+      "text": "（3）学生用户需求",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 106,
+      "style": "List Paragraph",
+      "text": "获取试卷：获取试卷信息进行答题。",
+      "runs": [
+        {
+          "text": "获取试卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "获取试卷信息进行答题",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 107,
+      "style": "List Paragraph",
+      "text": "提交答卷：可以对自己填写的试卷进行提交。",
+      "runs": [
+        {
+          "text": "提交答卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：可以对",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "自己填写的试卷进行提交",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 108,
+      "style": "Normal",
+      "text": "结合上述功能需求，得到了高校系统的用例图，如图1所示。",
+      "runs": [
+        {
+          "text": "结合上述功能需求，得到了高校系统",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "的用例图，如",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "图1所示",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 129,
+      "style": "Normal",
+      "text": "图1 高校考试系统的用例图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 130,
+      "style": "Heading 2",
+      "text": "3.2 非功能性需求分析",
+      "runs": [
+        {
+          "text": "3.",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 131,
+      "style": "Normal",
+      "text": "（1）性能需求：系统应保证在用户操作时能够快速响应，并且页面加载时间应尽可能短。同时，系统应能够支持大量用户同时访问，保证系统在高并发的情况下仍能稳定运行。",
+      "runs": [
+        {
+          "text": "（1）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": "000000"
+        },
+        {
+          "text": "性能需求：系统应保证在用户操作时能够快速响应，并且页面加载时间应尽可能短。同时，系统应能够支持大量用户同时访问，保证系统在高并发的情况下仍能稳定运行。",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "idx": 132,
+      "style": "Normal",
+      "text": "（2）可靠性需求：系统应具有高度的可靠性，能够支持海量用户同时访问，确保在高流量、高负载的环境下为用户提供流畅的服务体验。同时，系统应具有良好的用户界面设计和友好的操作流程，以确保用户能够轻松上手。",
+      "runs": [
+        {
+          "text": "（2）可",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": "000000"
+        },
+        {
+          "text": "靠",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": "000000"
+        },
+        {
+          "text": "性需求：系统应具有高度的可靠性，",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "idx": 133,
+      "style": "Normal",
+      "text": "（3）安全性需求：系统应采取有效的数据加密措施，对用户的敏感数据进行加密，以保护用户的信息。",
+      "runs": [
+        {
+          "text": "（3）安全性需求：系统应采取有效的数据加密措施，对用户的敏感数据进行加密，以保护用户的信息。",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": "000000"
+        }
+      ]
+    },
+    {
+      "idx": 134,
+      "style": "Heading 1",
+      "text": "4系统总体设计",
+      "runs": [
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "系统",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "总体设计",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 135,
+      "style": "Heading 2",
+      "text": "4.1 系统总体架构设计",
+      "runs": [
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 136,
+      "style": "Normal",
+      "text": "系统的总体架构分为三层：视图层、逻辑层、数据层。视图层的作用是进行数据展示，即是浏览器界面，与用户进行交互，向系统传递用户的请求并返回结果。逻辑层的作用是进行逻辑处理，接收视图层的请求后调取数据层的数据进行数据处理，并将数据结果返回给视图层。数据层的作用是进行数据管理，收到逻辑层的请求后对数据库进行操作，并将需要的数据返回。系统中涉及的各种表数据都是在数据层进行处理。通过应用前后端分离架构、基于组",
+      "runs": [
+        {
+          "text": "系统的总体架构分为三层：视图层、逻辑层、数据层。视图层的作用是进行数据展示，即是浏览器界面，与用户进行交互，向系统传递用户的请求并返回结果。逻辑层的作用是进行逻",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "系统中涉及的各种表数据",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "都是在数据层进行处理。",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 150,
+      "style": "Normal",
+      "text": "图2 系统总体架构图",
+      "runs": [
+        {
+          "text": "    ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 151,
+      "style": "Heading 2",
+      "text": "4.2 系统功能模块划分",
+      "runs": [
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 152,
+      "style": "Normal",
+      "text": "高校考试系统的用户分为三类，分别是学生、教师和管理员，由于角色不同，对应功能权限也不相同。系统功能模块图如图3所示。",
+      "runs": [
+        {
+          "text": "高校",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "考试",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "系统的用户",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 154,
+      "style": "Normal",
+      "text": "图3 高校考试系统功能模块图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 155,
+      "style": "Heading 2",
+      "text": "4.3 数据库设计",
+      "runs": [
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 156,
+      "style": "Heading 3",
+      "text": "4.3.1 E-R图设计",
+      "runs": [
+        {
+          "text": "4.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".1 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 157,
+      "style": "Normal",
+      "text": "本文使用 E-R 图来描述系统的数据库概念模型。高校考试系统的 E-R 图如图4所示。",
+      "runs": [
+        {
+          "text": "本文使用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " E-R ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "图来描述系统的数据库概念模型。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 159,
+      "style": "Normal",
+      "text": "图4 高校考试系统E-R图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 160,
+      "style": "Heading 3",
+      "text": "4.3.2 数据库表设计",
+      "runs": [
+        {
+          "text": "4.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".2 ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 161,
+      "style": "Normal",
+      "text": "数据库在许多系统中扮演着存储数据的关键角色，对系统的运行起着决定性作用[8]。本系统采用MySQL数据库存放数据，根据需求共设计了11张表，具体设计如下：",
+      "runs": [
+        {
+          "text": "数据库在许多系统中扮演着存储数据的关键角色，对系统的运行起着决定性作用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 162,
+      "style": "Normal",
+      "text": "（1）题目表，主要用来保存题目的基本信息（详见表1）。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 163,
+      "style": "Normal",
+      "text": "表1 题目表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "题目",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 164,
+      "style": "Normal",
+      "text": "（2）大题表，主要用来保存大题的基本信息（详见表2）。",
+      "runs": [
+        {
+          "text": "",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "（2）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "大题",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 166,
+      "style": "Normal",
+      "text": "表2 大题表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "大题",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 167,
+      "style": "Normal",
+      "text": "（3）题目与大题关联关系表，主要用来保存大题和题目的对应关系（详见表3）。",
+      "runs": [
+        {
+          "text": "（3）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "题目",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "与",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 168,
+      "style": "Normal",
+      "text": "表3 题目与大题关联关系表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "题目",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 169,
+      "style": "Normal",
+      "text": "（4）试卷表，主要用来保存试卷的基本信息（详见表4）。",
+      "runs": [
+        {
+          "text": "（4）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "试卷表，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "主要用来保存试卷的基本信息",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 170,
+      "style": "Normal",
+      "text": "表4 试卷表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "试卷",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 171,
+      "style": "Normal",
+      "text": "（5）试卷与大题的关联关系表，主要用来保存试卷和大题的对应关系（详见表5）。",
+      "runs": [
+        {
+          "text": "（5）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "试卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "与",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 172,
+      "style": "Normal",
+      "text": "表5 试卷与大题关联关系表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "试卷",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 173,
+      "style": "Normal",
+      "text": "（6）学生表，主要用来保存学生的基本信息（详见表6）。",
+      "runs": [
+        {
+          "text": "（6）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 175,
+      "style": "Normal",
+      "text": "表6 学生表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "6 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "学生",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 176,
+      "style": "Normal",
+      "text": "（7）教师表，主要用来保存教师的基本信息（详见表7）。",
+      "runs": [
+        {
+          "text": "（7）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 177,
+      "style": "Normal",
+      "text": "表7 教师表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "7 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "教师",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 178,
+      "style": "Normal",
+      "text": "（8）管理员表，主要用来保存管理员的基本信息（详见表8）。",
+      "runs": [
+        {
+          "text": "（8）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "管理员",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 179,
+      "style": "Normal",
+      "text": "表8 管理员表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "8 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理员",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 180,
+      "style": "Normal",
+      "text": "（9）角色表，主要用来保存各个角色的权限信息方便后续进行拓展（详见表9）。",
+      "runs": [
+        {
+          "text": "（9）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "角色表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 181,
+      "style": "Normal",
+      "text": "表9 角色表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "9 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "角色表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 182,
+      "style": "Normal",
+      "text": "（10）专业表，主要用来保存专业的基本信息（详见表10）。",
+      "runs": [
+        {
+          "text": "（10）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "专业",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 183,
+      "style": "Normal",
+      "text": "表10 专业表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "10 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "专业",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 184,
+      "style": "Normal",
+      "text": "（11）答卷表，主要用来保存学生填写的试卷信息（详见表11）。",
+      "runs": [
+        {
+          "text": "（11）",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "答卷表，主要用来保存学生填写的",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "试卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 185,
+      "style": "Normal",
+      "text": "表11 答卷表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "11 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "答卷",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 186,
+      "style": "Heading 1",
+      "text": "5 系统详细设计与实现",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "系统",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 187,
+      "style": "Heading 2",
+      "text": "5.1 管理员部分模块实现",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".1",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 188,
+      "style": "Heading 3",
+      "text": "5.1.1 管理员登录模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".1.1",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 189,
+      "style": "Normal",
+      "text": "管理员登录界面如图5所示，其设计比较简单，用户填写用户名和密码后点击登录按钮即可发送请求到后端，验证成功后跳转到首页。",
+      "runs": [
+        {
+          "text": "管理员",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "登录",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "界面",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 191,
+      "style": "Normal",
+      "text": "图5 管理员登录界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 192,
+      "style": "Normal",
+      "text": "管理员登录功能时序图如图6所示：",
+      "runs": [
+        {
+          "text": "管",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "理员",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "登录功能时序图如",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 194,
+      "style": "Normal",
+      "text": "图6 管理员登录功能时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "6",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 195,
+      "style": "Normal",
+      "text": "如图6所示，下面是该流程主要用到的模块或结构体：",
+      "runs": [
+        {
+          "text": "如图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "6",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "所示，下面是该流程主要用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 196,
+      "style": "Normal",
+      "text": "（1）User：用户结构体，用于将数据库中的表映射为结构体，其中封装了GetRow等方法，以便高效地执行数据库操作。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 197,
+      "style": "Normal",
+      "text": "（2）login：控制层登录模块，其中封装了用于解析用户请求参数的方法。这些方法会进一步调用由XORM映射的结构体中的方法，并将处理结果作为响应返回给用户。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 198,
+      "style": "Normal",
+      "text": "用户进行登录时，点击登录按钮后前端通过AJAX发送请求调用后端login模块中的Login函数进行处理，Login函数中对请求参数先进行处理，然后调用User结构体的GetRow方法查询用户数据，并对密码进行匹配，匹配成功后调用JWT库生成Token，并最终返回给前端。管理员登录界面的部分实现代码如下所示：",
+      "runs": [
+        {
+          "text": "用户进行",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "登录",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "时，点击登录按钮后前端通过",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 199,
+      "style": "Normal",
+      "text": "func Login(c *gin.Context) {\n    var u User\n    err := c.BindJSON(&u)\n    user := models.SystemUser{Name: u.Username}\n    if common.Sha1En(u.Password+user.Salt) != user.Password {\n        response.Sho",
+      "runs": [
+        {
+          "text": "func Login(c *gin.Context) {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\n    var u User",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\n    err := c.BindJSON(&u)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 200,
+      "style": "Heading 3",
+      "text": "5.1.2 教师管理模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 201,
+      "style": "Normal",
+      "text": "教师管理界面如下图7所示，主要用来管理教师信息。点击右上角添加教师按钮后会弹出添加教师弹窗，填写相关信息后保存即可添加新的教师。",
+      "runs": [
+        {
+          "text": "教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理界面如",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "下",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 203,
+      "style": "Normal",
+      "text": "图7 教师管理界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "7",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 204,
+      "style": "Normal",
+      "text": "教师管理界面是使用Element-UI组件库进行设计的，使用时，只需要将Element-UI组件库提供的表单模板根据自己的需求进行些许调整，再通过Vue.js做一个数据的双向绑定，最后编写一个钩子函数在进入界面时发送AJAX请求获取数据，就可以渲染出一个美观且实用的界面。教师分页查询时序图如下图8所示：",
+      "runs": [
+        {
+          "text": "教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理界面是使用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Element-UI",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 206,
+      "style": "Normal",
+      "text": "图8 教师分页查询时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "8",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 207,
+      "style": "Normal",
+      "text": "如图8所示，下面是该流程主要用到的模块或结构体：",
+      "runs": [
+        {
+          "text": "如图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "8",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "所示，下面是该流程主要用到的",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 208,
+      "style": "Normal",
+      "text": "（1）teacher：控制层的teacher模块，其中封装了用于解析用户请求参数的方法。这些方法会进一步调用由XORM映射的结构体中的方法，并将处理结果作为响应返回给用户。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 209,
+      "style": "Normal",
+      "text": "（2）Teacher：教师结构体，用于将数据库中的教师表映射为结构体，其中封装了高效执行数据库操作的方法。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 210,
+      "style": "Normal",
+      "text": "在进入页面时或新增教师成功后，前端会发送AJAX请求，调用控制层teacher模块的Index函数，它会处理前端发送的请求参数，并调用Teacher结构体的GetAllPage方法，随后调用XORM框架的Limit和Find方法，按前端传入的分页信息进行查询数据，最后系统会将本次操作的结果返回给前端。",
+      "runs": [
+        {
+          "text": "在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "进入页面时或新增教师成功后",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "，前端会发送",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 211,
+      "style": "Normal",
+      "text": "教师分页查询核心实现代码如下，此部分代码主要用于根据前端发送的页数和每页大小进行分页查询。",
+      "runs": [
+        {
+          "text": "教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "分页查询",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "核心",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 212,
+      "style": "Normal",
+      "text": "func (a *Teacher) GetAllPage(paging *common.Paging) ([]Teacher, error) {",
+      "runs": [
+        {
+          "text": "func (a *Teacher) GetAllPage(paging *common.Paging) ([]Teacher, error) {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 213,
+      "style": "Normal",
+      "text": "var teachers []Teacher",
+      "runs": [
+        {
+          "text": "    var ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "teachers",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " []Teacher",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 214,
+      "style": "Normal",
+      "text": "var err error",
+      "runs": [
+        {
+          "text": "    var err error",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 215,
+      "style": "Normal",
+      "text": "// 查询总记录数",
+      "runs": [
+        {
+          "text": "    // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "查询总记录数",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 216,
+      "style": "Normal",
+      "text": "paging.Total, err = mEngine.Where(\"is_deleted=?\", 0).Count(a)",
+      "runs": [
+        {
+          "text": "    paging.Total, err = mEngine.Where(\"is_deleted=?\", 0).Count(a)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 217,
+      "style": "Normal",
+      "text": "// 计算分页信息",
+      "runs": [
+        {
+          "text": "    // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "计算分页信息",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 218,
+      "style": "Normal",
+      "text": "paging.GetPages()",
+      "runs": [
+        {
+          "text": "    paging.GetPages()",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 219,
+      "style": "Normal",
+      "text": "// 如果没有数据，直接返回",
+      "runs": [
+        {
+          "text": "    // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "如果没有数据，直接返回",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 220,
+      "style": "Normal",
+      "text": "if paging.Total < 1 {",
+      "runs": [
+        {
+          "text": "    if paging.Total < 1 {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 221,
+      "style": "Normal",
+      "text": "return teachers, nil",
+      "runs": [
+        {
+          "text": "        return ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "teachers",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ", nil",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 222,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "    }",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 223,
+      "style": "Normal",
+      "text": "// 查询分页数据",
+      "runs": [
+        {
+          "text": "    // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "查询分页数据",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 224,
+      "style": "Normal",
+      "text": "err=mEngine.Where(\"is_deleted=?\",0).Limit(int(paging.PageSize), \tint(paging.StartNums)).Find(&teachers)",
+      "runs": [
+        {
+          "text": "err=mEngine.Where(\"is_deleted=?\",0).Limit(int(paging.PageSize), ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "int(paging.StartNums)).Find(&",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 225,
+      "style": "Normal",
+      "text": "return teachers, err",
+      "runs": [
+        {
+          "text": "    return ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "teachers",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ", err",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 226,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 227,
+      "style": "Normal",
+      "text": "新增教师时序图如下图9所示：",
+      "runs": [
+        {
+          "text": "新增教师时序图如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "9",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "所示：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 229,
+      "style": "Normal",
+      "text": "图9 新增教师时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "9",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 230,
+      "style": "Normal",
+      "text": "在用户新增教师时，前端会发送AJAX请求，调用控制层teacher模块的Add函数。之后它会调用Teacher结构体的Add方法，随后再调用XORM框架的Insert方法将数据插入到表中。新增教师功能核心实现代码如下，此部分代码主要用于添加教师信息。",
+      "runs": [
+        {
+          "text": "在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "用户新增教师时",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "，前端会发送",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 231,
+      "style": "Normal",
+      "text": "func Add(c *gin.Context) {",
+      "runs": [
+        {
+          "text": "func ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Add(c *gin.Context) {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 232,
+      "style": "Normal",
+      "text": "if(a.role != ‘teacher’) return User.Add()\n  \t\tvar teacher models.Teacher\n    \tif err := c.Bind(&teacher); err != nil {\n        \treturn\n    \t}\n    \t_, err := teacher.Add()\n    \tresponse.ShowData(c, tea",
+      "runs": [
+        {
+          "text": "if(a.role != ‘teacher’) return User.Add()",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\n  ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 233,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 234,
+      "style": "Heading 3",
+      "text": "5.1.3 学生管理模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 235,
+      "style": "Normal",
+      "text": "学生管理界面如下图10所示，主要用来管理学生信息。与教师管理设计基本一致，点击右上角添加学生按钮会弹出添加学生弹窗，填写信息后保存即可添加新的学生。",
+      "runs": [
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "10",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 237,
+      "style": "Normal",
+      "text": "图10 学生管理界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "10",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 238,
+      "style": "Normal",
+      "text": "学生分页查询时序图如下图11所示：",
+      "runs": [
+        {
+          "text": "学生分页查询",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "时序图如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 240,
+      "style": "Normal",
+      "text": "图11 学生分页查询时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 241,
+      "style": "Normal",
+      "text": "如图11所示，下面是该流程主要用到的模块或结构体：",
+      "runs": [
+        {
+          "text": "如图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 242,
+      "style": "Normal",
+      "text": "（1）student：控制层的student模块，其中封装了用于解析用户请求参数的方法。这些方法会进一步调用由XORM映射的结构体中的方法，并将处理结果作为响应返回给用户。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 243,
+      "style": "Normal",
+      "text": "（2）Student：学生结构体，用于将数据库中的学生表映射为结构体，其中封装了高效执行数据库操作的方法。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 244,
+      "style": "Normal",
+      "text": "在进入页面时或新增学生成功后，前端会发送AJAX请求，调用控制层student模块的Index函数，它会处理前端发送的请求参数，并调用Student结构体的GetAllPage方法，随后调用XORM框架的Limit和Find方法，按前端传入的分页信息进行查询数据，最后系统会将本次操作的结果返回给前端。",
+      "runs": [
+        {
+          "text": "在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "进入页面时或新增",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 245,
+      "style": "Normal",
+      "text": "新增学生时序图如下图12所示：",
+      "runs": [
+        {
+          "text": "新增",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "时序图如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 247,
+      "style": "Normal",
+      "text": "图12 新增学生时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 248,
+      "style": "Normal",
+      "text": "该流程主要用到的模块或结构体与学生分页查询时序图相同。在新增学生时，前端会发送AJAX请求，调用student模块的add方法，它会处理前端发送的请求参数，并调用Student结构体的add方法，随后调用XORM框架的Insert方法将数据插入到表中，最后将本次操作的结果返回给前端。",
+      "runs": [
+        {
+          "text": "该流程主要用到的",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "模块或",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "结构体",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 249,
+      "style": "Normal",
+      "text": "学生管理分页查询及新增的代码与教师管理分页查询及新增的代码类似，在此不多赘述。",
+      "runs": [
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理分页查询",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "及新增",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 250,
+      "style": "Heading 2",
+      "text": "5.2 教师部分模块实现",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".2",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 251,
+      "style": "Heading 3",
+      "text": "5.2.1 题库管理模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 252,
+      "style": "Normal",
+      "text": "题库管理界面如下图13所示，主要用来管理题目信息。左上角输入题目名称或题目类型可以快速查找对应的题目。方便教师查找题目进行编辑或删除。点击新增按钮会弹出新增题目弹窗，填写相关信息后保存即可添加新的题目。",
+      "runs": [
+        {
+          "text": "题库",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 254,
+      "style": "Normal",
+      "text": "图13 题库管理界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 255,
+      "style": "Normal",
+      "text": "题目分页查询时序图如下图14所示：",
+      "runs": [
+        {
+          "text": "题目分页查询时序图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 257,
+      "style": "Normal",
+      "text": "图14 题目分页查询时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 258,
+      "style": "Normal",
+      "text": "如图14所示，下面是该流程主要用到的模块或结构体：",
+      "runs": [
+        {
+          "text": "如图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 259,
+      "style": "Normal",
+      "text": "（1）question：控制层的question模块，其中封装了用于解析用户请求参数的方法。这些方法会进一步调用由XORM映射的结构体中的方法，并将处理结果作为响应返回给用户。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 260,
+      "style": "Normal",
+      "text": "（2）Question：题目结构体，用于将数据库中的题目表映射为结构体，其中封装了高效执行数据库操作的方法。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 261,
+      "style": "Normal",
+      "text": "在进入页面时或新增题目成功后，前端会发送AJAX请求，调用控制层question模块的Index函数，它会处理前端发送的请求参数，并调用Question结构体的GetAllPage方法，随后调用XORM框架的Limit和Find方法，按前端传入的分页信息进行查询数据，最后系统会将本次操作的结果返回给前端。",
+      "runs": [
+        {
+          "text": "在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "进入页面时或新增题目成功后",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "，前端会发送",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 262,
+      "style": "Normal",
+      "text": "新增题目弹窗如下图15所示，添加题目时除了需要填写题目内容和选项外，还需要选择题目类型和题目所属的课程。",
+      "runs": [
+        {
+          "text": "新增",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "题目弹窗",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 264,
+      "style": "Normal",
+      "text": "图15 新增题目弹窗",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 265,
+      "style": "Normal",
+      "text": "新增题目时序图如下图16所示：",
+      "runs": [
+        {
+          "text": "新增",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "题目",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "时序图如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 267,
+      "style": "Normal",
+      "text": "图16 新增题目时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "16",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 268,
+      "style": "Normal",
+      "text": "该流程主要用到的模块或结构体与题目分页查询时序图相同。在新增题目时，前端会发送AJAX请求，调用question模块的Set方法。它会处理前端发送的请求参数，并调用Question结构体的Set方法，随后调用XORM框架的Insert方法将数据插入到表中，最后将本次操作的结果返回给前端。",
+      "runs": [
+        {
+          "text": "该流程主要用到的",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "模块或结构体与题目分页查询时序图相同。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "在新增",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 269,
+      "style": "Normal",
+      "text": "新增题目的部分实现代码如下所示：",
+      "runs": [
+        {
+          "text": "新增题目",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "的部分实现代码如",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "下",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 270,
+      "style": "Normal",
+      "text": "func (u *Question) Set() {",
+      "runs": [
+        {
+          "text": "func (u *Question) Set() {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 271,
+      "style": "Normal",
+      "text": "session := mEngine.NewSession()",
+      "runs": [
+        {
+          "text": "session := mEngine.NewSession()",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 272,
+      "style": "Normal",
+      "text": "defer session.Close()",
+      "runs": [
+        {
+          "text": "defer session.Close()",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 273,
+      "style": "Normal",
+      "text": "// 尝试插入记录",
+      "runs": [
+        {
+          "text": "// ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "尝试插入记录",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 274,
+      "style": "Normal",
+      "text": "_, err := session.Insert(u)",
+      "runs": [
+        {
+          "text": "_, err := session.Insert(u)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 275,
+      "style": "Normal",
+      "text": "if err != nil {",
+      "runs": [
+        {
+          "text": "if err != nil {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 276,
+      "style": "Normal",
+      "text": "if isUniqueConstraintError(err) {",
+      "runs": [
+        {
+          "text": "    if isUniqueConstraintError(err) {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 277,
+      "style": "Normal",
+      "text": "// 更新记录",
+      "runs": [
+        {
+          "text": "        // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "更新记录",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 278,
+      "style": "Normal",
+      "text": "_, err = session.Where(\"id = ?\", u.ID).Update(u)",
+      "runs": [
+        {
+          "text": "        _, err = session.Where(\"id = ?\", u.ID).Update(u)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 279,
+      "style": "Normal",
+      "text": "} else if u.ID > 0 {",
+      "runs": [
+        {
+          "text": "    } else if u.ID > 0 {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 280,
+      "style": "Normal",
+      "text": "fmt.Printf(\"Question: %+v\\n\", u.ID)",
+      "runs": [
+        {
+          "text": "        fmt.Printf(\"Question: %+v\\n\", u.ID)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 281,
+      "style": "Normal",
+      "text": "// 更新记录",
+      "runs": [
+        {
+          "text": "        // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "更新记录",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 282,
+      "style": "Normal",
+      "text": "_, err = session.Where(\"id = ?\", u.ID).Cols(\"is_deleted\").Update(u)",
+      "runs": [
+        {
+          "text": "        _, err = session.Where(\"id = ?\", u.ID).Cols(\"is_deleted\").Update(u)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 283,
+      "style": "Normal",
+      "text": "if err != nil {",
+      "runs": [
+        {
+          "text": "        if err != nil {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 284,
+      "style": "Normal",
+      "text": "return",
+      "runs": [
+        {
+          "text": "            return",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 285,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "        }",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 286,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "    }",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 287,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 288,
+      "style": "Normal",
+      "text": "return",
+      "runs": [
+        {
+          "text": "return",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 289,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 290,
+      "style": "Normal",
+      "text": "如代码所示，这个函数可以兼容修改和新增，系统首先判断数据中是否有id，如不存在则插入一行数据，如存在则调用update方法进行修改。",
+      "runs": [
+        {
+          "text": "如代码所示，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "这个",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "函数",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 291,
+      "style": "Normal",
+      "text": "题库管理的分页查询代码与教师管理的分页查询代码类似，在此不多赘述。",
+      "runs": [
+        {
+          "text": "题库",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理的分页查询代码",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "与",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 292,
+      "style": "Heading 3",
+      "text": "5.2.2 试卷管理模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".2.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 293,
+      "style": "Normal",
+      "text": "试卷管理界面如下图17所示，主要用于管理试卷信息。左上角输入试卷的名称可以搜索对应的考试。",
+      "runs": [
+        {
+          "text": "试卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "管理界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 295,
+      "style": "Normal",
+      "text": "图17 试卷管理界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "7",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 296,
+      "style": "Normal",
+      "text": "试卷管理分页查询的核心实现代码如下，此部分代码主要用于根据前端发送的页数和每页大小进行分页查询，有名称时还会根据名称进行过滤。",
+      "runs": [
+        {
+          "text": "试卷管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "分页查询",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "的",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 297,
+      "style": "Normal",
+      "text": "func Index(c *gin.Context) {",
+      "runs": [
+        {
+          "text": "func Index(c *gin.Context) {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 298,
+      "style": "Normal",
+      "text": "page, _ := strconv.ParseInt(c.Query(\"page\"), 10, 64)",
+      "runs": [
+        {
+          "text": "\tpage, _ := strconv.ParseInt(c.Query(\"page\"), 10, 64)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 299,
+      "style": "Normal",
+      "text": "limit, _ := strconv.ParseInt(c.Query(\"limit\"), 10, 64)",
+      "runs": [
+        {
+          "text": "\tlimit, _ := strconv.ParseInt(c.Query(\"limit\"), 10, 64)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 300,
+      "style": "Normal",
+      "text": "name := c.Query(\"name\")",
+      "runs": [
+        {
+          "text": "\tname := c.Query(\"name\")",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 301,
+      "style": "Normal",
+      "text": "paging := &common.Paging{Page: page, PageSize: limit}",
+      "runs": [
+        {
+          "text": "\tpaging := &common.Paging{Page: page, PageSize: limit}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 302,
+      "style": "Normal",
+      "text": "paperModel := models.Paper{}",
+      "runs": [
+        {
+          "text": "\tpaperModel := models.Paper{}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 303,
+      "style": "Normal",
+      "text": "userArr, err := paperModel.GetAllPageWithName(paging, name)",
+      "runs": [
+        {
+          "text": "\tuserArr, err := paperModel.GetAllPageWithName(paging, name)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 304,
+      "style": "Normal",
+      "text": "if err != nil {",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "if err != nil {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 305,
+      "style": "Normal",
+      "text": "return response.ShowError(c, \"fail\")",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "return",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 306,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 307,
+      "style": "Normal",
+      "text": "data := make(map[string]interface{})",
+      "runs": [
+        {
+          "text": "\tdata := make(map[string]interface{})",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 308,
+      "style": "Normal",
+      "text": "data[\"items\"] = userArr",
+      "runs": [
+        {
+          "text": "\tdata[\"items\"] = userArr",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 309,
+      "style": "Normal",
+      "text": "data[\"total\"] = paging.Total",
+      "runs": [
+        {
+          "text": "\tdata[\"total\"] = paging.Total",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 310,
+      "style": "Normal",
+      "text": "return response.ShowData(c, data)",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "return",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 311,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 312,
+      "style": "Normal",
+      "text": "试卷组卷界面如下图18所示，主要用于修改考试名称，考试时间，所属课程等信息。点击大题上的选择题目题库按钮会弹出配置大题信息的弹窗，可以配置大题的信息，如题目数量，每题分数，题目类型等。",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "试卷组卷界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 314,
+      "style": "Normal",
+      "text": "图18 试卷组件界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "8",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 315,
+      "style": "Heading 3",
+      "text": "5.2.3 阅卷管理模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".2.",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 316,
+      "style": "Normal",
+      "text": "阅卷管理界面如下图19所示，展示试卷的基本信息。点击右侧查看按钮会跳转到学生提交的答卷列表界面。",
+      "runs": [
+        {
+          "text": "阅卷管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 318,
+      "style": "Normal",
+      "text": "图19 阅卷管理界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "9",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 319,
+      "style": "Normal",
+      "text": "学生答卷列表界面如下图20所示，此界面主要用来展示学生提交的答卷信息。点击批改按钮可以跳转到批改试卷界面进行批改。",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "学生答卷列表界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "20",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 321,
+      "style": "Normal",
+      "text": "图20 学生答卷列表界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "20",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 322,
+      "style": "Normal",
+      "text": "批改试卷界面如下图21所示，主要用于教师对学生的试卷进行批改，该页面显示学生的基本信息和填写的答卷信息。由于客观题系统已经自动阅卷，因此教师只需要在主观题后的评分输入框内输入评分即可，主观题评分界面如下图22所示。",
+      "runs": [
+        {
+          "text": "批改试卷",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 324,
+      "style": "Normal",
+      "text": "图21 批改试卷界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 326,
+      "style": "Normal",
+      "text": "图22 批改试卷界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 327,
+      "style": "Normal",
+      "text": "批改试卷界面如图22所示，系统自动评分了客观题，并在右侧和顶部显示每题分数和总分数，教师可批改剩余的主观题并保存批改记录完成试卷的批改。批改试卷的功能实现较为简单，点击保存时会将批改信息和批改后的分数发送到后端保存下来，其核心代码如下所示：",
+      "runs": [
+        {
+          "text": "批改试卷界面如图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 328,
+      "style": "Normal",
+      "text": "func (a *Answer) Set() error {",
+      "runs": [
+        {
+          "text": "func (a *Answer) Set() error {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 329,
+      "style": "Normal",
+      "text": "existing := &Answer{}",
+      "runs": [
+        {
+          "text": "\texisting := &Answer{}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 330,
+      "style": "Normal",
+      "text": "has,err: = mEngine.Where(\"user_id= ? AND paper_id= ?\",a.UserID,a.PaperID)",
+      "runs": [
+        {
+          "text": "\thas,err:",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "=",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 331,
+      "style": "Normal",
+      "text": ".Get(existing)",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".Get(existing)",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 332,
+      "style": "Normal",
+      "text": "a.ID = existing.ID",
+      "runs": [
+        {
+          "text": "\ta.ID = existing.ID",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 333,
+      "style": "Normal",
+      "text": "if _, err := mEngine.ID(existing.ID).AllCols().Update(a); err != nil {",
+      "runs": [
+        {
+          "text": "\tif _, err := mEngine.ID(existing.ID).AllCols().Update(a); err != nil {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 334,
+      "style": "Normal",
+      "text": "return err",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\treturn err",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 335,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "\t}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 336,
+      "style": "Normal",
+      "text": "return nil",
+      "runs": [
+        {
+          "text": "\treturn nil",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 337,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 338,
+      "style": "Heading 2",
+      "text": "5.3 学生部分模块实现",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 339,
+      "style": "Heading 3",
+      "text": "5.3.1 学生登录模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 340,
+      "style": "Normal",
+      "text": "学生登录界面如下图23所示，学生登录采用了学号及密码的方式来实现，由于本系统作为考试用途，所以系统的页面设计相对简洁，交互流程也较为清晰。输入学号和密码后，点击登录按钮即可发送请求到后端，校验成功后跳转到首页。",
+      "runs": [
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "登录界面",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 342,
+      "style": "Normal",
+      "text": "图23 学生登录界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 343,
+      "style": "Normal",
+      "text": "学生登录时序图如下图24所示：",
+      "runs": [
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "登录时序图如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 345,
+      "style": "Normal",
+      "text": "图24 学生登录时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 346,
+      "style": "Normal",
+      "text": "如图24所示，下面是该流程主要用到的函数或结构体：",
+      "runs": [
+        {
+          "text": "如图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 347,
+      "style": "Normal",
+      "text": "（1）Client::post_login：登录验证函数，用于处理登录相关的逻辑。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 348,
+      "style": "Normal",
+      "text": "（2）GLOBAL_REDIS：缓存结构体，封装了缓存相关操作的函数。主要查询缓存中的信息。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 349,
+      "style": "Normal",
+      "text": "（3）JWT：JWT结构体，封装了生成Token等有关JWT的逻辑。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 350,
+      "style": "Normal",
+      "text": "与教师和管理员的操作不同，学生相关的操作通常涉及大量并发。因此，我选择使用Dubbo进行服务通信，并用Rust实现这部分模块，从而避免Go语言反射带来的高内存占用问题。学生进行登录操作时，首先系统会在本地的Redis缓存中查询是否有对应的学生信息，若有则将其与用户输入的信息进行比较，若没有则先向服务提供者发起请求，返回数据后比较。比较通过则允许登录，不同则禁止登录。学生登录模块中，服务消费者部分的",
+      "runs": [
+        {
+          "text": "与教师和管理员的操作不同，学生相关的操作通常涉及大量并发。因此，我选择使用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Dubbo",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "进行服务通信，并用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 351,
+      "style": "Normal",
+      "text": "pub async fn authenticate(code: i32,login_type: i32,) -> LoginReply {",
+      "runs": [
+        {
+          "text": "pub async fn authenticate(code: i32,login_type: i32,) -> LoginReply {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 352,
+      "style": "Normal",
+      "text": "let mut cli = CLIENT.clone(); // 共享并重用客户端",
+      "runs": [
+        {
+          "text": "    let mut cli = CLIENT.clone(); // ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "共享并重用客户端",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 353,
+      "style": "Normal",
+      "text": "let resp: dubbo::codegen::Response<LoginReply> = cli",
+      "runs": [
+        {
+          "text": "    let resp: dubbo::codegen::Response<LoginReply> = cli",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 354,
+      "style": "Normal",
+      "text": ".authenticate(Request::new(LoginRequest {",
+      "runs": [
+        {
+          "text": "        .authenticate(Request::new(LoginRequest {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 355,
+      "style": "Normal",
+      "text": "code: code,",
+      "runs": [
+        {
+          "text": "            code: code,",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 356,
+      "style": "Normal",
+      "text": "login_type: login_type,",
+      "runs": [
+        {
+          "text": "            login_type: login_type,",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 357,
+      "style": "Normal",
+      "text": "}))",
+      "runs": [
+        {
+          "text": "        }))",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 358,
+      "style": "Normal",
+      "text": ".await;",
+      "runs": [
+        {
+          "text": "        .await;",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 359,
+      "style": "Normal",
+      "text": "let (_, msg) = resp.into_parts();",
+      "runs": [
+        {
+          "text": "    let (_, msg) = resp.into_parts();",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 360,
+      "style": "Normal",
+      "text": "return msg;",
+      "runs": [
+        {
+          "text": "    return msg;",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 361,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 362,
+      "style": "Normal",
+      "text": "服务提供者部分的实现代码如下所示：",
+      "runs": [
+        {
+          "text": "服务提供者",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "部分的实现",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "代码如下所示：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 363,
+      "style": "Normal",
+      "text": "let result: Option<Row> = conn.exec_first(query, (student_code,)).await?;",
+      "runs": [
+        {
+          "text": "let result: Option<Row> = conn.exec_first(query, (student_code,)).await?;",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 364,
+      "style": "Normal",
+      "text": "if let Some(row) = result {",
+      "runs": [
+        {
+          "text": "if let Some(row) = result {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 365,
+      "style": "Normal",
+      "text": "let student = User {",
+      "runs": [
+        {
+          "text": "  let student = User {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 366,
+      "style": "Normal",
+      "text": "code: row.get(\"code\").unwrap(),",
+      "runs": [
+        {
+          "text": "  ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "code: row.get(\"code\").unwrap(),",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 367,
+      "style": "Normal",
+      "text": "name: row.get(\"name\").unwrap(),",
+      "runs": [
+        {
+          "text": "  ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "name: row.get(\"name\").unwrap(),",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 368,
+      "style": "Normal",
+      "text": "password: row.get(\"password\").unwrap(),",
+      "runs": [
+        {
+          "text": "  ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "password: row.get(\"password\").unwrap(),",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 369,
+      "style": "Normal",
+      "text": "};",
+      "runs": [
+        {
+          "text": "  };",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 370,
+      "style": "Normal",
+      "text": "Ok(Some(student))",
+      "runs": [
+        {
+          "text": "  Ok(Some(student))",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 371,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 372,
+      "style": "Heading 3",
+      "text": "5.3.2 学生考试模块",
+      "runs": [
+        {
+          "text": "5",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 373,
+      "style": "Normal",
+      "text": "考试界面如下图25所示，主要显示试卷的信息供用户填写，右侧显示用户的答题进度，点击对应的数字可以跳到对应的题目位置防止学生有遗漏的题目。点击保存答案可保存学生的答卷信息，点击交卷会弹出确认提交试卷的提示框，用户手动输入确定后即可提交试卷完成本次考试。",
+      "runs": [
+        {
+          "text": "考试",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "界面如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 375,
+      "style": "Normal",
+      "text": "图25 考试界面",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 376,
+      "style": "Normal",
+      "text": "考试信息获取时序图如下图26所示：",
+      "runs": [
+        {
+          "text": "考试信息获取时序图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "如下图",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 378,
+      "style": "Normal",
+      "text": "图26考试信息获取时序图",
+      "runs": [
+        {
+          "text": "图",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "6",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 379,
+      "style": "Normal",
+      "text": "学生点击进入考试获取试卷信息时，需要通过token验证学生信息，并查询学生是否拥有权限进入考试。当验证通过时，前端会向后端请求试卷信息，后端会先在本地查询Redis中缓存的数据，查询不到再向服务提供者发起请求，返回数据后系统就会将数据存储在Redis中，然后验证权限通过后将试卷返回给前端。当验证权限不通过时返回相应的提示信息。部分实现代码如下所示：",
+      "runs": [
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "点击",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "进入考试获取试卷信息时",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 380,
+      "style": "Normal",
+      "text": "let mut con = GLOBAL_REDIS.lock().await.get()",
+      "runs": [
+        {
+          "text": "let ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "mut con = GLOBAL_REDIS.lock().await.get()",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 381,
+      "style": "Normal",
+      "text": ".expect(\"Failed to get Redis connection\");",
+      "runs": [
+        {
+          "text": "\t",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".expect(\"Failed to get Redis connection\");",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 382,
+      "style": "Normal",
+      "text": "let result: Result<String, _> = con.get(format!(\"paper_{}\", id));",
+      "runs": [
+        {
+          "text": "let ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "result: Result<String, _> = con.get(format!(\"paper_{}\", id));",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 383,
+      "style": "Normal",
+      "text": "let paper_result = match result {",
+      "runs": [
+        {
+          "text": "let ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "paper_result = match result {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 384,
+      "style": "Normal",
+      "text": "Ok(data) if !data.is_empty() => {",
+      "runs": [
+        {
+          "text": "    Ok(data) if !data.is_empty() => {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 385,
+      "style": "Normal",
+      "text": "match serde_json::from_str::<Paper>(&data) {",
+      "runs": [
+        {
+          "text": "        match serde_json::from_str::<Paper>(&data) {",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 386,
+      "style": "Normal",
+      "text": "Ok(paper) => Ok(Some(paper)),",
+      "runs": [
+        {
+          "text": "            Ok(paper) => Ok(Some(paper)),",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 387,
+      "style": "Normal",
+      "text": "Err(e) => Err(Box::new(e)),",
+      "runs": [
+        {
+          "text": "            Err(e) => Err(Box::new(e)),",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 388,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "        }",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 389,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "    }",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 390,
+      "style": "Normal",
+      "text": "Ok(_) => Ok(None),",
+      "runs": [
+        {
+          "text": "    Ok(_) => Ok(None),",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 391,
+      "style": "Normal",
+      "text": "};",
+      "runs": [
+        {
+          "text": "};",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 392,
+      "style": "Normal",
+      "text": "// 缓存中存在则使用缓存",
+      "runs": [
+        {
+          "text": "// ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "缓存中存在则",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "使用缓存",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 393,
+      "style": "Normal",
+      "text": "if let Ok(Some(paper)) = paper_result {",
+      "runs": [
+        {
+          "text": "i",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "f",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " let",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 394,
+      "style": "Normal",
+      "text": "return Ok(Some(paper));",
+      "runs": [
+        {
+          "text": "    return Ok(Some(paper));",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 395,
+      "style": "Normal",
+      "text": "}",
+      "runs": [
+        {
+          "text": "}",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 396,
+      "style": "Heading 1",
+      "text": "6 系统测试",
+      "runs": [
+        {
+          "text": "6",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "系统测试",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 397,
+      "style": "Heading 2",
+      "text": "6.1 系统测试的目的",
+      "runs": [
+        {
+          "text": "6",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".1",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " 系统测试的",
+          "bold": null,
+          "size": "152400",
+          "font_name": "黑体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 398,
+      "style": "Normal",
+      "text": "软件测试是整个软件工程中不可或缺的环节[9]，系统测试是其中一种软件测试方法，目的是验证最终软件系统是否满足用户规定的需求。为了保证软件质量，就需要对软件进行测试，。在开发的不同阶段，开发人员根据需求和设计文档编写测试用例，系统性地执行测试，以发现程序中的缺陷、错误或潜在问题。通过系统测试，可以及早发现并报告软件缺陷，避免这些问题在实际应用中造成影响，从而提高软件的可靠性和稳定性。",
+      "runs": [
+        {
+          "text": "软件测试是整个软件工程中不可或缺的环节",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 399,
+      "style": "Heading 2",
+      "text": "6.2 功能测试",
+      "runs": [
+        {
+          "text": "6",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 400,
+      "style": "Normal",
+      "text": "根据页面要求分别填入对应学生信息后进行登录，若登录失败会提示相应信息，登录成功则会跳转至相应页面。学生登录功能测试用例及结果如表12所示：",
+      "runs": [
+        {
+          "text": "根据页面要求分别填入对应",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "学生",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "信息后进行登录，若登录失败会提示相应信息，登录成功则会跳转至相应页面。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 401,
+      "style": "Normal",
+      "text": "表12 学生登录功能测试用例及结果",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 402,
+      "style": "Normal",
+      "text": "教师管理模块新增教师功能测试用例及结果如表13所示：",
+      "runs": [
+        {
+          "text": "教师管理模块",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "新增教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "功能",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 404,
+      "style": "Normal",
+      "text": "表13 添加教师功能测试用例及结果",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 405,
+      "style": "Normal",
+      "text": "题库管理模块功能测试用例及结果如表14所示：",
+      "runs": [
+        {
+          "text": "题库管理模块",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "功能测试用例及结果如表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "14",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 406,
+      "style": "Normal",
+      "text": "表14 题库管理模块功能测试用例及结果",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 407,
+      "style": "Heading 2",
+      "text": "6.3 安全测试",
+      "runs": [
+        {
+          "text": "6",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 408,
+      "style": "Normal",
+      "text": "安全测试是IT软件产品生命周期中，尤其在开发接近完成时的关键环节。Web应用总是难以避免存在各种漏洞，因此安全测试十分有必要[10]。与功能测试不同，安全测试的核心目标是发现潜在的安全隐患，从而保障产品的安全性和可靠性。",
+      "runs": [
+        {
+          "text": "安全测试是",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "IT",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "软件产品生命周期中，尤其在开发接近完成时的关键环节。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 409,
+      "style": "Heading 3",
+      "text": "6.3.1 系统登录测试",
+      "runs": [
+        {
+          "text": "6",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 410,
+      "style": "Normal",
+      "text": "教师和管理员这两种用户在登录系统的时候，前端会将用户输入的数据传到后端，与数据库中的信息进行比对，若数据不一致，会在前端页面给出相应的提示。管理员教师登录功能安全测试用例及结果如表15所示：",
+      "runs": [
+        {
+          "text": "教师和管理员",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "这两种用户",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "在登录系统的时候，前端会将用户输入的数据传到后端，与数据库中的信息进行比对，若数据不一致，会在前端页面给出相应的提示。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 411,
+      "style": "Normal",
+      "text": "表15 管理员教师登录功能安全测试用例及结果",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 412,
+      "style": "Heading 3",
+      "text": "6.3.2 系统权限测试",
+      "runs": [
+        {
+          "text": "6",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 413,
+      "style": "Normal",
+      "text": "用户在访问页面的时候，前端会进行校验，判断该用户是否登录。若未登录，则会跳转到登录页面，若已登录，则会判断用户的身份，并依据其所拥有的权限来决定是否允许访问，若权限不够，系统将自动跳转到登录页面。",
+      "runs": [
+        {
+          "text": "用户在访问页面的时候，前端会进行校验，判断该用户是否登录。若未登录，则会跳转到登录页面，若已登录，则会判断用户的身份，并依据其所拥有的权限来决定是否允许访问，若",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 414,
+      "style": "Normal",
+      "text": "系统权限安全测试用例及结果如表16所示：",
+      "runs": [
+        {
+          "text": "系统权限",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "安全",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "测试用例及结果如表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 415,
+      "style": "Normal",
+      "text": "表16 系统权限安全测试用例及结果",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "6",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 416,
+      "style": "Heading 1",
+      "text": "7 总结",
+      "runs": [
+        {
+          "text": "7",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "总结",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 417,
+      "style": "Normal",
+      "text": "本研究旨在设计并实现一个能够支撑高并发的高校考试系统，通过采用Vue作为前端框架成功地构建了一个高效、稳定且可扩展的在线考试系统。针对高并发场景下的在线考试需求，为高校考试信息化建设提供了一种可行的解决方案，并为后续的系统优化奠定了坚实的基础。此外，系统的分布式架构设计也使得其具备了良好的扩展性，可以对系统的功能进行进一步的扩展和优化，以提升用户的体验，同时，通过不断地改进和创新，高校考试系统可以",
+      "runs": [
+        {
+          "text": "本",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "研究",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "旨在",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 418,
+      "style": "Heading 1",
+      "text": "8 致谢",
+      "runs": [
+        {
+          "text": "8 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "致谢",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 419,
+      "style": "Normal",
+      "text": "大学生活一晃而过，回首走过的岁月，心中倍感充实，当我写完这篇毕业论文的时候， 有一种如释重负的感觉，感慨良多，同时也想要感谢一些人。",
+      "runs": [
+        {
+          "text": "大学生活一晃而过，回首走过的岁月，心中倍感充实，当我写完这篇毕业论文的时候， 有一种如释重负的感觉，感慨良多，同时也想要感谢一些人。 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 420,
+      "style": "Normal",
+      "text": "首先诚挚的感激我的论文指导教师XXX老师，从系统的设计实现到最后的论文定稿， 每一步中老师都帮了我很多，他在忙碌的教学工作中挤出时间来审查修改我的系统和论 文，并提出宝贵的意见。此外，我也感谢四年中陪伴在我身边的同学、朋友、感谢他们为 我提出的有用的提议和意见，有了他们的支持、鼓励和帮忙，我充实的度过了四年的大学 时光。",
+      "runs": [
+        {
+          "text": "首先诚挚的感激我的论文指导教师",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "XXX",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        },
+        {
+          "text": "老师，从系统的设计实现到最后的论文定稿， 每一步中老师都帮了我很多，他在忙碌的教学工作中挤出时间来审查修改我的系统和论 文，并提出宝贵的意见。此外，我也感谢四年",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 421,
+      "style": "Normal",
+      "text": "最后，我还要感谢我的父母，他们对我的养育之恩、默默的在生活、学习上为我供给着一切可能的帮助。焉得艾草，言树之心，养育之恩，无法回报，你们永远健康欢乐是我 最大的心愿",
+      "runs": [
+        {
+          "text": "最后，我还要感谢我的父母，他们对我的养育之恩、默默的在生活、学习上为我供给着一切可能的帮助。焉得艾草，言树之心，养育之恩，无法回报，你们永远健康欢乐是我 最大的",
+          "bold": null,
+          "size": "152400",
+          "font_name": "宋体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 424,
+      "style": "论文正文",
+      "text": "参考文献",
+      "runs": [
+        {
+          "text": "参考文献",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 425,
+      "style": "List Paragraph",
+      "text": "康昊. 微服务架构技术与挑战[J]. 网络安全技术与应用, 2023(02): 3-4.",
+      "runs": [
+        {
+          "text": "康昊",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ". ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "微服务架构技术与挑战",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 426,
+      "style": "List Paragraph",
+      "text": "王玲. 基于高并发处理模式的在线考试系统设计与实现[J].现代信息科技,2022,6(03):18-20+24.",
+      "runs": [
+        {
+          "text": "王玲",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ". ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "基于高并发处理模式的在线考试系统设计与实现",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 427,
+      "style": "List Paragraph",
+      "text": "马燕芹,陈海田,张振峰,等.基于云原生的智能在线考试系统设计与实现[J].电脑知识与技术,2023,19(25):48-51.",
+      "runs": [
+        {
+          "text": "马燕芹",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ",",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "陈海田",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 428,
+      "style": "List Paragraph",
+      "text": "Islam M M, Nabil S K, Murad S A, et al. The Development and Deployment of an Online Exam System: A Web Application[J]. Asian Journal of Research in Computer Science, 2023, 16(2): 1–11.",
+      "runs": [
+        {
+          "text": "Islam M M, Nabil S K, Murad S A, et al. The Development and Deployment of an Onl",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "): ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 429,
+      "style": "List Paragraph",
+      "text": "涂腾飞.Go语言中的并发问题研究[D].北京：北京邮电大学,2019.",
+      "runs": [
+        {
+          "text": "涂腾飞",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".Go",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "语言中的并发问题研究",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 430,
+      "style": "List Paragraph",
+      "text": "Hou Z ,Yin J ,Zhu H , et al.Formal Modeling and Verifying Dubbo Using Process Algebra[J].Mobile Networks and Applications,2023,29(4):1-16.",
+      "runs": [
+        {
+          "text": "Hou Z ,Yin J ,Zhu H , et al.Formal Modeling and Verifying Dubbo Using Process Al",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 431,
+      "style": "List Paragraph",
+      "text": "吕志强.基于Vue前端开发框架的管理系统设计[J].电脑知识与技术,2024,20(36):56-59.",
+      "runs": [
+        {
+          "text": "吕志强",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 432,
+      "style": "List Paragraph",
+      "text": "杨辉,田园,曾祺尧.基于Spring Boot的职业技能大赛信息化平台设计与实现[J].现代信息科技,2025,9(05):119-124.",
+      "runs": [
+        {
+          "text": "杨辉",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ",",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "田园",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 433,
+      "style": "List Paragraph",
+      "text": "刘娜.计算机软件的测试方法与应用[J].集成电路应用,2023,40(12):60-61.",
+      "runs": [
+        {
+          "text": "刘娜",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "计算机软件的测试方法与应用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 434,
+      "style": "List Paragraph",
+      "text": "张浩.Web应用漏洞检测技术研究[D].郑州：郑州大学,2022.",
+      "runs": [
+        {
+          "text": "张浩",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ".Web",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "应用漏洞检测技术研究",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 437,
+      "style": "Body Text Indent",
+      "text": "Design and Implementation of a University Examination System Based on Vue",
+      "runs": [
+        {
+          "text": "Design and Implementation of a University Examination System Based on Vue",
+          "bold": true,
+          "size": "228600",
+          "font_name": "Times New Roman",
+          "color": "2B2B2B"
+        }
+      ]
+    },
+    {
+      "idx": 438,
+      "style": "论文正文",
+      "text": "Lu Zhi",
+      "runs": [
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "L",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "u",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 439,
+      "style": "论文正文",
+      "text": "(School of Software Engineering, Anyang Normal University, Anyang, Henan 455000)",
+      "runs": [
+        {
+          "text": "(",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "School of Software Engineering, Anyang Normal University, Anyang, Henan 455000",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ")",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 441,
+      "style": "论文正文",
+      "text": "Abstract: In order to meet the information technology needs of universities for student examination management, this study designed and implemented a university examination system. The frontend of the",
+      "runs": [
+        {
+          "text": "Abstract",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ": ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "In order to meet the information technology needs of universities for student ex",
+          "bold": null,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 443,
+      "style": "Normal",
+      "text": "Key words: University Examination System; Go; Vue; MySQL",
+      "runs": [
+        {
+          "text": "Key words",
+          "bold": true,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ":",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "171450",
+          "font_name": "Arial",
+          "color": "111111"
+        }
+      ]
+    }
+  ],
+  "tables_count": 16,
+  "tables_preview": [
+    {
+      "table_idx": 0,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "ID"
+        ],
+        [
+          "content",
+          "longtext",
+          "",
+          "否",
+          "题目名称"
+        ],
+        [
+          "type",
+          "int",
+          "",
+          "否",
+          "题目类型"
+        ],
+        [
+          "answer",
+          "longtext",
+          "",
+          "否",
+          "标准答案"
+        ]
+      ]
+    },
+    {
+      "table_idx": 1,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "ID"
+        ],
+        [
+          "name",
+          "varchar",
+          "32",
+          "否",
+          "名称"
+        ],
+        [
+          "type",
+          "int",
+          "",
+          "否",
+          "题目类型"
+        ],
+        [
+          "total_score",
+          "int",
+          "",
+          "否",
+          "总分数"
+        ]
+      ]
+    },
+    {
+      "table_idx": 2,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "question_id",
+          "int",
+          "",
+          "否",
+          "题目id"
+        ],
+        [
+          "quesitonlist_id",
+          "int",
+          "",
+          "否",
+          "大题id"
+        ],
+        [
+          "zIndex",
+          "int",
+          "",
+          "否",
+          "排序"
+        ],
+        [
+          "is_deleted",
+          "char",
+          "1",
+          "否",
+          "是否删除"
+        ]
+      ]
+    },
+    {
+      "table_idx": 3,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "No"
+        ],
+        [
+          "name",
+          "varchar",
+          "128",
+          "否",
+          "试卷名称"
+        ],
+        [
+          "duration",
+          "int",
+          "",
+          "否",
+          "考试时长"
+        ],
+        [
+          "startTime",
+          "timestamp",
+          "",
+          "否",
+          "开始时间"
+        ]
+      ]
+    },
+    {
+      "table_idx": 4,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "paper_id",
+          "int",
+          "",
+          "是",
+          "试卷id"
+        ],
+        [
+          "questionlist_id",
+          "int",
+          "",
+          "否",
+          "大题id"
+        ],
+        [
+          "zIndex",
+          "int",
+          "",
+          "否",
+          "排序"
+        ],
+        [
+          "is_deleted",
+          "char",
+          "1",
+          "否",
+          "是否删除"
+        ]
+      ]
+    },
+    {
+      "table_idx": 5,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "ID"
+        ],
+        [
+          "name",
+          "varchar",
+          "32",
+          "否",
+          "名称"
+        ],
+        [
+          "classic_of",
+          "int",
+          "",
+          "否",
+          "专业id"
+        ],
+        [
+          "code",
+          "int",
+          "",
+          "否",
+          "学号"
+        ]
+      ]
+    },
+    {
+      "table_idx": 6,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "11",
+          "是",
+          "ID"
+        ],
+        [
+          "name",
+          "varchar",
+          "32",
+          "否",
+          "名称"
+        ],
+        [
+          "password",
+          "varchar",
+          "32",
+          "否",
+          "密码"
+        ],
+        [
+          "is_deleted",
+          "char",
+          "1",
+          "否",
+          "是否删除"
+        ]
+      ]
+    },
+    {
+      "table_idx": 7,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "ID"
+        ],
+        [
+          "name",
+          "varchar",
+          "32",
+          "否",
+          "名称"
+        ],
+        [
+          "password",
+          "varchar",
+          "32",
+          "否",
+          "密码"
+        ],
+        [
+          "is_deleted",
+          "char",
+          "1",
+          "否",
+          "是否删除"
+        ]
+      ]
+    },
+    {
+      "table_idx": 8,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "ID"
+        ],
+        [
+          "system_user_id",
+          "varchar",
+          "32",
+          "否",
+          "角色名称"
+        ],
+        [
+          "keyword",
+          "varchar",
+          "64",
+          "否",
+          "关键字"
+        ]
+      ]
+    },
+    {
+      "table_idx": 9,
+      "rows": [
+        [
+          "字段名",
+          "类型",
+          "长度",
+          "主键",
+          "备注"
+        ],
+        [
+          "id",
+          "int",
+          "",
+          "是",
+          "ID"
+        ],
+        [
+          "class_of",
+          "varchar",
+          "64",
+          "否",
+          "专业名称"
+        ]
+      ]
+    }
+  ]
+}

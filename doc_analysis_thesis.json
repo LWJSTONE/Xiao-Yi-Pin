@@ -1,0 +1,4796 @@
+{
+  "paragraphs": [
+    {
+      "idx": 1,
+      "style": "Normal",
+      "text": "安阳师范学院本科学生毕业论文",
+      "runs": [
+        {
+          "text": "安阳师范学院本科学生毕业论文",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "style": "Normal",
+      "text": "基于Spring Cloud的校园兼职平台的设计与实现",
+      "runs": [
+        {
+          "text": "基于",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Spring Cloud",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "的校园兼职平台的设计与实现",
+          "bold": true,
+          "size": "355600",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 8,
+      "style": "Normal",
+      "text": "作    \t 者|　     　            刘文杰                       |",
+      "runs": [
+        {
+          "text": "作",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "   ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 9,
+      "style": "Normal",
+      "text": "学    \t 院|                      软件学院                      |",
+      "runs": [
+        {
+          "text": "学",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "    ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 10,
+      "style": "Normal",
+      "text": "专　\t 业|         软件工程（云计算方向）       |",
+      "runs": [
+        {
+          "text": "专　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 11,
+      "style": "Normal",
+      "text": "年　\t 级|　　                 2022级                       |",
+      "runs": [
+        {
+          "text": "年　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "\t",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 12,
+      "style": "Normal",
+      "text": "学    \t 号|　　              224804051                     |",
+      "runs": [
+        {
+          "text": "学",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "   ",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 13,
+      "style": "Normal",
+      "text": "企业导师|　　                                                     |",
+      "runs": [
+        {
+          "text": "企业导师",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "|",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 14,
+      "style": "Normal",
+      "text": "校内导师|　　                   李  敏                        |",
+      "runs": [
+        {
+          "text": "校内导师",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "|",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 15,
+      "style": "Normal",
+      "text": "论文成绩|　　                                                     |",
+      "runs": [
+        {
+          "text": "论文成绩",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "|",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 16,
+      "style": "Normal",
+      "text": "日　　期|                     2026年4月                   |",
+      "runs": [
+        {
+          "text": "日　　",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "期",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "|",
+          "bold": true,
+          "size": "254000",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 25,
+      "style": "Normal",
+      "text": "学生诚信承诺书",
+      "runs": [
+        {
+          "text": "学生诚信承诺书",
+          "bold": true,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 27,
+      "style": "Normal",
+      "text": "郑重承诺：所呈交的论文是作者个人在导师指导下进行的研究工作及取得的研究成果。除了文中特别加以标注和致谢的地方外，论文中不包含其他人已经发表或撰写的研究成果，也不包含为获得安阳师范学院或其他教育机构的学位或证书所使用过的材料。与作者一同工作的同志对本研究所做的任何贡献均已在论文中作了明确的说明并表示了谢意。",
+      "runs": [
+        {
+          "text": "郑重承诺：所呈交的论文是作者个人在导师指导下进行的研究工作及取得的研究成果。除了文中特别加以标注和致谢的地方外，论文中不包含其他人已经发表或撰写的研究成果，也不",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 30,
+      "style": "Normal",
+      "text": "作者签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "作者签",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "名",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 31,
+      "style": "Normal",
+      "text": "企业导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "企业",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 32,
+      "style": "Normal",
+      "text": "校内导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "校内",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 33,
+      "style": "Normal",
+      "text": "院长签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "院长签",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "名",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 37,
+      "style": "Normal",
+      "text": "论文使用授权说明",
+      "runs": [
+        {
+          "text": "论文使用授权说明",
+          "bold": true,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 39,
+      "style": "Normal",
+      "text": "本人完全了解安阳师范学院有关保留、使用学位论文的规定，即：学校有权保留送交论文的复印件，允许论文被查阅和借阅；学校可以公布论文的全部或部分内容，可以采用影印、缩印或其他复制手段保存论文。保密论文在解密后遵守此规定。",
+      "runs": [
+        {
+          "text": "本人完全了解安阳师范学院有关保留、使用学位论文的规定，即：学校有权保留送交论文的复印件，允许论文被查阅和借阅；学校可以公布论文的全部或部分内容，可以采用影印、缩",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 42,
+      "style": "Normal",
+      "text": "作者签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "作者签",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "名",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 43,
+      "style": "Normal",
+      "text": "企业导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "企业",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 44,
+      "style": "Normal",
+      "text": "校内导师签名：　　　　　　　　　　               日期：",
+      "runs": [
+        {
+          "text": "校内",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "导师签名：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "　　　　　　　",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 54,
+      "style": "Normal",
+      "text": "目  录",
+      "runs": [
+        {
+          "text": "目",
+          "bold": true,
+          "size": "228600",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "  ",
+          "bold": true,
+          "size": "228600",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "录",
+          "bold": true,
+          "size": "228600",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 55,
+      "style": "Normal",
+      "text": "注：本目录通过域代码生成。编辑后如需更新页码，请右键点击目录并选择\"更新域\"。",
+      "runs": [
+        {
+          "text": "注：本目录通过域代码生成。编辑后如需更新页码，请右键点击目录并选择\"更新域\"。",
+          "bold": null,
+          "size": "114300",
+          "font_name": "宋体",
+          "color": "808080"
+        }
+      ]
+    },
+    {
+      "idx": 57,
+      "style": "Normal",
+      "text": "基于 Spring Cloud 的校园兼职平台的设计与实现",
+      "runs": [
+        {
+          "text": "基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": "黑体",
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "的校园兼职平台的设计与实现",
+          "bold": null,
+          "size": "152400",
+          "font_name": "黑体",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 59,
+      "style": "Normal",
+      "text": "刘文杰",
+      "runs": [
+        {
+          "text": "刘文杰",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 60,
+      "style": "Normal",
+      "text": "（安阳师范学院 软件学院，河南 安阳 455002）",
+      "runs": [
+        {
+          "text": "（安阳师范学院",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "软件学院，河南",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 61,
+      "style": "Normal",
+      "text": "摘  要：",
+      "runs": [
+        {
+          "text": "摘  要",
+          "bold": null,
+          "size": "152400",
+          "font_name": "黑体",
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 62,
+      "style": "Normal",
+      "text": "随着高校扩招和大学生数量的逐年增加，校园兼职已成为许多学生获取实践经验、减轻经济负担的重要途径。然而，传统的校园兼职信息传播方式主要依赖口耳相传、张贴海报、社交媒体群聊等非正规渠道，存在信息不对称、虚假招聘、薪资纠纷和安全隐患等问题。为解决上述问题，本课题设计并实现了一个基于 Spring Cloud 微服务架构的校园兼职平台——小易聘。该平台采用前后端分离的开发模式，后端基于 Spring Bo",
+      "runs": [
+        {
+          "text": "随着高校扩招和大学生数量的逐年增加，校园兼职已成为许多学生获取实践经验、减轻经济负担的重要途径。然而，传统的校园兼职信息传播方式主要依赖口耳相传、张贴海报、社交",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "微服务架构的校园兼职平台",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 63,
+      "style": "Normal",
+      "text": "关键词：校园兼职平台；Spring Cloud；微服务架构；Vue 3；前后端分离",
+      "runs": [
+        {
+          "text": "关键词",
+          "bold": null,
+          "size": "152400",
+          "font_name": "黑体",
+          "color": null
+        },
+        {
+          "text": "：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "校园兼职平台；",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 65,
+      "style": "Heading 1",
+      "text": "1 绪论",
+      "runs": [
+        {
+          "text": "1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "绪论",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 66,
+      "style": "Heading 2",
+      "text": "1.1 项目背景",
+      "runs": [
+        {
+          "text": "1.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "项目背景",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 67,
+      "style": "Normal",
+      "text": "随着我国高等教育的普及化发展，高校在校生规模持续扩大。根据教育部统计数据，全国普通高等学校在校生人数已超过四千万人。在庞大的学生群体中，越来越多的在校大学生希望通过参与兼职工作来积累社会经验、提升个人能力，同时获取一定的经济收入以减轻家庭负担。校园兼职不仅能够帮助学生将理论知识与实践相结合，还能培养学生的职业素养和社会适应能力，对其未来的就业和发展具有重要意义。",
+      "runs": [
+        {
+          "text": "随着我国高等教育的普及化发展，高校在校生规模持续扩大。根据教育部统计数据，全国普通高等学校在校生人数已超过四千万人。在庞大的学生群体中，越来越多的在校大学生希望",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 68,
+      "style": "Normal",
+      "text": "然而，当前校园兼职市场存在诸多问题。首先，信息传播渠道分散且低效，学生获取兼职信息的途径主要依赖同学推荐、校园海报、QQ 群或微信群等非正规渠道，信息覆盖面有限且更新不及时。其次，信息真实性难以保障，部分不法分子利用学生急于求职的心理发布虚假招聘信息，导致学生遭受经济损失甚至人身安全威胁。此外，薪资纠纷频发，由于缺乏规范的合同约束和第三方监管，学生与雇主之间的薪资支付争议屡见不鲜。最后，缺乏统一的",
+      "runs": [
+        {
+          "text": "然而，当前校园兼职市场存在诸多问题。首先，信息传播渠道分散且低效，学生获取兼职信息的途径主要依赖同学推荐、校园海报、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "QQ ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "群或微信群等非正规渠道，信息覆盖面有",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 69,
+      "style": "Normal",
+      "text": "在技术层面，随着互联网技术的快速发展和微服务架构的成熟，基于 Spring Cloud 的微服务开发模式已成为企业级应用的主流选择。Spring Cloud 提供了服务注册与发现、配置管理、负载均衡、API 网关等完整的微服务治理方案，能够有效支撑高并发、高可用的校园兼职平台建设。因此，采用 Spring Cloud 微服务架构设计并实现校园兼职平台，既能满足平台的功能需求和性能要求，又能为校园信",
+      "runs": [
+        {
+          "text": "在技术层面，随着互联网技术的快速发展和微服务架构的成熟，基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "的微服务开发模式已成为企业级应用的主流选择。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 70,
+      "style": "Heading 2",
+      "text": "1.2 项目研究的目的和意义",
+      "runs": [
+        {
+          "text": "1.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "项目研究的目的和意义",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 71,
+      "style": "Normal",
+      "text": "本课题的研究目的是设计并实现一个功能完善、安全可靠的校园兼职平台——小易聘，以解决当前校园兼职市场中存在的信息不对称、信任缺失和管理混乱等核心问题。平台旨在为在校学生和用人单位搭建一个信息透明、操作便捷、安全可控的在线兼职信息服务平台，实现兼职信息的规范化管理和兼职流程的数字化流转。",
+      "runs": [
+        {
+          "text": "本课题的研究目的是设计并实现一个功能完善、安全可靠的校园兼职平台",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "——",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "小易聘，以解决当前校园兼职市场中存在的信息不对称、信任缺失和管理混乱等核心问题。平台旨在为在校学生和用人单位搭建一个信息透明、操作便捷、安全可控的在线兼职信息服",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 72,
+      "style": "Normal",
+      "text": "本课题的研究具有以下几方面的意义：",
+      "runs": [
+        {
+          "text": "本课题的研究具有以下几方面的意义：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 73,
+      "style": "Normal",
+      "text": "对学生而言，平台提供了经过审核的可靠兼职信息，学生可以按照岗位类别、薪资水平、工作地点等条件进行精确筛选，有效降低了信息搜索成本和求职风险。同时，平台支持在线投递简历和申请管理，简化了求职流程，提高了求职效率。通过评价系统，学生可以分享真实的兼职体验，帮助其他同学做出更好的选择。",
+      "runs": [
+        {
+          "text": "对学生而言，平台提供了经过审核的可靠兼职信息，学生可以按照岗位类别、薪资水平、工作地点等条件进行精确筛选，有效降低了信息搜索成本和求职风险。同时，平台支持在线投",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 74,
+      "style": "Normal",
+      "text": "对用人单位而言，平台提供了高效的人才招聘渠道，雇主可以便捷地发布兼职信息、管理求职申请、完成用工结算。通过平台审核机制和评价体系，雇主能够建立良好的企业信誉，吸引更多优质学生资源，从而降低招聘成本、提高用人效率。",
+      "runs": [
+        {
+          "text": "对用人单位而言，平台提供了高效的人才招聘渠道，雇主可以便捷地发布兼职信息、管理求职申请、完成用工结算。通过平台审核机制和评价体系，雇主能够建立良好的企业信誉，吸",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 75,
+      "style": "Normal",
+      "text": "对学校管理而言，平台为校园兼职市场的规范化管理提供了技术支撑。管理员可以通过后台对兼职信息进行审核把关，对平台用户进行有效管理，并通过数据统计功能掌握校园兼职市场的整体状况，为学校制定相关政策提供数据依据。",
+      "runs": [
+        {
+          "text": "对学校管理而言，平台为校园兼职市场的规范化管理提供了技术支撑。管理员可以通过后台对兼职信息进行审核把关，对平台用户进行有效管理，并通过数据统计功能掌握校园兼职市",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 76,
+      "style": "Normal",
+      "text": "在技术层面，本课题将 Spring Cloud 微服务架构应用于校园兼职平台的实际开发中，验证了微服务架构在中小型项目中的适用性和优越性。项目实践涵盖了服务注册与发现、API 网关、认证授权、服务间通信、分布式缓存、分布式锁等核心微服务技术，对同类项目的开发具有一定的参考和借鉴价值。",
+      "runs": [
+        {
+          "text": "在技术层面，本课题将",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "微服务架构应用于校园兼职平台的实际开发中，验证了微服务架构在中小型项目中的适用性和优越性。项目实践涵盖了服务注册与发现、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 77,
+      "style": "Heading 2",
+      "text": "1.3 校园兼职平台的概述",
+      "runs": [
+        {
+          "text": "1.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "校园兼职平台的概述",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 78,
+      "style": "Normal",
+      "text": "小易聘校园兼职平台是一个面向高校在校学生和用人单位的综合性兼职信息服务平台。平台采用 B/S 架构，基于前后端分离的开发模式，支持多角色访问和多终端使用。根据不同用户群体的需求，平台划分为三个核心功能端：学生端、雇主端和管理端。",
+      "runs": [
+        {
+          "text": "小易聘校园兼职平台是一个面向高校在校学生和用人单位的综合性兼职信息服务平台。平台采用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " B/S ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "架构，基于前后端分离的开发模式，支持多角色访问和多终端使用。根据不同用户群体的需求，平台划分为三个核心功能端：学生端、雇主端和管理端。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 79,
+      "style": "Normal",
+      "text": "学生端主要面向在校大学生，提供兼职信息浏览与搜索、简历在线投递、申请状态跟踪、订单与评价管理、个人信息维护等功能。学生可以通过平台快速找到合适的兼职岗位，并完成从申请到评价的全流程操作。",
+      "runs": [
+        {
+          "text": "学生端主要面向在校大学生，提供兼职信息浏览与搜索、简历在线投递、申请状态跟踪、订单与评价管理、个人信息维护等功能。学生可以通过平台快速找到合适的兼职岗位，并完成",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 80,
+      "style": "Normal",
+      "text": "雇主端主要面向有兼职用工需求的商户或个人，提供兼职信息发布、求职申请审核、录用管理、订单结算和评价查看等功能。雇主可以高效管理招聘流程，并通过评价系统建立企业信誉。",
+      "runs": [
+        {
+          "text": "雇主端主要面向有兼职用工需求的商户或个人，提供兼职信息发布、求职申请审核、录用管理、订单结算和评价查看等功能。雇主可以高效管理招聘流程，并通过评价系统建立企业信",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 81,
+      "style": "Normal",
+      "text": "管理端主要面向平台管理员，提供兼职信息审核、用户管理、数据字典维护和系统数据统计等功能。管理员负责保障平台内容的合规性和安全性，维护平台的正常运行秩序。",
+      "runs": [
+        {
+          "text": "管理端主要面向平台管理员，提供兼职信息审核、用户管理、数据字典维护和系统数据统计等功能。管理员负责保障平台内容的合规性和安全性，维护平台的正常运行秩序。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 82,
+      "style": "Heading 1",
+      "text": "2 系统开发环境和相关技术",
+      "runs": [
+        {
+          "text": "2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统开发环境和相关技术",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 83,
+      "style": "Heading 2",
+      "text": "2.1 开发与运行环境",
+      "runs": [
+        {
+          "text": "2.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "开发与运行环境",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 84,
+      "style": "Normal",
+      "text": "本系统的开发与运行环境配置如表 2-1 所示。",
+      "runs": [
+        {
+          "text": "本系统的开发与运行环境配置如表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 2-1 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "所示。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 85,
+      "style": "Normal",
+      "text": "表 2-1 开发与运行环境",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 2-1 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "开发与运行环境",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 86,
+      "style": "Heading 2",
+      "text": "2.2 项目所用技术分析",
+      "runs": [
+        {
+          "text": "2.2",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "项目所用技术分析",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 87,
+      "style": "Heading 3",
+      "text": "2.2.1 Spring Cloud 微服务架构",
+      "runs": [
+        {
+          "text": "2.2.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "Spring Cloud",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 88,
+      "style": "Normal",
+      "text": "Spring Cloud 是一套基于 Spring Boot 的微服务开发工具集，为开发者提供了服务注册与发现、配置管理、负载均衡、熔断器、API 网关等分布式系统开发所需的常用组件。Spring Cloud 通过抽象底层基础设施细节，使开发者能够专注于业务逻辑的实现，大大降低了微服务架构的学习门槛和开发成本。",
+      "runs": [
+        {
+          "text": "Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是一套基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Boot ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 89,
+      "style": "Normal",
+      "text": "在本项目中，系统采用 Spring Cloud 微服务架构将整个应用拆分为五个独立的微服务：网关服务（xiaoyipin-gateway）、认证服务（xiaoyipin-auth）、用户服务（xiaoyipin-user）、兼职服务（xiaoyipin-job）和订单服务（xiaoyipin-order），另有一个公共模块（xiaoyipin-common）提供通用的工具类、实体类和配置。各微服务",
+      "runs": [
+        {
+          "text": "在本项目中，系统采用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "微服务架构将整个应用拆分为五个独立的微服务：网关服务（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 90,
+      "style": "Heading 3",
+      "text": "2.2.2 Spring Cloud Gateway 网关技术",
+      "runs": [
+        {
+          "text": "2.2.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "Spring Cloud Gateway",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 91,
+      "style": "Normal",
+      "text": "Spring Cloud Gateway 是 Spring Cloud 官方推出的第二代网关框架，基于 Project Reactor 和 Spring WebFlux 构建，提供了高性能的非阻塞式 API 网关功能。Gateway 通过路由（Route）、断言（Predicate）和过滤器（Filter）三大核心组件，实现了请求的路由转发和跨切面处理。",
+      "runs": [
+        {
+          "text": "Spring Cloud Gateway ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 92,
+      "style": "Normal",
+      "text": "在本项目中，Gateway 作为系统的统一入口，承担了请求路由、身份认证和跨域处理等关键职责。所有来自前端客户端的请求首先到达 Gateway，由 AuthGlobalFilter 全局过滤器进行 JWT 令牌的验证和解析。验证通过后，Gateway 根据路由配置将请求转发至对应的后端微服务。通过在网关层统一处理认证逻辑，避免了各微服务重复实现认证代码，简化了系统架构。此外，Gateway 还配置",
+      "runs": [
+        {
+          "text": "在本项目中，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Gateway ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "作为系统的统一入口，承担了请求路由、身份认证和跨域处理等关键职责。所有来自前端客户端的请求首先到达",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 93,
+      "style": "Heading 3",
+      "text": "2.2.3 Spring Security 与 JWT 认证",
+      "runs": [
+        {
+          "text": "2.2.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "Spring Security ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "与",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 94,
+      "style": "Normal",
+      "text": "Spring Security 是 Spring 生态中强大的安全框架，提供了认证（Authentication）和授权（Authorization）等安全功能。在本项目中，Spring Security 被配置为无状态（Stateless）模式，不依赖 Session 机制，而是采用 JWT（JSON Web Token）实现用户身份的验证和传递。",
+      "runs": [
+        {
+          "text": "Spring Security ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 95,
+      "style": "Normal",
+      "text": "系统采用双令牌机制：访问令牌（Access Token）有效期 2 小时，用于接口访问的身份验证；刷新令牌（Refresh Token）有效期 7 天，用于在访问令牌过期后自动获取新的访问令牌，避免用户频繁重新登录。用户登录成功后，认证服务生成 JWT 令牌并返回给前端，前端将令牌存储在本地并通过 Axios 请求拦截器自动附加至请求头。用户登出时，系统将当前令牌加入 Redis 黑名单，确保失效",
+      "runs": [
+        {
+          "text": "系统采用双令牌机制：访问令牌（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Access Token",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）有效期",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 96,
+      "style": "Heading 3",
+      "text": "2.2.4 Vue 3 前端框架",
+      "runs": [
+        {
+          "text": "2.2.4 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "Vue 3 ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "前端框架",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 97,
+      "style": "Normal",
+      "text": "Vue 3 是当前主流的渐进式 JavaScript 前端框架，相较于 Vue 2 引入了 Composition API、更高效的响应式系统和更好的 TypeScript 支持。在本项目中，前端采用 Vue 3 的 Composition API 进行组件开发，结合 Element Plus 组件库构建用户界面，实现了统一的 UI 风格和良好的交互体验。",
+      "runs": [
+        {
+          "text": "Vue 3 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是当前主流的渐进式",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " JavaScript ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 98,
+      "style": "Normal",
+      "text": "项目前端使用 Vue Router 实现路由管理，配置了基于角色的路由守卫，确保不同角色的用户只能访问各自权限范围内的页面。状态管理采用 Pinia 替代传统的 Vuex，利用其更简洁的 API 和更优的 TypeScript 支持管理全局状态。网络请求使用 Axios 封装，通过请求拦截器自动附加 JWT 令牌、通过响应拦截器统一处理错误和令牌过期刷新逻辑。前端整体采用模块化的目录结构，按照功能",
+      "runs": [
+        {
+          "text": "项目前端使用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Vue Router ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "实现路由管理，配置了基于角色的路由守卫，确保不同角色的用户只能访问各自权限范围内的页面。状态管理采用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 99,
+      "style": "Heading 3",
+      "text": "2.2.5 MyBatis-Plus 持久层框架",
+      "runs": [
+        {
+          "text": "2.2.5 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "MyBatis",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "-Plus ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 100,
+      "style": "Normal",
+      "text": "MyBatis-Plus 是 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，旨在简化开发、提高效率。MyBatis-Plus 内置了通用的 CRUD 操作、分页插件、代码生成器等实用功能，大幅减少了持久层代码的编写量。",
+      "runs": [
+        {
+          "text": "MyBatis-Plus ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " MyBatis ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 101,
+      "style": "Normal",
+      "text": "在本项目中，所有微服务的持久层均采用 MyBatis-Plus 实现。通过继承 BaseMapper 接口，自动获得了基本的增删改查能力，无需编写大量重复的 SQL 语句。项目配置了分页插件（PaginationInterceptor），实现了数据库分页查询功能；启用了自动填充功能，自动处理创建时间和更新时间字段；配置了逻辑删除功能，通过 deleted 字段标记数据的软删除状态。对于复杂的多表关",
+      "runs": [
+        {
+          "text": "在本项目中，所有微服务的持久层均采用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " MyBatis-Plus ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "实现。通过继承",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 102,
+      "style": "Heading 3",
+      "text": "2.2.6 Redis 缓存技术",
+      "runs": [
+        {
+          "text": "2.2.6 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "Redis ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "缓存技术",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 103,
+      "style": "Normal",
+      "text": "Redis 是一款高性能的内存型键值数据库，支持字符串、哈希、列表、集合、有序集合等多种数据结构。在本项目中，Redis 发挥了多方面的重要作用。",
+      "runs": [
+        {
+          "text": "Redis ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是一款高性能的内存型键值数据库，支持字符串、哈希、列表、集合、有序集合等多种数据结构。在本项目中，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Redis ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 104,
+      "style": "Normal",
+      "text": "首先，Redis 被用于存储图形验证码，在用户登录时生成随机验证码并缓存至 Redis，设置过期时间为 5 分钟，登录时验证后即刻删除，有效防止了验证码被重复使用。其次，Redis 作为 JWT 令牌的黑名单存储，用户登出后将其令牌写入 Redis 并设置与令牌有效期相同的过期时间，实现令牌的即时失效。此外，Redis 还用于实现分布式锁机制，在学生申请兼职时通过 Redisson 分布式锁控制并",
+      "runs": [
+        {
+          "text": "首先，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Redis ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "被用于存储图形验证码，在用户登录时生成随机验证码并缓存至",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 105,
+      "style": "Heading 3",
+      "text": "2.2.7 Nacos 服务注册与配置中心",
+      "runs": [
+        {
+          "text": "2.2.7 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "Nacos",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 106,
+      "style": "Normal",
+      "text": "Nacos 是阿里巴巴开源的服务注册与配置管理平台，提供了服务发现、配置管理和服务管理等功能。在本项目中，Nacos 同时承担了服务注册中心和配置中心的双重角色。",
+      "runs": [
+        {
+          "text": "Nacos ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "是阿里巴巴开源的服务注册与配置管理平台，提供了服务发现、配置管理和服务管理等功能。在本项目中，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Nacos ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 107,
+      "style": "Normal",
+      "text": "在服务注册方面，各微服务在启动时自动向 Nacos 注册自身信息，包括服务名称、IP 地址和端口号等，其他服务可以通过服务名称从 Nacos 获取目标服务的实例列表，实现了服务的自动发现。Nacos 支持多种负载均衡策略，配合 OpenFeign 和 Ribbon 实现了服务间的负载均衡调用。在配置管理方面，系统将数据库连接信息、Redis 配置、JWT 密钥等公共配置集中管理在 Nacos 的配",
+      "runs": [
+        {
+          "text": "在服务注册方面，各微服务在启动时自动向",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Nacos ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "注册自身信息，包括服务名称、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 108,
+      "style": "Heading 1",
+      "text": "3 需求分析",
+      "runs": [
+        {
+          "text": "3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "需求分析",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 109,
+      "style": "Heading 2",
+      "text": "3.1 学生端功能需求分析",
+      "runs": [
+        {
+          "text": "3.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "学生端功能需求分析",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 110,
+      "style": "Normal",
+      "text": "学生端是平台面向在校大学生群体的核心功能入口，主要提供兼职信息获取、申请投递和求职管理等功能。经过需求调研和分析，学生端需要实现以下六个核心功能模块：",
+      "runs": [
+        {
+          "text": "学生端是平台面向在校大学生群体的核心功能入口，主要提供兼职信息获取、申请投递和求职管理等功能。经过需求调研和分析，学生端需要实现以下六个核心功能模块：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 111,
+      "style": "Normal",
+      "text": "（1）用户注册与登录。学生用户需要通过手机号进行注册，注册时需输入图形验证码以确保操作的合法性。登录时系统验证用户名和密码的正确性，校验通过后生成 JWT 令牌返回客户端，后续请求携带令牌进行身份验证。系统还支持忘记密码功能，通过手机验证码进行密码重置。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）用户注册与登录。学生用户需要通过手机号进行注册，注册时需输入图形验证码以确保操作的合法性。登录时系统验证用户名和密码的正确性，校验通过后生成",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 112,
+      "style": "Normal",
+      "text": "（2）兼职信息浏览与搜索。学生可以浏览平台上的兼职信息列表，支持按照岗位类别、薪资类型、工作地点、薪资范围等条件进行筛选和搜索。列表以卡片或表格形式展示，每条信息包含岗位名称、薪资、工作地点、发布时间等关键信息，支持分页加载。学生点击可查看详细信息。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）兼职信息浏览与搜索。学生可以浏览平台上的兼职信息列表，支持按照岗位类别、薪资类型、工作地点、薪资范围等条件进行筛选和搜索。列表以卡片或表格形式展示，每条信息包",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 113,
+      "style": "Normal",
+      "text": "（3）投递简历与申请。学生在查看兼职详情后，可以在线提交求职申请。申请时需上传个人简历（PDF 格式），并可填写求职意向说明。系统通过分布式锁机制防止学生重复申请同一岗位。申请提交后状态为待审核，等待雇主处理。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）投递简历与申请。学生在查看兼职详情后，可以在线提交求职申请。申请时需上传个人简历（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 114,
+      "style": "Normal",
+      "text": "（4）我的申请管理。学生可以查看所有已提交的申请记录及其当前状态，包括待审核、已通过、已拒绝、已录用和已取消等。对于已通过的申请，学生可以确认入职或取消申请；对于被拒绝的申请，可以查看拒绝原因。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）我的申请管理。学生可以查看所有已提交的申请记录及其当前状态，包括待审核、已通过、已拒绝、已录用和已取消等。对于已通过的申请，学生可以确认入职或取消申请；对于被",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 115,
+      "style": "Normal",
+      "text": "（5）订单与评价管理。学生入职后将自动生成工作订单，学生可以查看订单的工作时间、薪资金额、支付状态和结算状态等信息。工作完成后且订单已结算，学生可以对雇主进行评价，包括评分和文字评论。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）订单与评价管理。学生入职后将自动生成工作订单，学生可以查看订单的工作时间、薪资金额、支付状态和结算状态等信息。工作完成后且订单已结算，学生可以对雇主进行评价，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 116,
+      "style": "Normal",
+      "text": "（6）个人信息管理。学生可以完善个人资料，包括姓名、性别、学校、专业、年级等基本信息。平台支持实名认证功能，学生提交身份证信息后由系统或管理员进行审核。学生还可以查看和修改头像、联系方式等个人信息。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "6",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）个人信息管理。学生可以完善个人资料，包括姓名、性别、学校、专业、年级等基本信息。平台支持实名认证功能，学生提交身份证信息后由系统或管理员进行审核。学生还可以查",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 117,
+      "style": "Heading 2",
+      "text": "3.2 雇主端功能需求分析",
+      "runs": [
+        {
+          "text": "3.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "雇主端功能需求分析",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 118,
+      "style": "Normal",
+      "text": "雇主端是面向有兼职用工需求的用人单位的功能入口，主要提供兼职信息发布、求职者管理和订单结算等功能。雇主端需要实现以下五个核心功能模块：",
+      "runs": [
+        {
+          "text": "雇主端是面向有兼职用工需求的用人单位的功能入口，主要提供兼职信息发布、求职者管理和订单结算等功能。雇主端需要实现以下五个核心功能模块：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 119,
+      "style": "Normal",
+      "text": "（1）企业注册与登录。雇主用户通过手机号注册账号，填写企业名称、营业执照等基本信息进行企业认证。登录流程与学生端类似，系统验证通过后发放 JWT 令牌。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）企业注册与登录。雇主用户通过手机号注册账号，填写企业名称、营业执照等基本信息进行企业认证。登录流程与学生端类似，系统验证通过后发放",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 120,
+      "style": "Normal",
+      "text": "（2）发布兼职信息。雇主可以创建兼职岗位发布信息，包括岗位名称、所属类别、工作描述、工作地点、薪资类型（时薪/日薪/月薪/固定薪资）、薪资金额、工作时间、招聘人数等。发布后信息状态为待审核，需经管理员审核通过后方可对外展示。雇主还可以对已发布的兼职进行编辑修改。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）发布兼职信息。雇主可以创建兼职岗位发布信息，包括岗位名称、所属类别、工作描述、工作地点、薪资类型（时薪",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 121,
+      "style": "Normal",
+      "text": "（3）审核申请与管理。雇主可以查看学生对自己发布的兼职岗位的求职申请列表。雇主可以查看申请学生的个人信息和简历详情，并根据实际需求进行通过、拒绝或录用操作。系统支持批量处理申请，提高审核效率。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）审核申请与管理。雇主可以查看学生对自己发布的兼职岗位的求职申请列表。雇主可以查看申请学生的个人信息和简历详情，并根据实际需求进行通过、拒绝或录用操作。系统支持",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 122,
+      "style": "Normal",
+      "text": "（4）订单与结算管理。雇主录用的学生入职后系统自动生成工作订单。雇主可以查看订单列表，确认工作完成情况后进行薪资结算。结算时填写实际工作时长和应发金额，系统自动更新学生的账户余额和信用积分。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）订单与结算管理。雇主录用的学生入职后系统自动生成工作订单。雇主可以查看订单列表，确认工作完成情况后进行薪资结算。结算时填写实际工作时长和应发金额，系统自动更新",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 123,
+      "style": "Normal",
+      "text": "（5）个人信息管理。雇主可以维护企业基本信息，包括企业名称、行业类别、联系方式、企业简介等。同样支持实名认证功能，确保平台信息的真实性。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "5",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）个人信息管理。雇主可以维护企业基本信息，包括企业名称、行业类别、联系方式、企业简介等。同样支持实名认证功能，确保平台信息的真实性。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 124,
+      "style": "Heading 2",
+      "text": "3.3 管理员端功能需求分析",
+      "runs": [
+        {
+          "text": "3.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "管理员端功能需求分析",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 125,
+      "style": "Normal",
+      "text": "管理端是平台管理员使用的后台管理系统，主要负责内容审核、用户管理和系统维护等职能。管理员端需要实现以下四个核心功能模块：",
+      "runs": [
+        {
+          "text": "管理端是平台管理员使用的后台管理系统，主要负责内容审核、用户管理和系统维护等职能。管理员端需要实现以下四个核心功能模块：",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 126,
+      "style": "Normal",
+      "text": "（1）兼职信息审核。管理员对雇主提交的兼职信息进行审核，可以查看兼职详情，根据平台规定和法律法规决定是否通过审核。审核不通过时需填写拒绝原因，反馈给雇主以便其修改后重新提交。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）兼职信息审核。管理员对雇主提交的兼职信息进行审核，可以查看兼职详情，根据平台规定和法律法规决定是否通过审核。审核不通过时需填写拒绝原因，反馈给雇主以便其修改后",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 127,
+      "style": "Normal",
+      "text": "（2）用户管理。管理员可以查看和管理平台所有注册用户，包括学生用户和雇主用户。支持按用户名、手机号、角色等条件进行搜索，可以查看用户详情，并对违规用户进行启用或禁用操作。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "2",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）用户管理。管理员可以查看和管理平台所有注册用户，包括学生用户和雇主用户。支持按用户名、手机号、角色等条件进行搜索，可以查看用户详情，并对违规用户进行启用或禁用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 128,
+      "style": "Normal",
+      "text": "（3）数据字典管理。管理员负责维护系统数据字典，包括兼职类别、薪资类型、学历要求、审核状态等字典项的增删改查操作。数据字典为系统提供了统一的数据规范和分类标准。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "3",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）数据字典管理。管理员负责维护系统数据字典，包括兼职类别、薪资类型、学历要求、审核状态等字典项的增删改查操作。数据字典为系统提供了统一的数据规范和分类标准。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 129,
+      "style": "Normal",
+      "text": "（4）系统数据统计。管理员可以通过数据统计面板查看平台的运营数据概览，包括用户总数、兼职发布数、申请总数、订单总数等关键指标，以图表形式直观展示平台运营状况，为管理决策提供数据支持。",
+      "runs": [
+        {
+          "text": "（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "4",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）系统数据统计。管理员可以通过数据统计面板查看平台的运营数据概览，包括用户总数、兼职发布数、申请总数、订单总数等关键指标，以图表形式直观展示平台运营状况，为管理",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 130,
+      "style": "Heading 1",
+      "text": "4 系统概要设计",
+      "runs": [
+        {
+          "text": "4 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统概要设计",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 131,
+      "style": "Heading 2",
+      "text": "4.1 系统总体架构",
+      "runs": [
+        {
+          "text": "4.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统总体架构",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 132,
+      "style": "Normal",
+      "text": "本系统采用基于 Spring Cloud 的微服务架构，整体架构分为前端展示层、网关层、微服务层和数据存储层四个层次。前端展示层使用 Vue 3 + Element Plus 构建，通过 Nginx 进行静态资源托管和反向代理。网关层由 Spring Cloud Gateway 实现，负责请求的路由转发、身份认证和跨域处理。微服务层包含五个核心微服务，各服务独立部署、独立运行，通过 Nacos 实",
+      "runs": [
+        {
+          "text": "本系统采用基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "的微服务架构，整体架构分为前端展示层、网关层、微服务层和数据存储层四个层次。前端展示层使用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 133,
+      "style": "Normal",
+      "text": "系统的微服务划分如下：网关服务（xiaoyipin-gateway）负责统一入口和请求路由，集成全局认证过滤器；认证服务（xiaoyipin-auth）负责用户注册、登录和令牌管理；用户服务（xiaoyipin-user）负责用户信息管理和实名认证；兼职服务（xiaoyipin-job）负责兼职信息的发布、审核、搜索和分类管理；订单服务（xiaoyipin-order）负责求职申请、工作订单和评价",
+      "runs": [
+        {
+          "text": "系统的微服务划分如下：网关服务（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "xiaoyipin-gateway",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）负责统一入口和请求路由，集成全局认证过滤器；认证服务（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 135,
+      "style": "Normal",
+      "text": "系统的功能模块结构按照三个用户角色进行划分。管理员端的功能模块包括登录认证、数据统计仪表盘、兼职信息审核、用户管理和数据字典管理。雇主端的功能模块包括登录注册、发布兼职、我的兼职管理、申请管理和订单结算。学生端的功能模块包括登录注册、兼职浏览搜索、兼职详情与申请、我的申请、我的订单、评价管理和个人信息管理。各模块之间通过服务间调用实现数据交互和业务协同。",
+      "runs": [
+        {
+          "text": "系统的功能模块结构按照三个用户角色进行划分。管理员端的功能模块包括登录认证、数据统计仪表盘、兼职信息审核、用户管理和数据字典管理。雇主端的功能模块包括登录注册、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 137,
+      "style": "Heading 2",
+      "text": "4.2 数据库总体设计",
+      "runs": [
+        {
+          "text": "4.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "数据库总体设计",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 138,
+      "style": "Heading 3",
+      "text": "4.2.1 E-R 图设计",
+      "runs": [
+        {
+          "text": "4.2.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "E-R ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "图设计",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 139,
+      "style": "Normal",
+      "text": "根据系统需求分析，本系统涉及的主要实体包括：系统用户（SysUser）、用户档案（UserProfile）、兼职分类（JobCategory）、兼职信息（JobPost）、求职申请（Application）、工作订单（OrderRecord）、评价信息（Review）和系统字典（SysDict）。",
+      "runs": [
+        {
+          "text": "根据系统需求分析，本系统涉及的主要实体包括：系统用户（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "SysUser",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）、用户档案（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 140,
+      "style": "Normal",
+      "text": "实体之间的关系如下：系统用户与用户档案之间是一对一关系，每个系统用户拥有一份用户档案；雇主用户与兼职信息之间是一对多关系，一个雇主可以发布多条兼职信息；学生用户与兼职信息之间通过求职申请形成多对多关系，但系统限制同一学生对同一兼职只能提交一次申请，因此实质上是多对一关系；求职申请与工作订单之间是一对一关系，申请被录用后生成工作订单；工作订单与评价信息之间是一对多关系，一个订单可以有学生对雇主的评价",
+      "runs": [
+        {
+          "text": "实体之间的关系如下：系统用户与用户档案之间是一对一关系，每个系统用户拥有一份用户档案；雇主用户与兼职信息之间是一对多关系，一个雇主可以发布多条兼职信息；学生用户",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 142,
+      "style": "Heading 3",
+      "text": "4.2.2 数据库表结构设计",
+      "runs": [
+        {
+          "text": "4.2.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "数据库表结构设计",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 143,
+      "style": "Normal",
+      "text": "根据 E-R 图设计，本系统共设计了 8 张核心数据库表。以下分别展示各表的结构。",
+      "runs": [
+        {
+          "text": "根据",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " E-R ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "图设计，本系统共设计了",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 144,
+      "style": "Normal",
+      "text": "表 4-1 sys_user 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-1 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "sys_user",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 145,
+      "style": "Normal",
+      "text": "表 4-2 user_profile 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-2 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "user_profile",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 146,
+      "style": "Normal",
+      "text": "表 4-3 job_category 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-3 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "job_category",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 147,
+      "style": "Normal",
+      "text": "表 4-4 job_post 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-4 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "job_post",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 148,
+      "style": "Normal",
+      "text": "表 4-5 application 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-5 application ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 149,
+      "style": "Normal",
+      "text": "表 4-6 order_record 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-6 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "order_record",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 150,
+      "style": "Normal",
+      "text": "表 4-7 review 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-7 review ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 151,
+      "style": "Normal",
+      "text": "表 4-8 sys_dict 表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 4-8 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "sys_dict",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 152,
+      "style": "Heading 1",
+      "text": "5 系统的详细设计与实现",
+      "runs": [
+        {
+          "text": "5 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统的详细设计与实现",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 153,
+      "style": "Heading 2",
+      "text": "5.1 管理员端模块",
+      "runs": [
+        {
+          "text": "5.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "管理员端模块",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 154,
+      "style": "Heading 3",
+      "text": "5.1.1 登录模块",
+      "runs": [
+        {
+          "text": "5.1.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "登录模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 155,
+      "style": "Normal",
+      "text": "管理员登录模块是系统安全的第一道防线。管理员在登录页面输入用户名、密码和图形验证码后，前端将登录信息提交至认证服务。认证服务首先验证图形验证码的正确性（从 Redis 中获取并比对），然后通过 Spring Security 的 AuthenticationManager 验证用户名和密码。验证通过后，认证服务生成 JWT 访问令牌和刷新令牌，并返回给前端。前端将令牌存储在 localStorag",
+      "runs": [
+        {
+          "text": "管理员登录模块是系统安全的第一道防线。管理员在登录页面输入用户名、密码和图形验证码后，前端将登录信息提交至认证服务。认证服务首先验证图形验证码的正确性（从",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Redis ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "中获取并比对），然后通过",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 156,
+      "style": "Normal",
+      "text": "管理员登录的核心逻辑在 AuthController 中实现，主要流程包括：接收前端传入的登录请求参数，调用 Spring Security 的认证方法进行身份验证，验证成功后通过 JwtUtil 工具类生成 JWT 令牌，并将令牌信息存入 Redis 以支持后续的令牌刷新和黑名单管理。密码验证采用 BCrypt 算法进行哈希比对，确保用户密码的安全性。",
+      "runs": [
+        {
+          "text": "管理员登录的核心逻辑在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "AuthController",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 158,
+      "style": "Heading 3",
+      "text": "5.1.2 系统首页/数据统计",
+      "runs": [
+        {
+          "text": "5.1.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统首页",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "/",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 159,
+      "style": "Normal",
+      "text": "管理员登录成功后进入系统首页，首页以数据统计仪表盘的形式展示平台的核心运营指标。仪表盘包括用户总数（按学生和雇主分类展示）、兼职信息总数（按审核状态分类展示）、申请总数和订单总数等关键数据。数据以数字卡片和图表的形式呈现，管理员可以直观地了解平台的运营概况。统计数据通过后端接口从各微服务聚合获取，确保数据的实时性和准确性。",
+      "runs": [
+        {
+          "text": "管理员登录成功后进入系统首页，首页以数据统计仪表盘的形式展示平台的核心运营指标。仪表盘包括用户总数（按学生和雇主分类展示）、兼职信息总数（按审核状态分类展示）、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 160,
+      "style": "Heading 3",
+      "text": "5.1.3 兼职信息审核模块",
+      "runs": [
+        {
+          "text": " 5.1.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "兼职信息审核模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 161,
+      "style": "Normal",
+      "text": "兼职信息审核是管理员端的核心功能之一。雇主发布的兼职信息在对外展示前必须经过管理员审核。审核列表页面展示所有待审核的兼职信息，管理员可以查看每条信息的详细内容，包括岗位名称、工作描述、薪资信息、雇主信息等。管理员根据平台规范决定审核通过或拒绝，拒绝时需填写拒绝原因以便雇主了解情况并修改后重新提交。审核结果会通过系统通知雇主。",
+      "runs": [
+        {
+          "text": "兼职信息审核是管理员端的核心功能之一。雇主发布的兼职信息在对外展示前必须经过管理员审核。审核列表页面展示所有待审核的兼职信息，管理员可以查看每条信息的详细内容，",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 162,
+      "style": "Normal",
+      "text": "兼职审核的核心逻辑位于 JobController 的 auditJob 方法中。管理员提交审核请求后，服务端首先验证当前操作者的管理员权限，然后根据审核结果更新兼职信息的 audit_status 字段。审核通过时状态更新为 1，兼职信息正式上架对外展示；审核拒绝时状态更新为 2，同时记录拒绝备注信息。审核操作完成后，系统通过 OpenFeign 调用用户服务发送站内消息通知雇主审核结果。",
+      "runs": [
+        {
+          "text": "兼职审核的核心逻辑位于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "JobController",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 164,
+      "style": "Heading 3",
+      "text": "5.1.4 用户管理模块",
+      "runs": [
+        {
+          "text": "5.1.4 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "用户管理模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 165,
+      "style": "Normal",
+      "text": "用户管理模块提供对平台所有注册用户的管理功能。管理员可以在用户列表页面查看所有用户的详细信息，支持按用户名、手机号和角色类型进行条件搜索。列表展示用户的基本信息，包括用户名、手机号、角色类型、注册时间和账户状态等。管理员可以对违规用户执行禁用操作，被禁用的用户将无法登录系统；也可以对已禁用的用户进行启用操作，恢复其正常使用权限。",
+      "runs": [
+        {
+          "text": "用户管理模块提供对平台所有注册用户的管理功能。管理员可以在用户列表页面查看所有用户的详细信息，支持按用户名、手机号和角色类型进行条件搜索。列表展示用户的基本信息",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 166,
+      "style": "Heading 2",
+      "text": "5.2 雇主端模块",
+      "runs": [
+        {
+          "text": " 5.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "雇主端模块",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 167,
+      "style": "Heading 3",
+      "text": "5.2.1 登录注册模块",
+      "runs": [
+        {
+          "text": "5.2.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "登录注册模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 168,
+      "style": "Normal",
+      "text": "雇主端的登录注册流程与学生端基本一致。雇主通过手机号注册账号，设置用户名和密码，完成图形验证码验证后注册成功。登录时验证用户名、密码和验证码，通过后获取 JWT 令牌。与通用登录不同之处在于，系统在验证用户身份后会额外检查用户角色，确保只有角色类型为雇主的用户才能访问雇主端的功能页面，该检查由前端路由守卫和后端权限校验共同实现。",
+      "runs": [
+        {
+          "text": "雇主端的登录注册流程与学生端基本一致。雇主通过手机号注册账号，设置用户名和密码，完成图形验证码验证后注册成功。登录时验证用户名、密码和验证码，通过后获取",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " JWT ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "令牌。与通用登录不同之处在于，系统在验证用户身份后会额外检查用户角色，确保只有角色类型为雇主的用户才能访问雇主端的功能页面，该检查由前端路由守卫和后端权限校验共",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 169,
+      "style": "Heading 3",
+      "text": "5.2.2 发布兼职模块",
+      "runs": [
+        {
+          "text": "5.2.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "发布兼职模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 170,
+      "style": "Normal",
+      "text": "发布兼职模块是雇主端的核心功能。雇主在发布兼职页面填写岗位信息，包括岗位名称、选择所属分类、工作描述、工作地点、薪资类型和金额、工作起止时间以及招聘人数等。表单设置了完善的前端校验规则，确保必填项不为空、薪资金额为正数、结束时间晚于开始时间等。提交后兼职信息状态为待审核（audit_status=0），需等待管理员审核通过后方可对外展示。",
+      "runs": [
+        {
+          "text": "发布兼职模块是雇主端的核心功能。雇主在发布兼职页面填写岗位信息，包括岗位名称、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "选择所属分类、工作描述、工作地点、薪资类型和金额、工作起止时间以及招聘人数等。表单设置了完善的前端校验规则，确保必填项不为空、薪资金额为正数、结束时间晚于开始时",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "audit_status=0",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 171,
+      "style": "Normal",
+      "text": "发布兼职的核心逻辑在 JobController 的 publishJob 方法中实现。方法首先通过 @Validated 注解对请求参数进行自动校验，校验通过后将兼职信息保存至数据库，同时设置发布者 ID、初始状态和审核状态。保存成功后，兼职信息的 ID 和发布时间由 MyBatis-Plus 的自动填充功能自动生成。系统通过 Redis 分布式锁确保并发发布时数据的一致性，避免出现数据竞争问题",
+      "runs": [
+        {
+          "text": "发布兼职的核心逻辑在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "JobController",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 173,
+      "style": "Heading 3",
+      "text": "5.2.3 我的兼职管理模块",
+      "runs": [
+        {
+          "text": "5.2.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "我的兼职管理模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 174,
+      "style": "Normal",
+      "text": "我的兼职管理模块允许雇主查看和管理自己发布的所有兼职信息。列表以表格形式展示，包含岗位名称、分类、薪资、招聘进度、审核状态和上架状态等信息。雇主可以对兼职信息执行编辑操作（修改岗位详情后需重新提交审核）、提交审核操作（修改后重新提交）、下架操作（将已上架的兼职设为下架状态）和删除操作（逻辑删除）。",
+      "runs": [
+        {
+          "text": "我的兼职管理模块允许雇主查看和管理自己发布的所有兼职信息。列表以表格形式展示，包含岗位名称、分类、薪资、招聘进度、审核状态和上架状态等信息。雇主可以对兼职信息执",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 175,
+      "style": "Heading 3",
+      "text": "5.2.4 申请管理模块",
+      "runs": [
+        {
+          "text": " 5.2.4 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "申请管理模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 176,
+      "style": "Normal",
+      "text": "申请管理模块允许雇主查看和处理学生对自己发布的兼职岗位提交的求职申请。申请列表展示申请学生的基本信息、申请时间和当前状态。雇主可以查看学生的详细资料和简历，然后根据招聘需求进行审核操作：通过（同意面试）、拒绝（填写拒绝原因）或录用（确认雇佣关系）。录用操作通过 Redis 分布式锁控制并发，确保同一岗位不会超编录用。录用成功后，系统自动创建工作订单。",
+      "runs": [
+        {
+          "text": "申请管理模块允许雇主查看和处理学生对自己发布的兼职岗位提交的求职申请。申请列表展示申请学生的基本信息、申请时间和当前状态。雇主可以查看学生的详细资料和简历，然后",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Redis ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "分布式锁控制并发，确保同一岗位不会超编录用。录用成功后，系统自动创建工作订单。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 177,
+      "style": "Normal",
+      "text": "申请审核的核心逻辑在 ApplicationController 的 reviewApplication 方法中实现。方法首先获取分布式锁（键名为 application:job:{jobId}:applicant:{applicantId}），防止并发审核导致的超录问题。获取锁后，系统验证申请状态和岗位招聘余额，校验通过后更新申请状态。若审核结果为录用，则同步更新兼职岗位的已录用人数，并通过订单",
+      "runs": [
+        {
+          "text": "申请审核的核心逻辑在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "ApplicationController",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 179,
+      "style": "Heading 3",
+      "text": "5.2.5 订单结算模块",
+      "runs": [
+        {
+          "text": "5.2.5",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "订单结算模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 180,
+      "style": "Normal",
+      "text": "订单结算模块允许雇主管理已录用的学生工作订单。订单列表展示每个订单的学生信息、岗位信息、工作起止日期、订单金额和结算状态。雇主在工作完成后对订单进行结算操作，填写实际薪资金额后确认结算。结算成功后，系统自动将薪资转入学生的账户余额，同时更新学生的信用积分。结算后的订单学生可以进行评价操作。",
+      "runs": [
+        {
+          "text": "订单结算模块允许雇主管理已录用的学生工作订单。订单列表展示每个订单的学生信息、岗位信息、工作起止日期、订单金额和结算状态。雇主在工作完成后对订单进行结算操作，填",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 181,
+      "style": "Heading 2",
+      "text": "5.3 学生端模块",
+      "runs": [
+        {
+          "text": " 5.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "学生端模块",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 182,
+      "style": "Heading 3",
+      "text": "5.3.1 登录注册模块",
+      "runs": [
+        {
+          "text": "5.3.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "登录注册模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 183,
+      "style": "Normal",
+      "text": "学生端的登录注册模块与雇主端共享同一套认证服务，但通过角色类型进行区分。学生使用手机号注册时，系统自动将角色类型设为学生（role_type=1）。登录成功后，前端路由守卫根据用户角色自动跳转至学生端首页。学生端登录页面在设计上注重简洁性和易用性，提供清晰的注册和登录入口切换，以及友好的表单验证提示。",
+      "runs": [
+        {
+          "text": "学生端的登录注册模块与雇主端共享同一套认证服务，但通过角色类型进行区分。学生使用手机号注册时，系统自动将角色类型设为学生（",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "role_type=1",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "）。登录成功后，前端路由守卫根据用户角色自动跳转至学生端首页。学生端登录页面在设计上注重简洁性和易用性，提供清晰的注册和登录入口切换，以及友好的表单验证提示。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 184,
+      "style": "Heading 3",
+      "text": "5.3.2 兼职浏览模块",
+      "runs": [
+        {
+          "text": "5.3.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "兼职浏览模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 185,
+      "style": "Normal",
+      "text": "兼职浏览模块是学生端最核心的功能。首页以兼职列表的形式展示所有已审核通过且处于上架状态的兼职信息，每条信息以卡片形式展示岗位名称、薪资、工作地点和发布时间等关键信息。页面顶部提供搜索栏和多维度筛选条件，学生可以按关键词搜索、按类别筛选、按薪资类型筛选和按地点筛选。列表支持分页加载，每页默认展示 10 条记录。学生点击兼职卡片可进入详情页查看完整信息。",
+      "runs": [
+        {
+          "text": "兼职浏览模块是学生端最核心的功能。首页以兼职列表的形式展示所有已审核通过且处于上架状态的兼职信息，每条信息以卡片形式展示岗位名称、薪资、工作地点和发布时间等关键",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 10 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "条记录。学生点击兼职卡片可进入详情页查看完整信息。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 186,
+      "style": "Normal",
+      "text": "兼职搜索的核心逻辑在 JobController 的 searchJobs 方法中实现。方法接收前端传入的搜索条件和分页参数，通过 MyBatis-Plus 的条件构造器（QueryWrapper）动态拼接查询条件。查询条件包括审核状态为通过、上架状态为上架，以及根据关键词匹配岗位名称和描述、根据类别 ID 匹配分类等。分页查询通过 MyBatis-Plus 的分页插件实现，返回分页结果包含记录列",
+      "runs": [
+        {
+          "text": "兼职搜索的核心逻辑在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "JobController",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 188,
+      "style": "Heading 3",
+      "text": "5.3.3 兼职详情与申请模块",
+      "runs": [
+        {
+          "text": "5.3.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "兼职详情与申请模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 189,
+      "style": "Normal",
+      "text": "学生点击兼职列表中的某个岗位进入详情页面，详情页展示完整的岗位信息，包括岗位名称、工作描述、薪资详情、工作地点、工作时间和招聘要求等。如果当前用户未申请过该岗位，页面底部显示申请按钮；如果已经申请过，则显示当前申请状态。点击申请按钮后弹出申请确认对话框，学生确认后提交申请，系统通过分布式锁确保不会重复提交。",
+      "runs": [
+        {
+          "text": "学生点击兼职列表中的某个岗位进入详情页面，详情页展示完整的岗位信息，包括岗位名称、工作描述、薪资详情、工作地点、工作时间和招聘要求等。如果当前用户未申请过该岗位",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 190,
+      "style": "Heading 3",
+      "text": "5.3.4 我的申请模块",
+      "runs": [
+        {
+          "text": " 5.3.4 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "我的申请模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 191,
+      "style": "Normal",
+      "text": "我的申请模块允许学生查看和管理所有已提交的求职申请。申请列表以时间倒序展示，每条记录显示岗位名称、申请时间、当前状态等关键信息。申请状态以不同颜色标签区分：待审核（蓝色）、已通过（绿色）、已拒绝（红色）、已录用（紫色）、已取消（灰色）。学生可以对已通过的申请执行确认入职或取消操作，查看被拒绝申请的拒绝原因。",
+      "runs": [
+        {
+          "text": "我的申请模块允许学生查看和管理所有已提交的求职申请。申请列表以时间倒序展示，每条记录显示岗位名称、申请时间、当前状态等关键信息。申请状态以不同颜色标签区分：待审",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 192,
+      "style": "Heading 3",
+      "text": "5.3.5 我的订单模块",
+      "runs": [
+        {
+          "text": " 5.3.5 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "我的订单模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 193,
+      "style": "Normal",
+      "text": "我的订单模块展示学生所有的工作订单。订单列表显示岗位名称、雇主名称、工作时间、订单金额、支付状态和结算状态。支付状态分为未支付和已支付，结算状态分为未结算和已结算。订单详情页可以查看更完整的信息，包括订单创建时间、工作起止日期和薪资明细。学生可以在订单结算完成后进行评价操作。",
+      "runs": [
+        {
+          "text": "我的订单模块展示学生所有的工作订单。订单列表显示岗位名称、雇主名称、工作时间、订单金额、支付状态和结算状态。支付状态分为未支付和已支付，结算状态分为未结算和已结",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 194,
+      "style": "Heading 3",
+      "text": "5.3.6 评价模块",
+      "runs": [
+        {
+          "text": " 5.3.6 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "评价模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 195,
+      "style": "Normal",
+      "text": "评价模块实现了学生与雇主之间的双向评价机制。订单结算完成后，学生可以对雇主进行评分和文字评价，雇主同样可以对学生的表现进行评价。评分范围为 1 至 5 分，评价内容包括评分和评论文字。评价提交后不可修改，确保评价的真实性和公正性。评价信息将影响被评价者的信用积分，评分越高信用积分增加越多，低评分则会扣除一定信用积分。",
+      "runs": [
+        {
+          "text": "评价模块实现了学生与雇主之间的双向评价机制。订单结算完成后，学生可以对雇主进行评分和文字评价，雇主同样可以对学生的表现进行评价。评分范围为",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 1 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "至",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 196,
+      "style": "Normal",
+      "text": "评价提交的核心逻辑在 ReviewController 的 submitReview 方法中实现。方法首先验证当前订单是否已结算、是否已提交过同类型评价，校验通过后保存评价记录。评价保存成功后，系统自动更新被评价者的信用积分：评分 4 分及以上增加 2 分信用积分，评分 3 分不增不减，评分 2 分及以下扣除 3 分信用积分。信用积分更新通过用户服务完成，服务间通过 OpenFeign 进行调用。",
+      "runs": [
+        {
+          "text": "评价提交的核心逻辑在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "ReviewController",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 198,
+      "style": "Heading 3",
+      "text": "5.3.7 个人信息模块",
+      "runs": [
+        {
+          "text": "5.3.7 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "个人信息模块",
+          "bold": true,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 199,
+      "style": "Normal",
+      "text": "个人信息模块允许学生查看和编辑个人资料。页面展示学生的基本信息，包括用户名、手机号、真实姓名、性别、学校、专业、年级等。学生可以修改头像（上传图片）、更新个人简介和联系方式。实名认证功能允许学生提交身份证信息进行身份验证，认证状态分为未认证、审核中和已认证三种。已实名认证的用户在平台上的信用等级更高，更容易获得雇主的青睐。",
+      "runs": [
+        {
+          "text": "个人信息模块允许学生查看和编辑个人资料。页面展示学生的基本信息，包括用户名、手机号、真实姓名、性别、学校、专业、年级等。学生可以修改头像（上传图片）、更新个人简",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 200,
+      "style": "Heading 1",
+      "text": "6 系统功能测试",
+      "runs": [
+        {
+          "text": " 6 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统功能测试",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 201,
+      "style": "Heading 2",
+      "text": "6.1 测试的定义和目的",
+      "runs": [
+        {
+          "text": "6.1 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "测试的定义和目的",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 202,
+      "style": "Normal",
+      "text": "软件测试是软件开发生命周期中不可或缺的重要环节，其核心目的是通过系统化的方法发现软件中存在的缺陷和问题，验证软件是否满足需求规格说明书中规定的功能和性能要求。在本项目中，系统功能测试采用黑盒测试方法，即在不关注软件内部代码实现细节的前提下，根据系统的功能需求规格设计测试用例，通过输入不同的测试数据验证系统的输出是否符合预期。",
+      "runs": [
+        {
+          "text": "软件测试是软件开发生命周期中不可或缺的重要环节，其核心目的是通过系统化的方法发现软件中存在的缺陷和问题，验证软件是否满足需求规格说明书中规定的功能和性能要求。在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 203,
+      "style": "Normal",
+      "text": "本项目的测试工作主要围绕系统的核心业务流程展开，重点覆盖用户认证、兼职发布与审核、求职申请与审核、订单管理与结算、评价提交等关键功能点。通过全面的系统测试，旨在发现并修复系统中可能存在的功能缺陷、逻辑错误和异常处理不当等问题，确保系统上线后能够稳定、可靠地运行，为用户提供良好的使用体验。",
+      "runs": [
+        {
+          "text": "本项目的测试工作主要围绕系统的核心业务流程展开，重点覆盖用户认证、兼职发布与审核、求职申请与审核、订单管理与结算、评价提交等关键功能点。通过全面的系统测试，旨在",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 204,
+      "style": "Heading 2",
+      "text": "6.2 测试的方法",
+      "runs": [
+        {
+          "text": "6.2 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "测试的方法",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 205,
+      "style": "Normal",
+      "text": "本系统采用功能测试（黑盒测试）作为主要的测试方法。功能测试的核心思想是将软件视为一个黑盒子，测试人员根据软件的功能需求设计测试用例，通过输入特定的测试数据驱动软件运行，然后检查实际输出结果是否与预期结果一致。",
+      "runs": [
+        {
+          "text": "本系统采用功能测试（黑盒测试）作为主要的测试方法。功能测试的核心思想是将软件视为一个黑盒子，测试人员根据软件的功能需求设计测试用例，通过输入特定的测试数据驱动软",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 206,
+      "style": "Normal",
+      "text": "测试用例的设计遵循等价类划分法和边界值分析法相结合的原则。等价类划分法将输入数据划分为有效等价类和无效等价类，从每个等价类中选取代表性数据进行测试；边界值分析法重点关注输入数据的边界情况，如空值、最大值、最小值和非法值等。通过综合运用这两种方法，可以以较少的测试用例覆盖较多的测试场景，提高测试效率和覆盖率。每个测试用例均包含测试编号、测试模块、测试内容、测试数据、预期结果、实际结果和测试结论七个要",
+      "runs": [
+        {
+          "text": "测试用例的设计遵循等价类划分法和边界值分析法相结合的原则。等价类划分法将输入数据划分为有效等价类和无效等价类，从每个等价类中选取代表性数据进行测试；边界值分析法",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 207,
+      "style": "Heading 2",
+      "text": "6.3 系统测试",
+      "runs": [
+        {
+          "text": "6.3 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "系统测试",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 208,
+      "style": "Normal",
+      "text": "以下为本系统核心功能的测试用例及测试结果，如表 6-1 所示。",
+      "runs": [
+        {
+          "text": "以下为本系统核心功能的测试用例及测试结果，如表",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 6-1 ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "所示。",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 209,
+      "style": "Normal",
+      "text": "表 6-1 系统功能测试用例表",
+      "runs": [
+        {
+          "text": "表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " 6-1 ",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "系统功能测试用例表",
+          "bold": true,
+          "size": null,
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 210,
+      "style": "Normal",
+      "text": "经过上述测试用例的执行，所有测试项均通过了验证，系统的核心功能运行正常。用户登录的认证机制能够正确区分合法和非法的登录请求；兼职发布的审核流程完整可控；申请的防重复机制有效保障了数据一致性；订单结算和评价功能的数据流转正确。测试结果表明，系统在功能层面满足了需求规格说明书的要求，具备上线运行的基本条件。",
+      "runs": [
+        {
+          "text": "经过上述测试用例的执行，所有测试项均通过了验证，系统的核心功能运行正常。用户登录的认证机制能够正确区分合法和非法的登录请求；兼职发布的审核流程完整可控；申请的防",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 211,
+      "style": "Heading 1",
+      "text": "7 结论",
+      "runs": [
+        {
+          "text": "7 ",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        },
+        {
+          "text": "结论",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 212,
+      "style": "Normal",
+      "text": "本课题围绕校园兼职市场的信息化需求，设计并实现了一个基于 Spring Cloud 微服务架构的校园兼职平台——小易聘。系统采用前后端分离的开发模式，后端基于 Spring Boot 2.7 和 Spring Cloud 构建了网关服务、认证服务、用户服务、兼职服务和订单服务五个核心微服务，利用 Nacos 实现服务注册与配置管理，通过 OpenFeign 完成服务间通信，使用 Redis 实现缓",
+      "runs": [
+        {
+          "text": "本课题围绕校园兼职市场的信息化需求，设计并实现了一个基于",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Spring Cloud ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "微服务架构的校园兼职平台",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 213,
+      "style": "Normal",
+      "text": "在系统设计方面，本课题深入分析了校园兼职平台的功能需求，采用微服务架构实现了系统的模块化设计和服务解耦，提高了系统的可扩展性和可维护性。在技术实现方面，项目运用了 JWT 双令牌认证、Redis 分布式锁、MyBatis-Plus 持久层增强等关键技术，解决了实际开发中的身份认证、并发控制和数据持久化等问题。在系统测试方面，通过功能测试验证了系统核心功能的正确性和可靠性。",
+      "runs": [
+        {
+          "text": "在系统设计方面，本课题深入分析了校园兼职平台的功能需求，采用微服务架构实现了系统的模块化设计和服务解耦，提高了系统的可扩展性和可维护性。在技术实现方面，项目运用",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " JWT ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "双令牌认证、",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 214,
+      "style": "Normal",
+      "text": "尽管本系统已实现了校园兼职平台的核心功能，但仍有进一步优化和扩展的空间。未来可以在以下方面进行改进：一是引入即时通讯功能，实现学生与雇主之间的实时在线沟通；二是集成第三方支付接口，实现薪资的在线支付和资金托管；三是引入推荐算法，根据学生的专业背景和求职偏好智能推荐合适的兼职岗位；四是增加数据可视化和运营分析功能，为平台运营提供更丰富的决策支持；五是考虑容器化部署方案，使用 Docker 和 Kub",
+      "runs": [
+        {
+          "text": "尽管本系统已实现了校园兼职平台的核心功能，但仍有进一步优化和扩展的空间。未来可以在以下方面进行改进：一是引入即时通讯功能，实现学生与雇主之间的实时在线沟通；二是",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " Docker ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "和",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 215,
+      "style": "Heading 1",
+      "text": "参考文献",
+      "runs": [
+        {
+          "text": "参考文献",
+          "bold": null,
+          "size": null,
+          "font_name": "Times New Roman",
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 216,
+      "style": "Normal",
+      "text": "[1] 张明华, 李志强. 基于 Web 的校园兼职信息平台的设计与实现[J]. 计算机应用与软件, 2021, 38(5): 112-117.",
+      "runs": [
+        {
+          "text": "[1] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "张明华",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ", ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 217,
+      "style": "Normal",
+      "text": "[2] Craig Walls. Spring in Action (Sixth Edition)[M]. Manning Publications, 2022.",
+      "runs": [
+        {
+          "text": "[2] Craig Walls. Spring in Action (Sixth Edition)[M]. Manning Publications, 2022",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 218,
+      "style": "Normal",
+      "text": "[3] 尤雨溪. Vue.js 设计与实现[M]. 北京: 人民邮电出版社, 2022.",
+      "runs": [
+        {
+          "text": "[3] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "尤雨溪",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ". Vue.js ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 219,
+      "style": "Normal",
+      "text": "[4] 王建国, 陈晓东. 基于 JWT 的无状态身份认证方案研究[J]. 信息安全研究, 2022, 8(3): 245-251.",
+      "runs": [
+        {
+          "text": "[4] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "王建国",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ", ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 220,
+      "style": "Normal",
+      "text": "[5] 苗春雨. MyBatis-Plus 从入门到精通[M]. 北京: 电子工业出版社, 2021.",
+      "runs": [
+        {
+          "text": "[5] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "苗春雨",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ". ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 221,
+      "style": "Normal",
+      "text": "[6] 刘伟, 赵丹. Redis 在 Web 高并发场景下的应用研究[J]. 软件导刊, 2023, 22(1): 88-92.",
+      "runs": [
+        {
+          "text": "[6] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "刘伟",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ", ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 222,
+      "style": "Normal",
+      "text": "[7] 阿里巴巴中间件团队. Nacos 架构设计与原理[M]. 北京: 电子工业出版社, 2023.",
+      "runs": [
+        {
+          "text": "[7] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "阿里巴巴中间件团队",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ". ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 223,
+      "style": "Normal",
+      "text": "[8] Sam Newman. Building Microservices (Second Edition)[M]. O'Reilly Media, 2021.",
+      "runs": [
+        {
+          "text": "[8] Sam Newman. Building Microservices (Second Edition)[M]. O'Reilly Media, 2021",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 224,
+      "style": "Normal",
+      "text": "[9] R. T. Fielding. Architectural Styles and the Design of Network-based Software Architectures[D]. University of California, Irvine, 2000.",
+      "runs": [
+        {
+          "text": "[9] R. T. Fielding. Architectural Styles and the Design of Network-based Softwar",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 225,
+      "style": "Normal",
+      "text": "[10] 萨师煊, 王珊. 数据库系统概论(第五版)[M]. 北京: 高等教育出版社, 2014.",
+      "runs": [
+        {
+          "text": "[10] ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "萨师煊",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": ", ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 227,
+      "style": "Normal",
+      "text": "Design and Implementation of Campus Part-Time Job Platform Based on Spring Cloud",
+      "runs": [
+        {
+          "text": "Design and Implementation of Campus Part-Time Job Platform Based on Spring Cloud",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 229,
+      "style": "Normal",
+      "text": "XXX (School of Software Engineering, Anyang Normal University, Anyang, Henan 455002)",
+      "runs": [
+        {
+          "text": "XXX (School of Software Engineering, Anyang Normal University, Anyang, Henan 455",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 230,
+      "style": "Normal",
+      "text": "Abstract:",
+      "runs": [
+        {
+          "text": "Abstract: ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 231,
+      "style": "Normal",
+      "text": "With the continuous expansion of college enrollment and the increasing number of university students, campus part-time employment has become an important way for many students to gain practical experi",
+      "runs": [
+        {
+          "text": "With the continuous expansion of college enrollment and the increasing number of",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Nacos",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": " is employed for service registration and configuration management, ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    },
+    {
+      "idx": 232,
+      "style": "Normal",
+      "text": "Keywords: Campus Part-Time Job Platform; Spring Cloud; Microservices Architecture; Vue 3; Front-end and Back-end Separation",
+      "runs": [
+        {
+          "text": "Keywords: ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        },
+        {
+          "text": "Campus Part-Time Job Platform; Spring Cloud; Microservices Architecture; Vue 3; ",
+          "bold": null,
+          "size": "152400",
+          "font_name": null,
+          "color": null
+        }
+      ]
+    }
+  ],
+  "tables_count": 10,
+  "tables_preview": [
+    {
+      "table_idx": 0,
+      "rows": [
+        [
+          "类别",
+          "工具/技术",
+          "版本"
+        ],
+        [
+          "操作系统",
+          "Windows 10/11",
+          "-"
+        ],
+        [
+          "开发语言",
+          "Java",
+          "1.8"
+        ],
+        [
+          "前端框架",
+          "Vue 3 + Element Plus",
+          "3.3.13"
+        ],
+        [
+          "后端框架",
+          "Spring Boot + Spring Cloud",
+          "2.7.18"
+        ]
+      ]
+    },
+    {
+      "table_idx": 1,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "username",
+          "用户名",
+          "VARCHAR(50)",
+          "否",
+          "唯一"
+        ],
+        [
+          "password_hash",
+          "密码哈希",
+          "VARCHAR(255)",
+          "否",
+          "BCrypt 加密"
+        ],
+        [
+          "phone",
+          "手机号",
+          "VARCHAR(20)",
+          "否",
+          "唯一"
+        ]
+      ]
+    },
+    {
+      "table_idx": 2,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "user_id",
+          "用户ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ],
+        [
+          "real_name",
+          "真实姓名",
+          "VARCHAR(50)",
+          "是",
+          ""
+        ],
+        [
+          "id_card_hash",
+          "身份证哈希",
+          "VARCHAR(255)",
+          "是",
+          "加密存储"
+        ]
+      ]
+    },
+    {
+      "table_idx": 3,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "name",
+          "分类名称",
+          "VARCHAR(50)",
+          "否",
+          ""
+        ],
+        [
+          "parent_id",
+          "父级ID",
+          "BIGINT",
+          "否",
+          "0 为顶级分类"
+        ],
+        [
+          "sort_order",
+          "排序",
+          "INT",
+          "否",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_idx": 4,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "publisher_id",
+          "发布者ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ],
+        [
+          "category_id",
+          "分类ID",
+          "BIGINT",
+          "否",
+          "外键关联 job_category"
+        ],
+        [
+          "title",
+          "岗位名称",
+          "VARCHAR(100)",
+          "否",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_idx": 5,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "job_id",
+          "兼职ID",
+          "BIGINT",
+          "否",
+          "外键关联 job_post"
+        ],
+        [
+          "applicant_id",
+          "申请者ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ],
+        [
+          "resume_url",
+          "简历地址",
+          "VARCHAR(500)",
+          "是",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_idx": 6,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "application_id",
+          "申请ID",
+          "BIGINT",
+          "否",
+          "外键关联 application"
+        ],
+        [
+          "student_id",
+          "学生ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ],
+        [
+          "employer_id",
+          "雇主ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ]
+      ]
+    },
+    {
+      "table_idx": 7,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "order_id",
+          "订单ID",
+          "BIGINT",
+          "否",
+          "外键关联 order_record"
+        ],
+        [
+          "reviewer_id",
+          "评价者ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ],
+        [
+          "target_id",
+          "被评价者ID",
+          "BIGINT",
+          "否",
+          "外键关联 sys_user"
+        ]
+      ]
+    },
+    {
+      "table_idx": 8,
+      "rows": [
+        [
+          "字段名称",
+          "字段描述",
+          "字段类型",
+          "是否允许空值",
+          "备注"
+        ],
+        [
+          "id",
+          "主键ID",
+          "BIGINT",
+          "否",
+          "自增主键"
+        ],
+        [
+          "dict_type",
+          "字典类型",
+          "VARCHAR(50)",
+          "否",
+          ""
+        ],
+        [
+          "dict_code",
+          "字典编码",
+          "VARCHAR(50)",
+          "否",
+          ""
+        ],
+        [
+          "dict_label",
+          "字典标签",
+          "VARCHAR(100)",
+          "否",
+          ""
+        ]
+      ]
+    },
+    {
+      "table_idx": 9,
+      "rows": [
+        [
+          "测试编号",
+          "测试模块",
+          "测试内容",
+          "测试数据",
+          "预期结果",
+          "实际结果",
+          "测试结论"
+        ],
+        [
+          "TC-01",
+          "用户登录",
+          "输入正确用户名和密码",
+          "正确的用户名和密码",
+          "登录成功，返回 JWT 令牌",
+          "登录成功，返回 JWT 令牌",
+          "通过"
+        ],
+        [
+          "TC-02",
+          "用户登录",
+          "输入错误密码",
+          "正确用户名+错误密码",
+          "登录失败，提示密码错误",
+          "登录失败，提示密码错误",
+          "通过"
+        ],
+        [
+          "TC-03",
+          "兼职发布",
+          "填写完整信息提交发布",
+          "完整的兼职信息表单",
+          "发布成功，状态为待审核",
+          "发布成功，状态为待审核",
+          "通过"
+        ],
+        [
+          "TC-04",
+          "兼职审核",
+          "管理员审核通过兼职",
+          "选择审核通过",
+          "状态变为审核通过并上架",
+          "状态变为审核通过并上架",
+          "通过"
+        ]
+      ]
+    }
+  ]
+}
