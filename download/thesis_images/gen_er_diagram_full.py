@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
-E-R Diagram — Standard ER Notation (v4, FULL ATTRIBUTES)
+E-R Diagram — Standard ER Notation (v5, FULL ATTRIBUTES, A4 PORTRAIT)
   矩形 = 实体
   椭圆 = 属性 (PK下划线)
   菱形 = 关系
   包含所有业务属性, 基于 sql/campus_job.sql 完整字段
   300 DPI, 黑白, 适合论文
+  A4 Portrait (8.27 × 11.69 inches) — 直接插入Word无需缩放
 """
 
 import matplotlib
@@ -18,16 +19,16 @@ fontManager.addfont('/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc')
 plt.rcParams['font.sans-serif'] = ['WenQuanYi Zen Hei']
 plt.rcParams['axes.unicode_minus'] = False
 
-# ── Figure: A4 landscape, native output for Word insertion ────────────
-FIG_W, FIG_H = 11.69, 8.27   # A4 landscape in inches
+# ── Figure: A4 Portrait, native output for Word insertion ────────────
+FIG_W, FIG_H = 8.27, 11.69   # A4 portrait in inches
 fig, ax = plt.subplots(figsize=(FIG_W, FIG_H), dpi=300)
-ax.set_xlim(-2.5, 12.5)
-ax.set_ylim(-1.5, 9.5)
+ax.set_xlim(-2.0, 8.5)
+ax.set_ylim(-0.5, 12.5)
 ax.set_aspect('equal')
 ax.axis('off')
 fig.patch.set_facecolor('white')
 
-# ── Sizes (scaled for A4) ─────────────────────────────────────────────
+# ── Sizes ─────────────────────────────────────────────────────────────
 ENT_W, ENT_H   = 1.05, 0.30
 ATTR_EH        = 0.20
 DIAM_HW, DIAM_HH = 0.40, 0.22   # standard diamond
@@ -163,24 +164,26 @@ def attrs_row(cx, cy, ent_cx, ent_cy, names, pk_index=0, direction='right', spac
 
 
 # ═══════════════════════════════════════════════════════════════════════════
-#  ENTITY POSITIONS  (3-row grid, wider spacing)
+#  ENTITY POSITIONS  (A4 Portrait layout)
 # ═══════════════════════════════════════════════════════════════════════════
 #
-#  Row 1 (y=11): 系统用户(3)    兼职分类(8)     系统字典(14)
-#  Row 2 (y=7):  用户档案(3)    兼职信息(8)
-#  Row 3 (y=3):  求职申请(3)    工作订单(8)     评价信息(14)
+#  Row 1 (y=10.5): 系统用户(1.2)    兼职分类(4.2)    系统字典(6.8)
+#  Row 2 (y=7.0):  用户档案(1.2)    兼职信息(4.2)
+#  Row 3 (y=4.0):  求职申请(1.8)    工作订单(5.2)
+#  Row 4 (y=1.2):                  评价信息(5.2)
 #
 
-EX1, EY1 = 2.1, 7.5     # 系统用户
-EX2, EY2 = 6.0, 7.5     # 兼职分类
-EX3, EY3 = 9.9, 7.5     # 系统字典
+EX1, EY1 = 1.2, 10.5     # 系统用户
+EX2, EY2 = 4.2, 10.5     # 兼职分类
+EX3, EY3 = 6.8, 10.5     # 系统字典
 
-EX4, EY4 = 2.1, 4.8     # 用户档案
-EX5, EY5 = 6.0, 4.8     # 兼职信息
+EX4, EY4 = 1.2, 7.0      # 用户档案
+EX5, EY5 = 4.2, 7.0      # 兼职信息
 
-EX6, EY6 = 2.1, 2.1     # 求职申请
-EX7, EY7 = 6.0, 2.1     # 工作订单
-EX8, EY8 = 9.9, 2.1     # 评价信息
+EX6, EY6 = 1.8, 4.0      # 求职申请
+EX7, EY7 = 5.2, 4.0      # 工作订单
+
+EX8, EY8 = 5.2, 1.2      # 评价信息
 
 draw_entity(EX1, EY1, '系统用户')
 draw_entity(EX2, EY2, '兼职分类')
@@ -195,118 +198,129 @@ draw_entity(EX8, EY8, '评价信息')
 #  ATTRIBUTES — ALL fields from SQL (excluding technical: deleted, version,
 #  create_time, update_time)
 # ═══════════════════════════════════════════════════════════════════════════
-#
-#  Layout corridors:
-#    LEFT  corridor x < 1.5  (for R3 route from 系统用户→求职申请)
-#    MID-L corridor x ~5.5-6.0 (for R2 route from 系统用户→兼职信息)
-#    MID   corridor x ~8.5 (entity column 2 center)
-#    MID-R corridor x ~11.5 (between col2 and col3)
-#    RIGHT corridor x > 15.5 (for attributes on right side)
 
-SP = 0.58  # spacing between attribute ellipses
+SP = 0.55  # spacing between attribute ellipses
 
-# ── 系统用户 (3, 11) — 7 attrs ─────────────────────────────────────────
-#    TOP:  用户ID(PK), 用户名, 密码哈希
-#    TOP-R: 手机号, 邮箱, 角色类型, 状态
-attrs_row(EX1, EY1 + 0.9, EX1, EY1,
+# ── 系统用户 (1.2, 10.5) — 7 attrs ──────────────────────────────────
+#    TOP row 1:  用户ID(PK), 用户名, 密码哈希
+#    TOP row 2:  手机号, 邮箱, 角色类型, 状态
+attrs_row(EX1, EY1 + 1.0, EX1, EY1,
           ['用户ID', '用户名', '密码哈希'], pk_index=0, direction='top', spacing=SP)
-attrs_row(EX1 + 1.8, EY1 + 0.6, EX1, EY1,
-          ['手机号', '邮箱', '角色类型', '状态'], pk_index=-1, direction='top-right', spacing=SP)
+attrs_row(EX1, EY1 + 1.6, EX1, EY1,
+          ['手机号', '邮箱', '角色类型', '状态'], pk_index=-1, direction='top', spacing=SP)
 
-# ── 兼职分类 (8.5, 11) — 5 attrs ──────────────────────────────────────
+# ── 兼职分类 (4.2, 10.5) — 5 attrs ────────────────────────────────
 #    TOP:  分类ID(PK), 分类名称, 父级ID, 排序, 状态
-attrs_row(EX2, EY2 + 0.9, EX2, EY2,
+attrs_row(EX2, EY2 + 1.0, EX2, EY2,
           ['分类ID', '分类名称', '父级ID', '排序', '状态'],
           pk_index=0, direction='top', spacing=SP)
 
-# ── 系统字典 (14, 11) — 6 attrs ───────────────────────────────────────
-#    TOP:  字典ID(PK), 字典类型, 字典编码
-#    TOP-R: 字典标签, 排序, 状态
-attrs_row(EX3 - 0.9, EY3 + 0.9, EX3, EY3,
-          ['字典ID', '字典类型', '字典编码'], pk_index=0, direction='top-left', spacing=SP)
-attrs_row(EX3 + 0.9, EY3 + 0.9, EX3, EY3,
-          ['字典标签', '排序', '状态'], pk_index=-1, direction='top-right', spacing=SP)
+# ── 系统字典 (6.8, 10.5) — 6 attrs ────────────────────────────────
+#    TOP row 1:  字典ID(PK), 字典类型, 字典编码
+#    TOP row 2:  字典标签, 排序, 状态
+attrs_row(EX3, EY3 + 1.0, EX3, EY3,
+          ['字典ID', '字典类型', '字典编码'], pk_index=0, direction='top', spacing=SP)
+attrs_row(EX3, EY3 + 1.6, EX3, EY3,
+          ['字典标签', '排序', '状态'], pk_index=-1, direction='top', spacing=SP)
 
-# ── 用户档案 (3, 7) — 13 attrs ────────────────────────────────────────
-#    LEFT vertical (x=1.0): first 7 attrs (avoids R3 corridor at x=-1.5)
-#    BOTTOM two rows of 3: remaining 6 attrs
-profile_left = ['档案ID', '用户ID', '真实姓名', '身份证哈希', '性别', '学校', '专业']
-profile_bot1 = ['年级', '余额', '信用积分']
-profile_bot2 = ['头像URL', '认证状态', '身份证图片']
+# ── 用户档案 (1.2, 7.0) — 13 attrs ────────────────────────────────
+#    TOP row 1:  档案ID(PK), 用户ID, 真实姓名
+#    TOP row 2:  身份证哈希, 性别, 学校
+#    LEFT vertical: 专业, 年级, 余额, 信用积分
+#    BOTTOM row:    头像URL, 认证状态, 身份证图片
+profile_top1 = ['档案ID', '用户ID', '真实姓名']
+profile_top2 = ['身份证哈希', '性别', '学校']
+profile_left = ['专业', '年级', '余额', '信用积分']
+profile_bot = ['头像URL', '认证状态', '身份证图片']
+
+attrs_row(EX4, EY4 + 1.1, EX4, EY4,
+          profile_top1, pk_index=0, direction='top', spacing=SP)
+attrs_row(EX4, EY4 + 1.7, EX4, EY4,
+          profile_top2, pk_index=-1, direction='top', spacing=SP)
+
+# Left vertical attrs
 pl_start = EY4 + len(profile_left) * 0.26 / 2
 for i, name in enumerate(profile_left):
-    is_pk = (i == 0)
-    draw_attribute(EX4 - 1.4, pl_start - i * 0.26, name, is_pk=is_pk)
-    attr_conn(EX4 - 1.4, pl_start - i * 0.26, EX4 - ENT_W/2, EY4)
-# bottom row 1
-pb1_sp = 0.85
-pb1_sx = EX4 - (len(profile_bot1) - 1) * pb1_sp / 2
-for i, name in enumerate(profile_bot1):
-    draw_attribute(pb1_sx + i * pb1_sp, EY4 - 0.95, name)
-    attr_conn(pb1_sx + i * pb1_sp, EY4 - 0.95, EX4, EY4 - ENT_H/2)
-# bottom row 2
-pb2_sp = 0.85
-pb2_sx = EX4 - (len(profile_bot2) - 1) * pb2_sp / 2
-for i, name in enumerate(profile_bot2):
-    draw_attribute(pb2_sx + i * pb2_sp, EY4 - 1.6, name)
-    attr_conn(pb2_sx + i * pb2_sp, EY4 - 1.6, EX4, EY4 - ENT_H/2)
+    draw_attribute(EX4 - 1.3, pl_start - i * 0.26, name)
+    attr_conn(EX4 - 1.3, pl_start - i * 0.26, EX4 - ENT_W/2, EY4)
 
-# ── 兼职信息 (8.5, 7) — 16 attrs ──────────────────────────────────────
-#    RIGHT (vertical): 兼职ID(PK), 发布者ID, 分类ID, 岗位名称,
-#                      工作描述, 工作地点, 薪资类型, 薪资金额,
-#                      开始时间, 结束时间, 招聘人数, 已录用人数,
-#                      审核状态, 审核备注
-#    BOTTOM: 状态
+# Bottom row
+pb_sp = 0.75
+pb_sx = EX4 - (len(profile_bot) - 1) * pb_sp / 2
+for i, name in enumerate(profile_bot):
+    draw_attribute(pb_sx + i * pb_sp, EY4 - 1.05, name)
+    attr_conn(pb_sx + i * pb_sp, EY4 - 1.05, EX4, EY4 - ENT_H/2)
+
+# ── 兼职信息 (4.2, 7.0) — 15 attrs ────────────────────────────────
+#    RIGHT vertical (8): 兼职ID(PK), 发布者ID, 分类ID, 岗位名称,
+#                         工作描述, 工作地点, 薪资类型, 薪资金额
+#    BOTTOM row 1 (4):   开始时间, 结束时间, 招聘人数, 已录用人数
+#    BOTTOM row 2 (3):   审核状态, 审核备注, 状态
 right_attrs = ['兼职ID', '发布者ID', '分类ID', '岗位名称',
-               '工作描述', '工作地点', '薪资类型', '薪资金额',
-               '开始时间', '结束时间', '招聘人数', '已录用人数',
-               '审核状态', '审核备注', '状态']
+               '工作描述', '工作地点', '薪资类型', '薪资金额']
 ry_start = EY5 + len(right_attrs) * 0.24 / 2
 for i, name in enumerate(right_attrs):
     is_pk = (i == 0)
-    draw_attribute(EX5 + 1.4, ry_start - i * 0.24, name, is_pk=is_pk)
-    attr_conn(EX5 + 1.4, ry_start - i * 0.24, EX5 + ENT_W/2, EY5)
+    draw_attribute(EX5 + 1.5, ry_start - i * 0.24, name, is_pk=is_pk)
+    attr_conn(EX5 + 1.5, ry_start - i * 0.24, EX5 + ENT_W/2, EY5)
 
-# ── 求职申请 (3, 3) — 8 attrs ─────────────────────────────────────────
-#    LEFT (vertical): 申请ID(PK), 兼职ID, 申请者ID, 简历URL,
-#                     申请状态, 申请时间, 拒绝原因, 审核备注
-left_attrs = ['申请ID', '兼职ID', '申请者ID', '简历URL',
-              '申请状态', '申请时间', '拒绝原因', '审核备注']
-ly_start = EY6 + len(left_attrs) * 0.24 / 2
-for i, name in enumerate(left_attrs):
-    is_pk = (i == 0)
-    draw_attribute(EX6 - 1.4, ly_start - i * 0.24, name, is_pk=is_pk)
-    attr_conn(EX6 - 1.4, ly_start - i * 0.24, EX6 - ENT_W/2, EY6)
+# Bottom rows
+bot1 = ['开始时间', '结束时间', '招聘人数', '已录用人数']
+b1_sp = 0.70
+b1_sx = EX5 - (len(bot1) - 1) * b1_sp / 2
+for i, name in enumerate(bot1):
+    draw_attribute(b1_sx + i * b1_sp, EY5 - 1.05, name)
+    attr_conn(b1_sx + i * b1_sp, EY5 - 1.05, EX5, EY5 - ENT_H/2)
 
-# ── 工作订单 (8.5, 3) — 10 attrs ──────────────────────────────────────
-#    TOP:           订单ID(PK), 申请ID, 学生ID
-#    TOP-LEFT:      雇主ID, 岗位ID
-#    BOTTOM row1 (3): 订单金额, 支付状态, 结算状态
-#    BOTTOM row2 (2): 开始日期, 结束日期
-attrs_row(EX7, EY7 + 1.2, EX7, EY7,
+bot2 = ['审核状态', '审核备注', '状态']
+b2_sp = 0.70
+b2_sx = EX5 - (len(bot2) - 1) * b2_sp / 2
+for i, name in enumerate(bot2):
+    draw_attribute(b2_sx + i * b2_sp, EY5 - 1.7, name)
+    attr_conn(b2_sx + i * b2_sp, EY5 - 1.7, EX5, EY5 - ENT_H/2)
+
+# ── 求职申请 (1.8, 4.0) — 8 attrs ─────────────────────────────────
+#    TOP:           申请ID(PK), 兼职ID, 申请者ID, 简历URL
+#    BOTTOM row 1:  申请状态, 申请时间, 拒绝原因
+#    BOTTOM row 2:  审核备注
+attrs_row(EX6, EY6 + 1.0, EX6, EY6,
+          ['申请ID', '兼职ID', '申请者ID', '简历URL'],
+          pk_index=0, direction='top', spacing=SP)
+attrs_row(EX6, EY6 - 1.0, EX6, EY6,
+          ['申请状态', '申请时间', '拒绝原因'],
+          pk_index=-1, direction='bottom', spacing=SP)
+attrs_row(EX6, EY6 - 1.6, EX6, EY6,
+          ['审核备注'],
+          pk_index=-1, direction='bottom', spacing=SP)
+
+# ── 工作订单 (5.2, 4.0) — 10 attrs ────────────────────────────────
+#    TOP row 1:      订单ID(PK), 申请ID, 学生ID
+#    TOP row 2:      雇主ID, 岗位ID
+#    BOTTOM row 1:   订单金额, 支付状态, 结算状态
+#    BOTTOM row 2:   开始日期, 结束日期
+attrs_row(EX7, EY7 + 1.0, EX7, EY7,
           ['订单ID', '申请ID', '学生ID'], pk_index=0, direction='top', spacing=SP)
-attrs_row(EX7 - 1.4, EY7 + 0.9, EX7, EY7,
-          ['雇主ID', '岗位ID'], pk_index=-1, direction='top-left', spacing=SP)
-ob1_sp = 0.85
-ob1_sx = EX7 - (3 - 1) * ob1_sp / 2
-for i, name in enumerate(['订单金额', '支付状态', '结算状态']):
-    draw_attribute(ob1_sx + i * ob1_sp, EY7 - 0.95, name)
-    attr_conn(ob1_sx + i * ob1_sp, EY7 - 0.95, EX7, EY7 - ENT_H/2)
-ob2_sp = 0.85
-ob2_sx = EX7 - (2 - 1) * ob2_sp / 2
-for i, name in enumerate(['开始日期', '结束日期']):
-    draw_attribute(ob2_sx + i * ob2_sp, EY7 - 1.6, name)
-    attr_conn(ob2_sx + i * ob2_sp, EY7 - 1.6, EX7, EY7 - ENT_H/2)
+attrs_row(EX7, EY7 + 1.6, EX7, EY7,
+          ['雇主ID', '岗位ID'], pk_index=-1, direction='top', spacing=SP)
+attrs_row(EX7, EY7 - 1.0, EX7, EY7,
+          ['订单金额', '支付状态', '结算状态'],
+          pk_index=-1, direction='bottom', spacing=SP)
+attrs_row(EX7, EY7 - 1.6, EX7, EY7,
+          ['开始日期', '结束日期'],
+          pk_index=-1, direction='bottom', spacing=SP)
 
-# ── 评价信息 (14, 3) — 7 attrs ────────────────────────────────────────
-#    RIGHT (vertical): 评价ID(PK), 订单ID, 评价者ID, 被评价者ID,
-#                      评价类型, 评分, 评论内容
-r_attrs = ['评价ID', '订单ID', '评价者ID', '被评价者ID', '评价类型', '评分', '评论内容']
+# ── 评价信息 (5.2, 1.2) — 7 attrs ─────────────────────────────────
+#    TOP:           评价ID(PK), 订单ID, 评价者ID
+#    RIGHT vertical: 被评价者ID, 评价类型, 评分, 评论内容
+attrs_row(EX8, EY8 + 1.0, EX8, EY8,
+          ['评价ID', '订单ID', '评价者ID'],
+          pk_index=0, direction='top', spacing=SP)
+
+r_attrs = ['被评价者ID', '评价类型', '评分', '评论内容']
 r_start = EY8 + len(r_attrs) * 0.24 / 2
 for i, name in enumerate(r_attrs):
-    is_pk = (i == 0)
-    draw_attribute(EX8 + 1.4, r_start - i * 0.24, name, is_pk=is_pk)
-    attr_conn(EX8 + 1.4, r_start - i * 0.24, EX8 + ENT_W/2, EY8)
+    draw_attribute(EX8 + 1.5, r_start - i * 0.24, name)
+    attr_conn(EX8 + 1.5, r_start - i * 0.24, EX8 + ENT_W/2, EY8)
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -314,68 +328,65 @@ for i, name in enumerate(r_attrs):
 # ═══════════════════════════════════════════════════════════════════════════
 #
 #  Route corridors:
-#    x = -3.0  (far left corridor for R3)
-#    x = 5.8   (mid-left corridor for R2)
-#    x = 3.0   (col1 center)
-#    x = 5.5   (between col1 and col2, above row2)
-#    x = 8.5   (col2 center)
-#    x = 11.5  (between col2 and col3)
-#    x = 14.0  (col3 center)
+#    x = -1.5  (far left corridor for R3)
+#    x = 2.5   (mid corridor for R2)
+#    x = 6.5   (right corridor for R7)
 
 # ── R1: 系统用户 ↔ 用户档案  1:1 "拥有" — vertical ─────────────────
-draw_relationship(2.1, 6.15, '拥有')
-line(2.1, EY1 - ENT_H/2, 2.1, 6.15 + DIAM_HH)
-line(2.1, 6.15 - DIAM_HH, 2.1, EY4 + ENT_H/2)
-card(2.28, EY1 - ENT_H/2 + 0.12, '1')
-card(2.28, EY4 + ENT_H/2 - 0.12, '1')
+draw_relationship(1.2, 8.75, '拥有')
+line(1.2, EY1 - ENT_H/2, 1.2, 8.75 + DIAM_HH)
+line(1.2, 8.75 - DIAM_HH, 1.2, EY4 + ENT_H/2)
+card(1.38, EY1 - ENT_H/2 + 0.12, '1')
+card(1.38, EY4 + ENT_H/2 - 0.12, '1')
 
-# ── R2: 系统用户 → 兼职信息  1:n "发布" — via corridor ─────────────
-draw_relationship(4.1, 6.15, '发布')
-routed([(EX1 + ENT_W/2, EY1), (4.1, EY1), (4.1, 6.15 + DIAM_HH)])
-routed([(4.1, 6.15 - DIAM_HH), (4.1, EY5), (EX5 - ENT_W/2, EY5)])
-card(4.22, EY1 + 0.12, '1')
+# ── R2: 系统用户 → 兼职信息  1:n "发布" — via mid corridor ─────────
+draw_relationship(2.5, 8.75, '发布')
+routed([(EX1 + ENT_W/2, EY1), (2.5, EY1), (2.5, 8.75 + DIAM_HH)])
+routed([(2.5, 8.75 - DIAM_HH), (2.5, EY5), (EX5 - ENT_W/2, EY5)])
+card(2.62, EY1 + 0.12, '1')
 card(EX5 - ENT_W/2 - 0.25, EY5 + 0.12, 'n')
 
 # ── R3: 系统用户 → 求职申请  1:n "提交" — via far-left corridor ────
-draw_relationship(-1.0, 4.8, '提交')
-routed([(EX1 - ENT_W/2, EY1), (-1.0, EY1), (-1.0, 4.8 + DIAM_HH)])
-routed([(-1.0, 4.8 - DIAM_HH), (-1.0, EY6), (EX6 - ENT_W/2, EY6)])
-card(-0.85, EY1 + 0.12, '1')
-card(-0.85, EY6 + 0.12, 'n')
+draw_relationship(-1.2, 7.25, '提交')
+routed([(EX1 - ENT_W/2, EY1), (-1.2, EY1), (-1.2, 7.25 + DIAM_HH)])
+routed([(-1.2, 7.25 - DIAM_HH), (-1.2, EY6), (EX6 - ENT_W/2, EY6)])
+card(-1.05, EY1 + 0.12, '1')
+card(-1.05, EY6 + 0.12, 'n')
 
 # ── R4: 兼职分类 → 兼职信息  1:n "属于" — vertical ─────────────────
-draw_relationship(6.0, 6.15, '属于')
-line(6.0, EY2 - ENT_H/2, 6.0, 6.15 + DIAM_HH)
-line(6.0, 6.15 - DIAM_HH, 6.0, EY5 + ENT_H/2)
-card(6.18, EY2 - ENT_H/2 + 0.12, '1')
-card(6.18, EY5 + ENT_H/2 - 0.12, 'n')
+draw_relationship(4.2, 8.75, '属于')
+line(4.2, EY2 - ENT_H/2, 4.2, 8.75 + DIAM_HH)
+line(4.2, 8.75 - DIAM_HH, 4.2, EY5 + ENT_H/2)
+card(4.38, EY2 - ENT_H/2 + 0.12, '1')
+card(4.38, EY5 + ENT_H/2 - 0.12, 'n')
 
-# ── R5: 兼职信息 → 求职申请  1:n "接收" — diagonal ────────────────────
-draw_relationship(3.85, 3.45, '接收')
-line(EX5 - ENT_W/2, EY5 - 0.08, 3.85 + DIAM_HW * 0.3, 3.45 + DIAM_HH)
-line(3.85 - DIAM_HW * 0.3, 3.45 - DIAM_HH, EX6 + ENT_W/2, EY6 + 0.08)
+# ── R5: 兼职信息 → 求职申请  1:n "接收" — diagonal ─────────────────
+draw_relationship(3.0, 5.5, '接收')
+line(EX5 - ENT_W/2, EY5 - 0.08, 3.0 + DIAM_HW * 0.3, 5.5 + DIAM_HH)
+line(3.0 - DIAM_HW * 0.3, 5.5 - DIAM_HH, EX6 + ENT_W/2, EY6 + 0.08)
 card(EX5 - ENT_W/2 - 0.22, EY5 - 0.22, '1')
 card(EX6 + ENT_W/2 + 0.22, EY6 + 0.18, 'n')
 
-# ── R6: 求职申请 → 工作订单  1:1 "生成" — horizontal ────────────────
-draw_relationship(4.05, EY6, '生成', hw=DIAM_S_HW, hh=DIAM_S_HH)
-line(EX6 + ENT_W/2, EY6, 4.05 - DIAM_S_HW, EY6)
-line(4.05 + DIAM_S_HW, EY6, EX7 - ENT_W/2, EY7)
+# ── R6: 求职申请 → 工作订单  1:1 "生成" — routed ──────────────────
+draw_relationship(3.5, 4.0, '生成', hw=DIAM_S_HW, hh=DIAM_S_HH)
+line(EX6 + ENT_W/2, EY6, 3.5 - DIAM_S_HW, EY6)
+line(3.5 + DIAM_S_HW, EY6, 3.5 + DIAM_S_HW + 0.6, EY6)
+routed([(3.5 + DIAM_S_HW + 0.6, EY6), (3.5 + DIAM_S_HW + 0.6, EY7), (EX7 - ENT_W/2, EY7)])
 card(EX6 + ENT_W/2 + 0.12, EY6 - 0.22, '1')
 card(EX7 - ENT_W/2 - 0.12, EY7 - 0.22, '1')
 
-# ── R7: 工作订单 → 评价信息  1:1 "产生" — horizontal ────────────────
-draw_relationship(7.95, EY7, '产生', hw=DIAM_S_HW, hh=DIAM_S_HH)
-line(EX7 + ENT_W/2, EY7, 7.95 - DIAM_S_HW, EY7)
-line(7.95 + DIAM_S_HW, EY7, EX8 - ENT_W/2, EY8)
-card(EX7 + ENT_W/2 + 0.12, EY7 - 0.22, '1')
-card(EX8 - ENT_W/2 - 0.12, EY8 - 0.22, '1')
+# ── R7: 工作订单 → 评价信息  1:1 "产生" — vertical ────────────────
+draw_relationship(6.5, 2.6, '产生')
+routed([(EX7 + ENT_W/2, EY7), (6.5, EY7), (6.5, 2.6 + DIAM_HH)])
+routed([(6.5, 2.6 - DIAM_HH), (6.5, EY8), (EX8 + ENT_W/2, EY8)])
+card(6.62, EY7 - ENT_H/2 + 0.12, '1')
+card(6.62, EY8 + ENT_H/2 - 0.12, '1')
 
 
 # ═══════════════════════════════════════════════════════════════════════════
 #  Title
 # ═══════════════════════════════════════════════════════════════════════════
-ax.text(5.0, 9.0, '校园兼职平台E-R实体关系图',
+ax.text(3.25, 12.1, '校园兼职平台E-R实体关系图',
         fontsize=FONT_TITLE, fontweight='bold',
         ha='center', va='center', zorder=15)
 
@@ -392,7 +403,7 @@ from PIL import Image
 img = Image.open(out)
 print(f"Saved -> {out}")
 print(f"Size: {img.size[0]} x {img.size[1]} px  ({img.size[0]/300:.2f} x {img.size[1]/300:.2f} in)")
-print(f"A4 landscape: 11.69 x 8.27 in  (native output, no scaling needed)")
+print(f"A4 portrait: 8.27 x 11.69 in  (native output, no scaling needed)")
 
 # ═══════════════════════════════════════════════════════════════════════════
 #  Attribute count verification
@@ -401,7 +412,7 @@ attr_counts = {
     '系统用户': 7,   # id, username, password_hash, phone, email, role_type, status
     '用户档案': 13,  # id, user_id, real_name, id_card_hash, id_card_image, gender, university, major, grade, balance, credit_score, avatar_url, verified_status
     '兼职分类': 5,   # id, name, parent_id, sort_order, status
-    '兼职信息': 16,  # id, publisher_id, category_id, title, description, location, salary_type, salary_amount, start_time, end_time, recruit_num, hired_num, audit_status, audit_remark, status
+    '兼职信息': 15,  # id, publisher_id, category_id, title, description, location, salary_type, salary_amount, start_time, end_time, recruit_num, hired_num, audit_status, audit_remark, status
     '求职申请': 8,   # id, job_id, applicant_id, resume_url, status, apply_time, reject_reason, review_remark
     '工作订单': 10,  # id, application_id, student_id, employer_id, job_id, amount, pay_status, settlement_status, start_date, end_date
     '评价信息': 7,   # id, order_id, reviewer_id, target_id, type, rating, comment
