@@ -279,25 +279,22 @@ for i, name in enumerate(left_attrs):
     attr_conn(EX6 - 2.0, ly_start - i * 0.34, EX6 - ENT_W/2, EY6)
 
 # ── 工作订单 (8.5, 3) — 10 attrs ──────────────────────────────────────
-#    LEFT vertical (x=6.5): 订单ID(PK), 申请ID, 学生ID, 雇主ID, 岗位ID
+#    TOP:          订单ID(PK), 申请ID, 学生ID
+#    TOP-R:        雇主ID, 岗位ID
 #    BOTTOM row1 (3): 订单金额, 支付状态, 结算状态
 #    BOTTOM row2 (2): 开始日期, 结束日期
-order_left = ['订单ID', '申请ID', '学生ID', '雇主ID', '岗位ID']
-order_bot1 = ['订单金额', '支付状态', '结算状态']
-order_bot2 = ['开始日期', '结束日期']
-ol_start = EY7 + len(order_left) * 0.37 / 2
-for i, name in enumerate(order_left):
-    is_pk = (i == 0)
-    draw_attribute(EX7 - 2.0, ol_start - i * 0.37, name, is_pk=is_pk)
-    attr_conn(EX7 - 2.0, ol_start - i * 0.37, EX7 - ENT_W/2, EY7)
+attrs_row(EX7, EY7 + 1.2, EX7, EY7,
+          ['订单ID', '申请ID', '学生ID'], pk_index=0, direction='top', spacing=SP)
+attrs_row(EX7 + 2.0, EY7 + 0.8, EX7, EY7,
+          ['雇主ID', '岗位ID'], pk_index=-1, direction='top-right', spacing=SP)
 ob1_sp = 1.2
-ob1_sx = EX7 - (len(order_bot1) - 1) * ob1_sp / 2
-for i, name in enumerate(order_bot1):
+ob1_sx = EX7 - (3 - 1) * ob1_sp / 2
+for i, name in enumerate(['订单金额', '支付状态', '结算状态']):
     draw_attribute(ob1_sx + i * ob1_sp, EY7 - 1.3, name)
     attr_conn(ob1_sx + i * ob1_sp, EY7 - 1.3, EX7, EY7 - ENT_H/2)
 ob2_sp = 1.2
-ob2_sx = EX7 - (len(order_bot2) - 1) * ob2_sp / 2
-for i, name in enumerate(order_bot2):
+ob2_sx = EX7 - (2 - 1) * ob2_sp / 2
+for i, name in enumerate(['开始日期', '结束日期']):
     draw_attribute(ob2_sx + i * ob2_sp, EY7 - 2.2, name)
     attr_conn(ob2_sx + i * ob2_sp, EY7 - 2.2, EX7, EY7 - ENT_H/2)
 
