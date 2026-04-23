@@ -279,14 +279,14 @@ for i, name in enumerate(left_attrs):
     attr_conn(EX6 - 2.0, ly_start - i * 0.34, EX6 - ENT_W/2, EY6)
 
 # ── 工作订单 (8.5, 3) — 10 attrs ──────────────────────────────────────
-#    TOP:          订单ID(PK), 申请ID, 学生ID
-#    TOP-R:        雇主ID, 岗位ID
+#    TOP:           订单ID(PK), 申请ID, 学生ID
+#    TOP-LEFT:      雇主ID, 岗位ID
 #    BOTTOM row1 (3): 订单金额, 支付状态, 结算状态
 #    BOTTOM row2 (2): 开始日期, 结束日期
-attrs_row(EX7, EY7 + 1.2, EX7, EY7,
+attrs_row(EX7, EY7 + 1.6, EX7, EY7,
           ['订单ID', '申请ID', '学生ID'], pk_index=0, direction='top', spacing=SP)
-attrs_row(EX7 + 2.0, EY7 + 0.8, EX7, EY7,
-          ['雇主ID', '岗位ID'], pk_index=-1, direction='top-right', spacing=SP)
+attrs_row(EX7 - 2.0, EY7 + 1.2, EX7, EY7,
+          ['雇主ID', '岗位ID'], pk_index=-1, direction='top-left', spacing=SP)
 ob1_sp = 1.2
 ob1_sx = EX7 - (3 - 1) * ob1_sp / 2
 for i, name in enumerate(['订单金额', '支付状态', '结算状态']):
