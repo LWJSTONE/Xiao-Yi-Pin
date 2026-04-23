@@ -228,18 +228,28 @@ attrs_row(EX3 + 1.2, EY3 + 1.2, EX3, EY3,
           ['字典标签', '排序', '状态'], pk_index=-1, direction='top-right', spacing=SP)
 
 # ── 用户档案 (3, 7) — 13 attrs ────────────────────────────────────────
-#    BOTTOM-L: 档案ID(PK), 用户ID, 真实姓名, 身份证哈希
-#    BOTTOM-R: 性别, 学校, 专业, 年级, 账户余额
-#    BOTTOM-R2: 信用积分, 头像URL, 认证状态, 身份证图片
-attrs_row(EX1 - 1.0, EY4 - 1.1, EX4, EY4,
-          ['档案ID', '用户ID', '真实姓名', '身份证哈希'],
-          pk_index=0, direction='bottom-left', spacing=SP)
-attrs_row(EX4 + 1.5, EY4 - 1.1, EX4, EY4,
-          ['性别', '学校', '专业', '年级', '账户余额'],
-          pk_index=-1, direction='bottom-right', spacing=SP)
-attrs_row(EX4 + 3.5, EY4 - 1.8, EX4, EY4,
-          ['信用积分', '头像URL', '认证状态', '身份证图片'],
-          pk_index=-1, direction='bottom-right', spacing=SP)
+#    LEFT vertical (x=1.0): first 7 attrs (avoids R3 corridor at x=-1.5)
+#    BOTTOM two rows of 3: remaining 6 attrs
+profile_left = ['档案ID', '用户ID', '真实姓名', '身份证哈希', '性别', '学校', '专业']
+profile_bot1 = ['年级', '余额', '信用积分']
+profile_bot2 = ['头像URL', '认证状态', '身份证图片']
+pl_start = EY4 + len(profile_left) * 0.37 / 2
+for i, name in enumerate(profile_left):
+    is_pk = (i == 0)
+    draw_attribute(EX4 - 2.0, pl_start - i * 0.37, name, is_pk=is_pk)
+    attr_conn(EX4 - 2.0, pl_start - i * 0.37, EX4 - ENT_W/2, EY4)
+# bottom row 1
+pb1_sp = 1.2
+pb1_sx = EX4 - (len(profile_bot1) - 1) * pb1_sp / 2
+for i, name in enumerate(profile_bot1):
+    draw_attribute(pb1_sx + i * pb1_sp, EY4 - 1.3, name)
+    attr_conn(pb1_sx + i * pb1_sp, EY4 - 1.3, EX4, EY4 - ENT_H/2)
+# bottom row 2
+pb2_sp = 1.2
+pb2_sx = EX4 - (len(profile_bot2) - 1) * pb2_sp / 2
+for i, name in enumerate(profile_bot2):
+    draw_attribute(pb2_sx + i * pb2_sp, EY4 - 2.2, name)
+    attr_conn(pb2_sx + i * pb2_sp, EY4 - 2.2, EX4, EY4 - ENT_H/2)
 
 # ── 兼职信息 (8.5, 7) — 16 attrs ──────────────────────────────────────
 #    RIGHT (vertical): 兼职ID(PK), 发布者ID, 分类ID, 岗位名称,
