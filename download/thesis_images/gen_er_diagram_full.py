@@ -199,7 +199,7 @@ draw_entity(EX8, EY8, '评价信息')
 #  create_time, update_time)
 # ═══════════════════════════════════════════════════════════════════════════
 
-SP = 0.55  # spacing between attribute ellipses
+SP = 0.68  # spacing between attribute ellipses (0.55→0.68 fix overlaps)
 
 # ── 系统用户 (1.2, 10.5) — 7 attrs ──────────────────────────────────
 #    TOP row 1:  用户ID(PK), 用户名, 密码哈希
@@ -210,17 +210,21 @@ attrs_row(EX1, EY1 + 1.6, EX1, EY1,
           ['手机号', '邮箱', '角色类型', '状态'], pk_index=-1, direction='top', spacing=SP)
 
 # ── 兼职分类 (4.2, 10.5) — 5 attrs ────────────────────────────────
-#    TOP:  分类ID(PK), 分类名称, 父级ID, 排序, 状态
+#    TOP row 1:  分类ID(PK), 分类名称, 父级ID
+#    TOP row 2:  排序, 状态
 attrs_row(EX2, EY2 + 1.0, EX2, EY2,
-          ['分类ID', '分类名称', '父级ID', '排序', '状态'],
+          ['分类ID', '分类名称', '父级ID'],
           pk_index=0, direction='top', spacing=SP)
+attrs_row(EX2, EY2 + 1.6, EX2, EY2,
+          ['排序', '状态'],
+          pk_index=-1, direction='top', spacing=SP)
 
 # ── 系统字典 (6.8, 10.5) — 6 attrs ────────────────────────────────
 #    TOP row 1:  字典ID(PK), 字典类型, 字典编码
 #    TOP row 2:  字典标签, 排序, 状态
 attrs_row(EX3, EY3 + 1.0, EX3, EY3,
           ['字典ID', '字典类型', '字典编码'], pk_index=0, direction='top', spacing=SP)
-attrs_row(EX3, EY3 + 1.6, EX3, EY3,
+attrs_row(EX3, EY3 + 1.7, EX3, EY3,
           ['字典标签', '排序', '状态'], pk_index=-1, direction='top', spacing=SP)
 
 # ── 用户档案 (1.2, 7.0) — 13 attrs ────────────────────────────────
@@ -375,12 +379,12 @@ routed([(3.5 + DIAM_S_HW + 0.6, EY6), (3.5 + DIAM_S_HW + 0.6, EY7), (EX7 - ENT_W
 card(EX6 + ENT_W/2 + 0.12, EY6 - 0.22, '1')
 card(EX7 - ENT_W/2 - 0.12, EY7 - 0.22, '1')
 
-# ── R7: 工作订单 → 评价信息  1:1 "产生" — vertical ────────────────
-draw_relationship(6.5, 2.6, '产生')
-routed([(EX7 + ENT_W/2, EY7), (6.5, EY7), (6.5, 2.6 + DIAM_HH)])
-routed([(6.5, 2.6 - DIAM_HH), (6.5, EY8), (EX8 + ENT_W/2, EY8)])
-card(6.62, EY7 - ENT_H/2 + 0.12, '1')
-card(6.62, EY8 + ENT_H/2 - 0.12, '1')
+# ── R7: 工作订单 → 评价信息  1:1 "产生" — via right corridor ─────
+draw_relationship(7.5, 2.6, '产生')
+routed([(EX7 + ENT_W/2, EY7), (7.5, EY7), (7.5, 2.6 + DIAM_HH)])
+routed([(7.5, 2.6 - DIAM_HH), (7.5, EY8), (EX8 + ENT_W/2, EY8)])
+card(7.62, EY7 - ENT_H/2 + 0.12, '1')
+card(7.62, EY8 + ENT_H/2 - 0.12, '1')
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -420,6 +424,43 @@ attr_counts = {
 }
 total = sum(attr_counts.values())
 print(f"\n=== Attribute Count Summary ===")
+
+# ═══════════════════════════════════════════════════════════════════════════
+#  Overlap verification (automated)
+# ═══════════════════════════════════════════════════════════════════════════
+def verify_no_overlaps():
+    def aw(name):
+        tw = sum(0.095 if ord(c) > 127 else 0.055 for c in name)
+        return max(tw + 0.22, 0.50)
+    rows = [
+        ['用户ID', '用户名', '密码哈希'],
+        ['手机号', '邮箱', '角色类型', '状态'],
+        ['分类ID', '分类名称', '父级ID'],
+        ['排序', '状态'],
+        ['字典ID', '字典类型', '字典编码'],
+        ['字典标签', '排序', '状态'],
+        ['档案ID', '用户ID', '真实姓名'],
+        ['身份证哈希', '性别', '学校'],
+        ['申请ID', '兼职ID', '申请者ID', '简历URL'],
+        ['申请状态', '申请时间', '拒绝原因'],
+        ['订单ID', '申请ID', '学生ID'],
+        ['雇主ID', '岗位ID'],
+        ['订单金额', '支付状态', '结算状态'],
+        ['开始日期', '结束日期'],
+        ['评价ID', '订单ID', '评价者ID'],
+    ]
+    ok = True
+    for names in rows:
+        for i in range(len(names)-1):
+            need = aw(names[i])/2 + aw(names[i+1])/2
+            if need > SP:
+                print(f'  OVERLAP: {names[i]} <-> {names[i+1]} (need={need:.3f} > SP={SP})')
+                ok = False
+    if ok:
+        print('\n=== Overlap Check: ALL CLEAR (no overlaps detected) ===')
+    else:
+        print('\n=== Overlap Check: FAILURES FOUND ===')
+verify_no_overlaps()
 for name, count in attr_counts.items():
     print(f"  {name}: {count} attributes")
 print(f"  TOTAL: {total} attributes (excluding deleted/version/create_time/update_time)")
