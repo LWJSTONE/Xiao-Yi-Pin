@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3596" height="7520" viewBox="0 0 3596 7520">
+<rect width="3596" height="7520" fill="white"/>
+
+<line x1="1473.8" y1="2190.0" x2="1328.1" y2="2019.5" stroke="black" stroke-width="1.8"/>
+<line x1="1464.0" y1="2190.0" x2="1333.5" y2="2071.2" stroke="black" stroke-width="1.8"/>
+<line x1="1446.5" y1="2190.0" x2="1342.6" y2="2122.5" stroke="black" stroke-width="1.8"/>
+<line x1="1405.4" y1="2190.0" x2="1360.4" y2="2172.4" stroke="black" stroke-width="1.8"/>
+<line x1="1358.0" y1="2210.5" x2="1395.9" y2="2215.4" stroke="black" stroke-width="1.8"/>
+<line x1="1358.0" y1="2249.5" x2="1395.9" y2="2244.6" stroke="black" stroke-width="1.8"/>
+<line x1="1405.4" y1="2270.0" x2="1360.4" y2="2287.6" stroke="black" stroke-width="1.8"/>
+<line x1="1446.5" y1="2270.0" x2="1342.6" y2="2337.5" stroke="black" stroke-width="1.8"/>
+<line x1="1464.0" y1="2270.0" x2="1333.5" y2="2388.8" stroke="black" stroke-width="1.8"/>
+<line x1="1473.8" y1="2270.0" x2="1328.1" y2="2440.5" stroke="black" stroke-width="1.8"/>
+<line x1="586.0" y1="2190.0" x2="421.1" y2="1889.8" stroke="black" stroke-width="1.8"/>
+<line x1="582.4" y1="2190.0" x2="423.2" y2="1941.7" stroke="black" stroke-width="1.8"/>
+<line x1="577.2" y1="2190.0" x2="426.2" y2="1993.6" stroke="black" stroke-width="1.8"/>
+<line x1="569.5" y1="2190.0" x2="430.5" y2="2045.4" stroke="black" stroke-width="1.8"/>
+<line x1="556.7" y1="2190.0" x2="437.4" y2="2096.9" stroke="black" stroke-width="1.8"/>
+<line x1="531.1" y1="2190.0" x2="449.9" y2="2147.8" stroke="black" stroke-width="1.8"/>
+<line x1="458.0" y1="2191.0" x2="475.8" y2="2195.6" stroke="black" stroke-width="1.8"/>
+<line x1="458.0" y1="2230.0" x2="508.0" y2="2230.0" stroke="black" stroke-width="1.8"/>
+<line x1="458.0" y1="2269.0" x2="475.8" y2="2264.4" stroke="black" stroke-width="1.8"/>
+<line x1="531.1" y1="2270.0" x2="449.9" y2="2312.2" stroke="black" stroke-width="1.8"/>
+<line x1="556.7" y1="2270.0" x2="437.4" y2="2363.1" stroke="black" stroke-width="1.8"/>
+<line x1="569.5" y1="2270.0" x2="430.5" y2="2414.6" stroke="black" stroke-width="1.8"/>
+<line x1="577.2" y1="2270.0" x2="426.2" y2="2466.4" stroke="black" stroke-width="1.8"/>
+<line x1="582.4" y1="2270.0" x2="423.2" y2="2518.3" stroke="black" stroke-width="1.8"/>
+<line x1="586.0" y1="2270.0" x2="421.1" y2="2570.2" stroke="black" stroke-width="1.8"/>
+<line x1="2884.9" y1="1590.0" x2="2966.1" y2="1547.8" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="1591.0" x2="2940.2" y2="1595.6" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="1630.0" x2="2908.0" y2="1630.0" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="1669.0" x2="2940.2" y2="1664.4" stroke="black" stroke-width="1.8"/>
+<line x1="2884.9" y1="1670.0" x2="2966.1" y2="1712.2" stroke="black" stroke-width="1.8"/>
+<line x1="2825.1" y1="2190.0" x2="2997.8" y2="1785.9" stroke="black" stroke-width="1.8"/>
+<line x1="2827.2" y1="2190.0" x2="2996.5" y2="1837.8" stroke="black" stroke-width="1.8"/>
+<line x1="2830.0" y1="2190.0" x2="2994.9" y2="1889.8" stroke="black" stroke-width="1.8"/>
+<line x1="2833.6" y1="2190.0" x2="2992.8" y2="1941.7" stroke="black" stroke-width="1.8"/>
+<line x1="2838.8" y1="2190.0" x2="2989.8" y2="1993.6" stroke="black" stroke-width="1.8"/>
+<line x1="2846.5" y1="2190.0" x2="2985.5" y2="2045.4" stroke="black" stroke-width="1.8"/>
+<line x1="2859.3" y1="2190.0" x2="2978.6" y2="2096.9" stroke="black" stroke-width="1.8"/>
+<line x1="2884.9" y1="2190.0" x2="2966.1" y2="2147.8" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="2191.0" x2="2940.2" y2="2195.6" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="2230.0" x2="2908.0" y2="2230.0" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="2269.0" x2="2940.2" y2="2264.4" stroke="black" stroke-width="1.8"/>
+<line x1="2884.9" y1="2270.0" x2="2966.1" y2="2312.2" stroke="black" stroke-width="1.8"/>
+<line x1="2859.3" y1="2270.0" x2="2978.6" y2="2363.1" stroke="black" stroke-width="1.8"/>
+<line x1="2846.5" y1="2270.0" x2="2985.5" y2="2414.6" stroke="black" stroke-width="1.8"/>
+<line x1="2838.8" y1="2270.0" x2="2989.8" y2="2466.4" stroke="black" stroke-width="1.8"/>
+<line x1="2833.6" y1="2270.0" x2="2992.8" y2="2518.3" stroke="black" stroke-width="1.8"/>
+<line x1="2830.0" y1="2270.0" x2="2994.9" y2="2570.2" stroke="black" stroke-width="1.8"/>
+<line x1="2827.2" y1="2270.0" x2="2996.5" y2="2622.2" stroke="black" stroke-width="1.8"/>
+<line x1="2825.1" y1="2270.0" x2="2997.8" y2="2674.1" stroke="black" stroke-width="1.8"/>
+<line x1="2064.0" y1="3590.0" x2="1933.5" y2="3471.2" stroke="black" stroke-width="1.8"/>
+<line x1="2046.5" y1="3590.0" x2="1942.6" y2="3522.5" stroke="black" stroke-width="1.8"/>
+<line x1="2005.4" y1="3590.0" x2="1960.4" y2="3572.4" stroke="black" stroke-width="1.8"/>
+<line x1="1958.0" y1="3610.5" x2="1995.9" y2="3615.4" stroke="black" stroke-width="1.8"/>
+<line x1="1958.0" y1="3649.5" x2="1995.9" y2="3644.6" stroke="black" stroke-width="1.8"/>
+<line x1="2005.4" y1="3670.0" x2="1960.4" y2="3687.6" stroke="black" stroke-width="1.8"/>
+<line x1="2046.5" y1="3670.0" x2="1942.6" y2="3737.5" stroke="black" stroke-width="1.8"/>
+<line x1="2064.0" y1="3670.0" x2="1933.5" y2="3788.8" stroke="black" stroke-width="1.8"/>
+<line x1="2836.0" y1="4890.0" x2="2991.4" y2="4667.7" stroke="black" stroke-width="1.8"/>
+<line x1="2842.2" y1="4890.0" x2="2987.9" y2="4719.5" stroke="black" stroke-width="1.8"/>
+<line x1="2852.0" y1="4890.0" x2="2982.5" y2="4771.2" stroke="black" stroke-width="1.8"/>
+<line x1="2869.5" y1="4890.0" x2="2973.4" y2="4822.5" stroke="black" stroke-width="1.8"/>
+<line x1="2910.6" y1="4890.0" x2="2955.6" y2="4872.4" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="4910.5" x2="2920.1" y2="4915.4" stroke="black" stroke-width="1.8"/>
+<line x1="2958.0" y1="4949.5" x2="2920.1" y2="4944.6" stroke="black" stroke-width="1.8"/>
+<line x1="2910.6" y1="4970.0" x2="2955.6" y2="4987.6" stroke="black" stroke-width="1.8"/>
+<line x1="2869.5" y1="4970.0" x2="2973.4" y2="5037.5" stroke="black" stroke-width="1.8"/>
+<line x1="2852.0" y1="4970.0" x2="2982.5" y2="5088.8" stroke="black" stroke-width="1.8"/>
+<line x1="2842.2" y1="4970.0" x2="2987.9" y2="5140.5" stroke="black" stroke-width="1.8"/>
+<line x1="2836.0" y1="4970.0" x2="2991.4" y2="5192.3" stroke="black" stroke-width="1.8"/>
+<line x1="1669.5" y1="6090.0" x2="1530.5" y2="5945.4" stroke="black" stroke-width="1.8"/>
+<line x1="1656.7" y1="6090.0" x2="1537.4" y2="5996.9" stroke="black" stroke-width="1.8"/>
+<line x1="1631.1" y1="6090.0" x2="1549.9" y2="6047.8" stroke="black" stroke-width="1.8"/>
+<line x1="1558.0" y1="6091.0" x2="1575.8" y2="6095.6" stroke="black" stroke-width="1.8"/>
+<line x1="1558.0" y1="6130.0" x2="1608.0" y2="6130.0" stroke="black" stroke-width="1.8"/>
+<line x1="1558.0" y1="6169.0" x2="1575.8" y2="6164.4" stroke="black" stroke-width="1.8"/>
+<line x1="1631.1" y1="6170.0" x2="1549.9" y2="6212.2" stroke="black" stroke-width="1.8"/>
+<line x1="1656.7" y1="6170.0" x2="1537.4" y2="6263.1" stroke="black" stroke-width="1.8"/>
+<line x1="1669.5" y1="6170.0" x2="1530.5" y2="6314.6" stroke="black" stroke-width="1.8"/>
+<line x1="1546.5" y1="590.0" x2="1442.6" y2="522.5" stroke="black" stroke-width="1.8"/>
+<line x1="1505.4" y1="590.0" x2="1460.4" y2="572.4" stroke="black" stroke-width="1.8"/>
+<line x1="1458.0" y1="610.5" x2="1495.9" y2="615.4" stroke="black" stroke-width="1.8"/>
+<line x1="1458.0" y1="649.5" x2="1495.9" y2="644.6" stroke="black" stroke-width="1.8"/>
+<line x1="1505.4" y1="670.0" x2="1460.4" y2="687.6" stroke="black" stroke-width="1.8"/>
+<line x1="1546.5" y1="670.0" x2="1442.6" y2="737.5" stroke="black" stroke-width="1.8"/>
+<line x1="758.0" y1="2230.0" x2="1000.0" y2="2230.0" stroke="black" stroke-width="1.8"/>
+<text x="879.0" y="2248.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="1358.0" y1="2230.0" x2="1116.0" y2="2230.0" stroke="black" stroke-width="1.8"/>
+<text x="1237.0" y="2212.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="1658.0" y1="2211.5" x2="2106.4" y2="2156.4" stroke="black" stroke-width="1.8"/>
+<text x="1884.4" y="2201.8" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="2658.0" y1="2211.5" x2="2209.6" y2="2156.4" stroke="black" stroke-width="1.8"/>
+<text x="2436.0" y="2166.1" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<line x1="2808.0" y1="1670.0" x2="2808.0" y2="1872.0" stroke="black" stroke-width="1.8"/>
+<text x="2790.0" y="1771.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="2808.0" y1="2190.0" x2="2808.0" y2="1988.0" stroke="black" stroke-width="1.8"/>
+<text x="2826.0" y="2089.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<path d="M2863.0 1590.0 Q2968.0 1480.0 2833.5 1590.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="2993.0" y="1480.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<line x1="2788.0" y1="2270.0" x2="2477.3" y2="2891.3" stroke="black" stroke-width="1.8"/>
+<text x="2616.6" y="2572.6" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="2128.0" y1="3590.0" x2="2438.7" y2="2968.7" stroke="black" stroke-width="1.8"/>
+<text x="2299.4" y="3287.4" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<line x1="1525.1" y1="2270.0" x2="1790.6" y2="2889.4" stroke="black" stroke-width="1.8"/>
+<text x="1641.3" y="2586.8" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="2090.9" y1="3590.0" x2="1825.4" y2="2970.6" stroke="black" stroke-width="1.8"/>
+<text x="1974.7" y="3273.2" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<line x1="2129.5" y1="3670.0" x2="2437.7" y2="4242.3" stroke="black" stroke-width="1.8"/>
+<text x="2267.8" y="3964.7" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="2786.5" y1="4890.0" x2="2478.3" y2="4317.7" stroke="black" stroke-width="1.8"/>
+<text x="2648.2" y="4595.3" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="1358.0,2230.0 150.0,2230.0 150.0,3530.0 170.0,3530.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="2880.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="170.0,3530.0 150.0,3530.0 150.0,4930.0 2658.0,4930.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="4230.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1358.0,2230.0 150.0,2230.0 150.0,4030.0 170.0,4030.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="3130.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="170.0,4030.0 150.0,4030.0 150.0,4930.0 2658.0,4930.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="4480.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<line x1="2808.0" y1="2270.0" x2="2808.0" y2="3522.0" stroke="black" stroke-width="1.8"/>
+<text x="2790.0" y="2896.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="2808.0" y1="4890.0" x2="2808.0" y2="3638.0" stroke="black" stroke-width="1.8"/>
+<text x="2826.0" y="4264.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<line x1="2771.3" y1="4970.0" x2="2285.7" y2="5499.7" stroke="black" stroke-width="1.8"/>
+<text x="2515.3" y="5222.7" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="1744.7" y1="6090.0" x2="2230.3" y2="5560.3" stroke="black" stroke-width="1.8"/>
+<text x="2000.7" y="5837.3" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1358.0,2230.0 150.0,2230.0 150.0,5130.0 170.0,5130.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="3680.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="170.0,5130.0 150.0,5130.0 150.0,6130.0 1558.0,6130.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="5630.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1358.0,2230.0 150.0,2230.0 150.0,5630.0 170.0,5630.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="3930.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="170.0,5630.0 150.0,5630.0 150.0,6130.0 1558.0,6130.0" fill="none" stroke="black" stroke-width="1.8"/>
+<text x="130.0" y="5880.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<ellipse cx="1308.0" cy="1996.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="1308.0" y="1996.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1308.0" cy="2048.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2048.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >username</text>
+<ellipse cx="1308.0" cy="2100.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2100.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >password_hash</text>
+<ellipse cx="1308.0" cy="2152.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2152.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >phone</text>
+<ellipse cx="1308.0" cy="2204.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2204.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >email</text>
+<ellipse cx="1308.0" cy="2256.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2256.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >role_type</text>
+<ellipse cx="1308.0" cy="2308.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2308.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="1308.0" cy="2360.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2360.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >deleted</text>
+<ellipse cx="1308.0" cy="2412.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2412.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="1308.0" cy="2464.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1308.0" y="2464.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="408.0" cy="1866.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="408.0" y="1866.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="408.0" cy="1918.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="1918.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >user_id</text>
+<ellipse cx="408.0" cy="1970.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="1970.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >real_name</text>
+<ellipse cx="408.0" cy="2022.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2022.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >id_card_hash</text>
+<ellipse cx="408.0" cy="2074.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2074.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >id_card_image</text>
+<ellipse cx="408.0" cy="2126.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2126.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >gender</text>
+<ellipse cx="408.0" cy="2178.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2178.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >university</text>
+<ellipse cx="408.0" cy="2230.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2230.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >major</text>
+<ellipse cx="408.0" cy="2282.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2282.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >grade</text>
+<ellipse cx="408.0" cy="2334.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2334.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >balance</text>
+<ellipse cx="408.0" cy="2386.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2386.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >credit_score</text>
+<ellipse cx="408.0" cy="2438.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2438.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >avatar_url</text>
+<ellipse cx="408.0" cy="2490.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2490.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >verified_status</text>
+<ellipse cx="408.0" cy="2542.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2542.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="408.0" cy="2594.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="408.0" y="2594.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="3008.0" cy="1526.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="3008.0" y="1526.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="3008.0" cy="1578.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1578.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >name</text>
+<ellipse cx="3008.0" cy="1630.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1630.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >parent_id</text>
+<ellipse cx="3008.0" cy="1682.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1682.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >sort_order</text>
+<ellipse cx="3008.0" cy="1734.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1734.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="3008.0" cy="1762.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="3008.0" y="1762.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="3008.0" cy="1814.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1814.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >publisher_id</text>
+<ellipse cx="3008.0" cy="1866.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1866.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >category_id</text>
+<ellipse cx="3008.0" cy="1918.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1918.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >title</text>
+<ellipse cx="3008.0" cy="1970.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="1970.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >description</text>
+<ellipse cx="3008.0" cy="2022.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2022.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >location</text>
+<ellipse cx="3008.0" cy="2074.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2074.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >salary_type</text>
+<ellipse cx="3008.0" cy="2126.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2126.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >salary_amount</text>
+<ellipse cx="3008.0" cy="2178.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2178.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >start_time</text>
+<ellipse cx="3008.0" cy="2230.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2230.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >end_time</text>
+<ellipse cx="3008.0" cy="2282.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2282.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >recruit_num</text>
+<ellipse cx="3008.0" cy="2334.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2334.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >hired_num</text>
+<ellipse cx="3008.0" cy="2386.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2386.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="3008.0" cy="2438.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2438.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >audit_status</text>
+<ellipse cx="3008.0" cy="2490.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2490.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >audit_remark</text>
+<ellipse cx="3008.0" cy="2542.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2542.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >version</text>
+<ellipse cx="3008.0" cy="2594.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2594.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >deleted</text>
+<ellipse cx="3008.0" cy="2646.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2646.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="3008.0" cy="2698.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="2698.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="1908.0" cy="3448.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="1908.0" y="3448.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1908.0" cy="3500.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3500.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >job_id</text>
+<ellipse cx="1908.0" cy="3552.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3552.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >applicant_id</text>
+<ellipse cx="1908.0" cy="3604.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3604.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >resume_url</text>
+<ellipse cx="1908.0" cy="3656.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3656.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="1908.0" cy="3708.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3708.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >apply_time</text>
+<ellipse cx="1908.0" cy="3760.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3760.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >review_time</text>
+<ellipse cx="1908.0" cy="3812.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1908.0" y="3812.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >reject_reason</text>
+<ellipse cx="3008.0" cy="4644.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="3008.0" y="4644.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="3008.0" cy="4696.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="4696.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >application_id</text>
+<ellipse cx="3008.0" cy="4748.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="4748.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >student_id</text>
+<ellipse cx="3008.0" cy="4800.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="4800.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >employer_id</text>
+<ellipse cx="3008.0" cy="4852.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="4852.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >job_id</text>
+<ellipse cx="3008.0" cy="4904.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="4904.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >amount</text>
+<ellipse cx="3008.0" cy="4956.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="4956.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >pay_status</text>
+<ellipse cx="3008.0" cy="5008.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="5008.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >settlement_status</text>
+<ellipse cx="3008.0" cy="5060.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="5060.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >start_date</text>
+<ellipse cx="3008.0" cy="5112.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="5112.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >end_date</text>
+<ellipse cx="3008.0" cy="5164.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="5164.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="3008.0" cy="5216.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3008.0" y="5216.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="1508.0" cy="5922.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="1508.0" y="5922.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1508.0" cy="5974.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="5974.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >order_id</text>
+<ellipse cx="1508.0" cy="6026.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6026.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >reviewer_id</text>
+<ellipse cx="1508.0" cy="6078.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6078.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >target_id</text>
+<ellipse cx="1508.0" cy="6130.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6130.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >rating</text>
+<ellipse cx="1508.0" cy="6182.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6182.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >comment</text>
+<ellipse cx="1508.0" cy="6234.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6234.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >type</text>
+<ellipse cx="1508.0" cy="6286.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6286.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="1508.0" cy="6338.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1508.0" y="6338.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="1408.0" cy="500.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.7"/>
+<text x="1408.0" y="500.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1408.0" cy="552.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1408.0" y="552.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_type</text>
+<ellipse cx="1408.0" cy="604.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1408.0" y="604.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_code</text>
+<ellipse cx="1408.0" cy="656.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1408.0" y="656.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_label</text>
+<ellipse cx="1408.0" cy="708.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1408.0" y="708.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >sort_order</text>
+<ellipse cx="1408.0" cy="760.0" rx="100" ry="24" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1408.0" y="760.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<rect x="1358.0" y="2190.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="1508.0" y="2218.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >sys_user</text>
+<text x="1508.0" y="2246.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(系统用户)</text>
+<rect x="458.0" y="2190.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="608.0" y="2218.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >user_profile</text>
+<text x="608.0" y="2246.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(用户详情)</text>
+<rect x="2658.0" y="1590.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="2808.0" y="1618.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >job_category</text>
+<text x="2808.0" y="1646.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(岗位分类)</text>
+<rect x="2658.0" y="2190.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="2808.0" y="2218.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >job_post</text>
+<text x="2808.0" y="2246.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(岗位发布)</text>
+<rect x="1958.0" y="3590.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="2108.0" y="3618.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >application</text>
+<text x="2108.0" y="3646.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(报名申请)</text>
+<rect x="2658.0" y="4890.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="2808.0" y="4918.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >order_record</text>
+<text x="2808.0" y="4946.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(订单记录)</text>
+<rect x="1558.0" y="6090.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="1708.0" y="6118.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >review</text>
+<text x="1708.0" y="6146.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(评价)</text>
+<rect x="1458.0" y="590.0" width="300" height="80" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
+<text x="1608.0" y="618.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >sys_dict</text>
+<text x="1608.0" y="646.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(系统字典)</text>
+<polygon points="1058.0,2172.0 1116.0,2230.0 1058.0,2288.0 1000.0,2230.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1058.0" y="2230.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >拥有</text>
+<polygon points="2158.0,2092.0 2216.0,2150.0 2158.0,2208.0 2100.0,2150.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="2158.0" y="2150.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >发布</text>
+<polygon points="2808.0,1872.0 2866.0,1930.0 2808.0,1988.0 2750.0,1930.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="2808.0" y="1930.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >归属</text>
+<polygon points="3108.0,1322.0 3166.0,1380.0 3108.0,1438.0 3050.0,1380.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="3108.0" y="1380.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >父子</text>
+<polygon points="2458.0,2872.0 2516.0,2930.0 2458.0,2988.0 2400.0,2930.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="2458.0" y="2930.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >收到</text>
+<polygon points="1808.0,2872.0 1866.0,2930.0 1808.0,2988.0 1750.0,2930.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="1808.0" y="2930.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >申请</text>
+<polygon points="2458.0,4222.0 2516.0,4280.0 2458.0,4338.0 2400.0,4280.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="2458.0" y="4280.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >生成</text>
+<polygon points="228.0,3472.0 286.0,3530.0 228.0,3588.0 170.0,3530.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="228.0" y="3522.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >学生</text>
+<text x="228.0" y="3544.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >下单</text>
+<polygon points="228.0,3972.0 286.0,4030.0 228.0,4088.0 170.0,4030.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="228.0" y="4022.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >雇主</text>
+<text x="228.0" y="4044.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >接单</text>
+<polygon points="2808.0,3522.0 2866.0,3580.0 2808.0,3638.0 2750.0,3580.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="2808.0" y="3580.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >关联</text>
+<polygon points="2258.0,5472.0 2316.0,5530.0 2258.0,5588.0 2200.0,5530.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="2258.0" y="5530.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >产生</text>
+<polygon points="228.0,5072.0 286.0,5130.0 228.0,5188.0 170.0,5130.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="228.0" y="5130.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >评价人</text>
+<polygon points="228.0,5572.0 286.0,5630.0 228.0,5688.0 170.0,5630.0" fill="white" stroke="black" stroke-width="2.2"/>
+<text x="228.0" y="5622.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >被评</text>
+<text x="228.0" y="5644.0" text-anchor="middle" dominant-baseline="middle" font-family="SimHei, Noto Sans SC, sans-serif" font-size="30px" font-weight="normal" fill="black" >价人</text>
+</svg>
