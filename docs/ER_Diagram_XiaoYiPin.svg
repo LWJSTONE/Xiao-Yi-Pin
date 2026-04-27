@@ -1,369 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="2080" height="6159" viewBox="0 0 2080 6159">
-<rect width="2080" height="6159" fill="white"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1602" height="2444" viewBox="0 0 1602 2444">
+<rect width="1602" height="2444" fill="white"/>
 
-<line x1="469.3" y1="2934.0" x2="248.0" y2="2768.0" stroke="black" stroke-width="1.8"/>
-<line x1="454.9" y1="2934.0" x2="255.1" y2="2817.4" stroke="black" stroke-width="1.8"/>
-<line x1="428.8" y1="2934.0" x2="266.2" y2="2866.2" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="2937.0" x2="284.6" y2="2913.1" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="2960.3" x2="309.4" y2="2954.4" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="2983.7" x2="309.4" y2="2989.6" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="3007.0" x2="284.6" y2="3030.9" stroke="black" stroke-width="1.8"/>
-<line x1="428.8" y1="3010.0" x2="266.2" y2="3077.8" stroke="black" stroke-width="1.8"/>
-<line x1="454.9" y1="3010.0" x2="255.1" y2="3126.6" stroke="black" stroke-width="1.8"/>
-<line x1="469.3" y1="3010.0" x2="248.0" y2="3176.0" stroke="black" stroke-width="1.8"/>
-<line x1="487.4" y1="1334.0" x2="238.5" y2="1043.6" stroke="black" stroke-width="1.8"/>
-<line x1="482.0" y1="1334.0" x2="241.4" y2="1093.4" stroke="black" stroke-width="1.8"/>
-<line x1="474.4" y1="1334.0" x2="245.4" y2="1143.2" stroke="black" stroke-width="1.8"/>
-<line x1="463.0" y1="1334.0" x2="251.2" y2="1192.8" stroke="black" stroke-width="1.8"/>
-<line x1="444.0" y1="1334.0" x2="259.9" y2="1242.0" stroke="black" stroke-width="1.8"/>
-<line x1="406.0" y1="1334.0" x2="274.2" y2="1290.1" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="1348.7" x2="297.1" y2="1334.9" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="1372.0" x2="315.0" y2="1372.0" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="1395.3" x2="297.1" y2="1409.1" stroke="black" stroke-width="1.8"/>
-<line x1="406.0" y1="1410.0" x2="274.2" y2="1453.9" stroke="black" stroke-width="1.8"/>
-<line x1="444.0" y1="1410.0" x2="259.9" y2="1502.0" stroke="black" stroke-width="1.8"/>
-<line x1="463.0" y1="1410.0" x2="251.2" y2="1551.2" stroke="black" stroke-width="1.8"/>
-<line x1="474.4" y1="1410.0" x2="245.4" y2="1600.8" stroke="black" stroke-width="1.8"/>
-<line x1="482.0" y1="1410.0" x2="241.4" y2="1650.6" stroke="black" stroke-width="1.8"/>
-<line x1="487.4" y1="1410.0" x2="238.5" y2="1700.4" stroke="black" stroke-width="1.8"/>
-<line x1="1434.0" y1="1334.0" x2="1565.8" y2="1290.1" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="1348.7" x2="1542.9" y2="1334.9" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="1372.0" x2="1525.0" y2="1372.0" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="1395.3" x2="1542.9" y2="1409.1" stroke="black" stroke-width="1.8"/>
-<line x1="1434.0" y1="1410.0" x2="1565.8" y2="1453.9" stroke="black" stroke-width="1.8"/>
-<line x1="1345.3" y1="2934.0" x2="1605.5" y2="2543.7" stroke="black" stroke-width="1.8"/>
-<line x1="1348.5" y1="2934.0" x2="1603.7" y2="2593.7" stroke="black" stroke-width="1.8"/>
-<line x1="1352.6" y1="2934.0" x2="1601.5" y2="2643.6" stroke="black" stroke-width="1.8"/>
-<line x1="1358.0" y1="2934.0" x2="1598.6" y2="2693.4" stroke="black" stroke-width="1.8"/>
-<line x1="1365.6" y1="2934.0" x2="1594.6" y2="2743.2" stroke="black" stroke-width="1.8"/>
-<line x1="1377.0" y1="2934.0" x2="1588.8" y2="2792.8" stroke="black" stroke-width="1.8"/>
-<line x1="1396.0" y1="2934.0" x2="1580.1" y2="2842.0" stroke="black" stroke-width="1.8"/>
-<line x1="1434.0" y1="2934.0" x2="1565.8" y2="2890.1" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="2948.7" x2="1542.9" y2="2934.9" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="2972.0" x2="1525.0" y2="2972.0" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="2995.3" x2="1542.9" y2="3009.1" stroke="black" stroke-width="1.8"/>
-<line x1="1434.0" y1="3010.0" x2="1565.8" y2="3053.9" stroke="black" stroke-width="1.8"/>
-<line x1="1396.0" y1="3010.0" x2="1580.1" y2="3102.0" stroke="black" stroke-width="1.8"/>
-<line x1="1377.0" y1="3010.0" x2="1588.8" y2="3151.2" stroke="black" stroke-width="1.8"/>
-<line x1="1365.6" y1="3010.0" x2="1594.6" y2="3200.8" stroke="black" stroke-width="1.8"/>
-<line x1="1358.0" y1="3010.0" x2="1598.6" y2="3250.6" stroke="black" stroke-width="1.8"/>
-<line x1="1352.6" y1="3010.0" x2="1601.5" y2="3300.4" stroke="black" stroke-width="1.8"/>
-<line x1="1348.5" y1="3010.0" x2="1603.7" y2="3350.3" stroke="black" stroke-width="1.8"/>
-<line x1="1345.3" y1="3010.0" x2="1605.5" y2="3400.3" stroke="black" stroke-width="1.8"/>
-<line x1="454.9" y1="4334.0" x2="255.1" y2="4217.4" stroke="black" stroke-width="1.8"/>
-<line x1="428.8" y1="4334.0" x2="266.2" y2="4266.2" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="4337.0" x2="284.6" y2="4313.1" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="4360.3" x2="309.4" y2="4354.4" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="4383.7" x2="309.4" y2="4389.6" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="4407.0" x2="284.6" y2="4430.9" stroke="black" stroke-width="1.8"/>
-<line x1="428.8" y1="4410.0" x2="266.2" y2="4477.8" stroke="black" stroke-width="1.8"/>
-<line x1="454.9" y1="4410.0" x2="255.1" y2="4526.6" stroke="black" stroke-width="1.8"/>
-<line x1="1361.5" y1="4334.0" x2="1596.7" y2="4118.3" stroke="black" stroke-width="1.8"/>
-<line x1="1370.7" y1="4334.0" x2="1592.0" y2="4168.0" stroke="black" stroke-width="1.8"/>
-<line x1="1385.1" y1="4334.0" x2="1584.9" y2="4217.4" stroke="black" stroke-width="1.8"/>
-<line x1="1411.2" y1="4334.0" x2="1573.8" y2="4266.2" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="4337.0" x2="1555.4" y2="4313.1" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="4360.3" x2="1530.6" y2="4354.4" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="4383.7" x2="1530.6" y2="4389.6" stroke="black" stroke-width="1.8"/>
-<line x1="1460.0" y1="4407.0" x2="1555.4" y2="4430.9" stroke="black" stroke-width="1.8"/>
-<line x1="1411.2" y1="4410.0" x2="1573.8" y2="4477.8" stroke="black" stroke-width="1.8"/>
-<line x1="1385.1" y1="4410.0" x2="1584.9" y2="4526.6" stroke="black" stroke-width="1.8"/>
-<line x1="1370.7" y1="4410.0" x2="1592.0" y2="4576.0" stroke="black" stroke-width="1.8"/>
-<line x1="1361.5" y1="4410.0" x2="1596.7" y2="4625.7" stroke="black" stroke-width="1.8"/>
-<line x1="977.0" y1="5534.0" x2="1188.8" y2="5392.8" stroke="black" stroke-width="1.8"/>
-<line x1="996.0" y1="5534.0" x2="1180.1" y2="5442.0" stroke="black" stroke-width="1.8"/>
-<line x1="1034.0" y1="5534.0" x2="1165.8" y2="5490.1" stroke="black" stroke-width="1.8"/>
-<line x1="1060.0" y1="5548.7" x2="1142.9" y2="5534.9" stroke="black" stroke-width="1.8"/>
-<line x1="1060.0" y1="5572.0" x2="1125.0" y2="5572.0" stroke="black" stroke-width="1.8"/>
-<line x1="1060.0" y1="5595.3" x2="1142.9" y2="5609.1" stroke="black" stroke-width="1.8"/>
-<line x1="1034.0" y1="5610.0" x2="1165.8" y2="5653.9" stroke="black" stroke-width="1.8"/>
-<line x1="996.0" y1="5610.0" x2="1180.1" y2="5702.0" stroke="black" stroke-width="1.8"/>
-<line x1="977.0" y1="5610.0" x2="1188.8" y2="5751.2" stroke="black" stroke-width="1.8"/>
-<line x1="428.8" y1="234.0" x2="266.2" y2="166.2" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="237.0" x2="284.6" y2="213.1" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="260.3" x2="309.4" y2="254.4" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="283.7" x2="309.4" y2="289.6" stroke="black" stroke-width="1.8"/>
-<line x1="380.0" y1="307.0" x2="284.6" y2="330.9" stroke="black" stroke-width="1.8"/>
-<line x1="428.8" y1="310.0" x2="266.2" y2="377.8" stroke="black" stroke-width="1.8"/>
-<line x1="524.8" y1="1410.0" x2="614.4" y2="2127.6" stroke="black" stroke-width="1.8"/>
-<text x="551.7" y="1771.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="524.8" y1="2934.0" x2="614.4" y2="2216.4" stroke="black" stroke-width="1.8"/>
-<text x="587.5" y="2577.5" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="660.0" y1="2972.0" x2="870.0" y2="2972.0" stroke="black" stroke-width="1.8"/>
-<text x="765.0" y="2990.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="1180.0" y1="2972.0" x2="970.0" y2="2972.0" stroke="black" stroke-width="1.8"/>
-<text x="1075.0" y="2954.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="1315.2" y1="1410.0" x2="1225.6" y2="2127.6" stroke="black" stroke-width="1.8"/>
-<text x="1252.5" y="1766.5" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="1315.2" y1="2934.0" x2="1225.6" y2="2216.4" stroke="black" stroke-width="1.8"/>
-<text x="1288.3" y="2573.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="1300.7" y1="1334.0" x2="1276.9" y2="1287.1" stroke="black" stroke-width="1.8"/>
-<path d="M1292.8 1271.2 Q1540.0 1274.0 1413.0 1334.0" fill="none" stroke="black" stroke-width="1.8"/>
-<text x="1260.0" y="1186.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="1298.3" y1="3010.0" x2="938.2" y2="3640.2" stroke="black" stroke-width="1.8"/>
-<text x="1102.6" y="3316.2" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="541.7" y1="4334.0" x2="901.8" y2="3703.8" stroke="black" stroke-width="1.8"/>
-<text x="737.4" y="4027.8" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="525.4" y1="3010.0" x2="613.8" y2="3628.2" stroke="black" stroke-width="1.8"/>
-<text x="551.8" y="3321.7" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="525.4" y1="4334.0" x2="613.8" y2="3715.8" stroke="black" stroke-width="1.8"/>
-<text x="587.4" y="4027.4" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="660.0" y1="4372.0" x2="870.0" y2="4372.0" stroke="black" stroke-width="1.8"/>
-<text x="765.0" y="4390.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="1180.0" y1="4372.0" x2="970.0" y2="4372.0" stroke="black" stroke-width="1.8"/>
-<text x="1075.0" y="4354.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<polyline points="660.0,2972.0 702.0,2972.0 702.0,3552.0" fill="none" stroke="black" stroke-width="1.8"/>
-<line x1="702.0" y1="3552.0" x2="710.0" y2="3552.0" stroke="black" stroke-width="1.8"/>
-<text x="682.0" y="3262.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="810.0" y1="3552.0" x2="818.0" y2="3552.0" stroke="black" stroke-width="1.8"/>
-<polyline points="818.0,3552.0 818.0,4372.0 1180.0,4372.0" fill="none" stroke="black" stroke-width="1.8"/>
-<text x="838.0" y="3962.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<polyline points="660.0,2972.0 702.0,2972.0 702.0,3672.0" fill="none" stroke="black" stroke-width="1.8"/>
-<line x1="702.0" y1="3672.0" x2="710.0" y2="3672.0" stroke="black" stroke-width="1.8"/>
-<text x="682.0" y="3322.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="810.0" y1="3672.0" x2="818.0" y2="3672.0" stroke="black" stroke-width="1.8"/>
-<polyline points="818.0,3672.0 818.0,4372.0 1180.0,4372.0" fill="none" stroke="black" stroke-width="1.8"/>
-<text x="838.0" y="4022.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="1314.6" y1="3010.0" x2="1226.2" y2="3628.2" stroke="black" stroke-width="1.8"/>
-<text x="1252.6" y="3316.6" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="1314.6" y1="4334.0" x2="1226.2" y2="3715.8" stroke="black" stroke-width="1.8"/>
-<text x="1288.2" y="4022.3" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<line x1="1301.0" y1="4410.0" x2="1036.7" y2="4938.7" stroke="black" stroke-width="1.8"/>
-<text x="1152.7" y="4666.3" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="926.3" y1="5534.0" x2="1012.9" y2="5014.9" stroke="black" stroke-width="1.8"/>
-<text x="987.4" y="5277.4" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<polyline points="660.0,2972.0 702.0,2972.0 702.0,4172.0" fill="none" stroke="black" stroke-width="1.8"/>
-<line x1="702.0" y1="4172.0" x2="710.0" y2="4172.0" stroke="black" stroke-width="1.8"/>
-<text x="682.0" y="3572.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="810.0" y1="4172.0" x2="818.0" y2="4172.0" stroke="black" stroke-width="1.8"/>
-<polyline points="818.0,4172.0 818.0,5572.0 780.0,5572.0" fill="none" stroke="black" stroke-width="1.8"/>
-<text x="838.0" y="4872.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<polyline points="660.0,2972.0 702.0,2972.0 702.0,4302.0" fill="none" stroke="black" stroke-width="1.8"/>
-<line x1="702.0" y1="4302.0" x2="710.0" y2="4302.0" stroke="black" stroke-width="1.8"/>
-<text x="682.0" y="3637.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
-<line x1="810.0" y1="4302.0" x2="818.0" y2="4302.0" stroke="black" stroke-width="1.8"/>
-<polyline points="818.0,4302.0 818.0,5572.0 780.0,5572.0" fill="none" stroke="black" stroke-width="1.8"/>
-<text x="838.0" y="4937.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
-<ellipse cx="220.0" cy="2747.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="220.0" y="2747.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="220.0" cy="2797.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="2797.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >username</text>
-<ellipse cx="220.0" cy="2847.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="2847.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >password_hash</text>
-<ellipse cx="220.0" cy="2897.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="2897.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >phone</text>
-<ellipse cx="220.0" cy="2947.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="2947.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >email</text>
-<ellipse cx="220.0" cy="2997.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="2997.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >role_type</text>
-<ellipse cx="220.0" cy="3047.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="3047.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
-<ellipse cx="220.0" cy="3097.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="3097.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >deleted</text>
-<ellipse cx="220.0" cy="3147.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="3147.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
-<ellipse cx="220.0" cy="3197.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="3197.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
-<ellipse cx="220.0" cy="1022.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="220.0" y="1022.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="220.0" cy="1072.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1072.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >user_id</text>
-<ellipse cx="220.0" cy="1122.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1122.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >real_name</text>
-<ellipse cx="220.0" cy="1172.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1172.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >id_card_hash</text>
-<ellipse cx="220.0" cy="1222.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1222.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >id_card_image</text>
-<ellipse cx="220.0" cy="1272.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1272.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >gender</text>
-<ellipse cx="220.0" cy="1322.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1322.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >university</text>
-<ellipse cx="220.0" cy="1372.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1372.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >major</text>
-<ellipse cx="220.0" cy="1422.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1422.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >grade</text>
-<ellipse cx="220.0" cy="1472.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1472.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >balance</text>
-<ellipse cx="220.0" cy="1522.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1522.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >credit_score</text>
-<ellipse cx="220.0" cy="1572.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1572.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >avatar_url</text>
-<ellipse cx="220.0" cy="1622.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1622.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >verified_status</text>
-<ellipse cx="220.0" cy="1672.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1672.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
-<ellipse cx="220.0" cy="1722.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="1722.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
-<ellipse cx="1620.0" cy="1272.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="1620.0" y="1272.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="1620.0" cy="1322.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="1322.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >name</text>
-<ellipse cx="1620.0" cy="1372.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="1372.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >parent_id</text>
-<ellipse cx="1620.0" cy="1422.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="1422.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >sort_order</text>
-<ellipse cx="1620.0" cy="1472.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="1472.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
-<ellipse cx="1620.0" cy="2522.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="1620.0" y="2522.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="1620.0" cy="2572.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2572.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >publisher_id</text>
-<ellipse cx="1620.0" cy="2622.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2622.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >category_id</text>
-<ellipse cx="1620.0" cy="2672.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2672.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >title</text>
-<ellipse cx="1620.0" cy="2722.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2722.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >description</text>
-<ellipse cx="1620.0" cy="2772.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2772.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >location</text>
-<ellipse cx="1620.0" cy="2822.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2822.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >salary_type</text>
-<ellipse cx="1620.0" cy="2872.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2872.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >salary_amount</text>
-<ellipse cx="1620.0" cy="2922.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2922.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >start_time</text>
-<ellipse cx="1620.0" cy="2972.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="2972.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >end_time</text>
-<ellipse cx="1620.0" cy="3022.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3022.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >recruit_num</text>
-<ellipse cx="1620.0" cy="3072.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3072.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >hired_num</text>
-<ellipse cx="1620.0" cy="3122.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3122.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
-<ellipse cx="1620.0" cy="3172.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3172.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >audit_status</text>
-<ellipse cx="1620.0" cy="3222.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3222.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >audit_remark</text>
-<ellipse cx="1620.0" cy="3272.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3272.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >version</text>
-<ellipse cx="1620.0" cy="3322.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3322.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >deleted</text>
-<ellipse cx="1620.0" cy="3372.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3372.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
-<ellipse cx="1620.0" cy="3422.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="3422.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
-<ellipse cx="220.0" cy="4197.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="220.0" y="4197.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="220.0" cy="4247.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4247.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >job_id</text>
-<ellipse cx="220.0" cy="4297.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4297.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >applicant_id</text>
-<ellipse cx="220.0" cy="4347.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4347.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >resume_url</text>
-<ellipse cx="220.0" cy="4397.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4397.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
-<ellipse cx="220.0" cy="4447.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4447.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >apply_time</text>
-<ellipse cx="220.0" cy="4497.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4497.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >review_time</text>
-<ellipse cx="220.0" cy="4547.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="4547.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >reject_reason</text>
-<ellipse cx="1620.0" cy="4097.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="1620.0" y="4097.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="1620.0" cy="4147.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4147.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >application_id</text>
-<ellipse cx="1620.0" cy="4197.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4197.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >student_id</text>
-<ellipse cx="1620.0" cy="4247.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4247.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >employer_id</text>
-<ellipse cx="1620.0" cy="4297.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4297.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >job_id</text>
-<ellipse cx="1620.0" cy="4347.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4347.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >amount</text>
-<ellipse cx="1620.0" cy="4397.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4397.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >pay_status</text>
-<ellipse cx="1620.0" cy="4447.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4447.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >settlement_status</text>
-<ellipse cx="1620.0" cy="4497.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4497.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >start_date</text>
-<ellipse cx="1620.0" cy="4547.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4547.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >end_date</text>
-<ellipse cx="1620.0" cy="4597.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4597.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
-<ellipse cx="1620.0" cy="4647.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1620.0" y="4647.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
-<ellipse cx="1220.0" cy="5372.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="1220.0" y="5372.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="1220.0" cy="5422.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5422.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >order_id</text>
-<ellipse cx="1220.0" cy="5472.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5472.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >reviewer_id</text>
-<ellipse cx="1220.0" cy="5522.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5522.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >target_id</text>
-<ellipse cx="1220.0" cy="5572.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5572.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >rating</text>
-<ellipse cx="1220.0" cy="5622.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5622.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >comment</text>
-<ellipse cx="1220.0" cy="5672.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5672.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >type</text>
-<ellipse cx="1220.0" cy="5722.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5722.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
-<ellipse cx="1220.0" cy="5772.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="5772.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
-<ellipse cx="220.0" cy="147.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.7"/>
-<text x="220.0" y="147.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
-<ellipse cx="220.0" cy="197.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="197.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_type</text>
-<ellipse cx="220.0" cy="247.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="247.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_code</text>
-<ellipse cx="220.0" cy="297.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="297.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_label</text>
-<ellipse cx="220.0" cy="347.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="347.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >sort_order</text>
-<ellipse cx="220.0" cy="397.0" rx="95" ry="22" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="220.0" y="397.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
-<rect x="380.0" y="2934.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="520.0" y="2962.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >sys_user</text>
-<text x="520.0" y="2986.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(系统用户)</text>
-<rect x="380.0" y="1334.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="520.0" y="1362.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >user_profile</text>
-<text x="520.0" y="1386.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(用户详情)</text>
-<rect x="1180.0" y="1334.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="1320.0" y="1362.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >job_category</text>
-<text x="1320.0" y="1386.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(岗位分类)</text>
-<rect x="1180.0" y="2934.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="1320.0" y="2962.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >job_post</text>
-<text x="1320.0" y="2986.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(岗位发布)</text>
-<rect x="380.0" y="4334.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="520.0" y="4362.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >application</text>
-<text x="520.0" y="4386.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(报名申请)</text>
-<rect x="1180.0" y="4334.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="1320.0" y="4362.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >order_record</text>
-<text x="1320.0" y="4386.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(订单记录)</text>
-<rect x="780.0" y="5534.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="920.0" y="5562.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >review</text>
-<text x="920.0" y="5586.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(评价)</text>
-<rect x="380.0" y="234.0" width="280" height="76" fill="white" stroke="black" stroke-width="2.2" rx="3"/>
-<text x="520.0" y="262.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >sys_dict</text>
-<text x="520.0" y="286.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(系统字典)</text>
-<polygon points="620.0,2122.0 670.0,2172.0 620.0,2222.0 570.0,2172.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="620.0" y="2172.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >拥有</text>
-<polygon points="920.0,2922.0 970.0,2972.0 920.0,3022.0 870.0,2972.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="920.0" y="2972.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >发布</text>
-<polygon points="1220.0,2122.0 1270.0,2172.0 1220.0,2222.0 1170.0,2172.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="2172.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >归属</text>
-<polygon points="1260.0,1204.0 1310.0,1254.0 1260.0,1304.0 1210.0,1254.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1260.0" y="1254.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >父子</text>
-<polygon points="920.0,3622.0 970.0,3672.0 920.0,3722.0 870.0,3672.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="920.0" y="3672.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >收到</text>
-<polygon points="620.0,3622.0 670.0,3672.0 620.0,3722.0 570.0,3672.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="620.0" y="3672.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >申请</text>
-<polygon points="920.0,4322.0 970.0,4372.0 920.0,4422.0 870.0,4372.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="920.0" y="4372.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >生成</text>
-<polygon points="1220.0,3622.0 1270.0,3672.0 1220.0,3722.0 1170.0,3672.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1220.0" y="3672.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >关联</text>
-<polygon points="1020.0,4922.0 1070.0,4972.0 1020.0,5022.0 970.0,4972.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="1020.0" y="4972.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >产生</text>
-<polygon points="760.0,3502.0 810.0,3552.0 760.0,3602.0 710.0,3552.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="760.0" y="3542.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >学生</text>
-<text x="760.0" y="3564.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >下单</text>
-<polygon points="760.0,3622.0 810.0,3672.0 760.0,3722.0 710.0,3672.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="760.0" y="3662.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >雇主</text>
-<text x="760.0" y="3684.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >接单</text>
-<polygon points="760.0,4122.0 810.0,4172.0 760.0,4222.0 710.0,4172.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="760.0" y="4172.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="28px" font-weight="normal" fill="black" >评价人</text>
-<polygon points="760.0,4252.0 810.0,4302.0 760.0,4352.0 710.0,4302.0" fill="white" stroke="black" stroke-width="2.2"/>
-<text x="760.0" y="4292.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >被评</text>
-<text x="760.0" y="4314.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >价人</text>
+<polyline points="396.0,782.0 396.0,951.0 619.0,951.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="703.0,951.0 396.0,951.0 396.0,1120.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="601.0" y="951.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="721.0" y="951.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="526.0,1155.0 679.0,1155.0 679.0,1155.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="763.0,1155.0 763.0,1155.0 916.0,1155.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="661.0" y="1155.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="781.0" y="1155.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1046.0,782.0 1046.0,951.0 739.0,951.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="823.0,951.0 1046.0,951.0 1046.0,1120.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="721.0" y="951.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="841.0" y="951.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="981.0,712.0 981.0,593.0 1004.0,593.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="1088.0,593.0 1111.0,593.0 1111.0,712.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="1046.0" y="536.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1046.0,1190.0 1046.0,1405.0 679.0,1405.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="763.0,1405.0 396.0,1405.0 396.0,1620.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="661.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="781.0" y="1530.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="396.0,1190.0 396.0,1405.0 619.0,1405.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="703.0,1405.0 396.0,1405.0 396.0,1620.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="601.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="721.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="526.0,1655.0 679.0,1655.0 679.0,1655.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="763.0,1655.0 763.0,1655.0 916.0,1655.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="661.0" y="1655.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="781.0" y="1655.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<polyline points="526.0,1155.0 546.0,1155.0 546.0,1345.0" fill="none" stroke="black" stroke-width="1.6"/>
+<line x1="546.0" y1="1345.0" x2="551.0" y2="1345.0" stroke="black" stroke-width="1.6"/>
+<text x="528.0" y="1250.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="635.0" y1="1345.0" x2="640.0" y2="1345.0" stroke="black" stroke-width="1.6"/>
+<polyline points="640.0,1345.0 640.0,1655.0 916.0,1655.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="658.0" y="1500.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="526.0,1155.0 546.0,1155.0 546.0,1420.0" fill="none" stroke="black" stroke-width="1.6"/>
+<line x1="546.0" y1="1420.0" x2="551.0" y2="1420.0" stroke="black" stroke-width="1.6"/>
+<text x="528.0" y="1287.5" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="635.0" y1="1420.0" x2="640.0" y2="1420.0" stroke="black" stroke-width="1.6"/>
+<polyline points="640.0,1420.0 640.0,1655.0 916.0,1655.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="658.0" y="1537.5" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1046.0,1190.0 1046.0,1405.0 739.0,1405.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="823.0,1405.0 1046.0,1405.0 1046.0,1620.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="721.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="841.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="1046.0,1690.0 1046.0,1825.0 679.0,1825.0" fill="none" stroke="black" stroke-width="1.6"/>
+<polyline points="763.0,1825.0 721.0,1825.0 721.0,1960.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="661.0" y="1825.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<text x="781.0" y="1910.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="526.0,1155.0 546.0,1155.0 546.0,1525.0" fill="none" stroke="black" stroke-width="1.6"/>
+<line x1="546.0" y1="1525.0" x2="551.0" y2="1525.0" stroke="black" stroke-width="1.6"/>
+<text x="528.0" y="1340.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="635.0" y1="1525.0" x2="640.0" y2="1525.0" stroke="black" stroke-width="1.6"/>
+<polyline points="640.0,1525.0 640.0,1995.0 591.0,1995.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="658.0" y="1760.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<polyline points="526.0,1155.0 546.0,1155.0 546.0,1595.0" fill="none" stroke="black" stroke-width="1.6"/>
+<line x1="546.0" y1="1595.0" x2="551.0" y2="1595.0" stroke="black" stroke-width="1.6"/>
+<text x="528.0" y="1375.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >1</text>
+<line x1="635.0" y1="1595.0" x2="640.0" y2="1595.0" stroke="black" stroke-width="1.6"/>
+<polyline points="640.0,1595.0 640.0,1995.0 591.0,1995.0" fill="none" stroke="black" stroke-width="1.6"/>
+<text x="658.0" y="1795.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >n</text>
+<ellipse cx="173.0" cy="948.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="173.0" y="948.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="173.0" cy="994.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="994.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >username</text>
+<ellipse cx="173.0" cy="1040.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1040.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >password_hash</text>
+<ellipse cx="173.0" cy="1086.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1086.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >phone</text>
+<ellipse cx="173.0" cy="1132.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1132.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >email</text>
+<ellipse cx="173.0" cy="1178.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1178.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >role_type</text>
+<ellipse cx="173.0" cy="1224.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1224.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="173.0" cy="1270.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1270.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >deleted</text>
+<ellipse cx="173.0" cy="1316.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1316.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="173.0" cy="1362.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1362.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="173.0" cy="425.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="173.0" y="425.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="173.0" cy="471.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="471.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >user_id</text>
+<ellipse cx="173.0" cy="517.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="517.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >real_name</text>
+<ellipse cx="173.0" cy="563.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="563.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >id_card_hash</text>
+<ellipse cx="173.0" cy="609.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="609.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >id_card_image</text>
+<ellipse cx="173.0" cy="655.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="655.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >gender</text>
+<ellipse cx="173.0" cy="701.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="701.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >university</text>
+<ellipse cx="173.0" cy="747.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="747.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >major</text>
+<ellipse cx="173.0" cy="793.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="793.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >grade</text>
+<ellipse cx="173.0" cy="839.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="839.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >balance</text>
+<ellipse cx="173.0" cy="885.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="885.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >credit_score</text>
+<ellipse cx="173.0" cy="931.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="931.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >avatar_url</text>
+<ellipse cx="173.0" cy="977.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="977.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >verified_status</text>
+<ellipse cx="173.0" cy="1023.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1023.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="173.0" cy="1069.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1069.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="1269.0" cy="655.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="1269.0" y="655.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1269.0" cy="701.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="701.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >name</text>
+<ellipse cx="1269.0" cy="747.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="747.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >parent_id</text>
+<ellipse cx="1269.0" cy="793.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="793.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >sort_order</text>
+<ellipse cx="1269.0" cy="839.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="839.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="1269.0" cy="741.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="1269.0" y="741.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1269.0" cy="787.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="787.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >publisher_id</text>
+<ellipse cx="1269.0" cy="833.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="833.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >category_id</text>
+<ellipse cx="1269.0" cy="879.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="879.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >title</text>
+<ellipse cx="1269.0" cy="925.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="925.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >description</text>
+<ellipse cx="1269.0" cy="971.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="971.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >location</text>
+<ellipse cx="1269.0" cy="1017.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1017.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >salary_type</text>
+<ellipse cx="1269.0" cy="1063.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1063.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >salary_amount</text>
+<ellipse cx="1269.0" cy="1109.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1109.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >start_time</text>
+<ellipse cx="1269.0" cy="1155.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1155.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >end_time</text>
+<ellipse cx="1269.0" cy="1201.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1201.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >recruit_num</text>
+<ellipse cx="1269.0" cy="1247.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1247.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >hired_num</text>
+<ellipse cx="1269.0" cy="1293.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1293.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="1269.0" cy="1339.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1339.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >audit_status</text>
+<ellipse cx="1269.0" cy="1385.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1385.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >audit_remark</text>
+<ellipse cx="1269.0" cy="1431.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1431.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >version</text>
+<ellipse cx="1269.0" cy="1477.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1477.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >deleted</text>
+<ellipse cx="1269.0" cy="1523.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1523.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="1269.0" cy="1569.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1569.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="173.0" cy="1494.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="173.0" y="1494.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="173.0" cy="1540.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1540.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >job_id</text>
+<ellipse cx="173.0" cy="1586.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1586.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >applicant_id</text>
+<ellipse cx="173.0" cy="1632.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1632.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >resume_url</text>
+<ellipse cx="173.0" cy="1678.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1678.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<ellipse cx="173.0" cy="1724.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1724.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >apply_time</text>
+<ellipse cx="173.0" cy="1770.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1770.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >review_time</text>
+<ellipse cx="173.0" cy="1816.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="1816.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >reject_reason</text>
+<ellipse cx="1269.0" cy="1402.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="1269.0" y="1402.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="1269.0" cy="1448.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1448.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >application_id</text>
+<ellipse cx="1269.0" cy="1494.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1494.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >student_id</text>
+<ellipse cx="1269.0" cy="1540.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1540.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >employer_id</text>
+<ellipse cx="1269.0" cy="1586.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1586.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >job_id</text>
+<ellipse cx="1269.0" cy="1632.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1632.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >amount</text>
+<ellipse cx="1269.0" cy="1678.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1678.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >pay_status</text>
+<ellipse cx="1269.0" cy="1724.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1724.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >settlement_status</text>
+<ellipse cx="1269.0" cy="1770.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1770.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >start_date</text>
+<ellipse cx="1269.0" cy="1816.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1816.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >end_date</text>
+<ellipse cx="1269.0" cy="1862.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1862.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="1269.0" cy="1908.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1269.0" y="1908.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="498.0" cy="1811.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="498.0" y="1811.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="498.0" cy="1857.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="1857.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >order_id</text>
+<ellipse cx="498.0" cy="1903.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="1903.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >reviewer_id</text>
+<ellipse cx="498.0" cy="1949.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="1949.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >target_id</text>
+<ellipse cx="498.0" cy="1995.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="1995.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >rating</text>
+<ellipse cx="498.0" cy="2041.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="2041.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >comment</text>
+<ellipse cx="498.0" cy="2087.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="2087.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >type</text>
+<ellipse cx="498.0" cy="2133.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="2133.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >create_time</text>
+<ellipse cx="498.0" cy="2179.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="498.0" y="2179.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >update_time</text>
+<ellipse cx="173.0" cy="105.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.5"/>
+<text x="173.0" y="105.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" text-decoration="underline">id</text>
+<ellipse cx="173.0" cy="151.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="151.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_type</text>
+<ellipse cx="173.0" cy="197.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="197.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_code</text>
+<ellipse cx="173.0" cy="243.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="243.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >dict_label</text>
+<ellipse cx="173.0" cy="289.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="289.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >sort_order</text>
+<ellipse cx="173.0" cy="335.0" rx="88" ry="20" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="173.0" y="335.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" fill="black" >status</text>
+<rect x="266.0" y="1120.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="396.0" y="1145.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >sys_user</text>
+<text x="396.0" y="1169.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(系统用户)</text>
+<rect x="266.0" y="712.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="396.0" y="737.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >user_profile</text>
+<text x="396.0" y="761.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(用户详情)</text>
+<rect x="916.0" y="712.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="1046.0" y="737.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >job_category</text>
+<text x="1046.0" y="761.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(岗位分类)</text>
+<rect x="916.0" y="1120.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="1046.0" y="1145.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >job_post</text>
+<text x="1046.0" y="1169.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(岗位发布)</text>
+<rect x="266.0" y="1620.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="396.0" y="1645.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >application</text>
+<text x="396.0" y="1669.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(报名申请)</text>
+<rect x="916.0" y="1620.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="1046.0" y="1645.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >order_record</text>
+<text x="1046.0" y="1669.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(订单记录)</text>
+<rect x="591.0" y="1960.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="721.0" y="1985.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >review</text>
+<text x="721.0" y="2009.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(评价)</text>
+<rect x="266.0" y="185.0" width="260" height="70" fill="white" stroke="black" stroke-width="2.0" rx="3"/>
+<text x="396.0" y="210.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="30px" font-weight="bold" fill="black" >sys_dict</text>
+<text x="396.0" y="234.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >(系统字典)</text>
+<polygon points="661.0,909.0 703.0,951.0 661.0,993.0 619.0,951.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="661.0" y="951.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >拥有</text>
+<polygon points="721.0,1113.0 763.0,1155.0 721.0,1197.0 679.0,1155.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="721.0" y="1155.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >发布</text>
+<polygon points="781.0,909.0 823.0,951.0 781.0,993.0 739.0,951.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="781.0" y="951.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >归属</text>
+<polygon points="1046.0,551.0 1088.0,593.0 1046.0,635.0 1004.0,593.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="1046.0" y="593.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >父子</text>
+<polygon points="721.0,1363.0 763.0,1405.0 721.0,1447.0 679.0,1405.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="721.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >收到</text>
+<polygon points="661.0,1363.0 703.0,1405.0 661.0,1447.0 619.0,1405.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="661.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >申请</text>
+<polygon points="721.0,1613.0 763.0,1655.0 721.0,1697.0 679.0,1655.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="721.0" y="1655.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >生成</text>
+<polygon points="781.0,1363.0 823.0,1405.0 781.0,1447.0 739.0,1405.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="781.0" y="1405.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >关联</text>
+<polygon points="721.0,1783.0 763.0,1825.0 721.0,1867.0 679.0,1825.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="721.0" y="1825.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >产生</text>
+<polygon points="593.0,1303.0 635.0,1345.0 593.0,1387.0 551.0,1345.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="593.0" y="1337.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="24px" font-weight="normal" fill="black" >学生</text>
+<text x="593.0" y="1355.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="24px" font-weight="normal" fill="black" >下单</text>
+<polygon points="593.0,1378.0 635.0,1420.0 593.0,1462.0 551.0,1420.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="593.0" y="1412.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="24px" font-weight="normal" fill="black" >雇主</text>
+<text x="593.0" y="1430.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="24px" font-weight="normal" fill="black" >接单</text>
+<polygon points="593.0,1483.0 635.0,1525.0 593.0,1567.0 551.0,1525.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="593.0" y="1525.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="26px" font-weight="normal" fill="black" >评价人</text>
+<polygon points="593.0,1553.0 635.0,1595.0 593.0,1637.0 551.0,1595.0" fill="white" stroke="black" stroke-width="2.0"/>
+<text x="593.0" y="1587.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="24px" font-weight="normal" fill="black" >被评</text>
+<text x="593.0" y="1605.0" text-anchor="middle" dominant-baseline="middle" font-family="WenQuanYi Zen Hei, Noto Sans SC, sans-serif" font-size="24px" font-weight="normal" fill="black" >价人</text>
 </svg>
